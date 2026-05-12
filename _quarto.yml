@@ -6,7 +6,7 @@ project:
 website:
   page-navigation: true
   title: "STA 199"
-  description: "Homepage for STA 199 - Introduction to Data Science at Duke University, Summer 2026: Session I."
+  description: "Homepage for STA 199 - Introduction to Data Science at Duke University, Summer 2026: Session 2."
   site-url: "https://sta199-su26.github.io/"
 
   repo-url: https://github.com/sta199-su26/sta199-su26.github.io
@@ -65,7 +65,7 @@ website:
             
   page-footer:
     right: 'This page is built with [{{< fa heart >}}]{style="color: #f21118;"} and [Quarto](https://quarto.org/).'
-    left: "&copy; Copyright 2026, Mine Çetinkaya-Rundel, Marie Neubrander, John Zito, Katie Solarz"
+    left: "&copy; Copyright 2026, Mine Çetinkaya-Rundel, Marie Neubrander, John Zito, Katie Solarz, Josh Lim"
     background: "#ffc9f0"
 
 format:
