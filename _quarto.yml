@@ -9,7 +9,7 @@ website:
   description: "Homepage for STA 199 - Introduction to Data Science at Duke University, Summer 2026: Session 2."
   site-url: "https://sta199-su26-2.github.io/"
 
-  repo-url: https://github.com/joshlim789/sta199-su26-2.github.io #NEED TO CHANGE THIS ONCE WE MAKE AN ORGANIZATION
+  repo-url: https://github.com/sta199-su26-2/sta199-su26-2.github.io
   repo-actions: [edit, issue]
 
   open-graph: true
@@ -17,10 +17,11 @@ website:
     creator: "@minebocek"
     image: "img/twitter-card-ks.pdf"
 
-  #draft-mode: unlinked
+  draft-mode: unlinked
 
   sidebar:
-    background: "#ffc9f0"
+    background: "#2774AE"
+    foreground: "#FFD100"
     logo: "img/logo.png"
     pinned: true
     align: center
@@ -64,9 +65,9 @@ website:
       - ae.qmd
             
   page-footer:
-    right: 'This page is built with [{{< fa heart >}}]{style="color: #f21118;"} and [Quarto](https://quarto.org/).'
+    right: 'This page is built with [{{< fa heart >}}]{style="color: #FFD100;"} and [Quarto](https://quarto.org/).'
     left: "&copy; Copyright 2026, Mine Çetinkaya-Rundel, Marie Neubrander, John Zito, Katie Solarz, Josh Lim"
-    background: "#ffc9f0"
+    background: "#2774AE"
 
 format:
   html:
@@ -74,7 +75,7 @@ format:
     css:
       - style/sta199.scss
 
-linkcolor: "#6f659e"
+linkcolor: "#2774AE"
 toc: true
 code-copy: hover
 code-link: true
