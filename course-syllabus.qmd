@@ -1,6 +1,6 @@
 ---
-title: "STA 199: Introduction to Data Science & Statistical Thinking"
-subtitle: "Summer 2026: Session I"
+title: "STA 199: Intro to Data Science and Statistical Thinking"
+subtitle: "Summer Session 2 2026"
 format:
   html: default
   pdf: default
@@ -49,7 +49,6 @@ Additionally, most lectures will feature application exercises that will be grad
 
 You are expected to bring a laptop (or Chromebook) to each class so that you can participate in the in-class exercises.
 Please ensure your device is fully charged before you come to class, as the number of outlets in the classroom will not be sufficient to accommodate everyone.
-A tablet also works, but the user experience will be much smoother on a laptop.
 
 ### Activities & Assessment
 
@@ -69,13 +68,15 @@ Generally, for Monday labs, this is the following Wednesday; for Thursday labs, 
 #### Exams
 
 This course will have two exams: a midterm and a final.
-The midterm will include an in-class component (with a cheat sheet) and an open-note take-home component, while the final will include only an in-class component (with a cheat sheet).
+The midterm will include an in-class component (with a cheat sheet) and an open-note take-home component. The final will also include only an in-class component (with a cheat sheet) and an open-note take-home component.
 
 You can demonstrate what you've learned in the course thus far through these exams.
 The exams will focus on both conceptual understanding of the content and application through analysis and computational tasks.
-The exam's content will be related to the content in videos and reading assignments, lectures, application exercises, and labs.
+The exam's content will be related to the content presented in lectures, application exercises, and labs.
 
 More details about the exams will be given during the semester.
+
+*You cannot pass this course if you have not completed the final.*
 
 #### Project
 
@@ -87,7 +88,7 @@ The write-up will be due on the same day.
 
 More information about the project will be provided during the semester.
 
-#### Application exercises
+#### Application exercises (MAYBE REMOVE)
 
 Parts of some lectures will be dedicated to working on Application Exercises (AEs).
 These exercises allow you to apply the statistical concepts and code introduced in the preparation materials.
@@ -104,10 +105,10 @@ The final course grade will be calculated as follows:
 
 | Category              | Percentage |
 |-----------------------|------------|
-| Labs                  | 20%        |
+| Labs                  | 30%        |
 | Project               | 20%        |
-| Midterm               | 25%        |
-| Final                 | 25%        |
+| Midterm               | 20%        |
+| Final                 | 20%        |
 | Application Exercises | 5%         |
 | Lab Attendance        | 5%         |
 
@@ -127,6 +128,8 @@ The final letter grade will be determined based on the following thresholds:
 | D            | 63 - 66.99         |
 | D-           | 60 - 62.99         |
 | F            | \< 60              |
+
+I reserve the right to change the letter cutoffs, but only to make them nicer (curving down ain't it).
 
 ## Course community
 
@@ -154,16 +157,16 @@ Students should contact the SDAO to [request or update accommodations](https://a
 
 ### Communication
 
-All lecture notes, assignment instructions, an up-to-date schedule, and other course materials may be found on the course website: [sta199-su26.github.io](https://sta199-su26.github.io/ "Course Website for STA 199 - Summer 2026: Session I").
+All lecture notes, assignment instructions, an up-to-date schedule, and other course materials may be found on the course website: [sta199-su25.github.io](https://sta199-f24.github.io/ "STA 199 - Fall 2024 course website"). #CHANGE THIS
 
 Announcements will periodically be emailed through Canvas Announcements.
 Please check your email regularly to ensure you have the latest announcements for the course.
 
 ### Email
 
-If you have questions about assignment extensions, accommodations, or any other matter not appropriate for the class discussion forum, please email me directly at [katie.solarz\@duke.edu]{.underline}.
-**If you email me, please include "STA 199" in the subject line.** Barring extenuating circumstances, I will respond to STA 199 emails by EOD Monday - Friday.
-Response time may be slower for emails sent Friday evening - Sunday.
+If you have questions about assignment extensions, accommodations, or any other matter not appropriate for the class discussion forum, please email me directly at [josh.lim\@duke.edu]{.underline}.
+**If you do so, please include "STA 199" in the subject line.** Barring extenuating circumstances, I will respond to STA 199 emails within 48 hours, Monday through Friday.
+Response time may be slower for emails sent Friday evening through Sunday (Sidequestmaxxing).
 
 ## Five tips for success
 
@@ -182,25 +185,25 @@ The course team will help you by providing you with materials answering question
     If you hear something on the news that sounds related to what we discussed, ask.
     If the reading is confusing, ask.
 
-3.  Do the readings!
-
-4.  Do the lab!
+3.  Do the lab!
     The earlier you start, the better.
     It's not enough to just mechanically plow through the exercises.
     You should ask yourself how these exercises relate to earlier material and imagine how they might be changed (to make questions for an exam, for example).
 
-5.  Don't procrastinate.
+4.  Don't procrastinate.
     The content builds upon what was taught in previous weeks, so if something is confusing to you in Week 2, Week 3 will become more confusing, Week 4 even worse, etc.
     Don't let the week end with unanswered questions.
     But if you find yourself falling behind and not knowing where to begin asking, come to office hours and work with a member of the teaching team to help you identify a good (re)starting point.
+
+5. Explore the additional resources. Many readings and code alongs are linked throughout, however I do not expect you to do every single one. Rather treat them as a resource to supplement lecture if you need a different angle. 
 
 ## Getting help
 
 -   If you have a question during the lecture or lab, feel free to ask it! There are likely other students with the same question, so by asking, you will create a learning opportunity for everyone.
 -   The teaching team is here to help you be successful in the course. You are encouraged to attend office hours to ask questions about the course content and assignments. Many questions are most effectively answered as you discuss them with others, so office hours are a valuable resource. Please use them!
--   Outside of class and office hours, any general questions about course content or assignments should be posted on the class discussion forum, [Ed Discussion](https://edstem.org/us/courses/62468/discussion/). There is a chance another student has already asked a similar question, so please check the other posts on the forum before adding a new question. If you know the answer to a question, I encourage you to respond!
+-   Outside of class and office hours, any general questions about course content or assignments should be posted on the class discussion forum, [Ed Discussion](https://edstem.org/us/courses/62468/discussion/).[CHANGE] There is a chance another student has already asked a similar question, so please check the other posts on the forum before adding a new question. If you know the answer to a question, I encourage you to respond!
 
-Check out the [Support](https://sta199-su26.github.io/course-support.html) tab for more resources.
+Check out the [Support](https://sta199-f24.github.io/course-support.html) tab for more resources. [CHANGE]
 
 ## Course policies
 
@@ -242,14 +245,17 @@ Please abide by the following as you work on assignments in this course:
 
     2.  *Ethical dimension***:** Students using AI should be transparent about their use and ensure it aligns with academic integrity.
 
-    -   {{< fa check >}} **AI tools for code:** You may use the technology for coding examples on assignments; if you do so, you must explicitly cite where you obtained the code.
-        Any recycled code that is discovered and is not explicitly cited will be treated as plagiarism.
-        You may use [these guidelines](https://guides.lib.monash.edu/c.php?g=219786&p=6972087) to cite AI-generated content.
-        **The bare minimum citation must include the AI tool you're using (e.g., ChatGPT) and your prompt.** The prompt you use cannot be copied and pasted directly from the assignment; you must create a prompt yourself.
+    -   
 
-    -   {{< fa ban >}} **AI tools for narrative:** Unless instructed otherwise, you may not use generative AI to generate a narrative that you then copy-paste verbatim into an assignment or edit and then insert into your assignment.
+        {{< fa check >}} AI tools for code: You may use the technology for coding examples on assignments; if you do so, you must explicitly cite where you obtained the code. Any recycled code that is discovered and is not explicitly cited will be treated as plagiarism. You may use these guidelines to cite AI-generated content. The bare minimum citation must include the AI tool you’re using (e.g., ChatGPT) and your prompt. The prompt you use cannot be copied and pasted directly from the assignment; you must create a prompt yourself.
 
-    -   {{< fa check >}} **AI tools for learning:** You're welcomed to ask AI tools questions that might help your learning and understanding in this course.
+    -   
+
+        {{< fa ban >}} AI tools for narrative: Unless instructed otherwise, you may not use generative AI to generate a narrative that you then copy-paste verbatim into an assignment or edit and then insert into your assignment.
+
+    -   
+
+        {{< fa check >}} AI tools for learning: You’re welcomed to ask AI tools questions that might help your learning and understanding in this course.
 
     In general, you may use generative AI as a resource as you complete assignments but not to answer the exercises for you.
     You are ultimately responsible for the work you turn in; it should reflect *your* understanding of the course content.
@@ -280,6 +286,16 @@ Note that the lowest lab assignment will be dropped to accommodate such circumst
 -   No late work is accepted for application exercises since these are designed to help you prepare for other assessments in the course.
 -   No late work is accepted for exams.
 -   No late work is accepted for projects.
+
+### Waiver for extenuating circumstances
+
+If circumstances prevent you from completing a lab by the stated due date, you may email the course coordinator, [Dr. Mary Knox](mailto:mary.knox@duke.edu), before the deadline to waive the late penalty.
+In your email, you only need to request the waiver; you do not need to provide an explanation.
+This waiver may only be used **once** a semester, so only use it for a truly extenuating circumstance.
+
+If circumstances have a longer-term impact on your academic performance, please let your academic dean know.
+They can be a resource.
+Please let me know if you need help contacting your academic dean.
 
 ### Regrade requests
 
