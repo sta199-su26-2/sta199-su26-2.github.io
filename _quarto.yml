@@ -6,10 +6,10 @@ project:
 website:
   page-navigation: true
   title: "STA 199"
-  description: "Homepage for STA 199 - Introduction to Data Science at Duke University, Summer 2026: Session 2."
-  site-url: "https://sta199-su26.github.io/"
+  description: "Homepage for STA 199 - Introduction to Data Science at Duke University, Summer 2025."
+  site-url: "https://sta199-su26-2.github.io/"
 
-  repo-url: https://github.com/sta199-su26/sta199-su26.github.io
+  repo-url: https://github.com/joshlim789/sta199-su26-2.github.io #NEED TO CHANGE THIS ONCE WE MAKE AN ORGANIZATION
   repo-actions: [edit, issue]
 
   open-graph: true
