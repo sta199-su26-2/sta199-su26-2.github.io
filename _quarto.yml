@@ -2,6 +2,7 @@ project:
   type: website
   resources:
     - misc_files/**
+    - schedule.csv
 
 website:
   page-navigation: true
