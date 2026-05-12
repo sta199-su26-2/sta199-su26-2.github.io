@@ -1,15 +1,15 @@
 ---
-title: "STA 199<br>Summer 2026: Session I"
+title: "STA 199<br>Summer 2026: Session 2"
 image: img/logo.png
 image-alt: Hex logo for course with
 about:
   template: trestles
   links:
     - icon: laptop
-      href: https://sta199-su26.github.io
+      href: https://sta199-su26-2.github.io
       aria-label: Link to course website
     - icon: github
-      href: https://github.com/sta199-su26
+      href: https://github.com/sta199-su26-2
       aria-label: Link to course GitHub organization
 ---
 
@@ -34,4 +34,4 @@ Not open to students who have taken a 100-level Statistical Science course, Stat
 
 |              |               |     |
 |--------------|---------------|-----|
-| Katie Solarz | Old Chem 203A | TBD |
+| Josh Lim | Old Chem 203A | TBD |

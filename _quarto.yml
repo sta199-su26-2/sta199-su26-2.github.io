@@ -17,7 +17,7 @@ website:
     creator: "@minebocek"
     image: "img/twitter-card-ks.pdf"
 
-  draft-mode: unlinked
+  #draft-mode: unlinked
 
   sidebar:
     background: "#ffc9f0"
@@ -26,7 +26,7 @@ website:
     align: center
     tools:
       - icon: github
-        href: https://github.com/sta199-su26
+        href: https://github.com/sta199-su26-2
         text: "GitHub organization"
       - icon: code-square
         href: https://cmgr.oit.duke.edu/containers
