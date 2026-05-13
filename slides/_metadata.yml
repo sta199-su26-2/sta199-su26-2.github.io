@@ -1,7 +1,9 @@
 date-format: long
+institute: "Duke University <br> STA 199 Summer 2026: Session 2"
+author: "Josh Lim"
 format:
   revealjs:
-    footer: "[🔗 sta199-su26.github.io](https://sta199-su26.github.io/)"
+    footer: "[🔗 sta199-su26-2.github.io](https://sta199-su26-2.github.io/)"
     theme: slides.scss
     transition: fade
     slide-number: true

@@ -18,7 +18,7 @@ website:
     creator: "@minebocek"
     image: "img/twitter-card-ks.pdf"
 
-  draft-mode: unlinked
+  #draft-mode: unlinked
 
   sidebar:
     background: "#2774AE"
