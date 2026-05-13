@@ -47,7 +47,7 @@ For signup instructions, more details, and to see what other courses we offer se
 ## Email
 
 Please refrain from emailing any course content questions (those should go to Ed Discussion), and only use email for questions about personal matters that may not be appropriate for the public course forum (e.g., illness, accommodations, etc.).
-For such matters, you may email Katie Solarz at [katie.solarz\@duke.edu](katie.solarz@duke.edu).
+For such matters, you may email Josh Lim at [josh.lim\@duke.edu](mailto:josh.lim@duke.edu).
 
 If there is a question that's not appropriate for the public forum, you are welcome to email me directly.
 **If you email me, please include "STA 199" in the subject line.** Barring extenuating circumstances, I will respond to STA 199 emails by EOD Monday - Friday.

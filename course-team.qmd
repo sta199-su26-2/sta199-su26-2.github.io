@@ -16,7 +16,13 @@ You can contact him at [josh.lim\@duke.edu](mailto:josh.lim@duke.edu) with any q
 
 *Office hours: TBD in Old Chem 203*
 
-## Lab Instructor & Course Coordinator
+## Teaching Assistant
+
+TBD is the teaching assistant for this course.\
+
+*Office hours: TBD*
+
+## Course Coordinator
 
 ![](img/mary.png){style="float:right; width:150px; height:150px; border-radius: 50%; object-fit: cover;" fig-alt="Headshot of Dr. Mary Knox"}
 
@@ -26,8 +32,4 @@ You can contact her (at [mary.knox\@duke.edu](mailto:mary.knox@duke.edu)) with a
 
 *Office hours: TBD*
 
-## Teaching Assistant
 
-TBD is the teaching assistant for this course.\
-
-*TBD*
