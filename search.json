@@ -147,7 +147,7 @@
     "href": "course-support.html#email",
     "title": "Course support",
     "section": "Email",
-    "text": "Email\nPlease refrain from emailing any course content questions (those should go to Ed Discussion), and only use email for questions about personal matters that may not be appropriate for the public course forum (e.g., illness, accommodations, etc.). For such matters, you may email Katie Solarz at katie.solarz@duke.edu.\nIf there is a question that’s not appropriate for the public forum, you are welcome to email me directly. If you email me, please include “STA 199” in the subject line. Barring extenuating circumstances, I will respond to STA 199 emails by EOD Monday - Friday. Response time may be slower for emails sent Friday evening - Sunday.",
+    "text": "Email\nPlease refrain from emailing any course content questions (those should go to Ed Discussion), and only use email for questions about personal matters that may not be appropriate for the public course forum (e.g., illness, accommodations, etc.). For such matters, you may email Josh Lim at josh.lim@duke.edu.\nIf there is a question that’s not appropriate for the public forum, you are welcome to email me directly. If you email me, please include “STA 199” in the subject line. Barring extenuating circumstances, I will respond to STA 199 emails by EOD Monday - Friday. Response time may be slower for emails sent Friday evening - Sunday.",
     "crumbs": [
       "Course Information",
       "Couse Support"
@@ -537,28 +537,42 @@
     "href": "slides/00-welcome-199.html",
     "title": "Welcome to STA 199!",
     "section": "",
-    "text": "Name\nYear\nHometown\nSomething you plan to do this summer\n\n\nData science is an exciting discipline that allows you to turn raw data into understanding, insight, and knowledge."
+    "text": "InstructorJosh Lim\njosh.lim@duke.edu\n\nTA, Lab InstructorKenna Roberts\nmakenna.roberts@duke.edu\n\n\n\n\n\n\n\nName\nYear\nMajor(s) (or, potential major(s) if undecided!)\nHometown\nSomething you plan to do this summer when STA 199 ends 💔\n\nFirst half:\n\n\n\n\n\n\nData science\n\n\n\n\nTransforming messy, incomplete, imperfect data into knowledge;\n\nKnowledge often takes the form of pictures and a concise set of numerical summaries.\n\n\n\n. . .\nSecond half:\n\n\n\n\n\n\nStatistical thinking\n\n\n\nQuantifying our uncertainty about that knowledge.\n\n\n\n. . .\nCampaign manager: What is the probability that our candidate wins the election?\n. . .\n(A flurry of analysis takes place.)\n. . .\nData scientist: Our best guess is 54%.\n. . .\nCampaign manager: How reliable is that estimate? How confident are we in that? What’s the margin of error?\n. . .\n\n\nParallel Universe 1\nData scientist: It’s 54% give or take 3%.\n\n\nParallel Universe 2\nData scientist: It’s 54% give or take 20%.\n\n\n\n. . .\n\n\n\n\n\n\nIt’s all about decision-making under uncertainty\n\n\n\nThe manager is going to make wildly different decisions about campaign strategy and spending depending on how uncertain the environment is."
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#meet-your-teaching-team",
+    "href": "slides/00-welcome-199.html#meet-your-teaching-team",
+    "title": "Welcome to STA 199!",
+    "section": "",
+    "text": "InstructorJosh Lim\njosh.lim@duke.edu\n\nTA, Lab InstructorKenna Roberts\nmakenna.roberts@duke.edu"
   },
   {
     "objectID": "slides/00-welcome-199.html#meet-each-other",
     "href": "slides/00-welcome-199.html#meet-each-other",
     "title": "Welcome to STA 199!",
     "section": "",
-    "text": "Name\nYear\nHometown\nSomething you plan to do this summer"
+    "text": "Name\nYear\nMajor(s) (or, potential major(s) if undecided!)\nHometown\nSomething you plan to do this summer when STA 199 ends 💔"
   },
   {
-    "objectID": "slides/00-welcome-199.html#meet-data-science",
-    "href": "slides/00-welcome-199.html#meet-data-science",
+    "objectID": "slides/00-welcome-199.html#what-are-we-studying",
+    "href": "slides/00-welcome-199.html#what-are-we-studying",
     "title": "Welcome to STA 199!",
     "section": "",
-    "text": "Data science is an exciting discipline that allows you to turn raw data into understanding, insight, and knowledge."
+    "text": "First half:\n\n\n\n\n\n\nData science\n\n\n\n\nTransforming messy, incomplete, imperfect data into knowledge;\n\nKnowledge often takes the form of pictures and a concise set of numerical summaries.\n\n\n\n. . .\nSecond half:\n\n\n\n\n\n\nStatistical thinking\n\n\n\nQuantifying our uncertainty about that knowledge."
   },
   {
-    "objectID": "slides/00-welcome-199.html#excel---not",
-    "href": "slides/00-welcome-199.html#excel---not",
+    "objectID": "slides/00-welcome-199.html#imagine-this-dialog",
+    "href": "slides/00-welcome-199.html#imagine-this-dialog",
     "title": "Welcome to STA 199!",
-    "section": "Excel - not…",
-    "text": "Excel - not…"
+    "section": "",
+    "text": ". . .\nCampaign manager: What is the probability that our candidate wins the election?\n. . .\n(A flurry of analysis takes place.)\n. . .\nData scientist: Our best guess is 54%.\n. . .\nCampaign manager: How reliable is that estimate? How confident are we in that? What’s the margin of error?\n. . .\n\n\nParallel Universe 1\nData scientist: It’s 54% give or take 3%.\n\n\nParallel Universe 2\nData scientist: It’s 54% give or take 20%.\n\n\n\n. . .\n\n\n\n\n\n\nIt’s all about decision-making under uncertainty\n\n\n\nThe manager is going to make wildly different decisions about campaign strategy and spending depending on how uncertain the environment is."
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#excel",
+    "href": "slides/00-welcome-199.html#excel",
+    "title": "Welcome to STA 199!",
+    "section": "Excel… 👎",
+    "text": "Excel… 👎"
   },
   {
     "objectID": "slides/00-welcome-199.html#r",
@@ -568,158 +582,95 @@
     "text": "R"
   },
   {
-    "objectID": "slides/00-welcome-199.html#data-science-life-cycle-1",
-    "href": "slides/00-welcome-199.html#data-science-life-cycle-1",
+    "objectID": "slides/00-welcome-199.html#homepage",
+    "href": "slides/00-welcome-199.html#homepage",
     "title": "Welcome to STA 199!",
-    "section": "Data science life cycle",
-    "text": "Data science life cycle"
-  },
-  {
-    "objectID": "slides/00-welcome-199.html#import",
-    "href": "slides/00-welcome-199.html#import",
-    "title": "Welcome to STA 199!",
-    "section": "Import",
-    "text": "Import"
-  },
-  {
-    "objectID": "slides/00-welcome-199.html#tidy-transform",
-    "href": "slides/00-welcome-199.html#tidy-transform",
-    "title": "Welcome to STA 199!",
-    "section": "Tidy + transform",
-    "text": "Tidy + transform"
-  },
-  {
-    "objectID": "slides/00-welcome-199.html#visualize",
-    "href": "slides/00-welcome-199.html#visualize",
-    "title": "Welcome to STA 199!",
-    "section": "Visualize",
-    "text": "Visualize"
-  },
-  {
-    "objectID": "slides/00-welcome-199.html#model",
-    "href": "slides/00-welcome-199.html#model",
-    "title": "Welcome to STA 199!",
-    "section": "Model",
-    "text": "Model"
-  },
-  {
-    "objectID": "slides/00-welcome-199.html#understand",
-    "href": "slides/00-welcome-199.html#understand",
-    "title": "Welcome to STA 199!",
-    "section": "Understand",
-    "text": "Understand"
-  },
-  {
-    "objectID": "slides/00-welcome-199.html#communicate",
-    "href": "slides/00-welcome-199.html#communicate",
-    "title": "Welcome to STA 199!",
-    "section": "Communicate",
-    "text": "Communicate"
-  },
-  {
-    "objectID": "slides/00-welcome-199.html#understand-communicate",
-    "href": "slides/00-welcome-199.html#understand-communicate",
-    "title": "Welcome to STA 199!",
-    "section": "Understand + communicate",
-    "text": "Understand + communicate"
-  },
-  {
-    "objectID": "slides/00-welcome-199.html#program",
-    "href": "slides/00-welcome-199.html#program",
-    "title": "Welcome to STA 199!",
-    "section": "Program",
-    "text": "Program"
+    "section": "Homepage",
+    "text": "Homepage\nhttps://sta199-su26.github.io\n\nAll course materials\nLinks to Canvas, GitHub, RStudio containers, etc."
   },
   {
     "objectID": "slides/00-welcome-199.html#activities",
     "href": "slides/00-welcome-199.html#activities",
     "title": "Welcome to STA 199!",
     "section": "Activities",
-    "text": "Activities\n\nIntroduce new content and prepare for lectures by watching the videos and completing the readings\nAttend and actively participate in lectures and labs, office hours, team meetings\nPractice with application exercises during lecture\nUse what you’ve learned to analyze real-world data\n\nLab assignments x 6\nExams x 2\nTerm project"
+    "text": "Activities\n\nIntroduce new content and prepare for lectures by watching the videos and completing the readings\nAttend and actively participate in lectures (and ask / answer questions for participation credit) and labs, office hours, team meetings\nPractice applying statistical concepts and computing with application exercises during lecture\nPut together what you’ve learned to analyze real-world data\n\nLab assignments\nExams\nTerm project (completed in teams)"
   },
   {
     "objectID": "slides/00-welcome-199.html#application-exercises",
     "href": "slides/00-welcome-199.html#application-exercises",
     "title": "Welcome to STA 199!",
     "section": "Application exercises",
-    "text": "Application exercises\n\nDaily-ish in lecture\n“Graded” for attempt, not accuracy\nPractice this week; graded thereafter\nAt least one commit by 10:45am of the day of lecture\nTurn in at least 80% for full credit"
+    "text": "Application exercises\n\nRoughly one per lecture\nGraded for good-faith attempt, not accuracy\nPractice this week; graded thereafter\nAt least one commit to your AE repo by 10:45am of the day of lecture\nComplete 80% for full lecutre attendance credit"
   },
   {
     "objectID": "slides/00-welcome-199.html#labs",
     "href": "slides/00-welcome-199.html#labs",
     "title": "Welcome to STA 199!",
     "section": "Labs",
-    "text": "Labs\n\nMonday and Thursday; right after lecture\nStart in lab session, complete at home\n\nDue dates (typically):\n\nMonday Lab: Due Wednesday at 11:59 PM\nThursday Lab: Due Sunday at 11:59 PM\n\n\nDiscussion with classmates = 🤩 ; Copying = ❌\nLowest score dropped"
+    "text": "Labs\n\nLab session formally takes place on Mondays and Thursdays following lecture (11:00am - 12:15pm)\nLabs are to be started during the lab session & completed at home by the posted due date\nI encourage you to make the most of lab sessions, as you have access to both your peers and Kenna, the course TA, during this time\n\nDue dates (typically):\n\nMonday Lab: Due Wednesday at 11:59 PM\nThursday Lab: Due Sunday at 11:59 PM\n\n\nDiscussion with classmates = 🤩 ; Copying = ❌\nLowest lab score is dropped"
   },
   {
     "objectID": "slides/00-welcome-199.html#exams",
     "href": "slides/00-welcome-199.html#exams",
     "title": "Welcome to STA 199!",
     "section": "Exams",
-    "text": "Exams\n\nTwo exams, each 20%\n\nMidterm (June 3) has two parts:\n\nIn class: 75 minute in-class exam. Closed book, one sheet of notes (“cheat sheet”) – 70% of the grade\nTake home: After the in class exam; analyze a dataset – 30% of the grade\n\n\nFinal (June 26): Closed book, one sheet of notes (“cheat sheet”).\n\n\n\n\n\n\n\nCaution\n\n\n\nExam dates cannot be changed. If you cannot take the exams on these dates, please have a discussion with me today."
+    "text": "Exams\n\nTwo exams, each 25%\nMidterm: June 1, during lecture + lab (tentatively)\nFinal: June 24, 9am - 12pm\nYou will be permitted a “cheat sheet” (both sides of a single 8.5” x 11” piece of paper)\n\n\n\n\n\n\n\nCaution\n\n\n\nIt’s possible the first midterm gets bumped to June 2; this will be communicated by next Wednesday, 5/20. The final exam date is above my pay grade & cannot be changed. If you cannot take the exams on these dates, please have a discussion with me today."
   },
   {
     "objectID": "slides/00-welcome-199.html#project",
     "href": "slides/00-welcome-199.html#project",
     "title": "Welcome to STA 199!",
     "section": "Project",
-    "text": "Project\n\nDataset of your choice, method of your choice\nTeamwork\nPresentation and write-up\nPresentations in the last lab (June 23)\nInterim deadlines, peer review on content, peer evaluation for team contribution\nSome lab sessions allocated to project progress\n\n\n\n\n\n\n\nCaution\n\n\n\nFinal presentation date cannot be changed; you must complete the project to pass this class."
+    "text": "Project\n\nDataset of your choice, method of your choice\nTeamwork\nPresentation and write-up\nPresentations will take place in the last lab (June 22)\nInterim deadlines, peer review on content, peer evaluation for team contribution\nSome lab sessions allocated to project progress\n\n\n\n\n\n\n\nCaution\n\n\n\nFinal presentation date cannot be changed; you must complete the project and participate in project presentations to pass this class."
   },
   {
-    "objectID": "slides/00-welcome-199.html#teams",
-    "href": "slides/00-welcome-199.html#teams",
+    "objectID": "slides/00-welcome-199.html#project-teams",
+    "href": "slides/00-welcome-199.html#project-teams",
     "title": "Welcome to STA 199!",
-    "section": "Teams",
-    "text": "Teams\n\nAssigned by me\nProject\nPeer evaluation during teamwork and after completion\nExpectations and roles\n\nEveryone is expected to contribute equal effort\n\nEveryone is expected to understand all code turned in\nIndividual contribution evaluated by peer evaluation, commits, etc."
+    "section": "Project teams",
+    "text": "Project teams\n\nAssigned by me (& influenced by communicated topics / areas of interest)\n3-4 members per team\nPeer evaluation during teamwork and after completion\nExpectations and roles\n\nEveryone is expected to contribute equal effort\n\nEveryone is expected to understand all code turned in\nIndividual contribution evaluated by peer evaluation, commits, etc."
   },
   {
     "objectID": "slides/00-welcome-199.html#grading",
     "href": "slides/00-welcome-199.html#grading",
     "title": "Welcome to STA 199!",
     "section": "Grading",
-    "text": "Grading\n\n\nCategory\nPercentage\n\n\n\nLabs\n30%\n\n\nProject\n20%\n\n\nExam 1\n20%\n\n\nExam 2\n20%\n\n\nApplication Exercises\n5%\n\n\nLab attendance\n5%\n\n\n\n See course syllabus for how the final letter grade will be determined."
+    "text": "Grading\n\n\nCategory\nPercentage\n\n\n\nLabs\n20%\n\n\nProject\n20%\n\n\nExam 1\n25%\n\n\nExam 2\n25%\n\n\nApplication Exercises\n5%\n\n\nLab Attendance\n5%\n\n\n\n See course syllabus for how the final letter grade will be determined."
   },
   {
     "objectID": "slides/00-welcome-199.html#support",
     "href": "slides/00-welcome-199.html#support",
     "title": "Welcome to STA 199!",
     "section": "Support",
-    "text": "Support\n\nAttend office hours\nAsk and answer questions on the Ed discussion board\nReserve email for questions on personal matters and/or grades"
+    "text": "Support\n\nAttend office hours\nAsk and answer questions on the Ed discussion board\nReserve email for questions on personal matters and / or grades"
   },
   {
     "objectID": "slides/00-welcome-199.html#office-hours",
     "href": "slides/00-welcome-199.html#office-hours",
     "title": "Welcome to STA 199!",
     "section": "Office Hours",
-    "text": "Office Hours\nMarie: Old Chem 203\n\nTuesday 3:30PM - 5:30PM\nFriday 1:00 - 3:00 PM\n\nMary: ZoomTime TBD"
+    "text": "Office Hours\nKatie: Old Chem 203\n\nTuesday 11:00AM - 1:00PM\nSunday 1:00 - 3:00PM\n\nKenna: Time & Location TBD"
   },
   {
     "objectID": "slides/00-welcome-199.html#announcements",
     "href": "slides/00-welcome-199.html#announcements",
     "title": "Welcome to STA 199!",
     "section": "Announcements",
-    "text": "Announcements\n\nPosted on Canvas (Announcements tool) and sent via email, be sure to check both regularly\nAll information is on the course website - please refer to it often!"
-  },
-  {
-    "objectID": "slides/00-welcome-199.html#homepage",
-    "href": "slides/00-welcome-199.html#homepage",
-    "title": "Welcome to STA 199!",
-    "section": "Homepage",
-    "text": "Homepage\nhttps://sta199-su25.github.io\n\nAll course materials\nLinks to Canvas, GitHub, RStudio containers, etc."
+    "text": "Announcements\n\nPosted on Canvas (Announcements tool) and sent via email, be sure to check both regularly\nAll information is on the course website - please pin to your browser of choice & refer to it often!"
   },
   {
     "objectID": "slides/00-welcome-199.html#course-toolkit",
     "href": "slides/00-welcome-199.html#course-toolkit",
     "title": "Welcome to STA 199!",
     "section": "Course toolkit",
-    "text": "Course toolkit\nAll linked from the course website:\n\nGitHub organization: github.com/sta199-su25\n\nRStudio containers: cmgr.oit.duke.edu/containers\n\nCommunication: Ed Discussion\nAssignment submission and feedback: Gradescope"
+    "text": "Course toolkit\nAll linked from the course website:\n\nGitHub organization: github.com/sta199-su26\n\nRStudio containers: cmgr.oit.duke.edu/containers\n\nCommunication: Ed Discussion\nAssignment submission and feedback: Gradescope"
   },
   {
     "objectID": "slides/00-welcome-199.html#accessibility",
     "href": "slides/00-welcome-199.html#accessibility",
     "title": "Welcome to STA 199!",
     "section": "Accessibility",
-    "text": "Accessibility\n\nThe Student Disability Access Office (SDAO) is available to ensure that students are able to engage with their courses and related assignments.\nI am committed to making all course materials accessible and I’m always learning how to do this better!"
+    "text": "Accessibility\n\nThe Student Disability Access Office (SDAO) is available to ensure that students are able to engage with their courses and related assignments.\nI am committed to making all course materials accessible, and I’m always open to feedback on how to do this better!"
   },
   {
     "objectID": "slides/00-welcome-199.html#late-work-waivers-regrades-policy",
@@ -733,14 +684,14 @@
     "href": "slides/00-welcome-199.html#collaboration",
     "title": "Welcome to STA 199!",
     "section": "Collaboration",
-    "text": "Collaboration\n\nLabs: discussing and helping is fine. Sharing your solutions and copying others is not;\nExams: collaboration of any kind is completely forbidden on any part of any exam;\nProjects: collaboration of any kind is enthusiastically encouraged within your team. Between teams, it’s the same as labs; do not directly share your stuff or copy off of others."
+    "text": "Collaboration\n\nLabs: discussing and helping one another is fine; sharing your solutions via text, email, AirDrop, carrier pigeon, or any other method, and / or copying from others is not permitted;\nExams: collaboration of any kind is completely forbidden\nProjects: collaboration of all kinds is enthusiastically encouraged within your team; between teams, it’s the same as labs; do not directly share your materials or copy from others."
   },
   {
     "objectID": "slides/00-welcome-199.html#use-of-ai-tools",
     "href": "slides/00-welcome-199.html#use-of-ai-tools",
     "title": "Welcome to STA 199!",
     "section": "Use of AI tools",
-    "text": "Use of AI tools\n\n\n AI tools for code:\n\nSure, but be careful/critical! Working code != correct/good code.\nMust explicitly cite with a direct url linking to the conversation you had.\n\n\n AI tools for narrative: Absolutely not!\n AI tools for learning: Sure, but be careful/critical!"
+    "text": "Use of AI tools\n\n\n AI tools for code:\n\nSure, but be careful/critical! Working code != correct / good code.\nMust explicitly cite with a direct url linking to the conversation you had.\n\n\n AI tools for narrative: Absolutely not!\n AI tools for learning: Sure, but be careful/critical!\n\n\n\n\n\n\n\nCaution\n\n\n\nException: Use of AI tools is completely forbidden during lab session. When you are in lab, you have far better tools / resources available to you - Kenna, our TA, and each other! Blatant disregard for this policy will result in a 0 for the current lab assignment."
   },
   {
     "objectID": "slides/00-welcome-199.html#academic-integrity",
@@ -750,6 +701,111 @@
     "text": "Academic integrity\n\nTo uphold the Duke Community Standard:\n\nI will not lie, cheat, or steal in my academic endeavors;\nI will conduct myself honorably in all my endeavors; and\nI will act if the Standard is compromised."
   },
   {
+    "objectID": "slides/00-welcome-199.html#april-20th-deadly-day-for-car-crashes",
+    "href": "slides/00-welcome-199.html#april-20th-deadly-day-for-car-crashes",
+    "title": "Welcome to STA 199!",
+    "section": "“April 20th: Deadly Day for Car Crashes?”",
+    "text": "“April 20th: Deadly Day for Car Crashes?”\nThe text below can be found at this link, which is a post on the website of a personal injury law firm. Suppose we want to investigate the validity of their claim… What data might we want? What methods are appropriate? How will we perform our analysis? How can we best communicate our findings?"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#the-data-science-life-cycle",
+    "href": "slides/00-welcome-199.html#the-data-science-life-cycle",
+    "title": "Welcome to STA 199!",
+    "section": "The data science life cycle",
+    "text": "The data science life cycle"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#the-data-science-life-cycle-1",
+    "href": "slides/00-welcome-199.html#the-data-science-life-cycle-1",
+    "title": "Welcome to STA 199!",
+    "section": "The data science life cycle",
+    "text": "The data science life cycle"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#load-the-data-in",
+    "href": "slides/00-welcome-199.html#load-the-data-in",
+    "title": "Welcome to STA 199!",
+    "section": "Load the data in",
+    "text": "Load the data in\nOn 4/22/2025, TidyTuesday posted a tidy version of the raw data analyzed in Harper and Palayew’s (2019) study, “The annual cannabis holiday and fatal traffic crashes,” available here.\nLet’s load this data into R…\n\nlibrary(tidyverse)\n\ndaily_accidents_420 &lt;- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-22/daily_accidents_420.csv')"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#the-data-science-life-cycle-2",
+    "href": "slides/00-welcome-199.html#the-data-science-life-cycle-2",
+    "title": "Welcome to STA 199!",
+    "section": "The data science life cycle",
+    "text": "The data science life cycle"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#if-we-hadnt-had-access-to-our-tidy-data",
+    "href": "slides/00-welcome-199.html#if-we-hadnt-had-access-to-our-tidy-data",
+    "title": "Welcome to STA 199!",
+    "section": "If we hadn’t had access to our tidy data…",
+    "text": "If we hadn’t had access to our tidy data…"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#still-we-can-tidy-some-more",
+    "href": "slides/00-welcome-199.html#still-we-can-tidy-some-more",
+    "title": "Welcome to STA 199!",
+    "section": "Still, we can tidy some more…",
+    "text": "Still, we can tidy some more…\n\ndaily_accidents_420 &lt;- daily_accidents_420 |&gt;\n  filter(!is.na(e420)) |&gt;\n  mutate(e420 = if_else(e420 == TRUE, \"4/20\", \"Not 4/20\"))"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#the-data-science-life-cycle-3",
+    "href": "slides/00-welcome-199.html#the-data-science-life-cycle-3",
+    "title": "Welcome to STA 199!",
+    "section": "The data science life cycle",
+    "text": "The data science life cycle"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#babys-first-graphic",
+    "href": "slides/00-welcome-199.html#babys-first-graphic",
+    "title": "Welcome to STA 199!",
+    "section": "Baby’s first graphic",
+    "text": "Baby’s first graphic\n\nggplot(daily_accidents_420, aes(fatalities_count, fill = e420))"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#babys-first-graphic-1",
+    "href": "slides/00-welcome-199.html#babys-first-graphic-1",
+    "title": "Welcome to STA 199!",
+    "section": "Baby’s first graphic",
+    "text": "Baby’s first graphic\n\nggplot(daily_accidents_420, aes(fatalities_count, fill = e420)) +\n    geom_histogram()"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#babys-first-graphic-2",
+    "href": "slides/00-welcome-199.html#babys-first-graphic-2",
+    "title": "Welcome to STA 199!",
+    "section": "Baby’s first graphic",
+    "text": "Baby’s first graphic\n\nggplot(daily_accidents_420, aes(fatalities_count, fill = e420)) +\n  geom_histogram() +\n  facet_wrap(~ e420, ncol = 1, scales = \"free_y\")"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#babys-first-graphic-3",
+    "href": "slides/00-welcome-199.html#babys-first-graphic-3",
+    "title": "Welcome to STA 199!",
+    "section": "Baby’s first graphic",
+    "text": "Baby’s first graphic\n\nggplot(daily_accidents_420, aes(fatalities_count, fill = e420)) +\n  geom_histogram() +\n  facet_wrap(~ e420, ncol = 1, scales = \"free_y\") +\n  labs(title = \"Histogram of Daily Traffic Accident Fatality Count, 1992-2016\",\n       subtitle = \"On the 'High Holiday' (4/20), vs. Not\",\n       x = \"Daily Traffic Accident Fatality Count (1992 - 2016)\",\n       y = \"Count of Observations\") +\n  theme_minimal() +\n  theme(legend.position = \"none\")"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#the-data-science-life-cycle-4",
+    "href": "slides/00-welcome-199.html#the-data-science-life-cycle-4",
+    "title": "Welcome to STA 199!",
+    "section": "The data science life cycle",
+    "text": "The data science life cycle"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#in-reality",
+    "href": "slides/00-welcome-199.html#in-reality",
+    "title": "Welcome to STA 199!",
+    "section": "In reality…",
+    "text": "In reality…"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#course-themes",
+    "href": "slides/00-welcome-199.html#course-themes",
+    "title": "Welcome to STA 199!",
+    "section": "Course themes",
+    "text": "Course themes\n\n\nStatistical literacy matters\n\nHeadlines, social media posts, advertisements, and even “expert” sources can misrepresent scientific findings\nData-driven claims should be evaluated critically, not accepted at face value\nUnderstanding how conclusions are reached is an important skill!\n\n\n\nReproducibility is essential\n\nCredible analyses should clearly describe: where the data came from, how the data were processed, and how the analysis was performed\nReproducible work allows others to verify, critique, and build upon scientific findings\n\n\n\nData science is an iterative process\n\nCuriosity keeps the wheel turning!"
+  },
+  {
     "objectID": "slides/00-welcome-199.html#what-is-github",
     "href": "slides/00-welcome-199.html#what-is-github",
     "title": "Welcome to STA 199!",
@@ -757,11 +813,11 @@
     "text": "What is GitHub?\n\nMore on this tomorrow - basically, it is the Google Drive of coding!"
   },
   {
-    "objectID": "slides/00-welcome-199.html#ae0-make-your-github-account",
-    "href": "slides/00-welcome-199.html#ae0-make-your-github-account",
+    "objectID": "slides/00-welcome-199.html#ae-00-make-your-github-account",
+    "href": "slides/00-welcome-199.html#ae-00-make-your-github-account",
     "title": "Welcome to STA 199!",
-    "section": "AE0: Make your GitHub account",
-    "text": "AE0: Make your GitHub account\n Find AE0 on the course website!"
+    "section": "AE 00: Make your GitHub account",
+    "text": "AE 00: Make your GitHub account\n Find AE 00 on the course website!"
   },
   {
     "objectID": "slides/00-welcome-199.html#this-weeks-tasks",
@@ -771,32 +827,46 @@
     "text": "This week’s tasks\n\nComplete Lab 0\n\nComputational setup\nGetting to know you survey\n\n\nRead the syllabus\nGet started with data science!"
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#meet-your-instructor",
-    "href": "slides/00-welcome-199-slides.html#meet-your-instructor",
+    "objectID": "slides/00-welcome-199-slides.html#meet-your-teaching-team",
+    "href": "slides/00-welcome-199-slides.html#meet-your-teaching-team",
     "title": "Welcome to STA 199!",
-    "section": "Meet your instructor",
-    "text": "Meet your instructor"
+    "section": "Meet your teaching team",
+    "text": "Meet your teaching team\n\nInstructorJosh Lim\njosh.lim@duke.edu\n\nTA, Lab InstructorKenna Roberts\nmakenna.roberts@duke.edu"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#about-me",
+    "href": "slides/00-welcome-199-slides.html#about-me",
+    "title": "Welcome to STA 199!",
+    "section": "About me!",
+    "text": "About me!"
   },
   {
     "objectID": "slides/00-welcome-199-slides.html#meet-each-other",
     "href": "slides/00-welcome-199-slides.html#meet-each-other",
     "title": "Welcome to STA 199!",
     "section": "Meet each other!",
-    "text": "Meet each other!\n\nName\nYear\nHometown\nSomething you plan to do this summer"
+    "text": "Meet each other!\n\nName\nYear\nMajor(s) (or, potential major(s) if undecided!)\nHometown\nSomething you plan to do this summer when STA 199 ends 💔"
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#meet-data-science",
-    "href": "slides/00-welcome-199-slides.html#meet-data-science",
+    "objectID": "slides/00-welcome-199-slides.html#what-are-we-studying",
+    "href": "slides/00-welcome-199-slides.html#what-are-we-studying",
     "title": "Welcome to STA 199!",
-    "section": "Meet data science",
-    "text": "Meet data science\n\nData science is an exciting discipline that allows you to turn raw data into understanding, insight, and knowledge."
+    "section": "What are we studying?",
+    "text": "What are we studying?\nFirst half:\n\n\n\n\n\n\nData science\n\n\n\nTransforming messy, incomplete, imperfect data into knowledge;\n\nKnowledge often takes the form of pictures and a concise set of numerical summaries.\n\n\n\n\n\nSecond half:\n\n\n\n\n\n\nStatistical thinking\n\n\nQuantifying our uncertainty about that knowledge."
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#excel---not",
-    "href": "slides/00-welcome-199-slides.html#excel---not",
+    "objectID": "slides/00-welcome-199-slides.html#imagine-this-dialog",
+    "href": "slides/00-welcome-199-slides.html#imagine-this-dialog",
     "title": "Welcome to STA 199!",
-    "section": "Excel - not…",
-    "text": "Excel - not…"
+    "section": "Imagine this dialog",
+    "text": "Imagine this dialog\n\nCampaign manager: What is the probability that our candidate wins the election?\n\n\n(A flurry of analysis takes place.)\n\n\nData scientist: Our best guess is 54%.\n\n\nCampaign manager: How reliable is that estimate? How confident are we in that? What’s the margin of error?\n\n\n\n\nParallel Universe 1\nData scientist: It’s 54% give or take 3%.\n\n\nParallel Universe 2\nData scientist: It’s 54% give or take 20%.\n\n\n\n\n\n\n\n\n\n\nIt’s all about decision-making under uncertainty\n\n\nThe manager is going to make wildly different decisions about campaign strategy and spending depending on how uncertain the environment is."
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#excel",
+    "href": "slides/00-welcome-199-slides.html#excel",
+    "title": "Welcome to STA 199!",
+    "section": "Excel… 👎",
+    "text": "Excel… 👎"
   },
   {
     "objectID": "slides/00-welcome-199-slides.html#r",
@@ -806,158 +876,95 @@
     "text": "R"
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#data-science-life-cycle-1",
-    "href": "slides/00-welcome-199-slides.html#data-science-life-cycle-1",
+    "objectID": "slides/00-welcome-199-slides.html#homepage",
+    "href": "slides/00-welcome-199-slides.html#homepage",
     "title": "Welcome to STA 199!",
-    "section": "Data science life cycle",
-    "text": "Data science life cycle"
-  },
-  {
-    "objectID": "slides/00-welcome-199-slides.html#import",
-    "href": "slides/00-welcome-199-slides.html#import",
-    "title": "Welcome to STA 199!",
-    "section": "Import",
-    "text": "Import"
-  },
-  {
-    "objectID": "slides/00-welcome-199-slides.html#tidy-transform",
-    "href": "slides/00-welcome-199-slides.html#tidy-transform",
-    "title": "Welcome to STA 199!",
-    "section": "Tidy + transform",
-    "text": "Tidy + transform"
-  },
-  {
-    "objectID": "slides/00-welcome-199-slides.html#visualize",
-    "href": "slides/00-welcome-199-slides.html#visualize",
-    "title": "Welcome to STA 199!",
-    "section": "Visualize",
-    "text": "Visualize"
-  },
-  {
-    "objectID": "slides/00-welcome-199-slides.html#model",
-    "href": "slides/00-welcome-199-slides.html#model",
-    "title": "Welcome to STA 199!",
-    "section": "Model",
-    "text": "Model"
-  },
-  {
-    "objectID": "slides/00-welcome-199-slides.html#understand",
-    "href": "slides/00-welcome-199-slides.html#understand",
-    "title": "Welcome to STA 199!",
-    "section": "Understand",
-    "text": "Understand"
-  },
-  {
-    "objectID": "slides/00-welcome-199-slides.html#communicate",
-    "href": "slides/00-welcome-199-slides.html#communicate",
-    "title": "Welcome to STA 199!",
-    "section": "Communicate",
-    "text": "Communicate"
-  },
-  {
-    "objectID": "slides/00-welcome-199-slides.html#understand-communicate",
-    "href": "slides/00-welcome-199-slides.html#understand-communicate",
-    "title": "Welcome to STA 199!",
-    "section": "Understand + communicate",
-    "text": "Understand + communicate"
-  },
-  {
-    "objectID": "slides/00-welcome-199-slides.html#program",
-    "href": "slides/00-welcome-199-slides.html#program",
-    "title": "Welcome to STA 199!",
-    "section": "Program",
-    "text": "Program"
+    "section": "Homepage",
+    "text": "Homepage\nhttps://sta199-su26.github.io\n\nAll course materials\nLinks to Canvas, GitHub, RStudio containers, etc."
   },
   {
     "objectID": "slides/00-welcome-199-slides.html#activities",
     "href": "slides/00-welcome-199-slides.html#activities",
     "title": "Welcome to STA 199!",
     "section": "Activities",
-    "text": "Activities\n\nIntroduce new content and prepare for lectures by watching the videos and completing the readings\nAttend and actively participate in lectures and labs, office hours, team meetings\nPractice with application exercises during lecture\nUse what you’ve learned to analyze real-world data\n\nLab assignments x 6\nExams x 2\nTerm project"
+    "text": "Activities\n\nIntroduce new content and prepare for lectures by watching the videos and completing the readings\nAttend and actively participate in lectures (and ask / answer questions for participation credit) and labs, office hours, team meetings\nPractice applying statistical concepts and computing with application exercises during lecture\nPut together what you’ve learned to analyze real-world data\n\nLab assignments\nExams\nTerm project (completed in teams)"
   },
   {
     "objectID": "slides/00-welcome-199-slides.html#application-exercises",
     "href": "slides/00-welcome-199-slides.html#application-exercises",
     "title": "Welcome to STA 199!",
     "section": "Application exercises",
-    "text": "Application exercises\n\nDaily-ish in lecture\n“Graded” for attempt, not accuracy\nPractice this week; graded thereafter\nAt least one commit by 10:45am of the day of lecture\nTurn in at least 80% for full credit"
+    "text": "Application exercises\n\nRoughly one per lecture\nGraded for good-faith attempt, not accuracy\nPractice this week; graded thereafter\nAt least one commit to your AE repo by 10:45am of the day of lecture\nComplete 80% for full lecutre attendance credit"
   },
   {
     "objectID": "slides/00-welcome-199-slides.html#labs",
     "href": "slides/00-welcome-199-slides.html#labs",
     "title": "Welcome to STA 199!",
     "section": "Labs",
-    "text": "Labs\n\nMonday and Thursday; right after lecture\nStart in lab session, complete at home\n\nDue dates (typically):\n\nMonday Lab: Due Wednesday at 11:59 PM\nThursday Lab: Due Sunday at 11:59 PM\n\n\nDiscussion with classmates = 🤩 ; Copying = ❌\nLowest score dropped"
+    "text": "Labs\n\nLab session formally takes place on Mondays and Thursdays following lecture (11:00am - 12:15pm)\nLabs are to be started during the lab session & completed at home by the posted due date\nI encourage you to make the most of lab sessions, as you have access to both your peers and Kenna, the course TA, during this time\n\nDue dates (typically):\n\nMonday Lab: Due Wednesday at 11:59 PM\nThursday Lab: Due Sunday at 11:59 PM\n\n\nDiscussion with classmates = 🤩 ; Copying = ❌\nLowest lab score is dropped"
   },
   {
     "objectID": "slides/00-welcome-199-slides.html#exams",
     "href": "slides/00-welcome-199-slides.html#exams",
     "title": "Welcome to STA 199!",
     "section": "Exams",
-    "text": "Exams\n\nTwo exams, each 20%\n\nMidterm (June 3) has two parts:\n\nIn class: 75 minute in-class exam. Closed book, one sheet of notes (“cheat sheet”) – 70% of the grade\nTake home: After the in class exam; analyze a dataset – 30% of the grade\n\n\nFinal (June 26): Closed book, one sheet of notes (“cheat sheet”).\n\n\n\n\n\n\n\nCaution\n\n\nExam dates cannot be changed. If you cannot take the exams on these dates, please have a discussion with me today."
+    "text": "Exams\n\nTwo exams, each 25%\nMidterm: June 1, during lecture + lab (tentatively)\nFinal: June 24, 9am - 12pm\nYou will be permitted a “cheat sheet” (both sides of a single 8.5” x 11” piece of paper)\n\n\n\n\n\n\n\nCaution\n\n\nIt’s possible the first midterm gets bumped to June 2; this will be communicated by next Wednesday, 5/20. The final exam date is above my pay grade & cannot be changed. If you cannot take the exams on these dates, please have a discussion with me today."
   },
   {
     "objectID": "slides/00-welcome-199-slides.html#project",
     "href": "slides/00-welcome-199-slides.html#project",
     "title": "Welcome to STA 199!",
     "section": "Project",
-    "text": "Project\n\nDataset of your choice, method of your choice\nTeamwork\nPresentation and write-up\nPresentations in the last lab (June 23)\nInterim deadlines, peer review on content, peer evaluation for team contribution\nSome lab sessions allocated to project progress\n\n\n\n\n\n\n\nCaution\n\n\nFinal presentation date cannot be changed; you must complete the project to pass this class."
+    "text": "Project\n\nDataset of your choice, method of your choice\nTeamwork\nPresentation and write-up\nPresentations will take place in the last lab (June 22)\nInterim deadlines, peer review on content, peer evaluation for team contribution\nSome lab sessions allocated to project progress\n\n\n\n\n\n\n\nCaution\n\n\nFinal presentation date cannot be changed; you must complete the project and participate in project presentations to pass this class."
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#teams",
-    "href": "slides/00-welcome-199-slides.html#teams",
+    "objectID": "slides/00-welcome-199-slides.html#project-teams",
+    "href": "slides/00-welcome-199-slides.html#project-teams",
     "title": "Welcome to STA 199!",
-    "section": "Teams",
-    "text": "Teams\n\nAssigned by me\nProject\nPeer evaluation during teamwork and after completion\nExpectations and roles\n\nEveryone is expected to contribute equal effort\n\nEveryone is expected to understand all code turned in\nIndividual contribution evaluated by peer evaluation, commits, etc."
+    "section": "Project teams",
+    "text": "Project teams\n\nAssigned by me (& influenced by communicated topics / areas of interest)\n3-4 members per team\nPeer evaluation during teamwork and after completion\nExpectations and roles\n\nEveryone is expected to contribute equal effort\n\nEveryone is expected to understand all code turned in\nIndividual contribution evaluated by peer evaluation, commits, etc."
   },
   {
     "objectID": "slides/00-welcome-199-slides.html#grading",
     "href": "slides/00-welcome-199-slides.html#grading",
     "title": "Welcome to STA 199!",
     "section": "Grading",
-    "text": "Grading\n\n\nCategory\nPercentage\n\n\n\nLabs\n30%\n\n\nProject\n20%\n\n\nExam 1\n20%\n\n\nExam 2\n20%\n\n\nApplication Exercises\n5%\n\n\nLab attendance\n5%\n\n\n\n See course syllabus for how the final letter grade will be determined."
+    "text": "Grading\n\n\nCategory\nPercentage\n\n\n\nLabs\n20%\n\n\nProject\n20%\n\n\nExam 1\n25%\n\n\nExam 2\n25%\n\n\nApplication Exercises\n5%\n\n\nLab Attendance\n5%\n\n\n\n See course syllabus for how the final letter grade will be determined."
   },
   {
     "objectID": "slides/00-welcome-199-slides.html#support",
     "href": "slides/00-welcome-199-slides.html#support",
     "title": "Welcome to STA 199!",
     "section": "Support",
-    "text": "Support\n\nAttend office hours\nAsk and answer questions on the Ed discussion board\nReserve email for questions on personal matters and/or grades"
+    "text": "Support\n\nAttend office hours\nAsk and answer questions on the Ed discussion board\nReserve email for questions on personal matters and / or grades"
   },
   {
     "objectID": "slides/00-welcome-199-slides.html#office-hours",
     "href": "slides/00-welcome-199-slides.html#office-hours",
     "title": "Welcome to STA 199!",
     "section": "Office Hours",
-    "text": "Office Hours\nMarie: Old Chem 203\n\nTuesday 3:30PM - 5:30PM\nFriday 1:00 - 3:00 PM\n\nMary: ZoomTime TBD"
+    "text": "Office Hours\nKatie: Old Chem 203\n\nTuesday 11:00AM - 1:00PM\nSunday 1:00 - 3:00PM\n\nKenna: Time & Location TBD"
   },
   {
     "objectID": "slides/00-welcome-199-slides.html#announcements",
     "href": "slides/00-welcome-199-slides.html#announcements",
     "title": "Welcome to STA 199!",
     "section": "Announcements",
-    "text": "Announcements\n\nPosted on Canvas (Announcements tool) and sent via email, be sure to check both regularly\nAll information is on the course website - please refer to it often!"
-  },
-  {
-    "objectID": "slides/00-welcome-199-slides.html#homepage",
-    "href": "slides/00-welcome-199-slides.html#homepage",
-    "title": "Welcome to STA 199!",
-    "section": "Homepage",
-    "text": "Homepage\nhttps://sta199-su25.github.io\n\nAll course materials\nLinks to Canvas, GitHub, RStudio containers, etc."
+    "text": "Announcements\n\nPosted on Canvas (Announcements tool) and sent via email, be sure to check both regularly\nAll information is on the course website - please pin to your browser of choice & refer to it often!"
   },
   {
     "objectID": "slides/00-welcome-199-slides.html#course-toolkit",
     "href": "slides/00-welcome-199-slides.html#course-toolkit",
     "title": "Welcome to STA 199!",
     "section": "Course toolkit",
-    "text": "Course toolkit\nAll linked from the course website:\n\nGitHub organization: github.com/sta199-su25\n\nRStudio containers: cmgr.oit.duke.edu/containers\n\nCommunication: Ed Discussion\nAssignment submission and feedback: Gradescope"
+    "text": "Course toolkit\nAll linked from the course website:\n\nGitHub organization: github.com/sta199-su26\n\nRStudio containers: cmgr.oit.duke.edu/containers\n\nCommunication: Ed Discussion\nAssignment submission and feedback: Gradescope"
   },
   {
     "objectID": "slides/00-welcome-199-slides.html#accessibility",
     "href": "slides/00-welcome-199-slides.html#accessibility",
     "title": "Welcome to STA 199!",
     "section": "Accessibility",
-    "text": "Accessibility\n\nThe Student Disability Access Office (SDAO) is available to ensure that students are able to engage with their courses and related assignments.\nI am committed to making all course materials accessible and I’m always learning how to do this better!"
+    "text": "Accessibility\n\nThe Student Disability Access Office (SDAO) is available to ensure that students are able to engage with their courses and related assignments.\nI am committed to making all course materials accessible, and I’m always open to feedback on how to do this better!"
   },
   {
     "objectID": "slides/00-welcome-199-slides.html#late-work-waivers-regrades-policy",
@@ -971,14 +978,14 @@
     "href": "slides/00-welcome-199-slides.html#collaboration",
     "title": "Welcome to STA 199!",
     "section": "Collaboration",
-    "text": "Collaboration\n\nLabs: discussing and helping is fine. Sharing your solutions and copying others is not;\nExams: collaboration of any kind is completely forbidden on any part of any exam;\nProjects: collaboration of any kind is enthusiastically encouraged within your team. Between teams, it’s the same as labs; do not directly share your stuff or copy off of others."
+    "text": "Collaboration\n\nLabs: discussing and helping one another is fine; sharing your solutions via text, email, AirDrop, carrier pigeon, or any other method, and / or copying from others is not permitted;\nExams: collaboration of any kind is completely forbidden\nProjects: collaboration of all kinds is enthusiastically encouraged within your team; between teams, it’s the same as labs; do not directly share your materials or copy from others."
   },
   {
     "objectID": "slides/00-welcome-199-slides.html#use-of-ai-tools",
     "href": "slides/00-welcome-199-slides.html#use-of-ai-tools",
     "title": "Welcome to STA 199!",
     "section": "Use of AI tools",
-    "text": "Use of AI tools\n\n\n AI tools for code:\n\nSure, but be careful/critical! Working code != correct/good code.\nMust explicitly cite with a direct url linking to the conversation you had.\n\n\n AI tools for narrative: Absolutely not!\n AI tools for learning: Sure, but be careful/critical!"
+    "text": "Use of AI tools\n\n\n AI tools for code:\n\nSure, but be careful/critical! Working code != correct / good code.\nMust explicitly cite with a direct url linking to the conversation you had.\n\n\n AI tools for narrative: Absolutely not!\n AI tools for learning: Sure, but be careful/critical!\n\n\n\n\n\n\n\nCaution\n\n\nException: Use of AI tools is completely forbidden during lab session. When you are in lab, you have far better tools / resources available to you - Kenna, our TA, and each other! Blatant disregard for this policy will result in a 0 for the current lab assignment."
   },
   {
     "objectID": "slides/00-welcome-199-slides.html#academic-integrity",
@@ -988,6 +995,111 @@
     "text": "Academic integrity\n\nTo uphold the Duke Community Standard:\n\nI will not lie, cheat, or steal in my academic endeavors;\nI will conduct myself honorably in all my endeavors; and\nI will act if the Standard is compromised."
   },
   {
+    "objectID": "slides/00-welcome-199-slides.html#april-20th-deadly-day-for-car-crashes",
+    "href": "slides/00-welcome-199-slides.html#april-20th-deadly-day-for-car-crashes",
+    "title": "Welcome to STA 199!",
+    "section": "“April 20th: Deadly Day for Car Crashes?”",
+    "text": "“April 20th: Deadly Day for Car Crashes?”\nThe text below can be found at this link, which is a post on the website of a personal injury law firm. Suppose we want to investigate the validity of their claim… What data might we want? What methods are appropriate? How will we perform our analysis? How can we best communicate our findings?"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#the-data-science-life-cycle",
+    "href": "slides/00-welcome-199-slides.html#the-data-science-life-cycle",
+    "title": "Welcome to STA 199!",
+    "section": "The data science life cycle",
+    "text": "The data science life cycle"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#the-data-science-life-cycle-1",
+    "href": "slides/00-welcome-199-slides.html#the-data-science-life-cycle-1",
+    "title": "Welcome to STA 199!",
+    "section": "The data science life cycle",
+    "text": "The data science life cycle"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#load-the-data-in",
+    "href": "slides/00-welcome-199-slides.html#load-the-data-in",
+    "title": "Welcome to STA 199!",
+    "section": "Load the data in",
+    "text": "Load the data in\nOn 4/22/2025, TidyTuesday posted a tidy version of the raw data analyzed in Harper and Palayew’s (2019) study, “The annual cannabis holiday and fatal traffic crashes,” available here.\nLet’s load this data into R…\n\nlibrary(tidyverse)\n\ndaily_accidents_420 &lt;- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-22/daily_accidents_420.csv')"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#the-data-science-life-cycle-2",
+    "href": "slides/00-welcome-199-slides.html#the-data-science-life-cycle-2",
+    "title": "Welcome to STA 199!",
+    "section": "The data science life cycle",
+    "text": "The data science life cycle"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#if-we-hadnt-had-access-to-our-tidy-data",
+    "href": "slides/00-welcome-199-slides.html#if-we-hadnt-had-access-to-our-tidy-data",
+    "title": "Welcome to STA 199!",
+    "section": "If we hadn’t had access to our tidy data…",
+    "text": "If we hadn’t had access to our tidy data…"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#still-we-can-tidy-some-more",
+    "href": "slides/00-welcome-199-slides.html#still-we-can-tidy-some-more",
+    "title": "Welcome to STA 199!",
+    "section": "Still, we can tidy some more…",
+    "text": "Still, we can tidy some more…\n\ndaily_accidents_420 &lt;- daily_accidents_420 |&gt;\n  filter(!is.na(e420)) |&gt;\n  mutate(e420 = if_else(e420 == TRUE, \"4/20\", \"Not 4/20\"))"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#the-data-science-life-cycle-3",
+    "href": "slides/00-welcome-199-slides.html#the-data-science-life-cycle-3",
+    "title": "Welcome to STA 199!",
+    "section": "The data science life cycle",
+    "text": "The data science life cycle"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#babys-first-graphic",
+    "href": "slides/00-welcome-199-slides.html#babys-first-graphic",
+    "title": "Welcome to STA 199!",
+    "section": "Baby’s first graphic",
+    "text": "Baby’s first graphic\n\nggplot(daily_accidents_420, aes(fatalities_count, fill = e420))"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#babys-first-graphic-1",
+    "href": "slides/00-welcome-199-slides.html#babys-first-graphic-1",
+    "title": "Welcome to STA 199!",
+    "section": "Baby’s first graphic",
+    "text": "Baby’s first graphic\n\nggplot(daily_accidents_420, aes(fatalities_count, fill = e420)) +\n    geom_histogram()"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#babys-first-graphic-2",
+    "href": "slides/00-welcome-199-slides.html#babys-first-graphic-2",
+    "title": "Welcome to STA 199!",
+    "section": "Baby’s first graphic",
+    "text": "Baby’s first graphic\n\nggplot(daily_accidents_420, aes(fatalities_count, fill = e420)) +\n  geom_histogram() +\n  facet_wrap(~ e420, ncol = 1, scales = \"free_y\")"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#babys-first-graphic-3",
+    "href": "slides/00-welcome-199-slides.html#babys-first-graphic-3",
+    "title": "Welcome to STA 199!",
+    "section": "Baby’s first graphic",
+    "text": "Baby’s first graphic\n\nggplot(daily_accidents_420, aes(fatalities_count, fill = e420)) +\n  geom_histogram() +\n  facet_wrap(~ e420, ncol = 1, scales = \"free_y\") +\n  labs(title = \"Histogram of Daily Traffic Accident Fatality Count, 1992-2016\",\n       subtitle = \"On the 'High Holiday' (4/20), vs. Not\",\n       x = \"Daily Traffic Accident Fatality Count (1992 - 2016)\",\n       y = \"Count of Observations\") +\n  theme_minimal() +\n  theme(legend.position = \"none\")"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#the-data-science-life-cycle-4",
+    "href": "slides/00-welcome-199-slides.html#the-data-science-life-cycle-4",
+    "title": "Welcome to STA 199!",
+    "section": "The data science life cycle",
+    "text": "The data science life cycle"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#in-reality",
+    "href": "slides/00-welcome-199-slides.html#in-reality",
+    "title": "Welcome to STA 199!",
+    "section": "In reality…",
+    "text": "In reality…"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#course-themes",
+    "href": "slides/00-welcome-199-slides.html#course-themes",
+    "title": "Welcome to STA 199!",
+    "section": "Course themes",
+    "text": "Course themes\n\n\nStatistical literacy matters\n\nHeadlines, social media posts, advertisements, and even “expert” sources can misrepresent scientific findings\nData-driven claims should be evaluated critically, not accepted at face value\nUnderstanding how conclusions are reached is an important skill!\n\n\n\nReproducibility is essential\n\nCredible analyses should clearly describe: where the data came from, how the data were processed, and how the analysis was performed\nReproducible work allows others to verify, critique, and build upon scientific findings\n\n\n\nData science is an iterative process\n\nCuriosity keeps the wheel turning!"
+  },
+  {
     "objectID": "slides/00-welcome-199-slides.html#what-is-github",
     "href": "slides/00-welcome-199-slides.html#what-is-github",
     "title": "Welcome to STA 199!",
@@ -995,11 +1107,11 @@
     "text": "What is GitHub?\n\nMore on this tomorrow - basically, it is the Google Drive of coding!"
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#ae0-make-your-github-account",
-    "href": "slides/00-welcome-199-slides.html#ae0-make-your-github-account",
+    "objectID": "slides/00-welcome-199-slides.html#ae-00-make-your-github-account",
+    "href": "slides/00-welcome-199-slides.html#ae-00-make-your-github-account",
     "title": "Welcome to STA 199!",
-    "section": "AE0: Make your GitHub account",
-    "text": "AE0: Make your GitHub account\n Find AE0 on the course website!"
+    "section": "AE 00: Make your GitHub account",
+    "text": "AE 00: Make your GitHub account\n Find AE 00 on the course website!"
   },
   {
     "objectID": "slides/00-welcome-199-slides.html#this-weeks-tasks",
@@ -1127,22 +1239,22 @@
     ]
   },
   {
-    "objectID": "course-team.html#lab-instructor-course-coordinator",
-    "href": "course-team.html#lab-instructor-course-coordinator",
+    "objectID": "course-team.html#teaching-assistant",
+    "href": "course-team.html#teaching-assistant",
     "title": "Teaching team",
-    "section": "Lab Instructor & Course Coordinator",
-    "text": "Lab Instructor & Course Coordinator\n\nDr. Mary Knox (she/her) is the course coordinator for this course.\n\nYou can contact her (at mary.knox@duke.edu) with any questions regarding accommodations, missed work, extensions, registration, etc.\nOffice hours: TBD",
+    "section": "Teaching Assistant",
+    "text": "Teaching Assistant\nTBD is the teaching assistant for this course.\n\nOffice hours: TBD",
     "crumbs": [
       "Course Information",
       "Team"
     ]
   },
   {
-    "objectID": "course-team.html#teaching-assistant",
-    "href": "course-team.html#teaching-assistant",
+    "objectID": "course-team.html#course-coordinator",
+    "href": "course-team.html#course-coordinator",
     "title": "Teaching team",
-    "section": "Teaching Assistant",
-    "text": "Teaching Assistant\nTBD is the teaching assistant for this course.\n\nTBD",
+    "section": "Course Coordinator",
+    "text": "Course Coordinator\n\nDr. Mary Knox (she/her) is the course coordinator for this course.\n\nYou can contact her (at mary.knox@duke.edu) with any questions regarding accommodations, missed work, extensions, registration, etc.\nOffice hours: TBD",
     "crumbs": [
       "Course Information",
       "Team"

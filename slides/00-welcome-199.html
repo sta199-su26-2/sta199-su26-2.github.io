@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.6.39">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta name="author" content="Josh Lim">
 <meta name="dcterms.date" content="2026-05-13">
 <title>Welcome to STA 199! – STA 199</title>
 <style>
@@ -17,6 +18,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -216,46 +251,34 @@ ul.task-list li input[type="checkbox"] {
 <li>
 <a href="#hello-world" id="toc-hello-world" class="nav-link active" data-scroll-target="#hello-world">Hello world!</a>
   <ul class="collapse">
-<li><a href="#meet-your-instructor" id="toc-meet-your-instructor" class="nav-link" data-scroll-target="#meet-your-instructor">Meet your instructor</a></li>
+<li><a href="#meet-your-teaching-team" id="toc-meet-your-teaching-team" class="nav-link" data-scroll-target="#meet-your-teaching-team">Meet your teaching team</a></li>
+  <li><a href="#about-me" id="toc-about-me" class="nav-link" data-scroll-target="#about-me">About me!</a></li>
   <li><a href="#meet-each-other" id="toc-meet-each-other" class="nav-link" data-scroll-target="#meet-each-other">Meet each other!</a></li>
-  <li><a href="#meet-data-science" id="toc-meet-data-science" class="nav-link" data-scroll-target="#meet-data-science">Meet data science</a></li>
+  <li><a href="#what-are-we-studying" id="toc-what-are-we-studying" class="nav-link" data-scroll-target="#what-are-we-studying">What are we studying?</a></li>
+  <li><a href="#imagine-this-dialog" id="toc-imagine-this-dialog" class="nav-link" data-scroll-target="#imagine-this-dialog">Imagine this dialog</a></li>
   </ul>
 </li>
   <li>
 <a href="#software" id="toc-software" class="nav-link" data-scroll-target="#software">Software</a>
   <ul class="collapse">
-<li><a href="#excel---not" id="toc-excel---not" class="nav-link" data-scroll-target="#excel---not">Excel - not…</a></li>
+<li><a href="#excel" id="toc-excel" class="nav-link" data-scroll-target="#excel">Excel… 👎</a></li>
   <li><a href="#r" id="toc-r" class="nav-link" data-scroll-target="#r">R</a></li>
   </ul>
 </li>
   <li>
-<a href="#data-science-life-cycle" id="toc-data-science-life-cycle" class="nav-link" data-scroll-target="#data-science-life-cycle">Data science life cycle</a>
+<a href="#syllabus-highlights" id="toc-syllabus-highlights" class="nav-link" data-scroll-target="#syllabus-highlights">Syllabus highlights</a>
   <ul class="collapse">
-<li><a href="#data-science-life-cycle-1" id="toc-data-science-life-cycle-1" class="nav-link" data-scroll-target="#data-science-life-cycle-1">Data science life cycle</a></li>
-  <li><a href="#import" id="toc-import" class="nav-link" data-scroll-target="#import">Import</a></li>
-  <li><a href="#tidy-transform" id="toc-tidy-transform" class="nav-link" data-scroll-target="#tidy-transform">Tidy + transform</a></li>
-  <li><a href="#visualize" id="toc-visualize" class="nav-link" data-scroll-target="#visualize">Visualize</a></li>
-  <li><a href="#model" id="toc-model" class="nav-link" data-scroll-target="#model">Model</a></li>
-  <li><a href="#understand" id="toc-understand" class="nav-link" data-scroll-target="#understand">Understand</a></li>
-  <li><a href="#communicate" id="toc-communicate" class="nav-link" data-scroll-target="#communicate">Communicate</a></li>
-  <li><a href="#understand-communicate" id="toc-understand-communicate" class="nav-link" data-scroll-target="#understand-communicate">Understand + communicate</a></li>
-  <li><a href="#program" id="toc-program" class="nav-link" data-scroll-target="#program">Program</a></li>
-  </ul>
-</li>
-  <li>
-<a href="#course-overview" id="toc-course-overview" class="nav-link" data-scroll-target="#course-overview">Course overview</a>
-  <ul class="collapse">
-<li><a href="#activities" id="toc-activities" class="nav-link" data-scroll-target="#activities">Activities</a></li>
+<li><a href="#homepage" id="toc-homepage" class="nav-link" data-scroll-target="#homepage">Homepage</a></li>
+  <li><a href="#activities" id="toc-activities" class="nav-link" data-scroll-target="#activities">Activities</a></li>
   <li><a href="#application-exercises" id="toc-application-exercises" class="nav-link" data-scroll-target="#application-exercises">Application exercises</a></li>
   <li><a href="#labs" id="toc-labs" class="nav-link" data-scroll-target="#labs">Labs</a></li>
   <li><a href="#exams" id="toc-exams" class="nav-link" data-scroll-target="#exams">Exams</a></li>
   <li><a href="#project" id="toc-project" class="nav-link" data-scroll-target="#project">Project</a></li>
-  <li><a href="#teams" id="toc-teams" class="nav-link" data-scroll-target="#teams">Teams</a></li>
+  <li><a href="#project-teams" id="toc-project-teams" class="nav-link" data-scroll-target="#project-teams">Project teams</a></li>
   <li><a href="#grading" id="toc-grading" class="nav-link" data-scroll-target="#grading">Grading</a></li>
   <li><a href="#support" id="toc-support" class="nav-link" data-scroll-target="#support">Support</a></li>
   <li><a href="#office-hours" id="toc-office-hours" class="nav-link" data-scroll-target="#office-hours">Office Hours</a></li>
   <li><a href="#announcements" id="toc-announcements" class="nav-link" data-scroll-target="#announcements">Announcements</a></li>
-  <li><a href="#homepage" id="toc-homepage" class="nav-link" data-scroll-target="#homepage">Homepage</a></li>
   <li><a href="#course-toolkit" id="toc-course-toolkit" class="nav-link" data-scroll-target="#course-toolkit">Course toolkit</a></li>
   <li><a href="#accessibility" id="toc-accessibility" class="nav-link" data-scroll-target="#accessibility">Accessibility</a></li>
   </ul>
@@ -269,11 +292,32 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#academic-integrity" id="toc-academic-integrity" class="nav-link" data-scroll-target="#academic-integrity">Academic integrity</a></li>
   </ul>
 </li>
+  <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions">Questions?</a></li>
+  <li>
+<a href="#data-science-statistics-in-the-wild" id="toc-data-science-statistics-in-the-wild" class="nav-link" data-scroll-target="#data-science-statistics-in-the-wild">Data science (&amp; statistics!) in the wild</a>
+  <ul class="collapse">
+<li><a href="#april-20th-deadly-day-for-car-crashes" id="toc-april-20th-deadly-day-for-car-crashes" class="nav-link" data-scroll-target="#april-20th-deadly-day-for-car-crashes">“April 20th: Deadly Day for Car Crashes?”</a></li>
+  <li><a href="#the-data-science-life-cycle" id="toc-the-data-science-life-cycle" class="nav-link" data-scroll-target="#the-data-science-life-cycle">The data science life cycle</a></li>
+  <li><a href="#the-data-science-life-cycle-1" id="toc-the-data-science-life-cycle-1" class="nav-link" data-scroll-target="#the-data-science-life-cycle-1">The data science life cycle</a></li>
+  <li><a href="#load-the-data-in" id="toc-load-the-data-in" class="nav-link" data-scroll-target="#load-the-data-in">Load the data in</a></li>
+  <li><a href="#the-data-science-life-cycle-2" id="toc-the-data-science-life-cycle-2" class="nav-link" data-scroll-target="#the-data-science-life-cycle-2">The data science life cycle</a></li>
+  <li><a href="#if-we-hadnt-had-access-to-our-tidy-data" id="toc-if-we-hadnt-had-access-to-our-tidy-data" class="nav-link" data-scroll-target="#if-we-hadnt-had-access-to-our-tidy-data">If we hadn’t had access to our tidy data…</a></li>
+  <li><a href="#still-we-can-tidy-some-more" id="toc-still-we-can-tidy-some-more" class="nav-link" data-scroll-target="#still-we-can-tidy-some-more">Still, we can tidy some more…</a></li>
+  <li><a href="#the-data-science-life-cycle-3" id="toc-the-data-science-life-cycle-3" class="nav-link" data-scroll-target="#the-data-science-life-cycle-3">The data science life cycle</a></li>
+  <li><a href="#babys-first-graphic" id="toc-babys-first-graphic" class="nav-link" data-scroll-target="#babys-first-graphic">Baby’s first graphic</a></li>
+  <li><a href="#babys-first-graphic-1" id="toc-babys-first-graphic-1" class="nav-link" data-scroll-target="#babys-first-graphic-1">Baby’s first graphic</a></li>
+  <li><a href="#babys-first-graphic-2" id="toc-babys-first-graphic-2" class="nav-link" data-scroll-target="#babys-first-graphic-2">Baby’s first graphic</a></li>
+  <li><a href="#babys-first-graphic-3" id="toc-babys-first-graphic-3" class="nav-link" data-scroll-target="#babys-first-graphic-3">Baby’s first graphic</a></li>
+  <li><a href="#the-data-science-life-cycle-4" id="toc-the-data-science-life-cycle-4" class="nav-link" data-scroll-target="#the-data-science-life-cycle-4">The data science life cycle</a></li>
+  <li><a href="#in-reality" id="toc-in-reality" class="nav-link" data-scroll-target="#in-reality">In reality…</a></li>
+  <li><a href="#course-themes" id="toc-course-themes" class="nav-link" data-scroll-target="#course-themes">Course themes</a></li>
+  </ul>
+</li>
   <li>
 <a href="#github" id="toc-github" class="nav-link" data-scroll-target="#github">GitHub</a>
   <ul class="collapse">
 <li><a href="#what-is-github" id="toc-what-is-github" class="nav-link" data-scroll-target="#what-is-github">What is GitHub?</a></li>
-  <li><a href="#ae0-make-your-github-account" id="toc-ae0-make-your-github-account" class="nav-link" data-scroll-target="#ae0-make-your-github-account">AE0: Make your GitHub account</a></li>
+  <li><a href="#ae-00-make-your-github-account" id="toc-ae-00-make-your-github-account" class="nav-link" data-scroll-target="#ae-00-make-your-github-account">AE 00: Make your GitHub account</a></li>
   <li><a href="#this-weeks-tasks" id="toc-this-weeks-tasks" class="nav-link" data-scroll-target="#this-weeks-tasks">This week’s tasks</a></li>
   </ul>
 </li>
@@ -286,10 +330,23 @@ ul.task-list li input[type="checkbox"] {
 </div>
 
 
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Josh Lim </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Duke University <br> STA 199 Summer 2026: Session 2
+          </p>
+      </div>
+  </div>
 
 <div class="quarto-title-meta">
 
-    
+      
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
@@ -303,7 +360,14 @@ ul.task-list li input[type="checkbox"] {
 
 
 </header><section id="hello-world" class="level1"><h1>Hello world!</h1>
-<section id="meet-your-instructor" class="level2"><h2 class="anchored" data-anchor-id="meet-your-instructor">Meet your instructor</h2>
+<section id="meet-your-teaching-team" class="level2"><h2 class="anchored" data-anchor-id="meet-your-teaching-team">Meet your teaching team</h2>
+<hr>
+<p><strong><em>Instructor<br></em></strong>Josh Lim<br>
+josh.lim@duke.edu</p>
+<hr>
+<p><strong><em>TA, Lab Instructor<br></em></strong>Kenna Roberts<br>
+makenna.roberts@duke.edu</p>
+<hr></section><section id="about-me" class="level2"><h2 class="anchored" data-anchor-id="about-me">About me!</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure"><p><img src="img/ks_timeline vF.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="About me!"></p>
 </figure>
@@ -312,65 +376,119 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Name</li>
 <li>Year</li>
+<li>Major(s) (or, potential major(s) if undecided!)</li>
 <li>Hometown</li>
-<li>Something you plan to do this summer</li>
-</ul></section><section id="meet-data-science" class="level2"><h2 class="anchored" data-anchor-id="meet-data-science">Meet data science</h2>
-<p><br><br></p>
-<p>Data science is an exciting discipline that allows you to turn raw data into understanding, insight, and knowledge.</p>
+<li>Something you plan to do this summer when STA 199 ends 💔</li>
+</ul></section><section id="what-are-we-studying" class="level2"><h2 class="anchored" data-anchor-id="what-are-we-studying">What are we studying?</h2>
+<p>First half:</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Data science
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Transforming messy, incomplete, imperfect data into <em>knowledge</em>;</li>
+<li>
+<em>Knowledge</em> often takes the form of pictures and a concise set of numerical summaries.</li>
+</ul>
+</div>
+</div>
+<p>. . .</p>
+<p>Second half:</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Statistical thinking
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Quantifying our uncertainty about that knowledge.</p>
+</div>
+</div>
+</section><section id="imagine-this-dialog" class="level2 small"><h2 class="small anchored" data-anchor-id="imagine-this-dialog">Imagine this dialog</h2>
+<p>. . .</p>
+<p><span style="color:blue;"><strong>Campaign manager</strong></span>: What is the probability that our candidate wins the election?</p>
+<p>. . .</p>
+<p>(A flurry of analysis takes place.)</p>
+<p>. . .</p>
+<p><span style="color:red;"><strong>Data scientist</strong></span>: Our best guess is 54%.</p>
+<p>. . .</p>
+<p><span style="color:blue;"><strong>Campaign manager</strong></span>: How reliable is that estimate? How confident are we in that? What’s the margin of error?</p>
+<p>. . .</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Parallel Universe 1</strong></p>
+<p><span style="color:red;"><strong>Data scientist</strong></span>: It’s 54% give or take 3%.</p>
+</div><div class="column" style="width:50%;">
+<div class="fragment">
+<p><strong>Parallel Universe 2</strong></p>
+<p><span style="color:red;"><strong>Data scientist</strong></span>: It’s 54% give or take 20%.</p>
+</div>
+</div>
+</div>
+<p>. . .</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+It’s all about decision-making under uncertainty
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The manager is going to make wildly different decisions about campaign strategy and spending depending on how uncertain the environment is.</p>
+</div>
+</div>
 </section></section><section id="software" class="level1"><h1>Software</h1>
-<section id="excel---not" class="level2"><h2 class="anchored" data-anchor-id="excel---not">Excel - not…</h2>
+<section id="excel" class="level2"><h2 class="anchored" data-anchor-id="excel">Excel… 👎</h2>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="images/excel.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="An Excel window with data about countries"></p>
+<figure class="figure"><p><img src="img/00/excel.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="An Excel window with data about countries"></p>
 </figure>
 </div>
 </section><section id="r" class="level2"><h2 class="anchored" data-anchor-id="r">R</h2>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="images/r.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="An R shell"></p>
+<figure class="figure"><p><img src="img/00/r_intro.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:75.0%" alt="An R shell"></p>
 </figure>
 </div>
-</section></section><section id="data-science-life-cycle" class="level1"><h1>Data science life cycle</h1>
-<section id="data-science-life-cycle-1" class="level2"><h2 class="anchored" data-anchor-id="data-science-life-cycle-1">Data science life cycle</h2>
-<p><img src="images/data-science-cycle/data-science-cycle.001.png" class="img-fluid" alt="Data science life cycle"></p>
-</section><section id="import" class="level2"><h2 class="anchored" data-anchor-id="import">Import</h2>
-<p><img src="images/data-science-cycle/data-science-cycle.002.png" class="img-fluid" alt="Data science life cycle, with import highlighted"></p>
-</section><section id="tidy-transform" class="level2"><h2 class="anchored" data-anchor-id="tidy-transform">Tidy + transform</h2>
-<p><img src="images/data-science-cycle/data-science-cycle.003.png" class="img-fluid" alt="Data science life cycle, with tidy and transform highlighted"></p>
-</section><section id="visualize" class="level2"><h2 class="anchored" data-anchor-id="visualize">Visualize</h2>
-<p><img src="images/data-science-cycle/data-science-cycle.004.png" class="img-fluid" alt="Data science life cycle, with visualize highlighted"></p>
-</section><section id="model" class="level2"><h2 class="anchored" data-anchor-id="model">Model</h2>
-<p><img src="images/data-science-cycle/data-science-cycle.005.png" class="img-fluid" alt="Data science life cycle, with model highlighted"></p>
-</section><section id="understand" class="level2"><h2 class="anchored" data-anchor-id="understand">Understand</h2>
-<p><img src="images/data-science-cycle/data-science-cycle.006.png" class="img-fluid" alt="Data science life cycle, with understand highlighted"></p>
-</section><section id="communicate" class="level2"><h2 class="anchored" data-anchor-id="communicate">Communicate</h2>
-<p><img src="images/data-science-cycle/data-science-cycle.007.png" class="img-fluid" alt="Data science life cycle, with communicate highlighted"></p>
-</section><section id="understand-communicate" class="level2"><h2 class="anchored" data-anchor-id="understand-communicate">Understand + communicate</h2>
-<p><img src="images/data-science-cycle/data-science-cycle.008.png" class="img-fluid" alt="Data science life cycle, with understand and communicate highlighted"></p>
-</section><section id="program" class="level2"><h2 class="anchored" data-anchor-id="program">Program</h2>
-<p><img src="images/data-science-cycle/data-science-cycle.009.png" class="img-fluid" alt="Data science life cycle, with program highlighted"></p>
-</section></section><section id="course-overview" class="level1"><h1>Course overview</h1>
-<section id="activities" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="activities">Activities</h2>
+</section></section><section id="syllabus-highlights" class="level1"><h1>Syllabus highlights</h1>
+<section id="homepage" class="level2"><h2 class="anchored" data-anchor-id="homepage">Homepage</h2>
+<p><a href="https://sta199-su26.github.io/" class="uri">https://sta199-su26.github.io</a></p>
+<ul>
+<li>All course materials</li>
+<li>Links to Canvas, GitHub, RStudio containers, etc.</li>
+</ul></section><section id="activities" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="activities">Activities</h2>
 <ul>
 <li>Introduce new content and prepare for lectures by watching the videos and completing the readings</li>
-<li>Attend and actively participate in lectures and labs, office hours, team meetings</li>
-<li>Practice with application exercises during lecture</li>
-<li>Use what you’ve learned to analyze real-world data
+<li>Attend and actively participate in lectures (and ask / answer questions for participation credit) and labs, office hours, team meetings</li>
+<li>Practice applying statistical concepts and computing with application exercises during lecture</li>
+<li>Put together what you’ve learned to analyze real-world data
 <ul>
-<li>Lab assignments x 6</li>
-<li>Exams x 2</li>
-<li>Term project</li>
+<li>Lab assignments</li>
+<li>Exams</li>
+<li>Term project (completed in teams)</li>
 </ul>
 </li>
 </ul></section><section id="application-exercises" class="level2"><h2 class="anchored" data-anchor-id="application-exercises">Application exercises</h2>
 <ul>
-<li><p>Daily-ish in lecture</p></li>
-<li><p>“Graded” for attempt, not accuracy</p></li>
+<li><p>Roughly one per lecture</p></li>
+<li><p>Graded for good-faith attempt, not accuracy</p></li>
 <li><p>Practice this week; graded thereafter</p></li>
-<li><p>At least one commit by 10:45am of the day of lecture</p></li>
-<li><p>Turn in at least 80% for full credit</p></li>
-</ul></section><section id="labs" class="level2"><h2 class="anchored" data-anchor-id="labs">Labs</h2>
+<li><p>At least one commit to your AE repo by 10:45am of the day of lecture</p></li>
+<li><p>Complete 80% for full lecutre attendance credit</p></li>
+</ul></section><section id="labs" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="labs">Labs</h2>
 <ul>
-<li><p>Monday and Thursday; right after lecture</p></li>
-<li><p>Start in lab session, complete at home</p></li>
+<li><p>Lab session formally takes place on Mondays and Thursdays following lecture (11:00am - 12:15pm)</p></li>
+<li><p>Labs are to be started during the lab session &amp; completed at home by the posted due date</p></li>
+<li><p>I encourage you to make the most of lab sessions, as you have access to both your peers and Kenna, the course TA, during this time</p></li>
 <li>
 <p>Due dates (typically):</p>
 <ul>
@@ -379,18 +497,13 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </li>
 <li><p>Discussion with classmates = 🤩 ; Copying = ❌</p></li>
-<li><p>Lowest score dropped</p></li>
+<li><p>Lowest lab score is dropped</p></li>
 </ul></section><section id="exams" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="exams">Exams</h2>
 <ul>
-<li><p>Two exams, each 20%</p></li>
-<li>
-<p>Midterm (June 3) has two parts:</p>
-<ul>
-<li><p>In class: 75 minute in-class exam. Closed book, one sheet of notes (“cheat sheet”) – 70% of the grade</p></li>
-<li><p>Take home: After the in class exam; analyze a dataset – 30% of the grade</p></li>
-</ul>
-</li>
-<li><p>Final (June 26): Closed book, one sheet of notes (“cheat sheet”).</p></li>
+<li><p>Two exams, each 25%</p></li>
+<li><p>Midterm: June 1, during lecture + lab (tentatively)</p></li>
+<li><p>Final: June 24, 9am - 12pm</p></li>
+<li><p>You will be permitted a “cheat sheet” (both sides of a single 8.5” x 11” piece of paper)</p></li>
 </ul>
 <div class="callout callout-style-default callout-caution callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -402,7 +515,7 @@ Caution
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Exam dates cannot be changed. If you cannot take the exams on these dates, please have a discussion with me <strong><em>today</em></strong>.</p>
+<p>It’s possible the first midterm gets bumped to June 2; this will be communicated by next Wednesday, 5/20. The final exam date is above my pay grade &amp; cannot be changed. If you cannot take the exams on these dates, please have a discussion with me <strong><em>today</em></strong>.</p>
 </div>
 </div>
 </section><section id="project" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="project">Project</h2>
@@ -410,7 +523,7 @@ Caution
 <li><p>Dataset of your choice, method of your choice</p></li>
 <li><p>Teamwork</p></li>
 <li><p>Presentation and write-up</p></li>
-<li><p>Presentations in the last lab (June 23)</p></li>
+<li><p>Presentations will take place in the last lab (June 22)</p></li>
 <li><p>Interim deadlines, peer review on content, peer evaluation for team contribution</p></li>
 <li><p>Some lab sessions allocated to project progress</p></li>
 </ul>
@@ -424,13 +537,13 @@ Caution
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Final presentation date cannot be changed; you must complete the project to pass this class.</p>
+<p>Final presentation date cannot be changed; you must complete the project and participate in project presentations to pass this class.</p>
 </div>
 </div>
-</section><section id="teams" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="teams">Teams</h2>
+</section><section id="project-teams" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="project-teams">Project teams</h2>
 <ul>
-<li>Assigned by me</li>
-<li>Project</li>
+<li>Assigned by me (&amp; influenced by communicated topics / areas of interest)</li>
+<li>3-4 members per team</li>
 <li>Peer evaluation during teamwork and after completion</li>
 <li>Expectations and roles
 <ul>
@@ -449,7 +562,7 @@ Caution
 <tbody>
 <tr class="odd">
 <td>Labs</td>
-<td>30%</td>
+<td>20%</td>
 </tr>
 <tr class="even">
 <td>Project</td>
@@ -457,48 +570,43 @@ Caution
 </tr>
 <tr class="odd">
 <td>Exam 1</td>
-<td>20%</td>
+<td>25%</td>
 </tr>
 <tr class="even">
 <td>Exam 2</td>
-<td>20%</td>
+<td>25%</td>
 </tr>
 <tr class="odd">
 <td>Application Exercises</td>
 <td>5%</td>
 </tr>
 <tr class="even">
-<td>Lab attendance</td>
+<td>Lab Attendance</td>
 <td>5%</td>
 </tr>
 </tbody>
 </table>
-<p><br><br> See <a href="https://sta199-su25.github.io/syllabus/">course syllabus</a> for how the final letter grade will be determined.</p>
+<p><br><br> See <a href="https://sta199-su26.github.io/syllabus/">course syllabus</a> for how the final letter grade will be determined.</p>
 </section><section id="support" class="level2"><h2 class="anchored" data-anchor-id="support">Support</h2>
 <ul>
 <li>Attend office hours</li>
 <li>Ask and answer questions on the Ed discussion board</li>
-<li>Reserve email for questions on personal matters and/or grades</li>
+<li>Reserve email for questions on personal matters and / or grades</li>
 </ul></section><section id="office-hours" class="level2"><h2 class="anchored" data-anchor-id="office-hours">Office Hours</h2>
-<p><strong><em>Marie: Old Chem 203</em></strong></p>
+<p><strong><em>Katie: Old Chem 203</em></strong></p>
 <ul>
-<li><p>Tuesday 3:30PM - 5:30PM</p></li>
-<li><p>Friday 1:00 - 3:00 PM</p></li>
+<li><p>Tuesday 11:00AM - 1:00PM</p></li>
+<li><p>Sunday 1:00 - 3:00PM</p></li>
 </ul>
-<p><em><strong>Mary: Zoom<br></strong>Time TBD</em></p>
+<p><strong><em>Kenna:</em></strong> Time &amp; Location TBD</p>
 </section><section id="announcements" class="level2"><h2 class="anchored" data-anchor-id="announcements">Announcements</h2>
 <ul>
 <li>Posted on Canvas (Announcements tool) and sent via email, be sure to check both regularly</li>
-<li>All information is on the course website - please refer to it often!</li>
-</ul></section><section id="homepage" class="level2"><h2 class="anchored" data-anchor-id="homepage">Homepage</h2>
-<p><a href="https://sta199-su25.github.io" class="uri">https://sta199-su25.github.io</a></p>
-<ul>
-<li>All course materials</li>
-<li>Links to Canvas, GitHub, RStudio containers, etc.</li>
+<li>All information is on the course website - please pin to your browser of choice &amp; refer to it often!</li>
 </ul></section><section id="course-toolkit" class="level2"><h2 class="anchored" data-anchor-id="course-toolkit">Course toolkit</h2>
 <p>All linked from the course website:</p>
 <ul>
-<li>GitHub organization: <a href="github.com/sta199-su25">github.com/sta199-su25</a>
+<li>GitHub organization: <a href="https://github.com/sta199-su26">github.com/sta199-su26</a>
 </li>
 <li>RStudio containers: <a href="https://cmgr.oit.duke.edu/containers">cmgr.oit.duke.edu/containers</a>
 </li>
@@ -507,12 +615,12 @@ Caution
 </ul></section><section id="accessibility" class="level2"><h2 class="anchored" data-anchor-id="accessibility">Accessibility</h2>
 <ul>
 <li><p>The <a href="https://access.duke.edu/students">Student Disability Access Office (SDAO)</a> is available to ensure that students are able to engage with their courses and related assignments.</p></li>
-<li><p>I am committed to making all course materials accessible and I’m always learning how to do this better!</p></li>
+<li><p>I am committed to making all course materials accessible, and I’m always open to feedback on how to do this better!</p></li>
 </ul></section></section><section id="course-policies" class="level1"><h1>Course policies</h1>
 <section id="late-work-waivers-regrades-policy" class="level2"><h2 class="anchored" data-anchor-id="late-work-waivers-regrades-policy">Late work, waivers, regrades policy</h2>
 <ul>
 <li>We have policies!</li>
-<li>Read about them on the <a href="https://sta199-su25.github.io/syllabus/">course syllabus</a> and refer back to them when you need it</li>
+<li>Read about them on the <a href="https://sta199-su26.github.io/course-syllabus.html">course syllabus</a> and refer back to them when you need it</li>
 </ul>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -529,21 +637,35 @@ If you need testing accommodations
 </div>
 </section><section id="collaboration" class="level2"><h2 class="anchored" data-anchor-id="collaboration">Collaboration</h2>
 <ul>
-<li><p><strong>Labs</strong>: discussing and helping is fine. Sharing your solutions and copying others is not;</p></li>
-<li><p><strong>Exams</strong>: collaboration of any kind is completely forbidden on any part of any exam;</p></li>
-<li><p><strong>Projects</strong>: collaboration of any kind is enthusiastically encouraged <em>within your team</em>. Between teams, it’s the same as labs; do not directly share your stuff or copy off of others.</p></li>
-</ul></section><section id="use-of-ai-tools" class="level2"><h2 class="anchored" data-anchor-id="use-of-ai-tools">Use of AI tools</h2>
+<li><p><strong>Labs</strong>: discussing and helping one another is fine; sharing your solutions via text, email, AirDrop, carrier pigeon, or any other method, and / or copying from others is not permitted;</p></li>
+<li><p><strong>Exams</strong>: collaboration of any kind is completely forbidden</p></li>
+<li><p><strong>Projects</strong>: collaboration of all kinds is enthusiastically encouraged <em>within your team</em>; between teams, it’s the same as labs; do not directly share your materials or copy from others.</p></li>
+</ul></section><section id="use-of-ai-tools" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="use-of-ai-tools">Use of AI tools</h2>
 <ul>
 <li>
 <p><i class="fa-solid fa-check" aria-label="check"></i> <strong>AI tools for code:</strong></p>
 <ul>
-<li>Sure, but be careful/critical! Working code <code>!=</code> correct/good code.</li>
+<li>Sure, but be careful/critical! Working code <code>!=</code> correct / good code.</li>
 <li>Must explicitly cite with a direct url linking to the conversation you had.</li>
 </ul>
 </li>
 <li><p><i class="fa-solid fa-ban" aria-label="ban"></i> <strong>AI tools for narrative:</strong> Absolutely not!</p></li>
 <li><p><i class="fa-solid fa-check" aria-label="check"></i> <strong>AI tools for learning:</strong> Sure, but be careful/critical!</p></li>
-</ul></section><section id="academic-integrity" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="academic-integrity">Academic integrity</h2>
+</ul>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Caution
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Exception:</strong> Use of AI tools is <strong><em>completely forbidden</em></strong> during lab session. When you are in lab, you have far better tools / resources available to you - Kenna, our TA, and each other! Blatant disregard for this policy will result in a 0 for the current lab assignment.</p>
+</div>
+</div>
+</section><section id="academic-integrity" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="academic-integrity">Academic integrity</h2>
 <blockquote class="blockquote">
 <p>To uphold the Duke Community Standard:</p>
 <ul>
@@ -552,16 +674,132 @@ If you need testing accommodations
 <li><p>I will act if the Standard is compromised.</p></li>
 </ul>
 </blockquote>
-</section></section><section id="github" class="level1"><h1>GitHub</h1>
+</section></section><section id="questions" class="level1"><h1>Questions?</h1>
+</section><section id="data-science-statistics-in-the-wild" class="level1"><h1>Data science (&amp; statistics!) in the wild</h1>
+<section id="april-20th-deadly-day-for-car-crashes" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="april-20th-deadly-day-for-car-crashes">“April 20th: Deadly Day for Car Crashes?”</h2>
+<p>The text below can be found at this <a href="https://martinmontilino.com/april-20th-deadly-day-for-car-crashes/">link</a>, which is a post on the website of a personal injury law firm. Suppose we want to investigate the validity of their claim… What data might we want? What methods are appropriate? How will we perform our analysis? How can we best communicate our findings?</p>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="images/github-logo.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+<figure class="figure"><p><img src="img/00/personal_inj.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
+</figure>
+</div>
+</section><section id="the-data-science-life-cycle" class="level2"><h2 class="anchored" data-anchor-id="the-data-science-life-cycle">The data science life cycle</h2>
+<p><img src="img/00/data-science-cycle.001.png" class="img-fluid"></p>
+</section><section id="the-data-science-life-cycle-1" class="level2"><h2 class="anchored" data-anchor-id="the-data-science-life-cycle-1">The data science life cycle</h2>
+<p><img src="img/00/data-science-cycle-import.png" class="img-fluid"></p>
+</section><section id="load-the-data-in" class="level2"><h2 class="anchored" data-anchor-id="load-the-data-in">Load the data in</h2>
+<p>On 4/22/2025, <a href="https://github.com/rfordatascience/tidytuesday">TidyTuesday</a> posted a <strong><em>tidy</em></strong> version of the raw data analyzed in Harper and Palayew’s (2019) study, “The annual cannabis holiday and fatal traffic crashes,” available <a href="https://osf.io/qnrg6/">here</a>.</p>
+<p>Let’s load this data into R…</p>
+<div class="cell">
+<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://tidyverse.tidyverse.org">tidyverse</a></span><span class="op">)</span></span>
+<span></span>
+<span><span class="va">daily_accidents_420</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://readr.tidyverse.org/reference/read_delim.html">read_csv</a></span><span class="op">(</span><span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-22/daily_accidents_420.csv'</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section><section id="the-data-science-life-cycle-2" class="level2"><h2 class="anchored" data-anchor-id="the-data-science-life-cycle-2">The data science life cycle</h2>
+<p><img src="img/00/data-science-cycle.003.png" class="img-fluid"></p>
+</section><section id="if-we-hadnt-had-access-to-our-tidy-data" class="level2"><h2 class="anchored" data-anchor-id="if-we-hadnt-had-access-to-our-tidy-data">If we hadn’t had access to our tidy data…</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="img/00/tidying_data.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:45.0%"></p>
+</figure>
+</div>
+</section><section id="still-we-can-tidy-some-more" class="level2"><h2 class="anchored" data-anchor-id="still-we-can-tidy-some-more">Still, we can tidy some more…</h2>
+<div class="cell">
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">daily_accidents_420</span> <span class="op">&lt;-</span> <span class="va">daily_accidents_420</span> <span class="op">|&gt;</span></span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/filter.html">filter</a></span><span class="op">(</span><span class="op">!</span><span class="fu"><a href="https://rdrr.io/r/base/NA.html">is.na</a></span><span class="op">(</span><span class="va">e420</span><span class="op">)</span><span class="op">)</span> <span class="op">|&gt;</span></span>
+<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/mutate.html">mutate</a></span><span class="op">(</span>e420 <span class="op">=</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/if_else.html">if_else</a></span><span class="op">(</span><span class="va">e420</span> <span class="op">==</span> <span class="cn">TRUE</span>, <span class="st">"4/20"</span>, <span class="st">"Not 4/20"</span><span class="op">)</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section><section id="the-data-science-life-cycle-3" class="level2"><h2 class="anchored" data-anchor-id="the-data-science-life-cycle-3">The data science life cycle</h2>
+<p><img src="img/00/data-science-cycle-visualize.png" class="img-fluid"></p>
+</section><section id="babys-first-graphic" class="level2 medium"><h2 class="medium anchored" data-anchor-id="babys-first-graphic">Baby’s first graphic</h2>
+<div class="cell">
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span><span class="op">(</span><span class="va">daily_accidents_420</span>, <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span><span class="va">fatalities_count</span>, fill <span class="op">=</span> <span class="va">e420</span><span class="op">)</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure"><p><img src="00-welcome-199_files/figure-revealjs/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</section><section id="babys-first-graphic-1" class="level2 medium"><h2 class="medium anchored" data-anchor-id="babys-first-graphic-1">Baby’s first graphic</h2>
+<div class="cell">
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span><span class="op">(</span><span class="va">daily_accidents_420</span>, <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span><span class="va">fatalities_count</span>, fill <span class="op">=</span> <span class="va">e420</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
+<span>    <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_histogram.html">geom_histogram</a></span><span class="op">(</span><span class="op">)</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure"><p><img src="00-welcome-199_files/figure-revealjs/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</section><section id="babys-first-graphic-2" class="level2 medium"><h2 class="medium anchored" data-anchor-id="babys-first-graphic-2">Baby’s first graphic</h2>
+<div class="cell">
+<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span><span class="op">(</span><span class="va">daily_accidents_420</span>, <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span><span class="va">fatalities_count</span>, fill <span class="op">=</span> <span class="va">e420</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_histogram.html">geom_histogram</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/facet_wrap.html">facet_wrap</a></span><span class="op">(</span><span class="op">~</span> <span class="va">e420</span>, ncol <span class="op">=</span> <span class="fl">1</span>, scales <span class="op">=</span> <span class="st">"free_y"</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure"><p><img src="00-welcome-199_files/figure-revealjs/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</section><section id="babys-first-graphic-3" class="level2 scrollable medium"><h2 class="scrollable medium anchored" data-anchor-id="babys-first-graphic-3">Baby’s first graphic</h2>
+<div class="cell">
+<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html">ggplot</a></span><span class="op">(</span><span class="va">daily_accidents_420</span>, <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html">aes</a></span><span class="op">(</span><span class="va">fatalities_count</span>, fill <span class="op">=</span> <span class="va">e420</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/geom_histogram.html">geom_histogram</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/facet_wrap.html">facet_wrap</a></span><span class="op">(</span><span class="op">~</span> <span class="va">e420</span>, ncol <span class="op">=</span> <span class="fl">1</span>, scales <span class="op">=</span> <span class="st">"free_y"</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/labs.html">labs</a></span><span class="op">(</span>title <span class="op">=</span> <span class="st">"Histogram of Daily Traffic Accident Fatality Count, 1992-2016"</span>,</span>
+<span>       subtitle <span class="op">=</span> <span class="st">"On the 'High Holiday' (4/20), vs. Not"</span>,</span>
+<span>       x <span class="op">=</span> <span class="st">"Daily Traffic Accident Fatality Count (1992 - 2016)"</span>,</span>
+<span>       y <span class="op">=</span> <span class="st">"Count of Observations"</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggtheme.html">theme_minimal</a></span><span class="op">(</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/theme.html">theme</a></span><span class="op">(</span>legend.position <span class="op">=</span> <span class="st">"none"</span><span class="op">)</span> </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure"><p><img src="00-welcome-199_files/figure-revealjs/unnamed-chunk-7-1.png" class="img-fluid figure-img" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</section><section id="the-data-science-life-cycle-4" class="level2"><h2 class="anchored" data-anchor-id="the-data-science-life-cycle-4">The data science life cycle</h2>
+<p><img src="img/00/data-science-cycle.008.png" class="img-fluid"></p>
+</section><section id="in-reality" class="level2"><h2 class="anchored" data-anchor-id="in-reality">In reality…</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="img/00/communicate.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%"></p>
+</figure>
+</div>
+</section><section id="course-themes" class="level2 scrollable smaller"><h2 class="scrollable smaller anchored" data-anchor-id="course-themes">Course themes</h2>
+<ul>
+<li>
+<strong>Statistical literacy matters</strong>
+<ul>
+<li>Headlines, social media posts, advertisements, and even “expert” sources can misrepresent scientific findings</li>
+<li>Data-driven claims should be evaluated critically, not accepted at face value</li>
+<li>Understanding how conclusions are reached is an important skill!</li>
+</ul>
+</li>
+<li>
+<strong>Reproducibility is essential</strong>
+<ul>
+<li>Credible analyses should clearly describe: where the data came from, how the data were processed, and how the analysis was performed</li>
+<li>Reproducible work allows others to verify, critique, and build upon scientific findings</li>
+</ul>
+</li>
+<li>
+<strong>Data science is an iterative process</strong>
+<ul>
+<li>Curiosity keeps the wheel turning!</li>
+</ul>
+</li>
+</ul></section></section><section id="github" class="level1"><h1>GitHub</h1>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="img/00/github-logo.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:75.0%"></p>
 </figure>
 </div>
 <section id="what-is-github" class="level2"><h2 class="anchored" data-anchor-id="what-is-github">What is GitHub?</h2>
 <p><br><br></p>
 <p>More on this tomorrow - basically, it is the Google Drive of coding!</p>
-</section><section id="ae0-make-your-github-account" class="level2"><h2 class="anchored" data-anchor-id="ae0-make-your-github-account">AE0: Make your GitHub account</h2>
-<p><br><br> Find AE0 on the course website!</p>
+</section><section id="ae-00-make-your-github-account" class="level2"><h2 class="anchored" data-anchor-id="ae-00-make-your-github-account">AE 00: Make your GitHub account</h2>
+<p><br><br> Find AE 00 on the course website!</p>
 </section><section id="this-weeks-tasks" class="level2"><h2 class="anchored" data-anchor-id="this-weeks-tasks">This week’s tasks</h2>
 <ul>
 <li>Complete Lab 0

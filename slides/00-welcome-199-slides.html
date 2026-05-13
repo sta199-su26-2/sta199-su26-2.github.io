@@ -11,6 +11,7 @@
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.6.39">
+<meta name="author" content="Josh Lim">
 <meta name="dcterms.date" content="2026-05-13">
 <title>STA 199 – Welcome to STA 199!</title>
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -30,8 +31,73 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #767676;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #767676;  padding-left: 4px; }
+    div.sourceCode
+      { color: #545454; background-color: #fefefe; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #545454; } /* Normal */
+    code span.al { color: #7928a1; } /* Alert */
+    code span.an { color: #696969; } /* Annotation */
+    code span.at { color: #a55a00; } /* Attribute */
+    code span.bn { color: #7928a1; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #d91e18; } /* ControlFlow */
+    code span.ch { color: #008000; } /* Char */
+    code span.cn { color: #d91e18; } /* Constant */
+    code span.co { color: #696969; } /* Comment */
+    code span.cv { color: #696969; font-style: italic; } /* CommentVar */
+    code span.do { color: #696969; font-style: italic; } /* Documentation */
+    code span.dt { color: #7928a1; } /* DataType */
+    code span.dv { color: #7928a1; } /* DecVal */
+    code span.er { color: #7928a1; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #a55a00; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #696969; } /* Information */
+    code span.kw { color: #d91e18; } /* Keyword */
+    code span.op { color: #00769e; } /* Operator */
+    code span.ot { color: #d91e18; } /* Other */
+    code span.pp { color: #7928a1; } /* Preprocessor */
+    code span.sc { color: #00769e; } /* SpecialChar */
+    code span.ss { color: #008000; } /* SpecialString */
+    code span.st { color: #008000; } /* String */
+    code span.va { color: #a55a00; } /* Variable */
+    code span.vs { color: #008000; } /* VerbatimString */
+    code span.wa { color: #696969; font-style: italic; } /* Warning */
   </style>
-<link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-8bc36ced1226147013789ff298d85564.css">
+<link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-1f377f1ccadea7e9b0e26a49b7195540.css">
 <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
 <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
 <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -140,12 +206,27 @@
   <p class="subtitle">Lecture 0</p>
 
 <div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Josh Lim 
+</div>
+        <p class="quarto-title-affiliation">
+            Duke University <br> STA 199 Summer 2026: Session 2
+          </p>
+    </div>
 </div>
 
   <p class="date">May 13, 2026</p>
 </section><section><section id="hello-world" class="title-slide slide level1 center"><h1>Hello world!</h1>
 
-</section><section id="meet-your-instructor" class="slide level2"><h2>Meet your instructor</h2>
+</section><section id="meet-your-teaching-team" class="slide level2"><h2>Meet your teaching team</h2>
+<hr>
+<p><strong><em>Instructor<br></em></strong>Josh Lim<br>
+josh.lim@duke.edu</p>
+<hr>
+<p><strong><em>TA, Lab Instructor<br></em></strong>Kenna Roberts<br>
+makenna.roberts@duke.edu</p>
+<hr></section><section id="about-me" class="slide level2"><h2>About me!</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure><p><img data-src="img/ks_timeline vF.png" class="quarto-figure quarto-figure-center" alt="About me!"></p>
 </figure>
@@ -154,68 +235,127 @@
 <ul>
 <li>Name</li>
 <li>Year</li>
+<li>Major(s) (or, potential major(s) if undecided!)</li>
 <li>Hometown</li>
-<li>Something you plan to do this summer</li>
-</ul></section><section id="meet-data-science" class="slide level2"><h2>Meet data science</h2>
-<p><br><br></p>
-<p>Data science is an exciting discipline that allows you to turn raw data into understanding, insight, and knowledge.</p>
+<li>Something you plan to do this summer when STA 199 ends 💔</li>
+</ul></section><section id="what-are-we-studying" class="slide level2"><h2>What are we studying?</h2>
+<p>First half:</p>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Data science</strong></p>
+</div>
+<div class="callout-content">
+<ul>
+<li>Transforming messy, incomplete, imperfect data into <em>knowledge</em>;</li>
+<li>
+<em>Knowledge</em> often takes the form of pictures and a concise set of numerical summaries.</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="fragment">
+<p>Second half:</p>
+<div class="callout callout-warning callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Statistical thinking</strong></p>
+</div>
+<div class="callout-content">
+<p>Quantifying our uncertainty about that knowledge.</p>
+</div>
+</div>
+</div>
+</div>
+</section><section id="imagine-this-dialog" class="slide level2 small"><h2>Imagine this dialog</h2>
+<div class="fragment">
+<p><span style="color:blue;"><strong>Campaign manager</strong></span>: What is the probability that our candidate wins the election?</p>
+</div>
+<div class="fragment">
+<p>(A flurry of analysis takes place.)</p>
+</div>
+<div class="fragment">
+<p><span style="color:red;"><strong>Data scientist</strong></span>: Our best guess is 54%.</p>
+</div>
+<div class="fragment">
+<p><span style="color:blue;"><strong>Campaign manager</strong></span>: How reliable is that estimate? How confident are we in that? What’s the margin of error?</p>
+</div>
+<div class="fragment">
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>Parallel Universe 1</strong></p>
+<p><span style="color:red;"><strong>Data scientist</strong></span>: It’s 54% give or take 3%.</p>
+</div><div class="column" style="width:50%;">
+<div class="fragment">
+<p><strong>Parallel Universe 2</strong></p>
+<p><span style="color:red;"><strong>Data scientist</strong></span>: It’s 54% give or take 20%.</p>
+</div>
+</div></div>
+</div>
+<div class="fragment">
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>It’s all about decision-making under uncertainty</strong></p>
+</div>
+<div class="callout-content">
+<p>The manager is going to make wildly different decisions about campaign strategy and spending depending on how uncertain the environment is.</p>
+</div>
+</div>
+</div>
+</div>
 </section></section><section><section id="software" class="title-slide slide level1 center"><h1>Software</h1>
 
-</section><section id="excel---not" class="slide level2"><h2>Excel - not…</h2>
+</section><section id="excel" class="slide level2"><h2>Excel… 👎</h2>
 <div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="images/excel.png" class="quarto-figure quarto-figure-center" alt="An Excel window with data about countries"></p>
+<figure><p><img data-src="img/00/excel.png" class="quarto-figure quarto-figure-center" style="width:80.0%" alt="An Excel window with data about countries"></p>
 </figure>
 </div>
 </section><section id="r" class="slide level2"><h2>R</h2>
 <div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="images/r.png" class="quarto-figure quarto-figure-center" alt="An R shell"></p>
+<figure><p><img data-src="img/00/r_intro.png" class="quarto-figure quarto-figure-center" style="width:75.0%" alt="An R shell"></p>
 </figure>
 </div>
-</section></section><section><section id="data-science-life-cycle" class="title-slide slide level1 center"><h1>Data science life cycle</h1>
+</section></section><section><section id="syllabus-highlights" class="title-slide slide level1 center"><h1>Syllabus highlights</h1>
 
-</section><section id="data-science-life-cycle-1" class="slide level2"><h2>Data science life cycle</h2>
-<p><img data-src="images/data-science-cycle/data-science-cycle.001.png" alt="Data science life cycle"></p>
-</section><section id="import" class="slide level2"><h2>Import</h2>
-<p><img data-src="images/data-science-cycle/data-science-cycle.002.png" alt="Data science life cycle, with import highlighted"></p>
-</section><section id="tidy-transform" class="slide level2"><h2>Tidy + transform</h2>
-<p><img data-src="images/data-science-cycle/data-science-cycle.003.png" alt="Data science life cycle, with tidy and transform highlighted"></p>
-</section><section id="visualize" class="slide level2"><h2>Visualize</h2>
-<p><img data-src="images/data-science-cycle/data-science-cycle.004.png" alt="Data science life cycle, with visualize highlighted"></p>
-</section><section id="model" class="slide level2"><h2>Model</h2>
-<p><img data-src="images/data-science-cycle/data-science-cycle.005.png" alt="Data science life cycle, with model highlighted"></p>
-</section><section id="understand" class="slide level2"><h2>Understand</h2>
-<p><img data-src="images/data-science-cycle/data-science-cycle.006.png" alt="Data science life cycle, with understand highlighted"></p>
-</section><section id="communicate" class="slide level2"><h2>Communicate</h2>
-<p><img data-src="images/data-science-cycle/data-science-cycle.007.png" alt="Data science life cycle, with communicate highlighted"></p>
-</section><section id="understand-communicate" class="slide level2"><h2>Understand + communicate</h2>
-<p><img data-src="images/data-science-cycle/data-science-cycle.008.png" alt="Data science life cycle, with understand and communicate highlighted"></p>
-</section><section id="program" class="slide level2"><h2>Program</h2>
-<p><img data-src="images/data-science-cycle/data-science-cycle.009.png" alt="Data science life cycle, with program highlighted"></p>
-</section></section><section><section id="course-overview" class="title-slide slide level1 center"><h1>Course overview</h1>
-
-</section><section id="activities" class="slide level2 smaller"><h2>Activities</h2>
+</section><section id="homepage" class="slide level2"><h2>Homepage</h2>
+<p><a href="https://sta199-su26.github.io/" class="uri">https://sta199-su26.github.io</a></p>
+<ul>
+<li>All course materials</li>
+<li>Links to Canvas, GitHub, RStudio containers, etc.</li>
+</ul></section><section id="activities" class="slide level2 smaller"><h2>Activities</h2>
 <ul>
 <li>Introduce new content and prepare for lectures by watching the videos and completing the readings</li>
-<li>Attend and actively participate in lectures and labs, office hours, team meetings</li>
-<li>Practice with application exercises during lecture</li>
-<li>Use what you’ve learned to analyze real-world data
+<li>Attend and actively participate in lectures (and ask / answer questions for participation credit) and labs, office hours, team meetings</li>
+<li>Practice applying statistical concepts and computing with application exercises during lecture</li>
+<li>Put together what you’ve learned to analyze real-world data
 <ul>
-<li>Lab assignments x 6</li>
-<li>Exams x 2</li>
-<li>Term project</li>
+<li>Lab assignments</li>
+<li>Exams</li>
+<li>Term project (completed in teams)</li>
 </ul>
 </li>
 </ul></section><section id="application-exercises" class="slide level2"><h2>Application exercises</h2>
 <ul>
-<li><p>Daily-ish in lecture</p></li>
-<li><p>“Graded” for attempt, not accuracy</p></li>
+<li><p>Roughly one per lecture</p></li>
+<li><p>Graded for good-faith attempt, not accuracy</p></li>
 <li><p>Practice this week; graded thereafter</p></li>
-<li><p>At least one commit by 10:45am of the day of lecture</p></li>
-<li><p>Turn in at least 80% for full credit</p></li>
-</ul></section><section id="labs" class="slide level2"><h2>Labs</h2>
+<li><p>At least one commit to your AE repo by 10:45am of the day of lecture</p></li>
+<li><p>Complete 80% for full lecutre attendance credit</p></li>
+</ul></section><section id="labs" class="slide level2 smaller"><h2>Labs</h2>
 <ul>
-<li><p>Monday and Thursday; right after lecture</p></li>
-<li><p>Start in lab session, complete at home</p></li>
+<li><p>Lab session formally takes place on Mondays and Thursdays following lecture (11:00am - 12:15pm)</p></li>
+<li><p>Labs are to be started during the lab session &amp; completed at home by the posted due date</p></li>
+<li><p>I encourage you to make the most of lab sessions, as you have access to both your peers and Kenna, the course TA, during this time</p></li>
 <li>
 <p>Due dates (typically):</p>
 <ul>
@@ -224,18 +364,13 @@
 </ul>
 </li>
 <li><p>Discussion with classmates = 🤩 ; Copying = ❌</p></li>
-<li><p>Lowest score dropped</p></li>
+<li><p>Lowest lab score is dropped</p></li>
 </ul></section><section id="exams" class="slide level2 smaller"><h2>Exams</h2>
 <ul>
-<li><p>Two exams, each 20%</p></li>
-<li>
-<p>Midterm (June 3) has two parts:</p>
-<ul>
-<li><p>In class: 75 minute in-class exam. Closed book, one sheet of notes (“cheat sheet”) – 70% of the grade</p></li>
-<li><p>Take home: After the in class exam; analyze a dataset – 30% of the grade</p></li>
-</ul>
-</li>
-<li><p>Final (June 26): Closed book, one sheet of notes (“cheat sheet”).</p></li>
+<li><p>Two exams, each 25%</p></li>
+<li><p>Midterm: June 1, during lecture + lab (tentatively)</p></li>
+<li><p>Final: June 24, 9am - 12pm</p></li>
+<li><p>You will be permitted a “cheat sheet” (both sides of a single 8.5” x 11” piece of paper)</p></li>
 </ul>
 <div class="callout callout-caution callout-titled callout-style-default">
 <div class="callout-body">
@@ -246,7 +381,7 @@
 <p><strong>Caution</strong></p>
 </div>
 <div class="callout-content">
-<p>Exam dates cannot be changed. If you cannot take the exams on these dates, please have a discussion with me <strong><em>today</em></strong>.</p>
+<p>It’s possible the first midterm gets bumped to June 2; this will be communicated by next Wednesday, 5/20. The final exam date is above my pay grade &amp; cannot be changed. If you cannot take the exams on these dates, please have a discussion with me <strong><em>today</em></strong>.</p>
 </div>
 </div>
 </div>
@@ -255,7 +390,7 @@
 <li><p>Dataset of your choice, method of your choice</p></li>
 <li><p>Teamwork</p></li>
 <li><p>Presentation and write-up</p></li>
-<li><p>Presentations in the last lab (June 23)</p></li>
+<li><p>Presentations will take place in the last lab (June 22)</p></li>
 <li><p>Interim deadlines, peer review on content, peer evaluation for team contribution</p></li>
 <li><p>Some lab sessions allocated to project progress</p></li>
 </ul>
@@ -268,14 +403,14 @@
 <p><strong>Caution</strong></p>
 </div>
 <div class="callout-content">
-<p>Final presentation date cannot be changed; you must complete the project to pass this class.</p>
+<p>Final presentation date cannot be changed; you must complete the project and participate in project presentations to pass this class.</p>
 </div>
 </div>
 </div>
-</section><section id="teams" class="slide level2 smaller"><h2>Teams</h2>
+</section><section id="project-teams" class="slide level2 smaller"><h2>Project teams</h2>
 <ul>
-<li>Assigned by me</li>
-<li>Project</li>
+<li>Assigned by me (&amp; influenced by communicated topics / areas of interest)</li>
+<li>3-4 members per team</li>
 <li>Peer evaluation during teamwork and after completion</li>
 <li>Expectations and roles
 <ul>
@@ -294,7 +429,7 @@
 <tbody>
 <tr class="odd">
 <td>Labs</td>
-<td>30%</td>
+<td>20%</td>
 </tr>
 <tr class="even">
 <td>Project</td>
@@ -302,48 +437,43 @@
 </tr>
 <tr class="odd">
 <td>Exam 1</td>
-<td>20%</td>
+<td>25%</td>
 </tr>
 <tr class="even">
 <td>Exam 2</td>
-<td>20%</td>
+<td>25%</td>
 </tr>
 <tr class="odd">
 <td>Application Exercises</td>
 <td>5%</td>
 </tr>
 <tr class="even">
-<td>Lab attendance</td>
+<td>Lab Attendance</td>
 <td>5%</td>
 </tr>
 </tbody>
 </table>
-<p><br><br> See <a href="https://sta199-su25.github.io/syllabus/">course syllabus</a> for how the final letter grade will be determined.</p>
+<p><br><br> See <a href="https://sta199-su26.github.io/syllabus/">course syllabus</a> for how the final letter grade will be determined.</p>
 </section><section id="support" class="slide level2"><h2>Support</h2>
 <ul>
 <li>Attend office hours</li>
 <li>Ask and answer questions on the Ed discussion board</li>
-<li>Reserve email for questions on personal matters and/or grades</li>
+<li>Reserve email for questions on personal matters and / or grades</li>
 </ul></section><section id="office-hours" class="slide level2"><h2>Office Hours</h2>
-<p><strong><em>Marie: Old Chem 203</em></strong></p>
+<p><strong><em>Katie: Old Chem 203</em></strong></p>
 <ul>
-<li><p>Tuesday 3:30PM - 5:30PM</p></li>
-<li><p>Friday 1:00 - 3:00 PM</p></li>
+<li><p>Tuesday 11:00AM - 1:00PM</p></li>
+<li><p>Sunday 1:00 - 3:00PM</p></li>
 </ul>
-<p><em><strong>Mary: Zoom<br></strong>Time TBD</em></p>
+<p><strong><em>Kenna:</em></strong> Time &amp; Location TBD</p>
 </section><section id="announcements" class="slide level2"><h2>Announcements</h2>
 <ul>
 <li>Posted on Canvas (Announcements tool) and sent via email, be sure to check both regularly</li>
-<li>All information is on the course website - please refer to it often!</li>
-</ul></section><section id="homepage" class="slide level2"><h2>Homepage</h2>
-<p><a href="https://sta199-su25.github.io" class="uri">https://sta199-su25.github.io</a></p>
-<ul>
-<li>All course materials</li>
-<li>Links to Canvas, GitHub, RStudio containers, etc.</li>
+<li>All information is on the course website - please pin to your browser of choice &amp; refer to it often!</li>
 </ul></section><section id="course-toolkit" class="slide level2"><h2>Course toolkit</h2>
 <p>All linked from the course website:</p>
 <ul>
-<li>GitHub organization: <a href="github.com/sta199-su25">github.com/sta199-su25</a>
+<li>GitHub organization: <a href="https://github.com/sta199-su26">github.com/sta199-su26</a>
 </li>
 <li>RStudio containers: <a href="https://cmgr.oit.duke.edu/containers">cmgr.oit.duke.edu/containers</a>
 </li>
@@ -352,13 +482,13 @@
 </ul></section><section id="accessibility" class="slide level2"><h2>Accessibility</h2>
 <ul>
 <li><p>The <a href="https://access.duke.edu/students">Student Disability Access Office (SDAO)</a> is available to ensure that students are able to engage with their courses and related assignments.</p></li>
-<li><p>I am committed to making all course materials accessible and I’m always learning how to do this better!</p></li>
+<li><p>I am committed to making all course materials accessible, and I’m always open to feedback on how to do this better!</p></li>
 </ul></section></section><section><section id="course-policies" class="title-slide slide level1 center"><h1>Course policies</h1>
 
 </section><section id="late-work-waivers-regrades-policy" class="slide level2"><h2>Late work, waivers, regrades policy</h2>
 <ul>
 <li>We have policies!</li>
-<li>Read about them on the <a href="https://sta199-su25.github.io/syllabus/">course syllabus</a> and refer back to them when you need it</li>
+<li>Read about them on the <a href="https://sta199-su26.github.io/course-syllabus.html">course syllabus</a> and refer back to them when you need it</li>
 </ul>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
@@ -375,21 +505,35 @@
 </div>
 </section><section id="collaboration" class="slide level2"><h2>Collaboration</h2>
 <ul>
-<li><p><strong>Labs</strong>: discussing and helping is fine. Sharing your solutions and copying others is not;</p></li>
-<li><p><strong>Exams</strong>: collaboration of any kind is completely forbidden on any part of any exam;</p></li>
-<li><p><strong>Projects</strong>: collaboration of any kind is enthusiastically encouraged <em>within your team</em>. Between teams, it’s the same as labs; do not directly share your stuff or copy off of others.</p></li>
-</ul></section><section id="use-of-ai-tools" class="slide level2"><h2>Use of AI tools</h2>
+<li><p><strong>Labs</strong>: discussing and helping one another is fine; sharing your solutions via text, email, AirDrop, carrier pigeon, or any other method, and / or copying from others is not permitted;</p></li>
+<li><p><strong>Exams</strong>: collaboration of any kind is completely forbidden</p></li>
+<li><p><strong>Projects</strong>: collaboration of all kinds is enthusiastically encouraged <em>within your team</em>; between teams, it’s the same as labs; do not directly share your materials or copy from others.</p></li>
+</ul></section><section id="use-of-ai-tools" class="slide level2 smaller"><h2>Use of AI tools</h2>
 <ul>
 <li>
 <p><i class="fa-solid fa-check" aria-label="check"></i> <strong>AI tools for code:</strong></p>
 <ul>
-<li>Sure, but be careful/critical! Working code <code>!=</code> correct/good code.</li>
+<li>Sure, but be careful/critical! Working code <code>!=</code> correct / good code.</li>
 <li>Must explicitly cite with a direct url linking to the conversation you had.</li>
 </ul>
 </li>
 <li><p><i class="fa-solid fa-ban" aria-label="ban"></i> <strong>AI tools for narrative:</strong> Absolutely not!</p></li>
 <li><p><i class="fa-solid fa-check" aria-label="check"></i> <strong>AI tools for learning:</strong> Sure, but be careful/critical!</p></li>
-</ul></section><section id="academic-integrity" class="slide level2 smaller"><h2>Academic integrity</h2>
+</ul>
+<div class="callout callout-caution callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Caution</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>Exception:</strong> Use of AI tools is <strong><em>completely forbidden</em></strong> during lab session. When you are in lab, you have far better tools / resources available to you - Kenna, our TA, and each other! Blatant disregard for this policy will result in a 0 for the current lab assignment.</p>
+</div>
+</div>
+</div>
+</section><section id="academic-integrity" class="slide level2 smaller"><h2>Academic integrity</h2>
 <blockquote>
 <p>To uphold the Duke Community Standard:</p>
 <ul>
@@ -398,16 +542,134 @@
 <li><p>I will act if the Standard is compromised.</p></li>
 </ul>
 </blockquote>
-</section></section><section><section id="github" class="title-slide slide level1 center"><h1>GitHub</h1>
+</section></section><section id="questions" class="title-slide slide level1 center"><h1>Questions?</h1>
+
+</section><section><section id="data-science-statistics-in-the-wild" class="title-slide slide level1 center"><h1>Data science (&amp; statistics!) in the wild</h1>
+
+</section><section id="april-20th-deadly-day-for-car-crashes" class="slide level2 smaller"><h2>“April 20th: Deadly Day for Car Crashes?”</h2>
+<p>The text below can be found at this <a href="https://martinmontilino.com/april-20th-deadly-day-for-car-crashes/">link</a>, which is a post on the website of a personal injury law firm. Suppose we want to investigate the validity of their claim… What data might we want? What methods are appropriate? How will we perform our analysis? How can we best communicate our findings?</p>
 <div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="images/github-logo.png" class="quarto-figure quarto-figure-center"></p>
+<figure><p><img data-src="img/00/personal_inj.png" class="quarto-figure quarto-figure-center" style="width:70.0%"></p>
+</figure>
+</div>
+</section><section id="the-data-science-life-cycle" class="slide level2"><h2>The data science life cycle</h2>
+<p><img data-src="img/00/data-science-cycle.001.png"></p>
+</section><section id="the-data-science-life-cycle-1" class="slide level2"><h2>The data science life cycle</h2>
+<p><img data-src="img/00/data-science-cycle-import.png"></p>
+</section><section id="load-the-data-in" class="slide level2"><h2>Load the data in</h2>
+<p>On 4/22/2025, <a href="https://github.com/rfordatascience/tidytuesday">TidyTuesday</a> posted a <strong><em>tidy</em></strong> version of the raw data analyzed in Harper and Palayew’s (2019) study, “The annual cannabis holiday and fatal traffic crashes,” available <a href="https://osf.io/qnrg6/">here</a>.</p>
+<p>Let’s load this data into R…</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-2"><a></a></span>
+<span id="cb1-3"><a></a>daily_accidents_420 <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">'https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-22/daily_accidents_420.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section><section id="the-data-science-life-cycle-2" class="slide level2"><h2>The data science life cycle</h2>
+<p><img data-src="img/00/data-science-cycle.003.png"></p>
+</section><section id="if-we-hadnt-had-access-to-our-tidy-data" class="slide level2"><h2>If we hadn’t had access to our tidy data…</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure><p><img data-src="img/00/tidying_data.png" class="quarto-figure quarto-figure-center" style="width:45.0%"></p>
+</figure>
+</div>
+</section><section id="still-we-can-tidy-some-more" class="slide level2"><h2>Still, we can tidy some more…</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a></a>daily_accidents_420 <span class="ot">&lt;-</span> daily_accidents_420 <span class="sc">|&gt;</span></span>
+<span id="cb2-2"><a></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(e420)) <span class="sc">|&gt;</span></span>
+<span id="cb2-3"><a></a>  <span class="fu">mutate</span>(<span class="at">e420 =</span> <span class="fu">if_else</span>(e420 <span class="sc">==</span> <span class="cn">TRUE</span>, <span class="st">"4/20"</span>, <span class="st">"Not 4/20"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section><section id="the-data-science-life-cycle-3" class="slide level2"><h2>The data science life cycle</h2>
+<p><img data-src="img/00/data-science-cycle-visualize.png"></p>
+</section><section id="babys-first-graphic" class="slide level2 medium"><h2>Baby’s first graphic</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a><span class="fu">ggplot</span>(daily_accidents_420, <span class="fu">aes</span>(fatalities_count, <span class="at">fill =</span> e420))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure><p><img data-src="00-welcome-199_files/figure-revealjs/unnamed-chunk-4-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</section><section id="babys-first-graphic-1" class="slide level2 medium"><h2>Baby’s first graphic</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a></a><span class="fu">ggplot</span>(daily_accidents_420, <span class="fu">aes</span>(fatalities_count, <span class="at">fill =</span> e420)) <span class="sc">+</span></span>
+<span id="cb4-2"><a></a>    <span class="fu">geom_histogram</span>() </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure><p><img data-src="00-welcome-199_files/figure-revealjs/unnamed-chunk-5-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</section><section id="babys-first-graphic-2" class="slide level2 medium"><h2>Baby’s first graphic</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a></a><span class="fu">ggplot</span>(daily_accidents_420, <span class="fu">aes</span>(fatalities_count, <span class="at">fill =</span> e420)) <span class="sc">+</span></span>
+<span id="cb5-2"><a></a>  <span class="fu">geom_histogram</span>() <span class="sc">+</span></span>
+<span id="cb5-3"><a></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> e420, <span class="at">ncol =</span> <span class="dv">1</span>, <span class="at">scales =</span> <span class="st">"free_y"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure><p><img data-src="00-welcome-199_files/figure-revealjs/unnamed-chunk-6-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</section><section id="babys-first-graphic-3" class="slide level2 scrollable medium"><h2>Baby’s first graphic</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a></a><span class="fu">ggplot</span>(daily_accidents_420, <span class="fu">aes</span>(fatalities_count, <span class="at">fill =</span> e420)) <span class="sc">+</span></span>
+<span id="cb6-2"><a></a>  <span class="fu">geom_histogram</span>() <span class="sc">+</span></span>
+<span id="cb6-3"><a></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> e420, <span class="at">ncol =</span> <span class="dv">1</span>, <span class="at">scales =</span> <span class="st">"free_y"</span>) <span class="sc">+</span></span>
+<span id="cb6-4"><a></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Histogram of Daily Traffic Accident Fatality Count, 1992-2016"</span>,</span>
+<span id="cb6-5"><a></a>       <span class="at">subtitle =</span> <span class="st">"On the 'High Holiday' (4/20), vs. Not"</span>,</span>
+<span id="cb6-6"><a></a>       <span class="at">x =</span> <span class="st">"Daily Traffic Accident Fatality Count (1992 - 2016)"</span>,</span>
+<span id="cb6-7"><a></a>       <span class="at">y =</span> <span class="st">"Count of Observations"</span>) <span class="sc">+</span></span>
+<span id="cb6-8"><a></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb6-9"><a></a>  <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"none"</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure><p><img data-src="00-welcome-199_files/figure-revealjs/unnamed-chunk-7-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</section><section id="the-data-science-life-cycle-4" class="slide level2"><h2>The data science life cycle</h2>
+<p><img data-src="img/00/data-science-cycle.008.png"></p>
+</section><section id="in-reality" class="slide level2"><h2>In reality…</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure><p><img data-src="img/00/communicate.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
+</figure>
+</div>
+</section><section id="course-themes" class="slide level2 scrollable smaller"><h2>Course themes</h2>
+<ul>
+<li>
+<strong>Statistical literacy matters</strong>
+<ul>
+<li>Headlines, social media posts, advertisements, and even “expert” sources can misrepresent scientific findings</li>
+<li>Data-driven claims should be evaluated critically, not accepted at face value</li>
+<li>Understanding how conclusions are reached is an important skill!</li>
+</ul>
+</li>
+<li>
+<strong>Reproducibility is essential</strong>
+<ul>
+<li>Credible analyses should clearly describe: where the data came from, how the data were processed, and how the analysis was performed</li>
+<li>Reproducible work allows others to verify, critique, and build upon scientific findings</li>
+</ul>
+</li>
+<li>
+<strong>Data science is an iterative process</strong>
+<ul>
+<li>Curiosity keeps the wheel turning!</li>
+</ul>
+</li>
+</ul></section></section><section><section id="github" class="title-slide slide level1 center"><h1>GitHub</h1>
+<div class="quarto-figure quarto-figure-center">
+<figure><p><img data-src="img/00/github-logo.png" class="quarto-figure quarto-figure-center" style="width:75.0%"></p>
 </figure>
 </div>
 </section><section id="what-is-github" class="slide level2"><h2>What is GitHub?</h2>
 <p><br><br></p>
 <p>More on this tomorrow - basically, it is the Google Drive of coding!</p>
-</section><section id="ae0-make-your-github-account" class="slide level2"><h2>AE0: Make your GitHub account</h2>
-<p><br><br> Find AE0 on the course website!</p>
+</section><section id="ae-00-make-your-github-account" class="slide level2"><h2>AE 00: Make your GitHub account</h2>
+<p><br><br> Find AE 00 on the course website!</p>
 </section><section id="this-weeks-tasks" class="slide level2"><h2>This week’s tasks</h2>
 <ul>
 <li>Complete Lab 0
@@ -426,7 +688,7 @@
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="img/pfp.png" class="slide-logo"></p>
 <div class="footer footer-default">
-<p><a href="https://sta199-su26.github.io/">🔗 sta199-su26.github.io</a></p>
+<p><a href="https://sta199-su26-2.github.io/">🔗 sta199-su26-2.github.io</a></p>
 </div>
 </div></div>
 
