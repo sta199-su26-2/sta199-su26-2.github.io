@@ -56,18 +56,53 @@
     "text": "Meet your teaching team\n\nInstructorJosh Lim\njosh.lim@duke.edu\n\nTA, Lab InstructorKenna Roberts\nmakenna.roberts@duke.edu"
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#about-me",
-    "href": "slides/00-welcome-199-slides.html#about-me",
+    "objectID": "slides/00-welcome-199-slides.html#wheres-this",
+    "href": "slides/00-welcome-199-slides.html#wheres-this",
     "title": "Welcome to STA 199!",
-    "section": "About me!",
-    "text": "About me!"
+    "section": "Where’s this?",
+    "text": "Where’s this?"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#my-family",
+    "href": "slides/00-welcome-199-slides.html#my-family",
+    "title": "Welcome to STA 199!",
+    "section": "My family",
+    "text": "My family"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#ucla",
+    "href": "slides/00-welcome-199-slides.html#ucla",
+    "title": "Welcome to STA 199!",
+    "section": "UCLA",
+    "text": "UCLA\n\n\n\n\n\n\n\n\n\nUCLA! Majored in applied mathematics, statistics and data science\nGraduated 2024\nDid research, blah blah blah blah blah, wanted more school etc."
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#ucla-cont",
+    "href": "slides/00-welcome-199-slides.html#ucla-cont",
+    "title": "Welcome to STA 199!",
+    "section": "UCLA cont",
+    "text": "UCLA cont"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#duke",
+    "href": "slides/00-welcome-199-slides.html#duke",
+    "title": "Welcome to STA 199!",
+    "section": "DUKE",
+    "text": "DUKE\n\n\n\n\n\n\n\n\n\n\n\n\nPhD in statistical science\nResearch in causal inference, missing data, and machine learning\nApplied projects across multiple medical schools"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#duke-cont",
+    "href": "slides/00-welcome-199-slides.html#duke-cont",
+    "title": "Welcome to STA 199!",
+    "section": "Duke cont",
+    "text": "Duke cont"
   },
   {
     "objectID": "slides/00-welcome-199-slides.html#meet-each-other",
     "href": "slides/00-welcome-199-slides.html#meet-each-other",
     "title": "Welcome to STA 199!",
     "section": "Meet each other!",
-    "text": "Meet each other!\n\nName\nYear\nMajor(s) (or, potential major(s) if undecided!)\nHometown\nSomething you plan to do this summer when STA 199 ends 💔"
+    "text": "Meet each other!\n\nName\nYear\nMajor(s) (or, potential major(s) if undecided!)\nHometown\nSomething fun you did or will do this summer\nIf you were to go viral, what would it be for?"
   },
   {
     "objectID": "slides/00-welcome-199-slides.html#what-are-we-studying",
@@ -82,6 +117,13 @@
     "title": "Welcome to STA 199!",
     "section": "Imagine this dialog",
     "text": "Imagine this dialog\n\nCampaign manager: What is the probability that our candidate wins the election?\n\n\n(A flurry of analysis takes place.)\n\n\nData scientist: Our best guess is 54%.\n\n\nCampaign manager: How reliable is that estimate? How confident are we in that? What’s the margin of error?\n\n\n\n\nParallel Universe 1\nData scientist: It’s 54% give or take 3%.\n\n\nParallel Universe 2\nData scientist: It’s 54% give or take 20%.\n\n\n\n\n\n\n\n\n\n\nIt’s all about decision-making under uncertainty\n\n\nThe manager is going to make wildly different decisions about campaign strategy and spending depending on how uncertain the environment is."
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#who-can-explain-this",
+    "href": "slides/00-welcome-199-slides.html#who-can-explain-this",
+    "title": "Welcome to STA 199!",
+    "section": "Who can explain this?",
+    "text": "Who can explain this?"
   },
   {
     "objectID": "slides/00-welcome-199-slides.html#excel",
@@ -102,7 +144,7 @@
     "href": "slides/00-welcome-199-slides.html#homepage",
     "title": "Welcome to STA 199!",
     "section": "Homepage",
-    "text": "Homepage\nhttps://sta199-su26.github.io\n\nAll course materials\nLinks to Canvas, GitHub, RStudio containers, etc."
+    "text": "Homepage\nhttps://sta199-su26-2.github.io\n\nAll course materials\nLinks to Canvas, GitHub, RStudio containers, etc."
   },
   {
     "objectID": "slides/00-welcome-199-slides.html#activities",
@@ -130,7 +172,7 @@
     "href": "slides/00-welcome-199-slides.html#exams",
     "title": "Welcome to STA 199!",
     "section": "Exams",
-    "text": "Exams\n\nTwo exams, each 25%\nMidterm: June 1, during lecture + lab (tentatively)\nFinal: June 24, 9am - 12pm\nYou will be permitted a “cheat sheet” (both sides of a single 8.5” x 11” piece of paper)\n\n\n\n\n\n\n\nCaution\n\n\nIt’s possible the first midterm gets bumped to June 2; this will be communicated by next Wednesday, 5/20. The final exam date is above my pay grade & cannot be changed. If you cannot take the exams on these dates, please have a discussion with me today."
+    "text": "Exams\n\nTwo exams, each 25%\nMidterm: June 1, during lecture + lab (tentatively) CHANGE\nFinal: June 24, 9am - 12pm CHANGE\nYou will be permitted a “cheat sheet” (both sides of a single 8.5” x 11” piece of paper)\n\n\n\n\n\n\n\nCaution\n\n\nIt’s possible the first midterm gets bumped to June 2; this will be communicated by next Wednesday, 5/20. The final exam date is above my pay grade & cannot be changed. If you cannot take the exams on these dates, please have a discussion with me today. CHANGE"
   },
   {
     "objectID": "slides/00-welcome-199-slides.html#project",
@@ -165,7 +207,7 @@
     "href": "slides/00-welcome-199-slides.html#office-hours",
     "title": "Welcome to STA 199!",
     "section": "Office Hours",
-    "text": "Office Hours\nKatie: Old Chem 203\n\nTuesday 11:00AM - 1:00PM\nSunday 1:00 - 3:00PM\n\nKenna: Time & Location TBD"
+    "text": "Office Hours\nJosh: Old Chem 203 CHANGE\n\nTBD\n\nKenna: Time & Location TBD"
   },
   {
     "objectID": "slides/00-welcome-199-slides.html#announcements",
@@ -179,7 +221,7 @@
     "href": "slides/00-welcome-199-slides.html#course-toolkit",
     "title": "Welcome to STA 199!",
     "section": "Course toolkit",
-    "text": "Course toolkit\nAll linked from the course website:\n\nGitHub organization: github.com/sta199-su26\n\nRStudio containers: cmgr.oit.duke.edu/containers\n\nCommunication: Ed Discussion\nAssignment submission and feedback: Gradescope"
+    "text": "Course toolkit\nAll linked from the course website:\n\nGitHub organization: github.com/sta199-su26-2\n\nRStudio containers: cmgr.oit.duke.edu/containers\n\nCommunication: Ed Discussion\nAssignment submission and feedback: Gradescope"
   },
   {
     "objectID": "slides/00-welcome-199-slides.html#accessibility",
@@ -315,11 +357,53 @@
     "text": "In reality…"
   },
   {
+    "objectID": "slides/00-welcome-199-slides.html#pov-your-mom-dropped-this-banger-in-the-family-gc",
+    "href": "slides/00-welcome-199-slides.html#pov-your-mom-dropped-this-banger-in-the-family-gc",
+    "title": "Welcome to STA 199!",
+    "section": "POV: Your Mom dropped this banger in the family gc",
+    "text": "POV: Your Mom dropped this banger in the family gc"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#what-did-the-study-actually-do",
+    "href": "slides/00-welcome-199-slides.html#what-did-the-study-actually-do",
+    "title": "Welcome to STA 199!",
+    "section": "What did the study actually do?",
+    "text": "What did the study actually do?"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#the-study-design",
+    "href": "slides/00-welcome-199-slides.html#the-study-design",
+    "title": "Welcome to STA 199!",
+    "section": "The study design",
+    "text": "The study design\n60 four-year-olds randomly assigned to 3 conditions (20 each):\n\n\n\nFast-paced TV: 9-minute clip of a popular cartoon about an animated sponge that lives under the sea\n\n\nEducational TV: 9-minute clip of a PBS cartoon about a typical preschool-aged boy\n\nDrawing: crayons, markers, and paper for 9 minutes\n\n\n\nThen researchers measured executive function (EF) immediately after."
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#how-did-they-measure-brain-impairment",
+    "href": "slides/00-welcome-199-slides.html#how-did-they-measure-brain-impairment",
+    "title": "Welcome to STA 199!",
+    "section": "How did they measure “brain impairment”?",
+    "text": "How did they measure “brain impairment”?\nThree tasks:\n\n\nTower of Hanoi — move disks between pegs following rules; scored 0 or 1\n\nHTKS — “When I say touch your head, touch your toes” (and vice versa); scored 0–2 per item\n\nDelay of gratification — wait for the experimenter to get 10 marshmallows vs. ring a bell for 2\n\n\nZ-scores for the first 3 EF tasks were summed into a composite EF score."
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#so-whats-the-problem",
+    "href": "slides/00-welcome-199-slides.html#so-whats-the-problem",
+    "title": "Welcome to STA 199!",
+    "section": "So what’s the problem?",
+    "text": "So what’s the problem?\n\n\n\n\n\n\nNo baseline!\n\n\nExecutive function was only measured after the experiment — we don’t know if the groups were comparable before watching anything.\n\n\n\n\n\n\n\n\n\n\nWhat metrics?\n\n\nTower of Hanoi scored 0 or 1. HTKS is a children’s game. Are these really measuring “brain impairment”?"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#yet",
+    "href": "slides/00-welcome-199-slides.html#yet",
+    "title": "Welcome to STA 199!",
+    "section": "Yet…",
+    "text": "Yet…"
+  },
+  {
     "objectID": "slides/00-welcome-199-slides.html#course-themes",
     "href": "slides/00-welcome-199-slides.html#course-themes",
     "title": "Welcome to STA 199!",
     "section": "Course themes",
-    "text": "Course themes\n\n\nStatistical literacy matters\n\nHeadlines, social media posts, advertisements, and even “expert” sources can misrepresent scientific findings\nData-driven claims should be evaluated critically, not accepted at face value\nUnderstanding how conclusions are reached is an important skill!\n\n\n\nReproducibility is essential\n\nCredible analyses should clearly describe: where the data came from, how the data were processed, and how the analysis was performed\nReproducible work allows others to verify, critique, and build upon scientific findings\n\n\n\nData science is an iterative process\n\nCuriosity keeps the wheel turning!"
+    "text": "Course themes\n\n\nStatistical literacy matters\n\nHeadlines, social media posts, advertisements, and even “expert” sources can misrepresent scientific findings\nData-driven claims should be evaluated critically, not accepted at face value\n\n\n\nReproducibility is essential\n\nCredible analyses should clearly describe: where the data came from, how the data were processed, and how the analysis was performed\nReproducible work allows others to verify, critique, and build upon scientific findings\n\n\n\nData science is an iterative process\n\nCuriosity keeps the wheel turning!"
   },
   {
     "objectID": "slides/00-welcome-199-slides.html#what-is-github",
@@ -347,7 +431,7 @@
     "href": "slides/00-welcome-199.html",
     "title": "Welcome to STA 199!",
     "section": "",
-    "text": "InstructorJosh Lim\njosh.lim@duke.edu\n\nTA, Lab InstructorKenna Roberts\nmakenna.roberts@duke.edu\n\n\n\n\n\n\n\nName\nYear\nMajor(s) (or, potential major(s) if undecided!)\nHometown\nSomething you plan to do this summer when STA 199 ends 💔\n\nFirst half:\n\n\n\n\n\n\nData science\n\n\n\n\nTransforming messy, incomplete, imperfect data into knowledge;\n\nKnowledge often takes the form of pictures and a concise set of numerical summaries.\n\n\n\n. . .\nSecond half:\n\n\n\n\n\n\nStatistical thinking\n\n\n\nQuantifying our uncertainty about that knowledge.\n\n\n\n. . .\nCampaign manager: What is the probability that our candidate wins the election?\n. . .\n(A flurry of analysis takes place.)\n. . .\nData scientist: Our best guess is 54%.\n. . .\nCampaign manager: How reliable is that estimate? How confident are we in that? What’s the margin of error?\n. . .\n\n\nParallel Universe 1\nData scientist: It’s 54% give or take 3%.\n\n\nParallel Universe 2\nData scientist: It’s 54% give or take 20%.\n\n\n\n. . .\n\n\n\n\n\n\nIt’s all about decision-making under uncertainty\n\n\n\nThe manager is going to make wildly different decisions about campaign strategy and spending depending on how uncertain the environment is."
+    "text": "InstructorJosh Lim\njosh.lim@duke.edu\n\nTA, Lab InstructorKenna Roberts\nmakenna.roberts@duke.edu\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUCLA! Majored in applied mathematics, statistics and data science\nGraduated 2024\nDid research, blah blah blah blah blah, wanted more school etc.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhD in statistical science\nResearch in causal inference, missing data, and machine learning\nApplied projects across multiple medical schools\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nName\nYear\nMajor(s) (or, potential major(s) if undecided!)\nHometown\nSomething fun you did or will do this summer\nIf you were to go viral, what would it be for?\n\nFirst half:\n\n\n\n\n\n\nData science\n\n\n\n\nTransforming messy, incomplete, imperfect data into knowledge;\n\nKnowledge often takes the form of pictures and a concise set of numerical summaries.\n\n\n\n. . .\nSecond half:\n\n\n\n\n\n\nStatistical thinking\n\n\n\nQuantifying our uncertainty about that knowledge.\n\n\n\n. . .\nCampaign manager: What is the probability that our candidate wins the election?\n. . .\n(A flurry of analysis takes place.)\n. . .\nData scientist: Our best guess is 54%.\n. . .\nCampaign manager: How reliable is that estimate? How confident are we in that? What’s the margin of error?\n. . .\n\n\nParallel Universe 1\nData scientist: It’s 54% give or take 3%.\n\n\nParallel Universe 2\nData scientist: It’s 54% give or take 20%.\n\n\n\n. . .\n\n\n\n\n\n\nIt’s all about decision-making under uncertainty\n\n\n\nThe manager is going to make wildly different decisions about campaign strategy and spending depending on how uncertain the environment is."
   },
   {
     "objectID": "slides/00-welcome-199.html#meet-your-teaching-team",
@@ -357,11 +441,25 @@
     "text": "InstructorJosh Lim\njosh.lim@duke.edu\n\nTA, Lab InstructorKenna Roberts\nmakenna.roberts@duke.edu"
   },
   {
+    "objectID": "slides/00-welcome-199.html#ucla",
+    "href": "slides/00-welcome-199.html#ucla",
+    "title": "Welcome to STA 199!",
+    "section": "",
+    "text": "UCLA! Majored in applied mathematics, statistics and data science\nGraduated 2024\nDid research, blah blah blah blah blah, wanted more school etc."
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#duke",
+    "href": "slides/00-welcome-199.html#duke",
+    "title": "Welcome to STA 199!",
+    "section": "",
+    "text": "PhD in statistical science\nResearch in causal inference, missing data, and machine learning\nApplied projects across multiple medical schools"
+  },
+  {
     "objectID": "slides/00-welcome-199.html#meet-each-other",
     "href": "slides/00-welcome-199.html#meet-each-other",
     "title": "Welcome to STA 199!",
     "section": "",
-    "text": "Name\nYear\nMajor(s) (or, potential major(s) if undecided!)\nHometown\nSomething you plan to do this summer when STA 199 ends 💔"
+    "text": "Name\nYear\nMajor(s) (or, potential major(s) if undecided!)\nHometown\nSomething fun you did or will do this summer\nIf you were to go viral, what would it be for?"
   },
   {
     "objectID": "slides/00-welcome-199.html#what-are-we-studying",
@@ -396,7 +494,7 @@
     "href": "slides/00-welcome-199.html#homepage",
     "title": "Welcome to STA 199!",
     "section": "Homepage",
-    "text": "Homepage\nhttps://sta199-su26.github.io\n\nAll course materials\nLinks to Canvas, GitHub, RStudio containers, etc."
+    "text": "Homepage\nhttps://sta199-su26-2.github.io\n\nAll course materials\nLinks to Canvas, GitHub, RStudio containers, etc."
   },
   {
     "objectID": "slides/00-welcome-199.html#activities",
@@ -424,7 +522,7 @@
     "href": "slides/00-welcome-199.html#exams",
     "title": "Welcome to STA 199!",
     "section": "Exams",
-    "text": "Exams\n\nTwo exams, each 25%\nMidterm: June 1, during lecture + lab (tentatively)\nFinal: June 24, 9am - 12pm\nYou will be permitted a “cheat sheet” (both sides of a single 8.5” x 11” piece of paper)\n\n\n\n\n\n\n\nCaution\n\n\n\nIt’s possible the first midterm gets bumped to June 2; this will be communicated by next Wednesday, 5/20. The final exam date is above my pay grade & cannot be changed. If you cannot take the exams on these dates, please have a discussion with me today."
+    "text": "Exams\n\nTwo exams, each 25%\nMidterm: June 1, during lecture + lab (tentatively) CHANGE\nFinal: June 24, 9am - 12pm CHANGE\nYou will be permitted a “cheat sheet” (both sides of a single 8.5” x 11” piece of paper)\n\n\n\n\n\n\n\nCaution\n\n\n\nIt’s possible the first midterm gets bumped to June 2; this will be communicated by next Wednesday, 5/20. The final exam date is above my pay grade & cannot be changed. If you cannot take the exams on these dates, please have a discussion with me today. CHANGE"
   },
   {
     "objectID": "slides/00-welcome-199.html#project",
@@ -459,7 +557,7 @@
     "href": "slides/00-welcome-199.html#office-hours",
     "title": "Welcome to STA 199!",
     "section": "Office Hours",
-    "text": "Office Hours\nKatie: Old Chem 203\n\nTuesday 11:00AM - 1:00PM\nSunday 1:00 - 3:00PM\n\nKenna: Time & Location TBD"
+    "text": "Office Hours\nJosh: Old Chem 203 CHANGE\n\nTBD\n\nKenna: Time & Location TBD"
   },
   {
     "objectID": "slides/00-welcome-199.html#announcements",
@@ -473,7 +571,7 @@
     "href": "slides/00-welcome-199.html#course-toolkit",
     "title": "Welcome to STA 199!",
     "section": "Course toolkit",
-    "text": "Course toolkit\nAll linked from the course website:\n\nGitHub organization: github.com/sta199-su26\n\nRStudio containers: cmgr.oit.duke.edu/containers\n\nCommunication: Ed Discussion\nAssignment submission and feedback: Gradescope"
+    "text": "Course toolkit\nAll linked from the course website:\n\nGitHub organization: github.com/sta199-su26-2\n\nRStudio containers: cmgr.oit.duke.edu/containers\n\nCommunication: Ed Discussion\nAssignment submission and feedback: Gradescope"
   },
   {
     "objectID": "slides/00-welcome-199.html#accessibility",
@@ -609,11 +707,53 @@
     "text": "In reality…"
   },
   {
+    "objectID": "slides/00-welcome-199.html#pov-your-mom-dropped-this-banger-in-the-family-gc",
+    "href": "slides/00-welcome-199.html#pov-your-mom-dropped-this-banger-in-the-family-gc",
+    "title": "Welcome to STA 199!",
+    "section": "POV: Your Mom dropped this banger in the family gc",
+    "text": "POV: Your Mom dropped this banger in the family gc"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#what-did-the-study-actually-do",
+    "href": "slides/00-welcome-199.html#what-did-the-study-actually-do",
+    "title": "Welcome to STA 199!",
+    "section": "What did the study actually do?",
+    "text": "What did the study actually do?"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#the-study-design",
+    "href": "slides/00-welcome-199.html#the-study-design",
+    "title": "Welcome to STA 199!",
+    "section": "The study design",
+    "text": "The study design\n60 four-year-olds randomly assigned to 3 conditions (20 each):\n. . .\n\n\nFast-paced TV: 9-minute clip of a popular cartoon about an animated sponge that lives under the sea\n\n\nEducational TV: 9-minute clip of a PBS cartoon about a typical preschool-aged boy\n\nDrawing: crayons, markers, and paper for 9 minutes\n\n. . .\nThen researchers measured executive function (EF) immediately after."
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#how-did-they-measure-brain-impairment",
+    "href": "slides/00-welcome-199.html#how-did-they-measure-brain-impairment",
+    "title": "Welcome to STA 199!",
+    "section": "How did they measure “brain impairment”?",
+    "text": "How did they measure “brain impairment”?\nThree tasks:\n\n\nTower of Hanoi — move disks between pegs following rules; scored 0 or 1\n\nHTKS — “When I say touch your head, touch your toes” (and vice versa); scored 0–2 per item\n\nDelay of gratification — wait for the experimenter to get 10 marshmallows vs. ring a bell for 2\n\n. . .\nZ-scores for the first 3 EF tasks were summed into a composite EF score."
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#so-whats-the-problem",
+    "href": "slides/00-welcome-199.html#so-whats-the-problem",
+    "title": "Welcome to STA 199!",
+    "section": "So what’s the problem?",
+    "text": "So what’s the problem?\n\n\n\n\n\n\nNo baseline!\n\n\n\nExecutive function was only measured after the experiment — we don’t know if the groups were comparable before watching anything.\n\n\n. . .\n\n\n\n\n\n\nWhat metrics?\n\n\n\nTower of Hanoi scored 0 or 1. HTKS is a children’s game. Are these really measuring “brain impairment”?\n\n\n. . ."
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#yet",
+    "href": "slides/00-welcome-199.html#yet",
+    "title": "Welcome to STA 199!",
+    "section": "Yet…",
+    "text": "Yet…"
+  },
+  {
     "objectID": "slides/00-welcome-199.html#course-themes",
     "href": "slides/00-welcome-199.html#course-themes",
     "title": "Welcome to STA 199!",
     "section": "Course themes",
-    "text": "Course themes\n\n\nStatistical literacy matters\n\nHeadlines, social media posts, advertisements, and even “expert” sources can misrepresent scientific findings\nData-driven claims should be evaluated critically, not accepted at face value\nUnderstanding how conclusions are reached is an important skill!\n\n\n\nReproducibility is essential\n\nCredible analyses should clearly describe: where the data came from, how the data were processed, and how the analysis was performed\nReproducible work allows others to verify, critique, and build upon scientific findings\n\n\n\nData science is an iterative process\n\nCuriosity keeps the wheel turning!"
+    "text": "Course themes\n\n\nStatistical literacy matters\n\nHeadlines, social media posts, advertisements, and even “expert” sources can misrepresent scientific findings\nData-driven claims should be evaluated critically, not accepted at face value\n\n\n\nReproducibility is essential\n\nCredible analyses should clearly describe: where the data came from, how the data were processed, and how the analysis was performed\nReproducible work allows others to verify, critique, and build upon scientific findings\n\n\n\nData science is an iterative process\n\nCuriosity keeps the wheel turning!"
   },
   {
     "objectID": "slides/00-welcome-199.html#what-is-github",
