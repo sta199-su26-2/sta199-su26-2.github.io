@@ -135,6 +135,7 @@ library(ggthemes)
 ```
 
 ## Take a peek at the data {.scrollable .smaller}
+
 ```{r}
 #| label: glimpse-data
 glimpse(un_votes)
@@ -294,7 +295,8 @@ ggplot(us_uk_tr_votes, aes(x = year, y = percent_yes)) +
 ```
 
 ::: callout-note
-Functionally, the `geom` layer(s) tell R what type of plot you want to create. In particular, `geom_point()` corresponds to a *scatterplot*. 
+Functionally, the `geom` layer(s) tell R what type of plot you want to create.
+In particular, `geom_point()` corresponds to a *scatterplot*.
 :::
 
 ## Step 5. Map variables to aesthetics {.smaller}
@@ -327,9 +329,10 @@ ggplot(us_uk_tr_votes, aes(x = year, y = percent_yes, color = country)) +
 
 -   Adding `geom_smooth()` resulted in the following warning:
 
-```         
-`geom_smooth()` using method = 'loess' and formula = 'y ~ x'
+```{=html}
+<!-- -->
 ```
+    `geom_smooth()` using method = 'loess' and formula = 'y ~ x'
 
 . . .
 
@@ -441,7 +444,7 @@ ggplot(us_uk_tr_votes, aes(x = year, y = percent_yes, color = country)) +
 
 ## Data viz with ggplot is like building a cake {.scrollable}
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: final
@@ -466,7 +469,7 @@ ggplot(
 ::: {.column width="50%"}
 ![](img/02/cake.jpg){width="65%"}
 :::
-:::::
+:::
 
 . . .
 
@@ -475,7 +478,7 @@ Don't forget the icing!
 
 ## Grammar of graphics {.smaller}
 
-:::::: columns
+::: columns
 ::: {.column width="50%"}
 We built a plot layer-by-layer
 
@@ -490,7 +493,7 @@ We built a plot layer-by-layer
 ::: {.column width="30%"}
 ![](img/02/gg-layers.png)
 :::
-::::::
+:::
 
 ## Now you try
 

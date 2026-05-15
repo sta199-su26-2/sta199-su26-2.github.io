@@ -25,7 +25,7 @@ ggplot2::theme_set(ggplot2::theme_gray(base_size = 16))
 
 ## Course Toolkit {.smaller}
 
-:::::: columns
+::: columns
 ::: {.column width="50%"}
 **Course operation**
 
@@ -35,7 +35,7 @@ ggplot2::theme_set(ggplot2::theme_gray(base_size = 16))
 -   Grades: Gradebook (in Canvas)
 :::
 
-:::: {.column width="50%"}
+::: {.column width="50%"}
 ::: {.fragment style="background-color:#f3e6ff; border-radius:10px; padding:10px;"}
 <strong>Doing data science</strong>
 
@@ -48,8 +48,8 @@ ggplot2::theme_set(ggplot2::theme_gray(base_size = 16))
     -   Git
     -   GitHub
 :::
-::::
-::::::
+:::
+:::
 
 # Toolkit: Computing
 
@@ -159,7 +159,7 @@ What does it mean for a data analysis to be "reproducible"?
 
 ## R and RStudio {.smaller}
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 ![](img/01/r-logo.png){fig-alt="R logo" fig-align="center"}
 
@@ -174,7 +174,7 @@ What does it mean for a data analysis to be "reproducible"?
 -   RStudio is a convenient interface for R called an **IDE** (integrated development environment), e.g. *"I write R code in the RStudio IDE"*
 -   RStudio is not a requirement for programming with R, but it's very commonly used by R programmers and data scientists
 :::
-:::::
+:::
 
 ## R vs. RStudio
 
@@ -186,23 +186,23 @@ Source: [Modern Dive](https://moderndive.com/1-getting-started.html).
 
 ## Tour: R + RStudio {.smaller}
 
-::::::: columns
-:::: {.column width="50%"}
+::: columns
+::: {.column width="50%"}
 ::: demo
 **Option 1:**
 
 Sit back and enjoy the show!
 :::
-::::
+:::
 
-:::: {.column width="50%"}
+::: {.column width="50%"}
 ::: appex
 **Option 2:**
 
 Go to [your container](https://cmgr.oit.duke.edu/containers) and launch RStudio.
 :::
-::::
-:::::::
+:::
+:::
 
 ## Tour recap: R + RStudio
 
@@ -322,7 +322,7 @@ mean(x)
 
 Object documentation can be accessed with `?`
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 ```{r}
 #| eval: false
@@ -333,7 +333,7 @@ Object documentation can be accessed with `?`
 ::: {.column width="50%"}
 ![](img/01/mean_help.png){fig-alt="help file for `mean()`" fig-align="center" width="100%"}
 :::
-:::::
+:::
 
 ## Summary of R essentials {.smaller}
 
@@ -438,7 +438,7 @@ If data analysis was cooking...
 aka the package you'll hear about the most...
 :::
 
-::::: columns
+::: columns
 ::: {.column width="40%"}
 [![](img/01/tidyverse.png){fig-alt="Hex logos for dplyr, ggplot2, forcats, tibble, readr, stringr, tidyr, and purrr"}](https://tidyverse.org)
 :::
@@ -449,13 +449,13 @@ aka the package you'll hear about the most...
 -   The **tidyverse** is an opinionated collection of R packages designed for data science
 -   All packages share an underlying philosophy and a common grammar
 :::
-:::::
+:::
 
 # Toolkit: Version control and collaboration
 
 ## Git and GitHub {.smaller}
 
-::::: columns
+::: columns
 ::: {.column .fragment width="50%"}
 ![](img/01/git-logo.png){fig-alt="Git logo" fig-align="center" width="150"}
 
@@ -470,7 +470,7 @@ aka the package you'll hear about the most...
 
 -   We will use GitHub as a platform for web hosting and collaboration (and as our course management system!)
 :::
-:::::
+:::
 
 ## Versioning - done badly
 
@@ -514,8 +514,8 @@ with human readable messages
 
 ## Tour: Git + GitHub {.smaller .scrollable}
 
-:::::::: columns
-::::: {.column width="50%"}
+::: columns
+::: {.column width="50%"}
 ::: demo
 **Option 1:**
 
@@ -525,16 +525,16 @@ Sit back and enjoy the show!
 ::: callout-note
 You'll need to stick to this option if you haven't yet accepted your GitHub invite and don't have a repo created for you.
 :::
-:::::
+:::
 
-:::: {.column width="50%"}
+::: {.column width="50%"}
 ::: appex
 **Option 2:**
 
 Go to the [course GitHub organization](https://github.com/sta199-su26) and clone `ae-your-github-username` repo to [your container](https://cmgr.oit.duke.edu/containers).
 :::
-::::
-::::::::
+:::
+:::
 
 <br>
 
@@ -577,8 +577,8 @@ Go to the [course GitHub organization](https://github.com/sta199-su26) and clone
 
 ## Tour: Quarto {.smaller}
 
-:::::::: columns
-::::: {.column width="50%"}
+::: columns
+::: {.column width="50%"}
 ::: demo
 **Option 1:**
 
@@ -588,16 +588,16 @@ Sit back and enjoy the show!
 ::: callout-note
 If you chose (or had to choose) this option for the previous tour, or if you couldn't clone your repo for any reason, you'll need to stick to this option.
 :::
-:::::
+:::
 
-:::: {.column width="50%"}
+::: {.column width="50%"}
 ::: appex
 **Option 2:**
 
 Go to RStudio and open the document `ae-01-meet-the-penguins.qmd`.
 :::
-::::
-::::::::
+:::
+:::
 
 ## Tour: Quarto (and more Git + GitHub) {.smaller .scrollable}
 
