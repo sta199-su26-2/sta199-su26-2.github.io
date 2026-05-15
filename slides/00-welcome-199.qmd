@@ -31,9 +31,72 @@ makenna.roberts\@duke.edu
 
 <hr>
 
-## About me!
+## Where's this?
 
-![](img/ks_timeline%20vF.png){fig-alt="About me!" fig-align="center"}
+![](img/00/sanfran.jpg){fig-align="center"}
+
+## My family
+
+![](img/00/family.JPEG){fig-align="center"}
+
+## UCLA {.smaller}
+
+:::: columns
+::: {.column width="50%"}
+![](img/00/Royce_Hall_Facade.jpeg){fig-align="center"}
+:::
+::: {.column width="50%"}
+![](img/00/uclamath2.png){fig-align="center"}
+![](img/00/uclastatsds.png){fig-align="center"}
+
+- UCLA! Majored in applied mathematics, statistics and data science
+- Graduated 2024
+- Did research, blah blah blah blah blah, wanted more school etc.
+:::
+::::
+
+## UCLA cont
+
+:::: columns
+::: {.column width="66%"}
+![](img/00/joshgym.gif){fig-align="center"}
+:::
+
+::: {.column width="34%"}
+![](img/00/joshdance.gif){fig-align="center"}
+![](img/00/joshvolleyball.png){fig-align="center"}
+:::
+::::
+
+## DUKE
+
+:::: columns
+::: {.column width="50%"}
+![](img/00/joshduke.png){fig-align="center"}
+
+:::
+::: {.column width="50%"}
+![](img/00/StatSciLogo.jpg){fig-align="center"}
+
+- PhD in statistical science
+- Research in causal inference, missing data, and machine learning
+- Applied projects across multiple medical schools
+:::
+
+::::
+
+
+## Duke cont
+
+:::: columns
+::: {.column width="50%"}
+![](img/00/splitstep.gif){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+![](img/00/vballflip.gif){fig-align="center"}
+:::
+::::
 
 ## Meet each other!
 
@@ -41,7 +104,8 @@ makenna.roberts\@duke.edu
 -   Year
 -   Major(s) (or, potential major(s) if undecided!)
 -   Hometown
--   Something you plan to do this summer when STA 199 ends 💔
+-   Something fun you did or will do this summer
+-   If you were to go viral, what would it be for?
 
 ## What are we studying?
 
@@ -110,6 +174,10 @@ What's the margin of error?
 The manager is going to make wildly different decisions about campaign strategy and spending depending on how uncertain the environment is.
 :::
 
+## Who can explain this?
+
+![](img/00/samplesizememe.png){fig-align="center"}
+
 # Software
 
 ## Excel... 👎
@@ -124,7 +192,7 @@ The manager is going to make wildly different decisions about campaign strategy 
 
 ## Homepage
 
-[https://sta199-su26.github.io](https://sta199-su26.github.io/){.uri}
+[https://sta199-su26-2.github.io](https://sta199-su26-2.github.io/){.uri}
 
 -   All course materials
 -   Links to Canvas, GitHub, RStudio containers, etc.
@@ -173,16 +241,16 @@ The manager is going to make wildly different decisions about campaign strategy 
 
 -   Two exams, each 25%
 
--   Midterm: June 1, during lecture + lab (tentatively)
+-   Midterm: June 1, during lecture + lab (tentatively) CHANGE
 
--   Final: June 24, 9am - 12pm
+-   Final: June 24, 9am - 12pm CHANGE
 
 -   You will be permitted a "cheat sheet" (both sides of a single 8.5” x 11” piece of paper)
 
 ::: callout-caution
 It's possible the first midterm gets bumped to June 2; this will be communicated by next Wednesday, 5/20.
 The final exam date is above my pay grade & cannot be changed.
-If you cannot take the exams on these dates, please have a discussion with me ***today***.
+If you cannot take the exams on these dates, please have a discussion with me ***today***. CHANGE
 :::
 
 ## Project {.smaller}
@@ -224,7 +292,7 @@ Final presentation date cannot be changed; you must complete the project and par
 | Application Exercises | 5%         |
 | Lab Attendance        | 5%         |
 
-<br><br> See [course syllabus](https://sta199-su26.github.io/syllabus/) for how the final letter grade will be determined.
+<br><br> See [course syllabus](https://sta199-su26-2.github.io/syllabus/) for how the final letter grade will be determined.
 
 ## Support
 
@@ -234,11 +302,9 @@ Final presentation date cannot be changed; you must complete the project and par
 
 ## Office Hours
 
-***Katie: Old Chem 203***
+***Josh: Old Chem 203*** CHANGE
 
--   Tuesday 11:00AM - 1:00PM
-
--   Sunday 1:00 - 3:00PM
+-   TBD
 
 ***Kenna:*** Time & Location TBD
 
@@ -251,7 +317,7 @@ Final presentation date cannot be changed; you must complete the project and par
 
 All linked from the course website:
 
--   GitHub organization: [github.com/sta199-su26](https://github.com/sta199-su26)
+-   GitHub organization: [github.com/sta199-su26-2](https://github.com/sta199-su26-2)
 -   RStudio containers: [cmgr.oit.duke.edu/containers](https://cmgr.oit.duke.edu/containers)
 -   Communication: Ed Discussion
 -   Assignment submission and feedback: Gradescope
@@ -267,7 +333,7 @@ All linked from the course website:
 ## Late work, waivers, regrades policy
 
 -   We have policies!
--   Read about them on the [course syllabus](https://sta199-su26.github.io/course-syllabus.html) and refer back to them when you need it
+-   Read about them on the [course syllabus](https://sta199-su26-2.github.io/course-syllabus.html) and refer back to them when you need it
 
 ::: callout-note
 ## If you need testing accommodations
@@ -432,12 +498,66 @@ ggplot(daily_accidents_420, aes(fatalities_count, fill = e420)) +
 
 ![](img/00/communicate.png){fig-align="center" width="80%"}
 
+## POV: Your Mom dropped this banger in the family gc
+
+![](img/00/spongebob1.png){fig-align=”center” width=”70%”}
+
+## What did the study actually do? {.smaller}
+
+![](img/00/spongebob2.png){fig-align=”center” width=”72%”}
+
+## The study design {.smaller}
+
+**60 four-year-olds** randomly assigned to 3 conditions (20 each):
+
+. . .
+
+- **Fast-paced TV**: 9-minute clip of a popular cartoon about *an animated sponge that lives under the sea*
+- **Educational TV**: 9-minute clip of a PBS cartoon about a typical preschool-aged boy
+-  **Drawing**: crayons, markers, and paper for 9 minutes
+
+. . .
+
+Then researchers measured **executive function (EF)** immediately after.
+
+## How did they measure “brain impairment”? {.smaller}
+
+Three tasks:
+
+- **Tower of Hanoi** — move disks between pegs following rules; scored 0 or 1
+- **HTKS** — “When I say touch your head, touch your toes” (and vice versa); scored 0–2 per item
+- **Delay of gratification** — wait for the experimenter to get 10 marshmallows vs. ring a bell for 2
+
+. . .
+
+Z-scores for the first 3 EF tasks were summed into a **composite EF score**.
+
+## So what's the problem? {.smaller}
+
+::: callout-warning
+## No baseline!
+Executive function was only measured *after* the experiment — we don't know if the groups were comparable *before* watching anything.
+:::
+
+. . .
+
+::: callout-warning
+## What metrics?
+Tower of Hanoi scored 0 or 1. HTKS is a children's game. Are these really measuring “brain impairment”?
+:::
+
+. . .
+
+
+## Yet...
+
+![](img/00/spongebob3.png){fig-align=”center” width=”80%”}
+
 ## Course themes {.scrollable .smaller}
 
 -   **Statistical literacy matters**
     -   Headlines, social media posts, advertisements, and even “expert” sources can misrepresent scientific findings 
     -   Data-driven claims should be evaluated critically, not accepted at face value 
-    -   Understanding how conclusions are reached is an important skill!
     
 -   **Reproducibility is essential**
     -   Credible analyses should clearly describe: where the data came from, how the data were processed, and how the analysis was performed

@@ -1,5 +1,5 @@
 date-format: long
-institute: "Duke University <br> STA 199 Summer 2026: Session 2"
+institute: "Duke University <br> STA 199 Summer 2026: Session 2 <br> Adapted from slides by Mine Çetinkaya-Rundel, Katie Solarz & John Zito"
 author: "Josh Lim"
 format:
   revealjs:
