@@ -49,732 +49,1138 @@
     ]
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#meet-your-teaching-team",
-    "href": "slides/00-welcome-199-slides.html#meet-your-teaching-team",
-    "title": "Welcome to STA 199!",
-    "section": "Meet your teaching team",
-    "text": "Meet your teaching team\n\nInstructorJosh Lim\njosh.lim@duke.edu\n\nTA, Lab InstructorKenna Roberts\nmakenna.roberts@duke.edu"
+    "objectID": "slides/01-meet-the-toolkit-slides.html#reminders",
+    "href": "slides/01-meet-the-toolkit-slides.html#reminders",
+    "title": "Meet the toolkit",
+    "section": "Reminders",
+    "text": "Reminders\n\n\nIf you have not yet finished the Getting to know you survey, please do so ASAP\nAny lingering syllabus questions?"
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#wheres-this",
-    "href": "slides/00-welcome-199-slides.html#wheres-this",
-    "title": "Welcome to STA 199!",
-    "section": "Where’s this?",
-    "text": "Where’s this?"
+    "objectID": "slides/01-meet-the-toolkit-slides.html#course-toolkit",
+    "href": "slides/01-meet-the-toolkit-slides.html#course-toolkit",
+    "title": "Meet the toolkit",
+    "section": "Course Toolkit",
+    "text": "Course Toolkit\n\n\nCourse operation\n\nMaterials: sta199-su26.github.io\n\nSubmission: Gradescope (in Canvas)\nContent Q&A: Ed Discussion (in Canvas)\nGrades: Gradebook (in Canvas)\n\n\n\nDoing data science\n\nComputing:\n\nR\nRStudio\n\ntidyverse and friends\nQuarto\n\n\nVersion control:\n\nGit\nGitHub"
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#my-family",
-    "href": "slides/00-welcome-199-slides.html#my-family",
-    "title": "Welcome to STA 199!",
-    "section": "My family",
-    "text": "My family"
+    "objectID": "slides/01-meet-the-toolkit-slides.html#learning-goals",
+    "href": "slides/01-meet-the-toolkit-slides.html#learning-goals",
+    "title": "Meet the toolkit",
+    "section": "Learning goals",
+    "text": "Learning goals\nBy the end of the course, you will be able to…\n\n\ngain insight from data\ngain insight from data, reproducibly\n\ngain insight from data, reproducibly, using modern programming tools and techniques\n\ngain insight from data, reproducibly and collaboratively, using modern programming tools and techniques\ngain insight from data, reproducibly (with literate programming and version control) and collaboratively, using modern programming tools and techniques"
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#ucla",
-    "href": "slides/00-welcome-199-slides.html#ucla",
-    "title": "Welcome to STA 199!",
-    "section": "UCLA",
-    "text": "UCLA\n\n\n\n\n\n\n\n\n\nUCLA! Majored in applied mathematics, statistics and data science\nGraduated 2024\nDid research, blah blah blah blah blah, wanted more school etc."
+    "objectID": "slides/01-meet-the-toolkit-slides.html#two-important-concepts",
+    "href": "slides/01-meet-the-toolkit-slides.html#two-important-concepts",
+    "title": "Meet the toolkit",
+    "section": "Two important concepts",
+    "text": "Two important concepts\n\nComputational reproducibility:\n\n\nIf you give me your code and your data and I hit “Run,” do I get the same numbers and the same pictures that you published in your article?\nIf so…phew!\nIf not…what the 🤬?\n\n\n\n\nScientific replication:\n\n\n\nCan new researchers conduct an independent analysis and reach the same substantive conclusions that you did?\nJust because your analysis is computationally reproducible does not mean that you have a robust result that generalizes.\n\n\n\nOur tools will help you achieve the first, which is necessary (but not sufficient!) for the second."
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#ucla-cont",
-    "href": "slides/00-welcome-199-slides.html#ucla-cont",
-    "title": "Welcome to STA 199!",
-    "section": "UCLA cont",
-    "text": "UCLA cont"
+    "objectID": "slides/01-meet-the-toolkit-slides.html#reproducibility-checklist",
+    "href": "slides/01-meet-the-toolkit-slides.html#reproducibility-checklist",
+    "title": "Meet the toolkit",
+    "section": "Reproducibility checklist",
+    "text": "Reproducibility checklist\n\nWhat does it mean for a data analysis to be “reproducible”?\n\n\nShort-term goals:\n\nAre the tables and figures reproducible from the code and data?\nDoes the code actually do what you think it does?\nIn addition to what was done, is it clear why it was done?\n\n\n\nLong-term goals:\n\nCan the code be used for other data?\nCan you extend the code to do other things?\n\nSome best practices from the American Statistical Association\n\nEnd-to-end scripting of research\nUse of version control and documentation\nPublication of code along with data"
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#duke",
-    "href": "slides/00-welcome-199-slides.html#duke",
-    "title": "Welcome to STA 199!",
-    "section": "DUKE",
-    "text": "DUKE\n\n\n\n\n\n\n\n\n\n\n\n\nPhD in statistical science\nResearch in causal inference, missing data, and machine learning\nApplied projects across multiple medical schools"
+    "objectID": "slides/01-meet-the-toolkit-slides.html#toolkit-for-reproducibility",
+    "href": "slides/01-meet-the-toolkit-slides.html#toolkit-for-reproducibility",
+    "title": "Meet the toolkit",
+    "section": "Toolkit for reproducibility",
+    "text": "Toolkit for reproducibility\n\n\nScriptability – Coding instead of point-and-click \\(\\rightarrow\\) R\nLiterate programming – Code, written text, results all in one place instead of error-prone copy-paste \\(\\rightarrow\\) Quarto\nVersion control – Track changes with brief messages that describe those changes \\(\\rightarrow\\) Git / GitHub"
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#duke-cont",
-    "href": "slides/00-welcome-199-slides.html#duke-cont",
-    "title": "Welcome to STA 199!",
-    "section": "Duke cont",
-    "text": "Duke cont"
-  },
-  {
-    "objectID": "slides/00-welcome-199-slides.html#meet-each-other",
-    "href": "slides/00-welcome-199-slides.html#meet-each-other",
-    "title": "Welcome to STA 199!",
-    "section": "Meet each other!",
-    "text": "Meet each other!\n\nName\nYear\nMajor(s) (or, potential major(s) if undecided!)\nHometown\nSomething fun you did or will do this summer\nIf you were to go viral, what would it be for?"
-  },
-  {
-    "objectID": "slides/00-welcome-199-slides.html#what-are-we-studying",
-    "href": "slides/00-welcome-199-slides.html#what-are-we-studying",
-    "title": "Welcome to STA 199!",
-    "section": "What are we studying?",
-    "text": "What are we studying?\nFirst half:\n\n\n\n\n\n\nData science\n\n\n\nTransforming messy, incomplete, imperfect data into knowledge;\n\nKnowledge often takes the form of pictures and a concise set of numerical summaries.\n\n\n\n\n\nSecond half:\n\n\n\n\n\n\nStatistical thinking\n\n\nQuantifying our uncertainty about that knowledge."
-  },
-  {
-    "objectID": "slides/00-welcome-199-slides.html#imagine-this-dialog",
-    "href": "slides/00-welcome-199-slides.html#imagine-this-dialog",
-    "title": "Welcome to STA 199!",
-    "section": "Imagine this dialog",
-    "text": "Imagine this dialog\n\nCampaign manager: What is the probability that our candidate wins the election?\n\n\n(A flurry of analysis takes place.)\n\n\nData scientist: Our best guess is 54%.\n\n\nCampaign manager: How reliable is that estimate? How confident are we in that? What’s the margin of error?\n\n\n\n\nParallel Universe 1\nData scientist: It’s 54% give or take 3%.\n\n\nParallel Universe 2\nData scientist: It’s 54% give or take 20%.\n\n\n\n\n\n\n\n\n\n\nIt’s all about decision-making under uncertainty\n\n\nThe manager is going to make wildly different decisions about campaign strategy and spending depending on how uncertain the environment is."
-  },
-  {
-    "objectID": "slides/00-welcome-199-slides.html#who-can-explain-this",
-    "href": "slides/00-welcome-199-slides.html#who-can-explain-this",
-    "title": "Welcome to STA 199!",
-    "section": "Who can explain this?",
-    "text": "Who can explain this?"
-  },
-  {
-    "objectID": "slides/00-welcome-199-slides.html#excel",
-    "href": "slides/00-welcome-199-slides.html#excel",
-    "title": "Welcome to STA 199!",
-    "section": "Excel… 👎",
-    "text": "Excel… 👎"
-  },
-  {
-    "objectID": "slides/00-welcome-199-slides.html#r",
-    "href": "slides/00-welcome-199-slides.html#r",
-    "title": "Welcome to STA 199!",
-    "section": "R",
-    "text": "R"
-  },
-  {
-    "objectID": "slides/00-welcome-199-slides.html#homepage",
-    "href": "slides/00-welcome-199-slides.html#homepage",
-    "title": "Welcome to STA 199!",
-    "section": "Homepage",
-    "text": "Homepage\nhttps://sta199-su26-2.github.io\n\nAll course materials\nLinks to Canvas, GitHub, RStudio containers, etc."
-  },
-  {
-    "objectID": "slides/00-welcome-199-slides.html#activities",
-    "href": "slides/00-welcome-199-slides.html#activities",
-    "title": "Welcome to STA 199!",
-    "section": "Activities",
-    "text": "Activities\n\nIntroduce new content and prepare for lectures by watching the videos and completing the readings\nAttend and actively participate in lectures (and ask / answer questions for participation credit) and labs, office hours, team meetings\nPractice applying statistical concepts and computing with application exercises during lecture\nPut together what you’ve learned to analyze real-world data\n\nLab assignments\nExams\nTerm project (completed in teams)"
-  },
-  {
-    "objectID": "slides/00-welcome-199-slides.html#application-exercises",
-    "href": "slides/00-welcome-199-slides.html#application-exercises",
-    "title": "Welcome to STA 199!",
-    "section": "Application exercises",
-    "text": "Application exercises\n\nRoughly one per lecture\nGraded for good-faith attempt, not accuracy\nPractice this week; graded thereafter\nAt least one commit to your AE repo by 10:45am of the day of lecture\nComplete 80% for full lecutre attendance credit"
-  },
-  {
-    "objectID": "slides/00-welcome-199-slides.html#labs",
-    "href": "slides/00-welcome-199-slides.html#labs",
-    "title": "Welcome to STA 199!",
-    "section": "Labs",
-    "text": "Labs\n\nLab session formally takes place on Mondays and Thursdays following lecture (11:00am - 12:15pm)\nLabs are to be started during the lab session & completed at home by the posted due date\nI encourage you to make the most of lab sessions, as you have access to both your peers and Kenna, the course TA, during this time\n\nDue dates (typically):\n\nMonday Lab: Due Wednesday at 11:59 PM\nThursday Lab: Due Sunday at 11:59 PM\n\n\nDiscussion with classmates = 🤩 ; Copying = ❌\nLowest lab score is dropped"
-  },
-  {
-    "objectID": "slides/00-welcome-199-slides.html#exams",
-    "href": "slides/00-welcome-199-slides.html#exams",
-    "title": "Welcome to STA 199!",
-    "section": "Exams",
-    "text": "Exams\n\nTwo exams, each 25%\nMidterm: June 1, during lecture + lab (tentatively) CHANGE\nFinal: June 24, 9am - 12pm CHANGE\nYou will be permitted a “cheat sheet” (both sides of a single 8.5” x 11” piece of paper)\n\n\n\n\n\n\n\nCaution\n\n\nIt’s possible the first midterm gets bumped to June 2; this will be communicated by next Wednesday, 5/20. The final exam date is above my pay grade & cannot be changed. If you cannot take the exams on these dates, please have a discussion with me today. CHANGE"
-  },
-  {
-    "objectID": "slides/00-welcome-199-slides.html#project",
-    "href": "slides/00-welcome-199-slides.html#project",
-    "title": "Welcome to STA 199!",
-    "section": "Project",
-    "text": "Project\n\nDataset of your choice, method of your choice\nTeamwork\nPresentation and write-up\nPresentations will take place in the last lab (June 22)\nInterim deadlines, peer review on content, peer evaluation for team contribution\nSome lab sessions allocated to project progress\n\n\n\n\n\n\n\nCaution\n\n\nFinal presentation date cannot be changed; you must complete the project and participate in project presentations to pass this class."
-  },
-  {
-    "objectID": "slides/00-welcome-199-slides.html#project-teams",
-    "href": "slides/00-welcome-199-slides.html#project-teams",
-    "title": "Welcome to STA 199!",
-    "section": "Project teams",
-    "text": "Project teams\n\nAssigned by me (& influenced by communicated topics / areas of interest)\n3-4 members per team\nPeer evaluation during teamwork and after completion\nExpectations and roles\n\nEveryone is expected to contribute equal effort\n\nEveryone is expected to understand all code turned in\nIndividual contribution evaluated by peer evaluation, commits, etc."
-  },
-  {
-    "objectID": "slides/00-welcome-199-slides.html#grading",
-    "href": "slides/00-welcome-199-slides.html#grading",
-    "title": "Welcome to STA 199!",
-    "section": "Grading",
-    "text": "Grading\n\n\nCategory\nPercentage\n\n\n\nLabs\n20%\n\n\nProject\n20%\n\n\nExam 1\n25%\n\n\nExam 2\n25%\n\n\nApplication Exercises\n5%\n\n\nLab Attendance\n5%\n\n\n\n See course syllabus for how the final letter grade will be determined."
-  },
-  {
-    "objectID": "slides/00-welcome-199-slides.html#support",
-    "href": "slides/00-welcome-199-slides.html#support",
-    "title": "Welcome to STA 199!",
-    "section": "Support",
-    "text": "Support\n\nAttend office hours\nAsk and answer questions on the Ed discussion board\nReserve email for questions on personal matters and / or grades"
-  },
-  {
-    "objectID": "slides/00-welcome-199-slides.html#office-hours",
-    "href": "slides/00-welcome-199-slides.html#office-hours",
-    "title": "Welcome to STA 199!",
-    "section": "Office Hours",
-    "text": "Office Hours\nJosh: Old Chem 203 CHANGE\n\nTBD\n\nKenna: Time & Location TBD"
-  },
-  {
-    "objectID": "slides/00-welcome-199-slides.html#announcements",
-    "href": "slides/00-welcome-199-slides.html#announcements",
-    "title": "Welcome to STA 199!",
-    "section": "Announcements",
-    "text": "Announcements\n\nPosted on Canvas (Announcements tool) and sent via email, be sure to check both regularly\nAll information is on the course website - please pin to your browser of choice & refer to it often!"
-  },
-  {
-    "objectID": "slides/00-welcome-199-slides.html#course-toolkit",
-    "href": "slides/00-welcome-199-slides.html#course-toolkit",
-    "title": "Welcome to STA 199!",
-    "section": "Course toolkit",
-    "text": "Course toolkit\nAll linked from the course website:\n\nGitHub organization: github.com/sta199-su26-2\n\nRStudio containers: cmgr.oit.duke.edu/containers\n\nCommunication: Ed Discussion\nAssignment submission and feedback: Gradescope"
-  },
-  {
-    "objectID": "slides/00-welcome-199-slides.html#accessibility",
-    "href": "slides/00-welcome-199-slides.html#accessibility",
-    "title": "Welcome to STA 199!",
-    "section": "Accessibility",
-    "text": "Accessibility\n\nThe Student Disability Access Office (SDAO) is available to ensure that students are able to engage with their courses and related assignments.\nI am committed to making all course materials accessible, and I’m always open to feedback on how to do this better!"
-  },
-  {
-    "objectID": "slides/00-welcome-199-slides.html#late-work-waivers-regrades-policy",
-    "href": "slides/00-welcome-199-slides.html#late-work-waivers-regrades-policy",
-    "title": "Welcome to STA 199!",
-    "section": "Late work, waivers, regrades policy",
-    "text": "Late work, waivers, regrades policy\n\nWe have policies!\nRead about them on the course syllabus and refer back to them when you need it\n\n\n\n\n\n\n\nIf you need testing accommodations\n\n\nMake sure I get a letter, and make your appointments in the Testing Center now."
-  },
-  {
-    "objectID": "slides/00-welcome-199-slides.html#collaboration",
-    "href": "slides/00-welcome-199-slides.html#collaboration",
-    "title": "Welcome to STA 199!",
+    "objectID": "slides/01-meet-the-toolkit-slides.html#collaboration",
+    "href": "slides/01-meet-the-toolkit-slides.html#collaboration",
+    "title": "Meet the toolkit",
     "section": "Collaboration",
-    "text": "Collaboration\n\nLabs: discussing and helping one another is fine; sharing your solutions via text, email, AirDrop, carrier pigeon, or any other method, and / or copying from others is not permitted;\nExams: collaboration of any kind is completely forbidden\nProjects: collaboration of all kinds is enthusiastically encouraged within your team; between teams, it’s the same as labs; do not directly share your materials or copy from others."
+    "text": "Collaboration\n\n\nCollaboration doesn’t just mean working with others. It also means collaborating with yourself across time;\nToo often, I have set something aside only to return to it several weeks (or even days!) later and ask “who did this and what were they thinking?”\nOur tools will make you an excellent collaborator with others, but they will also help you keep yourself organized."
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#use-of-ai-tools",
-    "href": "slides/00-welcome-199-slides.html#use-of-ai-tools",
-    "title": "Welcome to STA 199!",
-    "section": "Use of AI tools",
-    "text": "Use of AI tools\n\n\n AI tools for code:\n\nSure, but be careful/critical! Working code != correct / good code.\nMust explicitly cite with a direct url linking to the conversation you had.\n\n\n AI tools for narrative: Absolutely not!\n AI tools for learning: Sure, but be careful/critical!\n\n\n\n\n\n\n\nCaution\n\n\nException: Use of AI tools is completely forbidden during lab session. When you are in lab, you have far better tools / resources available to you - Kenna, our TA, and each other! Blatant disregard for this policy will result in a 0 for the current lab assignment."
+    "objectID": "slides/01-meet-the-toolkit-slides.html#an-analogy-to-english",
+    "href": "slides/01-meet-the-toolkit-slides.html#an-analogy-to-english",
+    "title": "Meet the toolkit",
+    "section": "An Analogy to English",
+    "text": "An Analogy to English"
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#academic-integrity",
-    "href": "slides/00-welcome-199-slides.html#academic-integrity",
-    "title": "Welcome to STA 199!",
-    "section": "Academic integrity",
-    "text": "Academic integrity\n\nTo uphold the Duke Community Standard:\n\nI will not lie, cheat, or steal in my academic endeavors;\nI will conduct myself honorably in all my endeavors; and\nI will act if the Standard is compromised."
+    "objectID": "slides/01-meet-the-toolkit-slides.html#an-analogy-to-english-1",
+    "href": "slides/01-meet-the-toolkit-slides.html#an-analogy-to-english-1",
+    "title": "Meet the toolkit",
+    "section": "An Analogy to English",
+    "text": "An Analogy to English"
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#april-20th-deadly-day-for-car-crashes",
-    "href": "slides/00-welcome-199-slides.html#april-20th-deadly-day-for-car-crashes",
-    "title": "Welcome to STA 199!",
-    "section": "“April 20th: Deadly Day for Car Crashes?”",
-    "text": "“April 20th: Deadly Day for Car Crashes?”\nThe text below can be found at this link, which is a post on the website of a personal injury law firm. Suppose we want to investigate the validity of their claim… What data might we want? What methods are appropriate? How will we perform our analysis? How can we best communicate our findings?"
+    "objectID": "slides/01-meet-the-toolkit-slides.html#an-analogy-to-english-2",
+    "href": "slides/01-meet-the-toolkit-slides.html#an-analogy-to-english-2",
+    "title": "Meet the toolkit",
+    "section": "An Analogy to English",
+    "text": "An Analogy to English"
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#the-data-science-life-cycle",
-    "href": "slides/00-welcome-199-slides.html#the-data-science-life-cycle",
-    "title": "Welcome to STA 199!",
-    "section": "The data science life cycle",
-    "text": "The data science life cycle"
+    "objectID": "slides/01-meet-the-toolkit-slides.html#an-analogy-to-english-3",
+    "href": "slides/01-meet-the-toolkit-slides.html#an-analogy-to-english-3",
+    "title": "Meet the toolkit",
+    "section": "An Analogy to English",
+    "text": "An Analogy to English"
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#the-data-science-life-cycle-1",
-    "href": "slides/00-welcome-199-slides.html#the-data-science-life-cycle-1",
-    "title": "Welcome to STA 199!",
-    "section": "The data science life cycle",
-    "text": "The data science life cycle"
+    "objectID": "slides/01-meet-the-toolkit-slides.html#an-analogy-to-english-4",
+    "href": "slides/01-meet-the-toolkit-slides.html#an-analogy-to-english-4",
+    "title": "Meet the toolkit",
+    "section": "An Analogy to English",
+    "text": "An Analogy to English"
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#load-the-data-in",
-    "href": "slides/00-welcome-199-slides.html#load-the-data-in",
-    "title": "Welcome to STA 199!",
-    "section": "Load the data in",
-    "text": "Load the data in\nOn 4/22/2025, TidyTuesday posted a tidy version of the raw data analyzed in Harper and Palayew’s (2019) study, “The annual cannabis holiday and fatal traffic crashes,” available here.\nLet’s load this data into R…\n\nlibrary(tidyverse)\n\ndaily_accidents_420 &lt;- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-22/daily_accidents_420.csv')"
+    "objectID": "slides/01-meet-the-toolkit-slides.html#r-and-rstudio-1",
+    "href": "slides/01-meet-the-toolkit-slides.html#r-and-rstudio-1",
+    "title": "Meet the toolkit",
+    "section": "R and RStudio",
+    "text": "R and RStudio\n\n\n\n\n\n\n\nR is an open-source statistical programming language\n\nR is also an environment for statistical computing and graphics\nIt’s easily extensible with packages\n\n\n\n\n\nRStudio is a convenient interface for R called an IDE (integrated development environment), e.g. “I write R code in the RStudio IDE”\n\nRStudio is not a requirement for programming with R, but it’s very commonly used by R programmers and data scientists"
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#the-data-science-life-cycle-2",
-    "href": "slides/00-welcome-199-slides.html#the-data-science-life-cycle-2",
-    "title": "Welcome to STA 199!",
-    "section": "The data science life cycle",
-    "text": "The data science life cycle"
+    "objectID": "slides/01-meet-the-toolkit-slides.html#r-vs.-rstudio",
+    "href": "slides/01-meet-the-toolkit-slides.html#r-vs.-rstudio",
+    "title": "Meet the toolkit",
+    "section": "R vs. RStudio",
+    "text": "R vs. RStudio\n\n\n\n\n\n\nSource: Modern Dive."
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#if-we-hadnt-had-access-to-our-tidy-data",
-    "href": "slides/00-welcome-199-slides.html#if-we-hadnt-had-access-to-our-tidy-data",
-    "title": "Welcome to STA 199!",
-    "section": "If we hadn’t had access to our tidy data…",
-    "text": "If we hadn’t had access to our tidy data…"
+    "objectID": "slides/01-meet-the-toolkit-slides.html#tour-r-rstudio",
+    "href": "slides/01-meet-the-toolkit-slides.html#tour-r-rstudio",
+    "title": "Meet the toolkit",
+    "section": "Tour: R + RStudio",
+    "text": "Tour: R + RStudio\n\n\n\nOption 1:\nSit back and enjoy the show!\n\n\n\nOption 2:\nGo to your container and launch RStudio."
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#still-we-can-tidy-some-more",
-    "href": "slides/00-welcome-199-slides.html#still-we-can-tidy-some-more",
-    "title": "Welcome to STA 199!",
-    "section": "Still, we can tidy some more…",
-    "text": "Still, we can tidy some more…\n\ndaily_accidents_420 &lt;- daily_accidents_420 |&gt;\n  filter(!is.na(e420)) |&gt;\n  mutate(e420 = if_else(e420 == TRUE, \"4/20\", \"Not 4/20\"))"
+    "objectID": "slides/01-meet-the-toolkit-slides.html#tour-recap-r-rstudio",
+    "href": "slides/01-meet-the-toolkit-slides.html#tour-recap-r-rstudio",
+    "title": "Meet the toolkit",
+    "section": "Tour recap: R + RStudio",
+    "text": "Tour recap: R + RStudio"
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#the-data-science-life-cycle-3",
-    "href": "slides/00-welcome-199-slides.html#the-data-science-life-cycle-3",
-    "title": "Welcome to STA 199!",
-    "section": "The data science life cycle",
-    "text": "The data science life cycle"
+    "objectID": "slides/01-meet-the-toolkit-slides.html#r-packages",
+    "href": "slides/01-meet-the-toolkit-slides.html#r-packages",
+    "title": "Meet the toolkit",
+    "section": "R packages",
+    "text": "R packages\n\n\nPackages: Fundamental units of reproducible R code, including reusable R functions, the documentation that describes how to use them, and sample data1\nAs of 13 May 2026, there are 23,731 R packages available on CRAN (the Comprehensive R Archive Network)2\nWe’re going to work with a small (but important) subset of these!\n\n\n\n\n1 Wickham and Bryan, R Packages.\n2CRAN contributed packages."
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#babys-first-graphic",
-    "href": "slides/00-welcome-199-slides.html#babys-first-graphic",
-    "title": "Welcome to STA 199!",
-    "section": "Baby’s first graphic",
-    "text": "Baby’s first graphic\n\nggplot(daily_accidents_420, aes(fatalities_count, fill = e420))"
+    "objectID": "slides/01-meet-the-toolkit-slides.html#packages",
+    "href": "slides/01-meet-the-toolkit-slides.html#packages",
+    "title": "Meet the toolkit",
+    "section": "Packages",
+    "text": "Packages\n\nInstalled with install.packages(), once per system:\n\n\ninstall.packages(\"palmerpenguins\")\n\n\n\n\n\n\n\nNote\n\n\nWe already pre-installed many of the package you’ll need for this course, so you might go the whole semester without needing to run install.packages()!\n\n\n\n\n\nLoaded with library(), once per session:\n\n\nlibrary(palmerpenguins)"
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#babys-first-graphic-1",
-    "href": "slides/00-welcome-199-slides.html#babys-first-graphic-1",
-    "title": "Welcome to STA 199!",
-    "section": "Baby’s first graphic",
-    "text": "Baby’s first graphic\n\nggplot(daily_accidents_420, aes(fatalities_count, fill = e420)) +\n    geom_histogram()"
+    "objectID": "slides/01-meet-the-toolkit-slides.html#data-frames-and-variables",
+    "href": "slides/01-meet-the-toolkit-slides.html#data-frames-and-variables",
+    "title": "Meet the toolkit",
+    "section": "Data frames and variables",
+    "text": "Data frames and variables\n\nEach row of a data frame is an observation\n\n\n\n\nEach column of a data frame is a variable\n\n\n\n\n\nColumns (variables) in data frames can be accessed with $:\n\n\ndataframe$variable_name"
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#babys-first-graphic-2",
-    "href": "slides/00-welcome-199-slides.html#babys-first-graphic-2",
-    "title": "Welcome to STA 199!",
-    "section": "Baby’s first graphic",
-    "text": "Baby’s first graphic\n\nggplot(daily_accidents_420, aes(fatalities_count, fill = e420)) +\n  geom_histogram() +\n  facet_wrap(~ e420, ncol = 1, scales = \"free_y\")"
+    "objectID": "slides/01-meet-the-toolkit-slides.html#penguins-data-frame",
+    "href": "slides/01-meet-the-toolkit-slides.html#penguins-data-frame",
+    "title": "Meet the toolkit",
+    "section": "\npenguins data frame",
+    "text": "penguins data frame\n\npenguins\n\n# A tibble: 344 × 8\n   species island    bill_length_mm bill_depth_mm flipper_length_mm\n   &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;\n 1 Adelie  Torgersen           39.1          18.7               181\n 2 Adelie  Torgersen           39.5          17.4               186\n 3 Adelie  Torgersen           40.3          18                 195\n 4 Adelie  Torgersen           NA            NA                  NA\n 5 Adelie  Torgersen           36.7          19.3               193\n 6 Adelie  Torgersen           39.3          20.6               190\n 7 Adelie  Torgersen           38.9          17.8               181\n 8 Adelie  Torgersen           39.2          19.6               195\n 9 Adelie  Torgersen           34.1          18.1               193\n10 Adelie  Torgersen           42            20.2               190\n# ℹ 334 more rows\n# ℹ 3 more variables: body_mass_g &lt;int&gt;, sex &lt;fct&gt;, year &lt;int&gt;"
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#babys-first-graphic-3",
-    "href": "slides/00-welcome-199-slides.html#babys-first-graphic-3",
-    "title": "Welcome to STA 199!",
-    "section": "Baby’s first graphic",
-    "text": "Baby’s first graphic\n\nggplot(daily_accidents_420, aes(fatalities_count, fill = e420)) +\n  geom_histogram() +\n  facet_wrap(~ e420, ncol = 1, scales = \"free_y\") +\n  labs(title = \"Histogram of Daily Traffic Accident Fatality Count, 1992-2016\",\n       subtitle = \"On the 'High Holiday' (4/20), vs. Not\",\n       x = \"Daily Traffic Accident Fatality Count (1992 - 2016)\",\n       y = \"Count of Observations\") +\n  theme_minimal() +\n  theme(legend.position = \"none\")"
+    "objectID": "slides/01-meet-the-toolkit-slides.html#bill_length_mm",
+    "href": "slides/01-meet-the-toolkit-slides.html#bill_length_mm",
+    "title": "Meet the toolkit",
+    "section": "bill_length_mm",
+    "text": "bill_length_mm\n\npenguins$bill_length_mm\n\n  [1] 39.1 39.5 40.3   NA 36.7 39.3 38.9 39.2 34.1 42.0 37.8 37.8 41.1\n [14] 38.6 34.6 36.6 38.7 42.5 34.4 46.0 37.8 37.7 35.9 38.2 38.8 35.3\n [27] 40.6 40.5 37.9 40.5 39.5 37.2 39.5 40.9 36.4 39.2 38.8 42.2 37.6\n [40] 39.8 36.5 40.8 36.0 44.1 37.0 39.6 41.1 37.5 36.0 42.3 39.6 40.1\n [53] 35.0 42.0 34.5 41.4 39.0 40.6 36.5 37.6 35.7 41.3 37.6 41.1 36.4\n [66] 41.6 35.5 41.1 35.9 41.8 33.5 39.7 39.6 45.8 35.5 42.8 40.9 37.2\n [79] 36.2 42.1 34.6 42.9 36.7 35.1 37.3 41.3 36.3 36.9 38.3 38.9 35.7\n [92] 41.1 34.0 39.6 36.2 40.8 38.1 40.3 33.1 43.2 35.0 41.0 37.7 37.8\n[105] 37.9 39.7 38.6 38.2 38.1 43.2 38.1 45.6 39.7 42.2 39.6 42.7 38.6\n[118] 37.3 35.7 41.1 36.2 37.7 40.2 41.4 35.2 40.6 38.8 41.5 39.0 44.1\n[131] 38.5 43.1 36.8 37.5 38.1 41.1 35.6 40.2 37.0 39.7 40.2 40.6 32.1\n[144] 40.7 37.3 39.0 39.2 36.6 36.0 37.8 36.0 41.5 46.1 50.0 48.7 50.0\n[157] 47.6 46.5 45.4 46.7 43.3 46.8 40.9 49.0 45.5 48.4 45.8 49.3 42.0\n[170] 49.2 46.2 48.7 50.2 45.1 46.5 46.3 42.9 46.1 44.5 47.8 48.2 50.0\n[183] 47.3 42.8 45.1 59.6 49.1 48.4 42.6 44.4 44.0 48.7 42.7 49.6 45.3\n[196] 49.6 50.5 43.6 45.5 50.5 44.9 45.2 46.6 48.5 45.1 50.1 46.5 45.0\n[209] 43.8 45.5 43.2 50.4 45.3 46.2 45.7 54.3 45.8 49.8 46.2 49.5 43.5\n[222] 50.7 47.7 46.4 48.2 46.5 46.4 48.6 47.5 51.1 45.2 45.2 49.1 52.5\n[235] 47.4 50.0 44.9 50.8 43.4 51.3 47.5 52.1 47.5 52.2 45.5 49.5 44.5\n[248] 50.8 49.4 46.9 48.4 51.1 48.5 55.9 47.2 49.1 47.3 46.8 41.7 53.4\n[261] 43.3 48.1 50.5 49.8 43.5 51.5 46.2 55.1 44.5 48.8 47.2   NA 46.8\n[274] 50.4 45.2 49.9 46.5 50.0 51.3 45.4 52.7 45.2 46.1 51.3 46.0 51.3\n[287] 46.6 51.7 47.0 52.0 45.9 50.5 50.3 58.0 46.4 49.2 42.4 48.5 43.2\n[300] 50.6 46.7 52.0 50.5 49.5 46.4 52.8 40.9 54.2 42.5 51.0 49.7 47.5\n[313] 47.6 52.0 46.9 53.5 49.0 46.2 50.9 45.5 50.9 50.8 50.1 49.0 51.5\n[326] 49.8 48.1 51.4 45.7 50.7 42.5 52.2 45.2 49.3 50.2 45.6 51.9 46.8\n[339] 45.7 55.8 43.5 49.6 50.8 50.2"
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#the-data-science-life-cycle-4",
-    "href": "slides/00-welcome-199-slides.html#the-data-science-life-cycle-4",
-    "title": "Welcome to STA 199!",
-    "section": "The data science life cycle",
-    "text": "The data science life cycle"
+    "objectID": "slides/01-meet-the-toolkit-slides.html#why-did-the-error-occur",
+    "href": "slides/01-meet-the-toolkit-slides.html#why-did-the-error-occur",
+    "title": "Meet the toolkit",
+    "section": "Why did the error occur?",
+    "text": "Why did the error occur?\n\nflipper_length_mm\n\nError:\n! object 'flipper_length_mm' not found"
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#in-reality",
-    "href": "slides/00-welcome-199-slides.html#in-reality",
-    "title": "Welcome to STA 199!",
-    "section": "In reality…",
-    "text": "In reality…"
+    "objectID": "slides/01-meet-the-toolkit-slides.html#flipper_length_mm",
+    "href": "slides/01-meet-the-toolkit-slides.html#flipper_length_mm",
+    "title": "Meet the toolkit",
+    "section": "flipper_length_mm",
+    "text": "flipper_length_mm\nThis can be fixed by using penguins$flipper_length_mm.\n\npenguins$flipper_length_mm\n\n  [1] 181 186 195  NA 193 190 181 195 193 190 186 180 182 191 198 185\n [17] 195 197 184 194 174 180 189 185 180 187 183 187 172 180 178 178\n [33] 188 184 195 196 190 180 181 184 182 195 186 196 185 190 182 179\n [49] 190 191 186 188 190 200 187 191 186 193 181 194 185 195 185 192\n [65] 184 192 195 188 190 198 190 190 196 197 190 195 191 184 187 195\n [81] 189 196 187 193 191 194 190 189 189 190 202 205 185 186 187 208\n [97] 190 196 178 192 192 203 183 190 193 184 199 190 181 197 198 191\n[113] 193 197 191 196 188 199 189 189 187 198 176 202 186 199 191 195\n[129] 191 210 190 197 193 199 187 190 191 200 185 193 193 187 188 190\n[145] 192 185 190 184 195 193 187 201 211 230 210 218 215 210 211 219\n[161] 209 215 214 216 214 213 210 217 210 221 209 222 218 215 213 215\n[177] 215 215 216 215 210 220 222 209 207 230 220 220 213 219 208 208\n[193] 208 225 210 216 222 217 210 225 213 215 210 220 210 225 217 220\n[209] 208 220 208 224 208 221 214 231 219 230 214 229 220 223 216 221\n[225] 221 217 216 230 209 220 215 223 212 221 212 224 212 228 218 218\n[241] 212 230 218 228 212 224 214 226 216 222 203 225 219 228 215 228\n[257] 216 215 210 219 208 209 216 229 213 230 217 230 217 222 214  NA\n[273] 215 222 212 213 192 196 193 188 197 198 178 197 195 198 193 194\n[289] 185 201 190 201 197 181 190 195 181 191 187 193 195 197 200 200\n[305] 191 205 187 201 187 203 195 199 195 210 192 205 210 187 196 196\n[321] 196 201 190 212 187 198 199 201 193 203 187 197 191 203 202 194\n[337] 206 189 195 207 202 193 210 198"
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#pov-your-mom-dropped-this-banger-in-the-family-gc",
-    "href": "slides/00-welcome-199-slides.html#pov-your-mom-dropped-this-banger-in-the-family-gc",
-    "title": "Welcome to STA 199!",
-    "section": "POV: Your Mom dropped this banger in the family gc",
-    "text": "POV: Your Mom dropped this banger in the family gc"
+    "objectID": "slides/01-meet-the-toolkit-slides.html#functionargument",
+    "href": "slides/01-meet-the-toolkit-slides.html#functionargument",
+    "title": "Meet the toolkit",
+    "section": "function(argument)",
+    "text": "function(argument)\nFunctions are (most often) verbs, followed by what they will be applied to in parentheses:\n\ndo_this(to_this)\ndo_that(to_this, to_that, with_those)"
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#what-did-the-study-actually-do",
-    "href": "slides/00-welcome-199-slides.html#what-did-the-study-actually-do",
-    "title": "Welcome to STA 199!",
-    "section": "What did the study actually do?",
-    "text": "What did the study actually do?"
+    "objectID": "slides/01-meet-the-toolkit-slides.html#mean",
+    "href": "slides/01-meet-the-toolkit-slides.html#mean",
+    "title": "Meet the toolkit",
+    "section": "mean()",
+    "text": "mean()\nLet’s compute the average of a set of numbers:\n\nx &lt;- c(1, 2, 3, 4, 5, 6, 7, 8, 9)\nx\n\n[1] 1 2 3 4 5 6 7 8 9\n\n\n\n\nmean(x)\n\n[1] 5"
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#the-study-design",
-    "href": "slides/00-welcome-199-slides.html#the-study-design",
-    "title": "Welcome to STA 199!",
-    "section": "The study design",
-    "text": "The study design\n60 four-year-olds randomly assigned to 3 conditions (20 each):\n\n\n\nFast-paced TV: 9-minute clip of a popular cartoon about an animated sponge that lives under the sea\n\n\nEducational TV: 9-minute clip of a PBS cartoon about a typical preschool-aged boy\n\nDrawing: crayons, markers, and paper for 9 minutes\n\n\n\nThen researchers measured executive function (EF) immediately after."
+    "objectID": "slides/01-meet-the-toolkit-slides.html#help",
+    "href": "slides/01-meet-the-toolkit-slides.html#help",
+    "title": "Meet the toolkit",
+    "section": "Help",
+    "text": "Help\nObject documentation can be accessed with ?\n\n\n\n?mean"
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#how-did-they-measure-brain-impairment",
-    "href": "slides/00-welcome-199-slides.html#how-did-they-measure-brain-impairment",
-    "title": "Welcome to STA 199!",
-    "section": "How did they measure “brain impairment”?",
-    "text": "How did they measure “brain impairment”?\nThree tasks:\n\n\nTower of Hanoi — move disks between pegs following rules; scored 0 or 1\n\nHTKS — “When I say touch your head, touch your toes” (and vice versa); scored 0–2 per item\n\nDelay of gratification — wait for the experimenter to get 10 marshmallows vs. ring a bell for 2\n\n\nZ-scores for the first 3 EF tasks were summed into a composite EF score."
+    "objectID": "slides/01-meet-the-toolkit-slides.html#summary-of-r-essentials",
+    "href": "slides/01-meet-the-toolkit-slides.html#summary-of-r-essentials",
+    "title": "Meet the toolkit",
+    "section": "Summary of R essentials",
+    "text": "Summary of R essentials\n\nFunctions are (most often) verbs, followed by what they will be applied to in parentheses:\n\n\ndo_this(to_this)\ndo_that(to_this, to_that, with_those)\n\n\n\nPackages are installed with the install.packages() function and loaded with the library function, once per session:\n\n\ninstall.packages(\"package_name\")\nlibrary(package_name)\n\nYour containers come “fully loaded,” so you may not have to install any new packages."
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#so-whats-the-problem",
-    "href": "slides/00-welcome-199-slides.html#so-whats-the-problem",
-    "title": "Welcome to STA 199!",
-    "section": "So what’s the problem?",
-    "text": "So what’s the problem?\n\n\n\n\n\n\nNo baseline!\n\n\nExecutive function was only measured after the experiment — we don’t know if the groups were comparable before watching anything.\n\n\n\n\n\n\n\n\n\n\nWhat metrics?\n\n\nTower of Hanoi scored 0 or 1. HTKS is a children’s game. Are these really measuring “brain impairment”?"
+    "objectID": "slides/01-meet-the-toolkit-slides.html#summary-of-r-essentials-continued",
+    "href": "slides/01-meet-the-toolkit-slides.html#summary-of-r-essentials-continued",
+    "title": "Meet the toolkit",
+    "section": "Summary of R essentials (continued)",
+    "text": "Summary of R essentials (continued)\nData frames: like the spreadsheets of R\n\nEach row of a data frame is an observation\n\nEach column of a data frame is a variable"
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#yet",
-    "href": "slides/00-welcome-199-slides.html#yet",
-    "title": "Welcome to STA 199!",
-    "section": "Yet…",
-    "text": "Yet…"
+    "objectID": "slides/01-meet-the-toolkit-slides.html#summary-of-r-essentials-continued-1",
+    "href": "slides/01-meet-the-toolkit-slides.html#summary-of-r-essentials-continued-1",
+    "title": "Meet the toolkit",
+    "section": "Summary of R essentials (continued)",
+    "text": "Summary of R essentials (continued)\n\nUse the question mark ? to get help with objects (like data frames and functions):\n\n\n?function_name\n\n\nUse the dollar sign $ to access columns\n\n\ndataframe$column\n\n\n\n\n\n\n\nNote\n\n\nGenerally, you need to use the $ to tell R where to find that column."
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#course-themes",
-    "href": "slides/00-welcome-199-slides.html#course-themes",
-    "title": "Welcome to STA 199!",
-    "section": "Course themes",
-    "text": "Course themes\n\n\nStatistical literacy matters\n\nHeadlines, social media posts, advertisements, and even “expert” sources can misrepresent scientific findings\nData-driven claims should be evaluated critically, not accepted at face value\n\n\n\nReproducibility is essential\n\nCredible analyses should clearly describe: where the data came from, how the data were processed, and how the analysis was performed\nReproducible work allows others to verify, critique, and build upon scientific findings\n\n\n\nData science is an iterative process\n\nCuriosity keeps the wheel turning!"
+    "objectID": "slides/01-meet-the-toolkit-slides.html#summary-of-r-essentials-continued-2",
+    "href": "slides/01-meet-the-toolkit-slides.html#summary-of-r-essentials-continued-2",
+    "title": "Meet the toolkit",
+    "section": "Summary of R essentials (continued)",
+    "text": "Summary of R essentials (continued)\n\nUse the arrow &lt;- or equals sign = to save objects\n\n\nx = some_thing\ny &lt;- some_other_thing\n\n\n\n\n\n\n\nNote\n\n\nCheck your environment pane for the saved object!"
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#what-is-github",
-    "href": "slides/00-welcome-199-slides.html#what-is-github",
-    "title": "Welcome to STA 199!",
-    "section": "What is GitHub?",
-    "text": "What is GitHub?\n\nMore on this tomorrow - basically, it is the Google Drive of coding!"
+    "objectID": "slides/01-meet-the-toolkit-slides.html#summary-of-r-essentials-continued-3",
+    "href": "slides/01-meet-the-toolkit-slides.html#summary-of-r-essentials-continued-3",
+    "title": "Meet the toolkit",
+    "section": "Summary of R essentials (continued)",
+    "text": "Summary of R essentials (continued)\n\nRead your error messages!\n\n\n\nThese are essential for figuring out where your code is going wrong.\n\n\n\n\n\n\n\n\nNote\n\n\nIf you have trouble understanding what a message is saying, there is a high chance someone has explained the message online."
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#ae-00-make-your-github-account",
-    "href": "slides/00-welcome-199-slides.html#ae-00-make-your-github-account",
-    "title": "Welcome to STA 199!",
-    "section": "AE 00: Make your GitHub account",
-    "text": "AE 00: Make your GitHub account\n Find AE 00 on the course website!"
+    "objectID": "slides/01-meet-the-toolkit-slides.html#packages-an-analogy",
+    "href": "slides/01-meet-the-toolkit-slides.html#packages-an-analogy",
+    "title": "Meet the toolkit",
+    "section": "Packages, an analogy",
+    "text": "Packages, an analogy\nIf data analysis was cooking…\n\n\nInstalling a package would be like buying ingredients from the store\nLoading a package would be like getting the ingredients out of your pantry and setting them on your counter top to be used"
   },
   {
-    "objectID": "slides/00-welcome-199-slides.html#this-weeks-tasks",
-    "href": "slides/00-welcome-199-slides.html#this-weeks-tasks",
-    "title": "Welcome to STA 199!",
-    "section": "This week’s tasks",
-    "text": "This week’s tasks\n\nComplete Lab 0\n\nComputational setup\nGetting to know you survey\n\n\nRead the syllabus\nGet started with data science!"
+    "objectID": "slides/01-meet-the-toolkit-slides.html#tidyverse",
+    "href": "slides/01-meet-the-toolkit-slides.html#tidyverse",
+    "title": "Meet the toolkit",
+    "section": "tidyverse",
+    "text": "tidyverse\n\naka the package you’ll hear about the most…\n\n\n\n\n\ntidyverse.org\n\nThe tidyverse is an opinionated collection of R packages designed for data science\nAll packages share an underlying philosophy and a common grammar"
   },
   {
-    "objectID": "slides/00-welcome-199.html",
-    "href": "slides/00-welcome-199.html",
-    "title": "Welcome to STA 199!",
+    "objectID": "slides/01-meet-the-toolkit-slides.html#git-and-github",
+    "href": "slides/01-meet-the-toolkit-slides.html#git-and-github",
+    "title": "Meet the toolkit",
+    "section": "Git and GitHub",
+    "text": "Git and GitHub\n\n\n\n\n\n\n\nGit is a version control system – like “Track Changes” features from Microsoft Word, on steroids\nIt’s not the only version control system, but it’s a very popular one\n\n\n\n\n\n\n\nGitHub is the home for your Git-based projects on the internet – like DropBox but much, much better\nWe will use GitHub as a platform for web hosting and collaboration (and as our course management system!)"
+  },
+  {
+    "objectID": "slides/01-meet-the-toolkit-slides.html#versioning---done-badly",
+    "href": "slides/01-meet-the-toolkit-slides.html#versioning---done-badly",
+    "title": "Meet the toolkit",
+    "section": "Versioning - done badly",
+    "text": "Versioning - done badly"
+  },
+  {
+    "objectID": "slides/01-meet-the-toolkit-slides.html#versioning---done-better",
+    "href": "slides/01-meet-the-toolkit-slides.html#versioning---done-better",
+    "title": "Meet the toolkit",
+    "section": "Versioning - done better",
+    "text": "Versioning - done better"
+  },
+  {
+    "objectID": "slides/01-meet-the-toolkit-slides.html#versioning---done-even-better",
+    "href": "slides/01-meet-the-toolkit-slides.html#versioning---done-even-better",
+    "title": "Meet the toolkit",
+    "section": "Versioning - done even better",
+    "text": "Versioning - done even better\n\nwith human readable messages"
+  },
+  {
+    "objectID": "slides/01-meet-the-toolkit-slides.html#how-will-we-use-git-and-github",
+    "href": "slides/01-meet-the-toolkit-slides.html#how-will-we-use-git-and-github",
+    "title": "Meet the toolkit",
+    "section": "How will we use Git and GitHub?",
+    "text": "How will we use Git and GitHub?"
+  },
+  {
+    "objectID": "slides/01-meet-the-toolkit-slides.html#how-will-we-use-git-and-github-1",
+    "href": "slides/01-meet-the-toolkit-slides.html#how-will-we-use-git-and-github-1",
+    "title": "Meet the toolkit",
+    "section": "How will we use Git and GitHub?",
+    "text": "How will we use Git and GitHub?"
+  },
+  {
+    "objectID": "slides/01-meet-the-toolkit-slides.html#how-will-we-use-git-and-github-2",
+    "href": "slides/01-meet-the-toolkit-slides.html#how-will-we-use-git-and-github-2",
+    "title": "Meet the toolkit",
+    "section": "How will we use Git and GitHub?",
+    "text": "How will we use Git and GitHub?"
+  },
+  {
+    "objectID": "slides/01-meet-the-toolkit-slides.html#how-will-we-use-git-and-github-3",
+    "href": "slides/01-meet-the-toolkit-slides.html#how-will-we-use-git-and-github-3",
+    "title": "Meet the toolkit",
+    "section": "How will we use Git and GitHub?",
+    "text": "How will we use Git and GitHub?"
+  },
+  {
+    "objectID": "slides/01-meet-the-toolkit-slides.html#git-and-github-tips",
+    "href": "slides/01-meet-the-toolkit-slides.html#git-and-github-tips",
+    "title": "Meet the toolkit",
+    "section": "Git and GitHub tips",
+    "text": "Git and GitHub tips\n\n\nThere are millions of git commands – ok, that’s an exaggeration, but there are a lot of them – and very few people know them all. 99% of the time you will use git to add, commit, push, and pull.\nWe will be doing Git things and interfacing with GitHub through RStudio, but if you google for help you might come across methods for doing these things in the command line – skip that and move on to the next resource unless you feel comfortable trying it out.\nThere is a great resource for working with git and R: happygitwithr.com. Some of the content in there is beyond the scope of this course, but it’s a good place to look for help."
+  },
+  {
+    "objectID": "slides/01-meet-the-toolkit-slides.html#tour-git-github",
+    "href": "slides/01-meet-the-toolkit-slides.html#tour-git-github",
+    "title": "Meet the toolkit",
+    "section": "Tour: Git + GitHub",
+    "text": "Tour: Git + GitHub\n\n\n\nOption 1:\nSit back and enjoy the show!\n\n\n\n\n\n\n\nNote\n\n\nYou’ll need to stick to this option if you haven’t yet accepted your GitHub invite and don’t have a repo created for you.\n\n\n\n\n\nOption 2:\nGo to the course GitHub organization and clone ae-your-github-username repo to your container.\n\n\n\n\nTour recap: Git + GitHub\n\nFind your application exercise repo, that will always be named using the naming convention assignment_title-your-github-username, e.g., ae-kgsolarz or lab-1-kgsolarz.\nClick on the green “Code” button, make sure SSH is selected, copy the repo URL\n\n\n\n\n\n\nIn RStudio, File &gt; New Project &gt; From Version Control &gt; Git\nPaste repo URL copied in previous step, then click tab to auto-fill the project name, then click Create Project\nIf you haven’t done Lab 0, for one time only, type yes in the pop-up dialogue"
+  },
+  {
+    "objectID": "slides/01-meet-the-toolkit-slides.html#what-could-have-gone-wrong",
+    "href": "slides/01-meet-the-toolkit-slides.html#what-could-have-gone-wrong",
+    "title": "Meet the toolkit",
+    "section": "What could have gone wrong?",
+    "text": "What could have gone wrong?\n\nNever accepted GitHub invite \\(\\rightarrow\\) Look for it in your email and accept it\nCloning repo fails \\(\\rightarrow\\) Review/redo Lab 0 steps for setting up SSH key\nStill no luck? Stay after class today or come by my office hours this weekend or post on Ed for help"
+  },
+  {
+    "objectID": "slides/01-meet-the-toolkit-slides.html#quarto-1",
+    "href": "slides/01-meet-the-toolkit-slides.html#quarto-1",
+    "title": "Meet the toolkit",
+    "section": "Quarto",
+    "text": "Quarto\n\n\nFully reproducible reports – each time you render the analysis is run from the beginning;\nCode goes in cells (between the three back ticks);\nWritten English goes outside cells, the same way you would write in Google Docs or MS Word."
+  },
+  {
+    "objectID": "slides/01-meet-the-toolkit-slides.html#tour-quarto",
+    "href": "slides/01-meet-the-toolkit-slides.html#tour-quarto",
+    "title": "Meet the toolkit",
+    "section": "Tour: Quarto",
+    "text": "Tour: Quarto\n\n\n\nOption 1:\nSit back and enjoy the show!\n\n\n\n\n\n\n\nNote\n\n\nIf you chose (or had to choose) this option for the previous tour, or if you couldn’t clone your repo for any reason, you’ll need to stick to this option.\n\n\n\n\n\nOption 2:\nGo to RStudio and open the document ae-01-meet-the-penguins.qmd."
+  },
+  {
+    "objectID": "slides/01-meet-the-toolkit-slides.html#tour-quarto-and-more-git-github",
+    "href": "slides/01-meet-the-toolkit-slides.html#tour-quarto-and-more-git-github",
+    "title": "Meet the toolkit",
+    "section": "Tour: Quarto (and more Git + GitHub)",
+    "text": "Tour: Quarto (and more Git + GitHub)\n\nTour recap: Quarto\n\n\n\n\n\n\nTour recap: Git + GitHub\nOnce we made changes to our Quarto document, we\n\nwent to the Git pane in RStudio\nstaged our changes by clicking the checkboxes next to the relevant files\ncommitted our changes with an informative commit message\npulled from GitHub to make sure we had the latest version of our repo\npushed our changes to our application exercise repos\nconfirmed on GitHub that we could see our changes pushed from RStudio"
+  },
+  {
+    "objectID": "slides/01-meet-the-toolkit-slides.html#how-will-we-use-quarto",
+    "href": "slides/01-meet-the-toolkit-slides.html#how-will-we-use-quarto",
+    "title": "Meet the toolkit",
+    "section": "How will we use Quarto?",
+    "text": "How will we use Quarto?\n\nEvery application exercise, lab, project, etc. is an Quarto document\nYou’ll always have a template Quarto document to start with\nThe amount of scaffolding in the template will decrease over the semester"
+  },
+  {
+    "objectID": "slides/01-meet-the-toolkit.html",
+    "href": "slides/01-meet-the-toolkit.html",
+    "title": "Meet the toolkit",
     "section": "",
-    "text": "InstructorJosh Lim\njosh.lim@duke.edu\n\nTA, Lab InstructorKenna Roberts\nmakenna.roberts@duke.edu\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUCLA! Majored in applied mathematics, statistics and data science\nGraduated 2024\nDid research, blah blah blah blah blah, wanted more school etc.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhD in statistical science\nResearch in causal inference, missing data, and machine learning\nApplied projects across multiple medical schools\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nName\nYear\nMajor(s) (or, potential major(s) if undecided!)\nHometown\nSomething fun you did or will do this summer\nIf you were to go viral, what would it be for?\n\nFirst half:\n\n\n\n\n\n\nData science\n\n\n\n\nTransforming messy, incomplete, imperfect data into knowledge;\n\nKnowledge often takes the form of pictures and a concise set of numerical summaries.\n\n\n\n. . .\nSecond half:\n\n\n\n\n\n\nStatistical thinking\n\n\n\nQuantifying our uncertainty about that knowledge.\n\n\n\n. . .\nCampaign manager: What is the probability that our candidate wins the election?\n. . .\n(A flurry of analysis takes place.)\n. . .\nData scientist: Our best guess is 54%.\n. . .\nCampaign manager: How reliable is that estimate? How confident are we in that? What’s the margin of error?\n. . .\n\n\nParallel Universe 1\nData scientist: It’s 54% give or take 3%.\n\n\nParallel Universe 2\nData scientist: It’s 54% give or take 20%.\n\n\n\n. . .\n\n\n\n\n\n\nIt’s all about decision-making under uncertainty\n\n\n\nThe manager is going to make wildly different decisions about campaign strategy and spending depending on how uncertain the environment is."
+    "text": "If you have not yet finished the Getting to know you survey, please do so ASAP\nAny lingering syllabus questions?"
   },
   {
-    "objectID": "slides/00-welcome-199.html#meet-your-teaching-team",
-    "href": "slides/00-welcome-199.html#meet-your-teaching-team",
-    "title": "Welcome to STA 199!",
+    "objectID": "slides/01-meet-the-toolkit.html#reminders",
+    "href": "slides/01-meet-the-toolkit.html#reminders",
+    "title": "Meet the toolkit",
     "section": "",
-    "text": "InstructorJosh Lim\njosh.lim@duke.edu\n\nTA, Lab InstructorKenna Roberts\nmakenna.roberts@duke.edu"
+    "text": "If you have not yet finished the Getting to know you survey, please do so ASAP\nAny lingering syllabus questions?"
   },
   {
-    "objectID": "slides/00-welcome-199.html#ucla",
-    "href": "slides/00-welcome-199.html#ucla",
-    "title": "Welcome to STA 199!",
-    "section": "",
-    "text": "UCLA! Majored in applied mathematics, statistics and data science\nGraduated 2024\nDid research, blah blah blah blah blah, wanted more school etc."
+    "objectID": "slides/01-meet-the-toolkit.html#course-toolkit",
+    "href": "slides/01-meet-the-toolkit.html#course-toolkit",
+    "title": "Meet the toolkit",
+    "section": "Course Toolkit",
+    "text": "Course Toolkit\n\n\nCourse operation\n\nMaterials: sta199-su26.github.io\n\nSubmission: Gradescope (in Canvas)\nContent Q&A: Ed Discussion (in Canvas)\nGrades: Gradebook (in Canvas)\n\n\n\nDoing data science\n\nComputing:\n\nR\nRStudio\n\ntidyverse and friends\nQuarto\n\n\nVersion control:\n\nGit\nGitHub"
   },
   {
-    "objectID": "slides/00-welcome-199.html#duke",
-    "href": "slides/00-welcome-199.html#duke",
-    "title": "Welcome to STA 199!",
-    "section": "",
-    "text": "PhD in statistical science\nResearch in causal inference, missing data, and machine learning\nApplied projects across multiple medical schools"
+    "objectID": "slides/01-meet-the-toolkit.html#learning-goals",
+    "href": "slides/01-meet-the-toolkit.html#learning-goals",
+    "title": "Meet the toolkit",
+    "section": "Learning goals",
+    "text": "Learning goals\nBy the end of the course, you will be able to…\n\n\ngain insight from data\ngain insight from data, reproducibly\n\ngain insight from data, reproducibly, using modern programming tools and techniques\n\ngain insight from data, reproducibly and collaboratively, using modern programming tools and techniques\ngain insight from data, reproducibly (with literate programming and version control) and collaboratively, using modern programming tools and techniques"
   },
   {
-    "objectID": "slides/00-welcome-199.html#meet-each-other",
-    "href": "slides/00-welcome-199.html#meet-each-other",
-    "title": "Welcome to STA 199!",
-    "section": "",
-    "text": "Name\nYear\nMajor(s) (or, potential major(s) if undecided!)\nHometown\nSomething fun you did or will do this summer\nIf you were to go viral, what would it be for?"
+    "objectID": "slides/01-meet-the-toolkit.html#two-important-concepts",
+    "href": "slides/01-meet-the-toolkit.html#two-important-concepts",
+    "title": "Meet the toolkit",
+    "section": "Two important concepts",
+    "text": "Two important concepts\n. . .\nComputational reproducibility:\n\n\nIf you give me your code and your data and I hit “Run,” do I get the same numbers and the same pictures that you published in your article?\nIf so…phew!\nIf not…what the 🤬?\n\n\n. . .\nScientific replication:\n. . .\n\nCan new researchers conduct an independent analysis and reach the same substantive conclusions that you did?\nJust because your analysis is computationally reproducible does not mean that you have a robust result that generalizes.\n\n. . .\nOur tools will help you achieve the first, which is necessary (but not sufficient!) for the second."
   },
   {
-    "objectID": "slides/00-welcome-199.html#what-are-we-studying",
-    "href": "slides/00-welcome-199.html#what-are-we-studying",
-    "title": "Welcome to STA 199!",
-    "section": "",
-    "text": "First half:\n\n\n\n\n\n\nData science\n\n\n\n\nTransforming messy, incomplete, imperfect data into knowledge;\n\nKnowledge often takes the form of pictures and a concise set of numerical summaries.\n\n\n\n. . .\nSecond half:\n\n\n\n\n\n\nStatistical thinking\n\n\n\nQuantifying our uncertainty about that knowledge."
+    "objectID": "slides/01-meet-the-toolkit.html#reproducibility-checklist",
+    "href": "slides/01-meet-the-toolkit.html#reproducibility-checklist",
+    "title": "Meet the toolkit",
+    "section": "Reproducibility checklist",
+    "text": "Reproducibility checklist\n\nWhat does it mean for a data analysis to be “reproducible”?\n\n. . .\nShort-term goals:\n\nAre the tables and figures reproducible from the code and data?\nDoes the code actually do what you think it does?\nIn addition to what was done, is it clear why it was done?\n\n. . .\nLong-term goals:\n\nCan the code be used for other data?\nCan you extend the code to do other things?\n\nSome best practices from the American Statistical Association\n\nEnd-to-end scripting of research\nUse of version control and documentation\nPublication of code along with data"
   },
   {
-    "objectID": "slides/00-welcome-199.html#imagine-this-dialog",
-    "href": "slides/00-welcome-199.html#imagine-this-dialog",
-    "title": "Welcome to STA 199!",
-    "section": "",
-    "text": ". . .\nCampaign manager: What is the probability that our candidate wins the election?\n. . .\n(A flurry of analysis takes place.)\n. . .\nData scientist: Our best guess is 54%.\n. . .\nCampaign manager: How reliable is that estimate? How confident are we in that? What’s the margin of error?\n. . .\n\n\nParallel Universe 1\nData scientist: It’s 54% give or take 3%.\n\n\nParallel Universe 2\nData scientist: It’s 54% give or take 20%.\n\n\n\n. . .\n\n\n\n\n\n\nIt’s all about decision-making under uncertainty\n\n\n\nThe manager is going to make wildly different decisions about campaign strategy and spending depending on how uncertain the environment is."
+    "objectID": "slides/01-meet-the-toolkit.html#toolkit-for-reproducibility",
+    "href": "slides/01-meet-the-toolkit.html#toolkit-for-reproducibility",
+    "title": "Meet the toolkit",
+    "section": "Toolkit for reproducibility",
+    "text": "Toolkit for reproducibility\n\n\nScriptability – Coding instead of point-and-click \\(\\rightarrow\\) R\nLiterate programming – Code, written text, results all in one place instead of error-prone copy-paste \\(\\rightarrow\\) Quarto\nVersion control – Track changes with brief messages that describe those changes \\(\\rightarrow\\) Git / GitHub"
   },
   {
-    "objectID": "slides/00-welcome-199.html#excel",
-    "href": "slides/00-welcome-199.html#excel",
-    "title": "Welcome to STA 199!",
-    "section": "Excel… 👎",
-    "text": "Excel… 👎"
-  },
-  {
-    "objectID": "slides/00-welcome-199.html#r",
-    "href": "slides/00-welcome-199.html#r",
-    "title": "Welcome to STA 199!",
-    "section": "R",
-    "text": "R"
-  },
-  {
-    "objectID": "slides/00-welcome-199.html#homepage",
-    "href": "slides/00-welcome-199.html#homepage",
-    "title": "Welcome to STA 199!",
-    "section": "Homepage",
-    "text": "Homepage\nhttps://sta199-su26-2.github.io\n\nAll course materials\nLinks to Canvas, GitHub, RStudio containers, etc."
-  },
-  {
-    "objectID": "slides/00-welcome-199.html#activities",
-    "href": "slides/00-welcome-199.html#activities",
-    "title": "Welcome to STA 199!",
-    "section": "Activities",
-    "text": "Activities\n\nIntroduce new content and prepare for lectures by watching the videos and completing the readings\nAttend and actively participate in lectures (and ask / answer questions for participation credit) and labs, office hours, team meetings\nPractice applying statistical concepts and computing with application exercises during lecture\nPut together what you’ve learned to analyze real-world data\n\nLab assignments\nExams\nTerm project (completed in teams)"
-  },
-  {
-    "objectID": "slides/00-welcome-199.html#application-exercises",
-    "href": "slides/00-welcome-199.html#application-exercises",
-    "title": "Welcome to STA 199!",
-    "section": "Application exercises",
-    "text": "Application exercises\n\nRoughly one per lecture\nGraded for good-faith attempt, not accuracy\nPractice this week; graded thereafter\nAt least one commit to your AE repo by 10:45am of the day of lecture\nComplete 80% for full lecutre attendance credit"
-  },
-  {
-    "objectID": "slides/00-welcome-199.html#labs",
-    "href": "slides/00-welcome-199.html#labs",
-    "title": "Welcome to STA 199!",
-    "section": "Labs",
-    "text": "Labs\n\nLab session formally takes place on Mondays and Thursdays following lecture (11:00am - 12:15pm)\nLabs are to be started during the lab session & completed at home by the posted due date\nI encourage you to make the most of lab sessions, as you have access to both your peers and Kenna, the course TA, during this time\n\nDue dates (typically):\n\nMonday Lab: Due Wednesday at 11:59 PM\nThursday Lab: Due Sunday at 11:59 PM\n\n\nDiscussion with classmates = 🤩 ; Copying = ❌\nLowest lab score is dropped"
-  },
-  {
-    "objectID": "slides/00-welcome-199.html#exams",
-    "href": "slides/00-welcome-199.html#exams",
-    "title": "Welcome to STA 199!",
-    "section": "Exams",
-    "text": "Exams\n\nTwo exams, each 25%\nMidterm: June 1, during lecture + lab (tentatively) CHANGE\nFinal: June 24, 9am - 12pm CHANGE\nYou will be permitted a “cheat sheet” (both sides of a single 8.5” x 11” piece of paper)\n\n\n\n\n\n\n\nCaution\n\n\n\nIt’s possible the first midterm gets bumped to June 2; this will be communicated by next Wednesday, 5/20. The final exam date is above my pay grade & cannot be changed. If you cannot take the exams on these dates, please have a discussion with me today. CHANGE"
-  },
-  {
-    "objectID": "slides/00-welcome-199.html#project",
-    "href": "slides/00-welcome-199.html#project",
-    "title": "Welcome to STA 199!",
-    "section": "Project",
-    "text": "Project\n\nDataset of your choice, method of your choice\nTeamwork\nPresentation and write-up\nPresentations will take place in the last lab (June 22)\nInterim deadlines, peer review on content, peer evaluation for team contribution\nSome lab sessions allocated to project progress\n\n\n\n\n\n\n\nCaution\n\n\n\nFinal presentation date cannot be changed; you must complete the project and participate in project presentations to pass this class."
-  },
-  {
-    "objectID": "slides/00-welcome-199.html#project-teams",
-    "href": "slides/00-welcome-199.html#project-teams",
-    "title": "Welcome to STA 199!",
-    "section": "Project teams",
-    "text": "Project teams\n\nAssigned by me (& influenced by communicated topics / areas of interest)\n3-4 members per team\nPeer evaluation during teamwork and after completion\nExpectations and roles\n\nEveryone is expected to contribute equal effort\n\nEveryone is expected to understand all code turned in\nIndividual contribution evaluated by peer evaluation, commits, etc."
-  },
-  {
-    "objectID": "slides/00-welcome-199.html#grading",
-    "href": "slides/00-welcome-199.html#grading",
-    "title": "Welcome to STA 199!",
-    "section": "Grading",
-    "text": "Grading\n\n\nCategory\nPercentage\n\n\n\nLabs\n20%\n\n\nProject\n20%\n\n\nExam 1\n25%\n\n\nExam 2\n25%\n\n\nApplication Exercises\n5%\n\n\nLab Attendance\n5%\n\n\n\n See course syllabus for how the final letter grade will be determined."
-  },
-  {
-    "objectID": "slides/00-welcome-199.html#support",
-    "href": "slides/00-welcome-199.html#support",
-    "title": "Welcome to STA 199!",
-    "section": "Support",
-    "text": "Support\n\nAttend office hours\nAsk and answer questions on the Ed discussion board\nReserve email for questions on personal matters and / or grades"
-  },
-  {
-    "objectID": "slides/00-welcome-199.html#office-hours",
-    "href": "slides/00-welcome-199.html#office-hours",
-    "title": "Welcome to STA 199!",
-    "section": "Office Hours",
-    "text": "Office Hours\nJosh: Old Chem 203 CHANGE\n\nTBD\n\nKenna: Time & Location TBD"
-  },
-  {
-    "objectID": "slides/00-welcome-199.html#announcements",
-    "href": "slides/00-welcome-199.html#announcements",
-    "title": "Welcome to STA 199!",
-    "section": "Announcements",
-    "text": "Announcements\n\nPosted on Canvas (Announcements tool) and sent via email, be sure to check both regularly\nAll information is on the course website - please pin to your browser of choice & refer to it often!"
-  },
-  {
-    "objectID": "slides/00-welcome-199.html#course-toolkit",
-    "href": "slides/00-welcome-199.html#course-toolkit",
-    "title": "Welcome to STA 199!",
-    "section": "Course toolkit",
-    "text": "Course toolkit\nAll linked from the course website:\n\nGitHub organization: github.com/sta199-su26-2\n\nRStudio containers: cmgr.oit.duke.edu/containers\n\nCommunication: Ed Discussion\nAssignment submission and feedback: Gradescope"
-  },
-  {
-    "objectID": "slides/00-welcome-199.html#accessibility",
-    "href": "slides/00-welcome-199.html#accessibility",
-    "title": "Welcome to STA 199!",
-    "section": "Accessibility",
-    "text": "Accessibility\n\nThe Student Disability Access Office (SDAO) is available to ensure that students are able to engage with their courses and related assignments.\nI am committed to making all course materials accessible, and I’m always open to feedback on how to do this better!"
-  },
-  {
-    "objectID": "slides/00-welcome-199.html#late-work-waivers-regrades-policy",
-    "href": "slides/00-welcome-199.html#late-work-waivers-regrades-policy",
-    "title": "Welcome to STA 199!",
-    "section": "Late work, waivers, regrades policy",
-    "text": "Late work, waivers, regrades policy\n\nWe have policies!\nRead about them on the course syllabus and refer back to them when you need it\n\n\n\n\n\n\n\nIf you need testing accommodations\n\n\n\nMake sure I get a letter, and make your appointments in the Testing Center now."
-  },
-  {
-    "objectID": "slides/00-welcome-199.html#collaboration",
-    "href": "slides/00-welcome-199.html#collaboration",
-    "title": "Welcome to STA 199!",
+    "objectID": "slides/01-meet-the-toolkit.html#collaboration",
+    "href": "slides/01-meet-the-toolkit.html#collaboration",
+    "title": "Meet the toolkit",
     "section": "Collaboration",
-    "text": "Collaboration\n\nLabs: discussing and helping one another is fine; sharing your solutions via text, email, AirDrop, carrier pigeon, or any other method, and / or copying from others is not permitted;\nExams: collaboration of any kind is completely forbidden\nProjects: collaboration of all kinds is enthusiastically encouraged within your team; between teams, it’s the same as labs; do not directly share your materials or copy from others."
+    "text": "Collaboration\n\n\nCollaboration doesn’t just mean working with others. It also means collaborating with yourself across time;\nToo often, I have set something aside only to return to it several weeks (or even days!) later and ask “who did this and what were they thinking?”\nOur tools will make you an excellent collaborator with others, but they will also help you keep yourself organized."
   },
   {
-    "objectID": "slides/00-welcome-199.html#use-of-ai-tools",
-    "href": "slides/00-welcome-199.html#use-of-ai-tools",
-    "title": "Welcome to STA 199!",
-    "section": "Use of AI tools",
-    "text": "Use of AI tools\n\n\n AI tools for code:\n\nSure, but be careful/critical! Working code != correct / good code.\nMust explicitly cite with a direct url linking to the conversation you had.\n\n\n AI tools for narrative: Absolutely not!\n AI tools for learning: Sure, but be careful/critical!\n\n\n\n\n\n\n\nCaution\n\n\n\nException: Use of AI tools is completely forbidden during lab session. When you are in lab, you have far better tools / resources available to you - Kenna, our TA, and each other! Blatant disregard for this policy will result in a 0 for the current lab assignment."
+    "objectID": "slides/01-meet-the-toolkit.html#an-analogy-to-english",
+    "href": "slides/01-meet-the-toolkit.html#an-analogy-to-english",
+    "title": "Meet the toolkit",
+    "section": "An Analogy to English",
+    "text": "An Analogy to English\n. . ."
   },
   {
-    "objectID": "slides/00-welcome-199.html#academic-integrity",
-    "href": "slides/00-welcome-199.html#academic-integrity",
-    "title": "Welcome to STA 199!",
-    "section": "Academic integrity",
-    "text": "Academic integrity\n\nTo uphold the Duke Community Standard:\n\nI will not lie, cheat, or steal in my academic endeavors;\nI will conduct myself honorably in all my endeavors; and\nI will act if the Standard is compromised."
+    "objectID": "slides/01-meet-the-toolkit.html#an-analogy-to-english-1",
+    "href": "slides/01-meet-the-toolkit.html#an-analogy-to-english-1",
+    "title": "Meet the toolkit",
+    "section": "An Analogy to English",
+    "text": "An Analogy to English"
   },
   {
-    "objectID": "slides/00-welcome-199.html#april-20th-deadly-day-for-car-crashes",
-    "href": "slides/00-welcome-199.html#april-20th-deadly-day-for-car-crashes",
-    "title": "Welcome to STA 199!",
-    "section": "“April 20th: Deadly Day for Car Crashes?”",
-    "text": "“April 20th: Deadly Day for Car Crashes?”\nThe text below can be found at this link, which is a post on the website of a personal injury law firm. Suppose we want to investigate the validity of their claim… What data might we want? What methods are appropriate? How will we perform our analysis? How can we best communicate our findings?"
+    "objectID": "slides/01-meet-the-toolkit.html#an-analogy-to-english-2",
+    "href": "slides/01-meet-the-toolkit.html#an-analogy-to-english-2",
+    "title": "Meet the toolkit",
+    "section": "An Analogy to English",
+    "text": "An Analogy to English"
   },
   {
-    "objectID": "slides/00-welcome-199.html#the-data-science-life-cycle",
-    "href": "slides/00-welcome-199.html#the-data-science-life-cycle",
-    "title": "Welcome to STA 199!",
-    "section": "The data science life cycle",
-    "text": "The data science life cycle"
+    "objectID": "slides/01-meet-the-toolkit.html#an-analogy-to-english-3",
+    "href": "slides/01-meet-the-toolkit.html#an-analogy-to-english-3",
+    "title": "Meet the toolkit",
+    "section": "An Analogy to English",
+    "text": "An Analogy to English"
   },
   {
-    "objectID": "slides/00-welcome-199.html#the-data-science-life-cycle-1",
-    "href": "slides/00-welcome-199.html#the-data-science-life-cycle-1",
-    "title": "Welcome to STA 199!",
-    "section": "The data science life cycle",
-    "text": "The data science life cycle"
+    "objectID": "slides/01-meet-the-toolkit.html#an-analogy-to-english-4",
+    "href": "slides/01-meet-the-toolkit.html#an-analogy-to-english-4",
+    "title": "Meet the toolkit",
+    "section": "An Analogy to English",
+    "text": "An Analogy to English"
   },
   {
-    "objectID": "slides/00-welcome-199.html#load-the-data-in",
-    "href": "slides/00-welcome-199.html#load-the-data-in",
-    "title": "Welcome to STA 199!",
-    "section": "Load the data in",
-    "text": "Load the data in\nOn 4/22/2025, TidyTuesday posted a tidy version of the raw data analyzed in Harper and Palayew’s (2019) study, “The annual cannabis holiday and fatal traffic crashes,” available here.\nLet’s load this data into R…\n\nlibrary(tidyverse)\n\ndaily_accidents_420 &lt;- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-22/daily_accidents_420.csv')"
+    "objectID": "slides/01-meet-the-toolkit.html#r-and-rstudio-1",
+    "href": "slides/01-meet-the-toolkit.html#r-and-rstudio-1",
+    "title": "Meet the toolkit",
+    "section": "R and RStudio",
+    "text": "R and RStudio\n\n\n\n\n\n\n\nR is an open-source statistical programming language\n\nR is also an environment for statistical computing and graphics\nIt’s easily extensible with packages\n\n\n\n\n\n\nRStudio is a convenient interface for R called an IDE (integrated development environment), e.g. “I write R code in the RStudio IDE”\n\nRStudio is not a requirement for programming with R, but it’s very commonly used by R programmers and data scientists"
   },
   {
-    "objectID": "slides/00-welcome-199.html#the-data-science-life-cycle-2",
-    "href": "slides/00-welcome-199.html#the-data-science-life-cycle-2",
-    "title": "Welcome to STA 199!",
-    "section": "The data science life cycle",
-    "text": "The data science life cycle"
+    "objectID": "slides/01-meet-the-toolkit.html#r-vs.-rstudio",
+    "href": "slides/01-meet-the-toolkit.html#r-vs.-rstudio",
+    "title": "Meet the toolkit",
+    "section": "R vs. RStudio",
+    "text": "R vs. RStudio\n\n\n\n\n\n\nSource: Modern Dive."
   },
   {
-    "objectID": "slides/00-welcome-199.html#if-we-hadnt-had-access-to-our-tidy-data",
-    "href": "slides/00-welcome-199.html#if-we-hadnt-had-access-to-our-tidy-data",
-    "title": "Welcome to STA 199!",
-    "section": "If we hadn’t had access to our tidy data…",
-    "text": "If we hadn’t had access to our tidy data…"
+    "objectID": "slides/01-meet-the-toolkit.html#tour-r-rstudio",
+    "href": "slides/01-meet-the-toolkit.html#tour-r-rstudio",
+    "title": "Meet the toolkit",
+    "section": "Tour: R + RStudio",
+    "text": "Tour: R + RStudio\n\n\n\nOption 1:\nSit back and enjoy the show!\n\n\n\nOption 2:\nGo to your container and launch RStudio."
   },
   {
-    "objectID": "slides/00-welcome-199.html#still-we-can-tidy-some-more",
-    "href": "slides/00-welcome-199.html#still-we-can-tidy-some-more",
-    "title": "Welcome to STA 199!",
-    "section": "Still, we can tidy some more…",
-    "text": "Still, we can tidy some more…\n\ndaily_accidents_420 &lt;- daily_accidents_420 |&gt;\n  filter(!is.na(e420)) |&gt;\n  mutate(e420 = if_else(e420 == TRUE, \"4/20\", \"Not 4/20\"))"
+    "objectID": "slides/01-meet-the-toolkit.html#tour-recap-r-rstudio",
+    "href": "slides/01-meet-the-toolkit.html#tour-recap-r-rstudio",
+    "title": "Meet the toolkit",
+    "section": "Tour recap: R + RStudio",
+    "text": "Tour recap: R + RStudio"
   },
   {
-    "objectID": "slides/00-welcome-199.html#the-data-science-life-cycle-3",
-    "href": "slides/00-welcome-199.html#the-data-science-life-cycle-3",
-    "title": "Welcome to STA 199!",
-    "section": "The data science life cycle",
-    "text": "The data science life cycle"
+    "objectID": "slides/01-meet-the-toolkit.html#r-packages",
+    "href": "slides/01-meet-the-toolkit.html#r-packages",
+    "title": "Meet the toolkit",
+    "section": "R packages",
+    "text": "R packages\n\n\nPackages: Fundamental units of reproducible R code, including reusable R functions, the documentation that describes how to use them, and sample data1\nAs of 13 May 2026, there are 23,731 R packages available on CRAN (the Comprehensive R Archive Network)2\nWe’re going to work with a small (but important) subset of these!\n\n\n\n\n1 Wickham and Bryan, R Packages.\n2CRAN contributed packages."
   },
   {
-    "objectID": "slides/00-welcome-199.html#babys-first-graphic",
-    "href": "slides/00-welcome-199.html#babys-first-graphic",
-    "title": "Welcome to STA 199!",
-    "section": "Baby’s first graphic",
-    "text": "Baby’s first graphic\n\nggplot(daily_accidents_420, aes(fatalities_count, fill = e420))"
+    "objectID": "slides/01-meet-the-toolkit.html#packages",
+    "href": "slides/01-meet-the-toolkit.html#packages",
+    "title": "Meet the toolkit",
+    "section": "Packages",
+    "text": "Packages\n\nInstalled with install.packages(), once per system:\n\n\ninstall.packages(\"palmerpenguins\")\n\n\n\n\n\n\n\nNote\n\n\n\nWe already pre-installed many of the package you’ll need for this course, so you might go the whole semester without needing to run install.packages()!\n\n\n. . .\n\nLoaded with library(), once per session:\n\n\nlibrary(palmerpenguins)"
   },
   {
-    "objectID": "slides/00-welcome-199.html#babys-first-graphic-1",
-    "href": "slides/00-welcome-199.html#babys-first-graphic-1",
-    "title": "Welcome to STA 199!",
-    "section": "Baby’s first graphic",
-    "text": "Baby’s first graphic\n\nggplot(daily_accidents_420, aes(fatalities_count, fill = e420)) +\n    geom_histogram()"
+    "objectID": "slides/01-meet-the-toolkit.html#data-frames-and-variables",
+    "href": "slides/01-meet-the-toolkit.html#data-frames-and-variables",
+    "title": "Meet the toolkit",
+    "section": "Data frames and variables",
+    "text": "Data frames and variables\n\nEach row of a data frame is an observation\n\n\n. . .\n\nEach column of a data frame is a variable\n\n\n. . .\n\nColumns (variables) in data frames can be accessed with $:\n\n\ndataframe$variable_name"
   },
   {
-    "objectID": "slides/00-welcome-199.html#babys-first-graphic-2",
-    "href": "slides/00-welcome-199.html#babys-first-graphic-2",
-    "title": "Welcome to STA 199!",
-    "section": "Baby’s first graphic",
-    "text": "Baby’s first graphic\n\nggplot(daily_accidents_420, aes(fatalities_count, fill = e420)) +\n  geom_histogram() +\n  facet_wrap(~ e420, ncol = 1, scales = \"free_y\")"
+    "objectID": "slides/01-meet-the-toolkit.html#penguins-data-frame",
+    "href": "slides/01-meet-the-toolkit.html#penguins-data-frame",
+    "title": "Meet the toolkit",
+    "section": "\npenguins data frame",
+    "text": "penguins data frame\n\npenguins\n\n# A tibble: 344 × 8\n   species island    bill_length_mm bill_depth_mm flipper_length_mm\n   &lt;fct&gt;   &lt;fct&gt;              &lt;dbl&gt;         &lt;dbl&gt;             &lt;int&gt;\n 1 Adelie  Torgersen           39.1          18.7               181\n 2 Adelie  Torgersen           39.5          17.4               186\n 3 Adelie  Torgersen           40.3          18                 195\n 4 Adelie  Torgersen           NA            NA                  NA\n 5 Adelie  Torgersen           36.7          19.3               193\n 6 Adelie  Torgersen           39.3          20.6               190\n 7 Adelie  Torgersen           38.9          17.8               181\n 8 Adelie  Torgersen           39.2          19.6               195\n 9 Adelie  Torgersen           34.1          18.1               193\n10 Adelie  Torgersen           42            20.2               190\n# ℹ 334 more rows\n# ℹ 3 more variables: body_mass_g &lt;int&gt;, sex &lt;fct&gt;, year &lt;int&gt;"
   },
   {
-    "objectID": "slides/00-welcome-199.html#babys-first-graphic-3",
-    "href": "slides/00-welcome-199.html#babys-first-graphic-3",
-    "title": "Welcome to STA 199!",
-    "section": "Baby’s first graphic",
-    "text": "Baby’s first graphic\n\nggplot(daily_accidents_420, aes(fatalities_count, fill = e420)) +\n  geom_histogram() +\n  facet_wrap(~ e420, ncol = 1, scales = \"free_y\") +\n  labs(title = \"Histogram of Daily Traffic Accident Fatality Count, 1992-2016\",\n       subtitle = \"On the 'High Holiday' (4/20), vs. Not\",\n       x = \"Daily Traffic Accident Fatality Count (1992 - 2016)\",\n       y = \"Count of Observations\") +\n  theme_minimal() +\n  theme(legend.position = \"none\")"
+    "objectID": "slides/01-meet-the-toolkit.html#bill_length_mm",
+    "href": "slides/01-meet-the-toolkit.html#bill_length_mm",
+    "title": "Meet the toolkit",
+    "section": "bill_length_mm",
+    "text": "bill_length_mm\n\npenguins$bill_length_mm\n\n  [1] 39.1 39.5 40.3   NA 36.7 39.3 38.9 39.2 34.1 42.0 37.8 37.8 41.1\n [14] 38.6 34.6 36.6 38.7 42.5 34.4 46.0 37.8 37.7 35.9 38.2 38.8 35.3\n [27] 40.6 40.5 37.9 40.5 39.5 37.2 39.5 40.9 36.4 39.2 38.8 42.2 37.6\n [40] 39.8 36.5 40.8 36.0 44.1 37.0 39.6 41.1 37.5 36.0 42.3 39.6 40.1\n [53] 35.0 42.0 34.5 41.4 39.0 40.6 36.5 37.6 35.7 41.3 37.6 41.1 36.4\n [66] 41.6 35.5 41.1 35.9 41.8 33.5 39.7 39.6 45.8 35.5 42.8 40.9 37.2\n [79] 36.2 42.1 34.6 42.9 36.7 35.1 37.3 41.3 36.3 36.9 38.3 38.9 35.7\n [92] 41.1 34.0 39.6 36.2 40.8 38.1 40.3 33.1 43.2 35.0 41.0 37.7 37.8\n[105] 37.9 39.7 38.6 38.2 38.1 43.2 38.1 45.6 39.7 42.2 39.6 42.7 38.6\n[118] 37.3 35.7 41.1 36.2 37.7 40.2 41.4 35.2 40.6 38.8 41.5 39.0 44.1\n[131] 38.5 43.1 36.8 37.5 38.1 41.1 35.6 40.2 37.0 39.7 40.2 40.6 32.1\n[144] 40.7 37.3 39.0 39.2 36.6 36.0 37.8 36.0 41.5 46.1 50.0 48.7 50.0\n[157] 47.6 46.5 45.4 46.7 43.3 46.8 40.9 49.0 45.5 48.4 45.8 49.3 42.0\n[170] 49.2 46.2 48.7 50.2 45.1 46.5 46.3 42.9 46.1 44.5 47.8 48.2 50.0\n[183] 47.3 42.8 45.1 59.6 49.1 48.4 42.6 44.4 44.0 48.7 42.7 49.6 45.3\n[196] 49.6 50.5 43.6 45.5 50.5 44.9 45.2 46.6 48.5 45.1 50.1 46.5 45.0\n[209] 43.8 45.5 43.2 50.4 45.3 46.2 45.7 54.3 45.8 49.8 46.2 49.5 43.5\n[222] 50.7 47.7 46.4 48.2 46.5 46.4 48.6 47.5 51.1 45.2 45.2 49.1 52.5\n[235] 47.4 50.0 44.9 50.8 43.4 51.3 47.5 52.1 47.5 52.2 45.5 49.5 44.5\n[248] 50.8 49.4 46.9 48.4 51.1 48.5 55.9 47.2 49.1 47.3 46.8 41.7 53.4\n[261] 43.3 48.1 50.5 49.8 43.5 51.5 46.2 55.1 44.5 48.8 47.2   NA 46.8\n[274] 50.4 45.2 49.9 46.5 50.0 51.3 45.4 52.7 45.2 46.1 51.3 46.0 51.3\n[287] 46.6 51.7 47.0 52.0 45.9 50.5 50.3 58.0 46.4 49.2 42.4 48.5 43.2\n[300] 50.6 46.7 52.0 50.5 49.5 46.4 52.8 40.9 54.2 42.5 51.0 49.7 47.5\n[313] 47.6 52.0 46.9 53.5 49.0 46.2 50.9 45.5 50.9 50.8 50.1 49.0 51.5\n[326] 49.8 48.1 51.4 45.7 50.7 42.5 52.2 45.2 49.3 50.2 45.6 51.9 46.8\n[339] 45.7 55.8 43.5 49.6 50.8 50.2"
   },
   {
-    "objectID": "slides/00-welcome-199.html#the-data-science-life-cycle-4",
-    "href": "slides/00-welcome-199.html#the-data-science-life-cycle-4",
-    "title": "Welcome to STA 199!",
-    "section": "The data science life cycle",
-    "text": "The data science life cycle"
+    "objectID": "slides/01-meet-the-toolkit.html#why-did-the-error-occur",
+    "href": "slides/01-meet-the-toolkit.html#why-did-the-error-occur",
+    "title": "Meet the toolkit",
+    "section": "Why did the error occur?",
+    "text": "Why did the error occur?\n\nflipper_length_mm\n\nError:\n! object 'flipper_length_mm' not found"
   },
   {
-    "objectID": "slides/00-welcome-199.html#in-reality",
-    "href": "slides/00-welcome-199.html#in-reality",
-    "title": "Welcome to STA 199!",
-    "section": "In reality…",
-    "text": "In reality…"
+    "objectID": "slides/01-meet-the-toolkit.html#flipper_length_mm",
+    "href": "slides/01-meet-the-toolkit.html#flipper_length_mm",
+    "title": "Meet the toolkit",
+    "section": "flipper_length_mm",
+    "text": "flipper_length_mm\nThis can be fixed by using penguins$flipper_length_mm.\n\npenguins$flipper_length_mm\n\n  [1] 181 186 195  NA 193 190 181 195 193 190 186 180 182 191 198 185\n [17] 195 197 184 194 174 180 189 185 180 187 183 187 172 180 178 178\n [33] 188 184 195 196 190 180 181 184 182 195 186 196 185 190 182 179\n [49] 190 191 186 188 190 200 187 191 186 193 181 194 185 195 185 192\n [65] 184 192 195 188 190 198 190 190 196 197 190 195 191 184 187 195\n [81] 189 196 187 193 191 194 190 189 189 190 202 205 185 186 187 208\n [97] 190 196 178 192 192 203 183 190 193 184 199 190 181 197 198 191\n[113] 193 197 191 196 188 199 189 189 187 198 176 202 186 199 191 195\n[129] 191 210 190 197 193 199 187 190 191 200 185 193 193 187 188 190\n[145] 192 185 190 184 195 193 187 201 211 230 210 218 215 210 211 219\n[161] 209 215 214 216 214 213 210 217 210 221 209 222 218 215 213 215\n[177] 215 215 216 215 210 220 222 209 207 230 220 220 213 219 208 208\n[193] 208 225 210 216 222 217 210 225 213 215 210 220 210 225 217 220\n[209] 208 220 208 224 208 221 214 231 219 230 214 229 220 223 216 221\n[225] 221 217 216 230 209 220 215 223 212 221 212 224 212 228 218 218\n[241] 212 230 218 228 212 224 214 226 216 222 203 225 219 228 215 228\n[257] 216 215 210 219 208 209 216 229 213 230 217 230 217 222 214  NA\n[273] 215 222 212 213 192 196 193 188 197 198 178 197 195 198 193 194\n[289] 185 201 190 201 197 181 190 195 181 191 187 193 195 197 200 200\n[305] 191 205 187 201 187 203 195 199 195 210 192 205 210 187 196 196\n[321] 196 201 190 212 187 198 199 201 193 203 187 197 191 203 202 194\n[337] 206 189 195 207 202 193 210 198"
   },
   {
-    "objectID": "slides/00-welcome-199.html#pov-your-mom-dropped-this-banger-in-the-family-gc",
-    "href": "slides/00-welcome-199.html#pov-your-mom-dropped-this-banger-in-the-family-gc",
-    "title": "Welcome to STA 199!",
-    "section": "POV: Your Mom dropped this banger in the family gc",
-    "text": "POV: Your Mom dropped this banger in the family gc"
+    "objectID": "slides/01-meet-the-toolkit.html#functionargument",
+    "href": "slides/01-meet-the-toolkit.html#functionargument",
+    "title": "Meet the toolkit",
+    "section": "function(argument)",
+    "text": "function(argument)\nFunctions are (most often) verbs, followed by what they will be applied to in parentheses:\n\ndo_this(to_this)\ndo_that(to_this, to_that, with_those)"
   },
   {
-    "objectID": "slides/00-welcome-199.html#what-did-the-study-actually-do",
-    "href": "slides/00-welcome-199.html#what-did-the-study-actually-do",
-    "title": "Welcome to STA 199!",
-    "section": "What did the study actually do?",
-    "text": "What did the study actually do?"
+    "objectID": "slides/01-meet-the-toolkit.html#mean",
+    "href": "slides/01-meet-the-toolkit.html#mean",
+    "title": "Meet the toolkit",
+    "section": "mean()",
+    "text": "mean()\nLet’s compute the average of a set of numbers:\n\nx &lt;- c(1, 2, 3, 4, 5, 6, 7, 8, 9)\nx\n\n[1] 1 2 3 4 5 6 7 8 9\n\n\n. . .\n\nmean(x)\n\n[1] 5"
   },
   {
-    "objectID": "slides/00-welcome-199.html#the-study-design",
-    "href": "slides/00-welcome-199.html#the-study-design",
-    "title": "Welcome to STA 199!",
-    "section": "The study design",
-    "text": "The study design\n60 four-year-olds randomly assigned to 3 conditions (20 each):\n. . .\n\n\nFast-paced TV: 9-minute clip of a popular cartoon about an animated sponge that lives under the sea\n\n\nEducational TV: 9-minute clip of a PBS cartoon about a typical preschool-aged boy\n\nDrawing: crayons, markers, and paper for 9 minutes\n\n. . .\nThen researchers measured executive function (EF) immediately after."
+    "objectID": "slides/01-meet-the-toolkit.html#help",
+    "href": "slides/01-meet-the-toolkit.html#help",
+    "title": "Meet the toolkit",
+    "section": "Help",
+    "text": "Help\nObject documentation can be accessed with ?\n\n\n\n?mean"
   },
   {
-    "objectID": "slides/00-welcome-199.html#how-did-they-measure-brain-impairment",
-    "href": "slides/00-welcome-199.html#how-did-they-measure-brain-impairment",
-    "title": "Welcome to STA 199!",
-    "section": "How did they measure “brain impairment”?",
-    "text": "How did they measure “brain impairment”?\nThree tasks:\n\n\nTower of Hanoi — move disks between pegs following rules; scored 0 or 1\n\nHTKS — “When I say touch your head, touch your toes” (and vice versa); scored 0–2 per item\n\nDelay of gratification — wait for the experimenter to get 10 marshmallows vs. ring a bell for 2\n\n. . .\nZ-scores for the first 3 EF tasks were summed into a composite EF score."
+    "objectID": "slides/01-meet-the-toolkit.html#summary-of-r-essentials",
+    "href": "slides/01-meet-the-toolkit.html#summary-of-r-essentials",
+    "title": "Meet the toolkit",
+    "section": "Summary of R essentials",
+    "text": "Summary of R essentials\n\nFunctions are (most often) verbs, followed by what they will be applied to in parentheses:\n\n\ndo_this(to_this)\ndo_that(to_this, to_that, with_those)\n\n\n\nPackages are installed with the install.packages() function and loaded with the library function, once per session:\n\n\ninstall.packages(\"package_name\")\nlibrary(package_name)\n\nYour containers come “fully loaded,” so you may not have to install any new packages."
   },
   {
-    "objectID": "slides/00-welcome-199.html#so-whats-the-problem",
-    "href": "slides/00-welcome-199.html#so-whats-the-problem",
-    "title": "Welcome to STA 199!",
-    "section": "So what’s the problem?",
-    "text": "So what’s the problem?\n\n\n\n\n\n\nNo baseline!\n\n\n\nExecutive function was only measured after the experiment — we don’t know if the groups were comparable before watching anything.\n\n\n. . .\n\n\n\n\n\n\nWhat metrics?\n\n\n\nTower of Hanoi scored 0 or 1. HTKS is a children’s game. Are these really measuring “brain impairment”?\n\n\n. . ."
+    "objectID": "slides/01-meet-the-toolkit.html#summary-of-r-essentials-continued",
+    "href": "slides/01-meet-the-toolkit.html#summary-of-r-essentials-continued",
+    "title": "Meet the toolkit",
+    "section": "Summary of R essentials (continued)",
+    "text": "Summary of R essentials (continued)\nData frames: like the spreadsheets of R\n\nEach row of a data frame is an observation\n\nEach column of a data frame is a variable"
   },
   {
-    "objectID": "slides/00-welcome-199.html#yet",
-    "href": "slides/00-welcome-199.html#yet",
-    "title": "Welcome to STA 199!",
-    "section": "Yet…",
-    "text": "Yet…"
+    "objectID": "slides/01-meet-the-toolkit.html#summary-of-r-essentials-continued-1",
+    "href": "slides/01-meet-the-toolkit.html#summary-of-r-essentials-continued-1",
+    "title": "Meet the toolkit",
+    "section": "Summary of R essentials (continued)",
+    "text": "Summary of R essentials (continued)\n\nUse the question mark ? to get help with objects (like data frames and functions):\n\n\n?function_name\n\n\nUse the dollar sign $ to access columns\n\n\ndataframe$column\n\n\n\n\n\n\n\nNote\n\n\n\nGenerally, you need to use the $ to tell R where to find that column."
   },
   {
-    "objectID": "slides/00-welcome-199.html#course-themes",
-    "href": "slides/00-welcome-199.html#course-themes",
-    "title": "Welcome to STA 199!",
-    "section": "Course themes",
-    "text": "Course themes\n\n\nStatistical literacy matters\n\nHeadlines, social media posts, advertisements, and even “expert” sources can misrepresent scientific findings\nData-driven claims should be evaluated critically, not accepted at face value\n\n\n\nReproducibility is essential\n\nCredible analyses should clearly describe: where the data came from, how the data were processed, and how the analysis was performed\nReproducible work allows others to verify, critique, and build upon scientific findings\n\n\n\nData science is an iterative process\n\nCuriosity keeps the wheel turning!"
+    "objectID": "slides/01-meet-the-toolkit.html#summary-of-r-essentials-continued-2",
+    "href": "slides/01-meet-the-toolkit.html#summary-of-r-essentials-continued-2",
+    "title": "Meet the toolkit",
+    "section": "Summary of R essentials (continued)",
+    "text": "Summary of R essentials (continued)\n\nUse the arrow &lt;- or equals sign = to save objects\n\n\nx = some_thing\ny &lt;- some_other_thing\n\n\n\n\n\n\n\nNote\n\n\n\nCheck your environment pane for the saved object!"
   },
   {
-    "objectID": "slides/00-welcome-199.html#what-is-github",
-    "href": "slides/00-welcome-199.html#what-is-github",
-    "title": "Welcome to STA 199!",
-    "section": "What is GitHub?",
-    "text": "What is GitHub?\n\nMore on this tomorrow - basically, it is the Google Drive of coding!"
+    "objectID": "slides/01-meet-the-toolkit.html#summary-of-r-essentials-continued-3",
+    "href": "slides/01-meet-the-toolkit.html#summary-of-r-essentials-continued-3",
+    "title": "Meet the toolkit",
+    "section": "Summary of R essentials (continued)",
+    "text": "Summary of R essentials (continued)\n\nRead your error messages!\n\n\n\nThese are essential for figuring out where your code is going wrong.\n\n\n\n\n\n\n\n\nNote\n\n\n\nIf you have trouble understanding what a message is saying, there is a high chance someone has explained the message online."
   },
   {
-    "objectID": "slides/00-welcome-199.html#ae-00-make-your-github-account",
-    "href": "slides/00-welcome-199.html#ae-00-make-your-github-account",
-    "title": "Welcome to STA 199!",
-    "section": "AE 00: Make your GitHub account",
-    "text": "AE 00: Make your GitHub account\n Find AE 00 on the course website!"
+    "objectID": "slides/01-meet-the-toolkit.html#packages-an-analogy",
+    "href": "slides/01-meet-the-toolkit.html#packages-an-analogy",
+    "title": "Meet the toolkit",
+    "section": "Packages, an analogy",
+    "text": "Packages, an analogy\nIf data analysis was cooking…\n\n\nInstalling a package would be like buying ingredients from the store\nLoading a package would be like getting the ingredients out of your pantry and setting them on your counter top to be used"
   },
   {
-    "objectID": "slides/00-welcome-199.html#this-weeks-tasks",
-    "href": "slides/00-welcome-199.html#this-weeks-tasks",
-    "title": "Welcome to STA 199!",
-    "section": "This week’s tasks",
-    "text": "This week’s tasks\n\nComplete Lab 0\n\nComputational setup\nGetting to know you survey\n\n\nRead the syllabus\nGet started with data science!"
+    "objectID": "slides/01-meet-the-toolkit.html#tidyverse",
+    "href": "slides/01-meet-the-toolkit.html#tidyverse",
+    "title": "Meet the toolkit",
+    "section": "tidyverse",
+    "text": "tidyverse\n\naka the package you’ll hear about the most…\n\n\n\n\n\n\ntidyverse.org\n\nThe tidyverse is an opinionated collection of R packages designed for data science\nAll packages share an underlying philosophy and a common grammar"
+  },
+  {
+    "objectID": "slides/01-meet-the-toolkit.html#git-and-github",
+    "href": "slides/01-meet-the-toolkit.html#git-and-github",
+    "title": "Meet the toolkit",
+    "section": "Git and GitHub",
+    "text": "Git and GitHub\n\n\n\n\n\n\n\nGit is a version control system – like “Track Changes” features from Microsoft Word, on steroids\nIt’s not the only version control system, but it’s a very popular one\n\n\n\n\n\n\n\n\nGitHub is the home for your Git-based projects on the internet – like DropBox but much, much better\nWe will use GitHub as a platform for web hosting and collaboration (and as our course management system!)"
+  },
+  {
+    "objectID": "slides/01-meet-the-toolkit.html#versioning---done-badly",
+    "href": "slides/01-meet-the-toolkit.html#versioning---done-badly",
+    "title": "Meet the toolkit",
+    "section": "Versioning - done badly",
+    "text": "Versioning - done badly"
+  },
+  {
+    "objectID": "slides/01-meet-the-toolkit.html#versioning---done-better",
+    "href": "slides/01-meet-the-toolkit.html#versioning---done-better",
+    "title": "Meet the toolkit",
+    "section": "Versioning - done better",
+    "text": "Versioning - done better"
+  },
+  {
+    "objectID": "slides/01-meet-the-toolkit.html#versioning---done-even-better",
+    "href": "slides/01-meet-the-toolkit.html#versioning---done-even-better",
+    "title": "Meet the toolkit",
+    "section": "Versioning - done even better",
+    "text": "Versioning - done even better\n\nwith human readable messages"
+  },
+  {
+    "objectID": "slides/01-meet-the-toolkit.html#how-will-we-use-git-and-github",
+    "href": "slides/01-meet-the-toolkit.html#how-will-we-use-git-and-github",
+    "title": "Meet the toolkit",
+    "section": "How will we use Git and GitHub?",
+    "text": "How will we use Git and GitHub?"
+  },
+  {
+    "objectID": "slides/01-meet-the-toolkit.html#how-will-we-use-git-and-github-1",
+    "href": "slides/01-meet-the-toolkit.html#how-will-we-use-git-and-github-1",
+    "title": "Meet the toolkit",
+    "section": "How will we use Git and GitHub?",
+    "text": "How will we use Git and GitHub?"
+  },
+  {
+    "objectID": "slides/01-meet-the-toolkit.html#how-will-we-use-git-and-github-2",
+    "href": "slides/01-meet-the-toolkit.html#how-will-we-use-git-and-github-2",
+    "title": "Meet the toolkit",
+    "section": "How will we use Git and GitHub?",
+    "text": "How will we use Git and GitHub?"
+  },
+  {
+    "objectID": "slides/01-meet-the-toolkit.html#how-will-we-use-git-and-github-3",
+    "href": "slides/01-meet-the-toolkit.html#how-will-we-use-git-and-github-3",
+    "title": "Meet the toolkit",
+    "section": "How will we use Git and GitHub?",
+    "text": "How will we use Git and GitHub?"
+  },
+  {
+    "objectID": "slides/01-meet-the-toolkit.html#git-and-github-tips",
+    "href": "slides/01-meet-the-toolkit.html#git-and-github-tips",
+    "title": "Meet the toolkit",
+    "section": "Git and GitHub tips",
+    "text": "Git and GitHub tips\n\n\nThere are millions of git commands – ok, that’s an exaggeration, but there are a lot of them – and very few people know them all. 99% of the time you will use git to add, commit, push, and pull.\nWe will be doing Git things and interfacing with GitHub through RStudio, but if you google for help you might come across methods for doing these things in the command line – skip that and move on to the next resource unless you feel comfortable trying it out.\nThere is a great resource for working with git and R: happygitwithr.com. Some of the content in there is beyond the scope of this course, but it’s a good place to look for help."
+  },
+  {
+    "objectID": "slides/01-meet-the-toolkit.html#tour-git-github",
+    "href": "slides/01-meet-the-toolkit.html#tour-git-github",
+    "title": "Meet the toolkit",
+    "section": "Tour: Git + GitHub",
+    "text": "Tour: Git + GitHub\n\n\n\nOption 1:\nSit back and enjoy the show!\n\n\n\n\n\n\n\nNote\n\n\n\nYou’ll need to stick to this option if you haven’t yet accepted your GitHub invite and don’t have a repo created for you.\n\n\n\n\nOption 2:\nGo to the course GitHub organization and clone ae-your-github-username repo to your container.\n\n\n\n\n\nTour recap: Git + GitHub\n\nFind your application exercise repo, that will always be named using the naming convention assignment_title-your-github-username, e.g., ae-kgsolarz or lab-1-kgsolarz.\nClick on the green “Code” button, make sure SSH is selected, copy the repo URL\n\n\n\n\n\n\nIn RStudio, File &gt; New Project &gt; From Version Control &gt; Git\nPaste repo URL copied in previous step, then click tab to auto-fill the project name, then click Create Project\nIf you haven’t done Lab 0, for one time only, type yes in the pop-up dialogue"
+  },
+  {
+    "objectID": "slides/01-meet-the-toolkit.html#what-could-have-gone-wrong",
+    "href": "slides/01-meet-the-toolkit.html#what-could-have-gone-wrong",
+    "title": "Meet the toolkit",
+    "section": "What could have gone wrong?",
+    "text": "What could have gone wrong?\n\nNever accepted GitHub invite \\(\\rightarrow\\) Look for it in your email and accept it\nCloning repo fails \\(\\rightarrow\\) Review/redo Lab 0 steps for setting up SSH key\nStill no luck? Stay after class today or come by my office hours this weekend or post on Ed for help"
+  },
+  {
+    "objectID": "slides/01-meet-the-toolkit.html#quarto-1",
+    "href": "slides/01-meet-the-toolkit.html#quarto-1",
+    "title": "Meet the toolkit",
+    "section": "Quarto",
+    "text": "Quarto\n\n\nFully reproducible reports – each time you render the analysis is run from the beginning;\nCode goes in cells (between the three back ticks);\nWritten English goes outside cells, the same way you would write in Google Docs or MS Word."
+  },
+  {
+    "objectID": "slides/01-meet-the-toolkit.html#tour-quarto",
+    "href": "slides/01-meet-the-toolkit.html#tour-quarto",
+    "title": "Meet the toolkit",
+    "section": "Tour: Quarto",
+    "text": "Tour: Quarto\n\n\n\nOption 1:\nSit back and enjoy the show!\n\n\n\n\n\n\n\nNote\n\n\n\nIf you chose (or had to choose) this option for the previous tour, or if you couldn’t clone your repo for any reason, you’ll need to stick to this option.\n\n\n\n\nOption 2:\nGo to RStudio and open the document ae-01-meet-the-penguins.qmd."
+  },
+  {
+    "objectID": "slides/01-meet-the-toolkit.html#tour-quarto-and-more-git-github",
+    "href": "slides/01-meet-the-toolkit.html#tour-quarto-and-more-git-github",
+    "title": "Meet the toolkit",
+    "section": "Tour: Quarto (and more Git + GitHub)",
+    "text": "Tour: Quarto (and more Git + GitHub)\n\nTour recap: Quarto\n\n\n\n\n\n\nTour recap: Git + GitHub\nOnce we made changes to our Quarto document, we\n\nwent to the Git pane in RStudio\nstaged our changes by clicking the checkboxes next to the relevant files\ncommitted our changes with an informative commit message\npulled from GitHub to make sure we had the latest version of our repo\npushed our changes to our application exercise repos\nconfirmed on GitHub that we could see our changes pushed from RStudio"
+  },
+  {
+    "objectID": "slides/01-meet-the-toolkit.html#how-will-we-use-quarto",
+    "href": "slides/01-meet-the-toolkit.html#how-will-we-use-quarto",
+    "title": "Meet the toolkit",
+    "section": "How will we use Quarto?",
+    "text": "How will we use Quarto?\n\nEvery application exercise, lab, project, etc. is an Quarto document\nYou’ll always have a template Quarto document to start with\nThe amount of scaffolding in the template will decrease over the semester"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization-slides.html#outline",
+    "href": "slides/02-grammar-of-data-visualization-slides.html#outline",
+    "title": "Grammar of Data Visualization",
+    "section": "Outline",
+    "text": "Outline\n\n\nYesterday:\n\nWe introduced you to the course toolkit;\nYou cloned your ae repositories and rendered your first Quarto document;\n\n\n\n\n\n\nToday:\n\nWe will finish yesterday’s AE, and get an introduction to Git, GitHub, and Quarto;\nWe will introduce data visualization;\nTime permitting, we’ll start a new AE to practice."
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization-slides.html#tour-quarto-and-more-git-github",
+    "href": "slides/02-grammar-of-data-visualization-slides.html#tour-quarto-and-more-git-github",
+    "title": "Grammar of Data Visualization",
+    "section": "Tour: Quarto (and more Git + GitHub)",
+    "text": "Tour: Quarto (and more Git + GitHub)\n\nGo to RStudio and open the document ae-01-meet-the-penguins.qmd.\n\n\n\nTour recap: Quarto\n\n\n\n\n\n\nTour recap: Git + GitHub\nOnce we made changes to our Quarto document, we\n\nwent to the Git pane in RStudio\nstaged our changes by clicking the checkboxes next to the relevant files\ncommitted our changes with an informative commit message\npulled from GitHub to make sure we had the latest version of our repo\npushed our changes to our application exercise repos\nconfirmed on GitHub that we could see our changes pushed from RStudio"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization-slides.html#how-will-we-use-quarto",
+    "href": "slides/02-grammar-of-data-visualization-slides.html#how-will-we-use-quarto",
+    "title": "Grammar of Data Visualization",
+    "section": "How will we use Quarto?",
+    "text": "How will we use Quarto?\n\nEvery application exercise, lab, HW, project, take-home, etc. is a Quarto document;\nYou’ll always have a template Quarto document to start with;\nThe amount of scaffolding in the template will decrease over the semester."
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization-slides.html#what-does-this-picture-communicate",
+    "href": "slides/02-grammar-of-data-visualization-slides.html#what-does-this-picture-communicate",
+    "title": "Grammar of Data Visualization",
+    "section": "What does this picture communicate?",
+    "text": "What does this picture communicate?\nRemember this visualization from the code along video – what was it about?"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization-slides.html#data-science-lessons",
+    "href": "slides/02-grammar-of-data-visualization-slides.html#data-science-lessons",
+    "title": "Grammar of Data Visualization",
+    "section": "Data science lessons",
+    "text": "Data science lessons\n\nAre you asking a question that your data could actually answer?\n\n\nA “Yes” vote is not necessarily an approving vote. It depends how the resolution was worded;\nIf your question is “where do countries stand on these issues, both relative to one another and over time,” the picture doesn’t actually have an answer;\nIt’s only useful for seeing if countries are in agreement with one another or not;\nPrecisely what they are agreeing about is ambiguous."
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization-slides.html#data-science-lessons-continued",
+    "href": "slides/02-grammar-of-data-visualization-slides.html#data-science-lessons-continued",
+    "title": "Grammar of Data Visualization",
+    "section": "Data science lessons (continued)",
+    "text": "Data science lessons (continued)\n\nThis class is about technique bolstered by good taste and aesthetics.\n\n\nThe plot is fairly technically sophisticated (lots of moving parts), and it looks rather attractive;\nWe certainly want you to learn how to create something aesthetic like that;\nBut after you’re done admiring it, your good taste should kick in;\nIs this picture actually communicating what I want it to effectively?"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization-slides.html#data-science-lessons-continued-1",
+    "href": "slides/02-grammar-of-data-visualization-slides.html#data-science-lessons-continued-1",
+    "title": "Grammar of Data Visualization",
+    "section": "Data science lessons (continued)",
+    "text": "Data science lessons (continued)\n\nIf a reader has to squint at your picture for more than 30 seconds (and that’s being generous) in order to understand it, you need to start over.\n\n\nIf you make the reader work too hard, they will take the path of least resistance: skip the picture altogether or default to the most facile interpretation;\nOn the UN pic, many reckless readers might assume Yes = Approve and misread."
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization-slides.html#let-see",
+    "href": "slides/02-grammar-of-data-visualization-slides.html#let-see",
+    "title": "Grammar of Data Visualization",
+    "section": "Let’ see…",
+    "text": "Let’ see…\n\nhow the sausage is made!"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization-slides.html#load-packages",
+    "href": "slides/02-grammar-of-data-visualization-slides.html#load-packages",
+    "title": "Grammar of Data Visualization",
+    "section": "Load packages",
+    "text": "Load packages\n\nlibrary(unvotes)\nlibrary(tidyverse)\nlibrary(ggthemes)"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization-slides.html#take-a-peek-at-the-data",
+    "href": "slides/02-grammar-of-data-visualization-slides.html#take-a-peek-at-the-data",
+    "title": "Grammar of Data Visualization",
+    "section": "Take a peek at the data",
+    "text": "Take a peek at the data\n\nglimpse(un_votes)\n\nRows: 869,937\nColumns: 4\n$ rcid         &lt;dbl&gt; 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,…\n$ country      &lt;chr&gt; \"United States\", \"Canada\", \"Cuba\", \"Haiti\", \"Do…\n$ country_code &lt;chr&gt; \"US\", \"CA\", \"CU\", \"HT\", \"DO\", \"MX\", \"GT\", \"HN\",…\n$ vote         &lt;fct&gt; yes, no, yes, yes, yes, yes, yes, yes, yes, yes…\n\nglimpse(un_roll_calls)\n\nRows: 6,202\nColumns: 9\n$ rcid          &lt;int&gt; 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 1…\n$ session       &lt;dbl&gt; 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1…\n$ importantvote &lt;int&gt; 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0…\n$ date          &lt;date&gt; 1946-01-01, 1946-01-02, 1946-01-04, 1946-01-0…\n$ unres         &lt;chr&gt; \"R/1/66\", \"R/1/79\", \"R/1/98\", \"R/1/107\", \"R/1/…\n$ amend         &lt;int&gt; 1, 0, 0, 0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1…\n$ para          &lt;int&gt; 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 0, 0, 0…\n$ short         &lt;chr&gt; \"AMENDMENTS, RULES OF PROCEDURE\", \"SECURITY CO…\n$ descr         &lt;chr&gt; \"TO ADOPT A CUBAN AMENDMENT TO THE UK PROPOSAL…\n\nglimpse(un_roll_call_issues)\n\nRows: 5,745\nColumns: 3\n$ rcid       &lt;int&gt; 77, 9001, 9002, 9003, 9004, 9005, 9006, 128, 129,…\n$ short_name &lt;chr&gt; \"me\", \"me\", \"me\", \"me\", \"me\", \"me\", \"me\", \"me\", \"…\n$ issue      &lt;fct&gt; Palestinian conflict, Palestinian conflict, Pales…"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization-slides.html#prepare-the-data",
+    "href": "slides/02-grammar-of-data-visualization-slides.html#prepare-the-data",
+    "title": "Grammar of Data Visualization",
+    "section": "Prepare the data",
+    "text": "Prepare the data\n\nus_uk_tr_votes &lt;- un_votes |&gt;\n  inner_join(un_roll_calls, by = \"rcid\") |&gt;\n  inner_join(un_roll_call_issues, by = \"rcid\", relationship = \"many-to-many\") |&gt;\n  filter(country %in% c(\"United Kingdom\", \"United States\", \"Turkey\")) |&gt;\n  mutate(year = year(date)) |&gt;\n  group_by(country, year, issue) |&gt;\n  summarize(percent_yes = mean(vote == \"yes\"), .groups = \"drop\")\n\n\n\n\n\n\n\nNote\n\n\nLet’s leave these details aside for a bit, we’ll revisit this code at a later point in the semester. For now, let’s agree that we need to do some “data wrangling” to get the data into the right format for the plot we want to create. Just note that we called the data frame we’ll visualize us_uk_tr_votes."
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization-slides.html#view-the-data",
+    "href": "slides/02-grammar-of-data-visualization-slides.html#view-the-data",
+    "title": "Grammar of Data Visualization",
+    "section": "View the data",
+    "text": "View the data\n\nus_uk_tr_votes\n\n# A tibble: 1,212 × 4\n   country  year issue                        percent_yes\n   &lt;chr&gt;   &lt;dbl&gt; &lt;fct&gt;                              &lt;dbl&gt;\n 1 Turkey   1946 Colonialism                        0.8  \n 2 Turkey   1946 Economic development               0.6  \n 3 Turkey   1946 Human rights                       0    \n 4 Turkey   1947 Colonialism                        0.222\n 5 Turkey   1947 Economic development               0.5  \n 6 Turkey   1947 Palestinian conflict               0.143\n 7 Turkey   1948 Colonialism                        0.417\n 8 Turkey   1948 Arms control and disarmament       0    \n 9 Turkey   1948 Economic development               0.375\n10 Turkey   1948 Human rights                       0.167\n# ℹ 1,202 more rows"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization-slides.html#visualize-the-data",
+    "href": "slides/02-grammar-of-data-visualization-slides.html#visualize-the-data",
+    "title": "Grammar of Data Visualization",
+    "section": "Visualize the data",
+    "text": "Visualize the data\n\n# code to visualize the data"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization-slides.html#the-bottom-line-at-the-top",
+    "href": "slides/02-grammar-of-data-visualization-slides.html#the-bottom-line-at-the-top",
+    "title": "Grammar of Data Visualization",
+    "section": "The bottom line, at the top",
+    "text": "The bottom line, at the top\nEach line of code adds an element to the plot.\n\nggplot(\n  us_uk_tr_votes, \n  aes(x = year, y = percent_yes, color = country)\n  ) +\n  geom_point(alpha = 0.5) +\n  geom_smooth(se = FALSE) +\n  facet_wrap(~issue) +\n  scale_color_colorblind() +\n  labs(\n    x = \"Year\", \n    y = \"% yes\", \n    color = \"Country\"\n  ) +\n  theme_minimal()\n\nLet’s take it one line at a time."
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization-slides.html#step-1.-prepare-a-canvas-for-plotting",
+    "href": "slides/02-grammar-of-data-visualization-slides.html#step-1.-prepare-a-canvas-for-plotting",
+    "title": "Grammar of Data Visualization",
+    "section": "Step 1. Prepare a canvas for plotting",
+    "text": "Step 1. Prepare a canvas for plotting\n\nggplot(data = us_uk_tr_votes)"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization-slides.html#step-2.-map-variables-to-aesthetics",
+    "href": "slides/02-grammar-of-data-visualization-slides.html#step-2.-map-variables-to-aesthetics",
+    "title": "Grammar of Data Visualization",
+    "section": "Step 2. Map variables to aesthetics",
+    "text": "Step 2. Map variables to aesthetics\nMap year to the x aesthetic\n\nggplot(data = us_uk_tr_votes, mapping = aes(x = year))"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization-slides.html#step-3.-map-variables-to-aesthetics",
+    "href": "slides/02-grammar-of-data-visualization-slides.html#step-3.-map-variables-to-aesthetics",
+    "title": "Grammar of Data Visualization",
+    "section": "Step 3. Map variables to aesthetics",
+    "text": "Step 3. Map variables to aesthetics\nMap percent_yes to the y aesthetic\n\nggplot(data = us_uk_tr_votes, mapping = aes(x = year, y = percent_yes))"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization-slides.html#mapping-and-aesthetics",
+    "href": "slides/02-grammar-of-data-visualization-slides.html#mapping-and-aesthetics",
+    "title": "Grammar of Data Visualization",
+    "section": "Mapping and aesthetics",
+    "text": "Mapping and aesthetics\n\nAesthetics are visual properties of a plot\nIn the grammar of graphics, variables from the data frame are mapped to aesthetics"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization-slides.html#argument-names",
+    "href": "slides/02-grammar-of-data-visualization-slides.html#argument-names",
+    "title": "Grammar of Data Visualization",
+    "section": "Argument names",
+    "text": "Argument names\nIt’s common practice in R to omit the names of first two arguments of a function:\n\n\nInstead of:\n\nggplot(data = us_uk_tr_votes, mapping = aes(x = year, y = percent_yes))\n\nWe usually write:\n\nggplot(us_uk_tr_votes, aes(x = year, y = percent_yes))"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization-slides.html#step-4.-represent-data-on-your-canvas",
+    "href": "slides/02-grammar-of-data-visualization-slides.html#step-4.-represent-data-on-your-canvas",
+    "title": "Grammar of Data Visualization",
+    "section": "Step 4. Represent data on your canvas",
+    "text": "Step 4. Represent data on your canvas\nwith a geom\n\nggplot(us_uk_tr_votes, aes(x = year, y = percent_yes)) +\n  geom_point()\n\n\n\n\n\n\n\n\nNote\n\n\nFunctionally, the geom layer(s) tell R what type of plot you want to create. In particular, geom_point() corresponds to a scatterplot."
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization-slides.html#step-5.-map-variables-to-aesthetics",
+    "href": "slides/02-grammar-of-data-visualization-slides.html#step-5.-map-variables-to-aesthetics",
+    "title": "Grammar of Data Visualization",
+    "section": "Step 5. Map variables to aesthetics",
+    "text": "Step 5. Map variables to aesthetics\nMap country to the color aesthetic\n\nggplot(us_uk_tr_votes, aes(x = year, y = percent_yes, color = country)) +\n  geom_point()"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization-slides.html#step-6.-represent-data-on-your-canvas",
+    "href": "slides/02-grammar-of-data-visualization-slides.html#step-6.-represent-data-on-your-canvas",
+    "title": "Grammar of Data Visualization",
+    "section": "Step 6. Represent data on your canvas",
+    "text": "Step 6. Represent data on your canvas\nwith another geom\n\nggplot(us_uk_tr_votes, aes(x = year, y = percent_yes, color = country)) +\n  geom_point() +\n  geom_smooth()\n\n`geom_smooth()` using method = 'loess' and formula = 'y ~ x'"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization-slides.html#warnings-and-messages",
+    "href": "slides/02-grammar-of-data-visualization-slides.html#warnings-and-messages",
+    "title": "Grammar of Data Visualization",
+    "section": "Warnings and messages",
+    "text": "Warnings and messages\n\nAdding geom_smooth() resulted in the following warning:\n\n`geom_smooth()` using method = 'loess' and formula = 'y ~ x'\n\n\nIt tells us the type of smoothing ggplot2 does under the hood when drawing the smooth curves that represent trends for each country.\n\n\n\n\nGoing forward we’ll suppress this warning to save some space."
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization-slides.html#step-7.-split-plot-into-facets",
+    "href": "slides/02-grammar-of-data-visualization-slides.html#step-7.-split-plot-into-facets",
+    "title": "Grammar of Data Visualization",
+    "section": "Step 7. Split plot into facets",
+    "text": "Step 7. Split plot into facets\n\nggplot(us_uk_tr_votes, aes(x = year, y = percent_yes, color = country)) +\n  geom_point() +\n  geom_smooth() +\n  facet_wrap(~ issue)"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization-slides.html#step-8.-use-a-different-color-scale",
+    "href": "slides/02-grammar-of-data-visualization-slides.html#step-8.-use-a-different-color-scale",
+    "title": "Grammar of Data Visualization",
+    "section": "Step 8. Use a different color scale",
+    "text": "Step 8. Use a different color scale\n\nggplot(us_uk_tr_votes, aes(x = year, y = percent_yes, color = country)) +\n  geom_point() +\n  geom_smooth() +\n  facet_wrap(~ issue) +\n  scale_color_colorblind()"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization-slides.html#step-9.-apply-a-different-theme",
+    "href": "slides/02-grammar-of-data-visualization-slides.html#step-9.-apply-a-different-theme",
+    "title": "Grammar of Data Visualization",
+    "section": "Step 9. Apply a different theme",
+    "text": "Step 9. Apply a different theme\n\nggplot(us_uk_tr_votes, aes(x = year, y = percent_yes, color = country)) +\n  geom_point() +\n  geom_smooth() +\n  facet_wrap(~ issue) +\n  scale_color_colorblind() +\n  theme_minimal()"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization-slides.html#step-10.-add-labels",
+    "href": "slides/02-grammar-of-data-visualization-slides.html#step-10.-add-labels",
+    "title": "Grammar of Data Visualization",
+    "section": "Step 10. Add labels",
+    "text": "Step 10. Add labels\n\nggplot(us_uk_tr_votes, aes(x = year, y = percent_yes, color = country)) +\n  geom_point() +\n  geom_smooth() +\n  facet_wrap(~ issue) +\n  scale_color_colorblind() +\n  theme_minimal() +\n  labs(x = \"Year\", y = \"% yes\", color = \"Country\")"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization-slides.html#step-11.-set-transparency-of-points",
+    "href": "slides/02-grammar-of-data-visualization-slides.html#step-11.-set-transparency-of-points",
+    "title": "Grammar of Data Visualization",
+    "section": "Step 11. Set transparency of points",
+    "text": "Step 11. Set transparency of points\nwith alpha\n\nggplot(us_uk_tr_votes, aes(x = year, y = percent_yes, color = country)) +\n  geom_point(alpha = 0.5) +\n  geom_smooth() +\n  facet_wrap(~ issue) +\n  scale_color_colorblind() +\n  theme_minimal() +\n  labs(x = \"Year\", y = \"% yes\", color = \"Country\")"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization-slides.html#step-12.-hide-standard-errors-of-curves",
+    "href": "slides/02-grammar-of-data-visualization-slides.html#step-12.-hide-standard-errors-of-curves",
+    "title": "Grammar of Data Visualization",
+    "section": "Step 12. Hide standard errors of curves",
+    "text": "Step 12. Hide standard errors of curves\nwith se = FALSE\n\nggplot(us_uk_tr_votes, aes(x = year, y = percent_yes, color = country)) +\n  geom_point(alpha = 0.5) +\n  geom_smooth(se = FALSE) +\n  facet_wrap(~ issue) +\n  scale_color_colorblind() +\n  theme_minimal() +\n  labs(x = \"Year\", y = \"% yes\", color = \"Country\")"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization-slides.html#data-viz-with-ggplot-is-like-building-a-cake",
+    "href": "slides/02-grammar-of-data-visualization-slides.html#data-viz-with-ggplot-is-like-building-a-cake",
+    "title": "Grammar of Data Visualization",
+    "section": "Data viz with ggplot is like building a cake",
+    "text": "Data viz with ggplot is like building a cake\n\n\n\nggplot(\n  us_uk_tr_votes, \n  aes(x = year, y = percent_yes, color = country)\n  ) +\n  geom_point(alpha = 0.5) +\n  geom_smooth(se = FALSE) +\n  facet_wrap(~ issue) +\n  scale_color_colorblind() +\n  labs(\n    x = \"Year\", \n    y = \"% yes\", \n    color = \"Country\"\n  ) +\n  theme_minimal()\n\n\n\n\n\nThe commands are the layers of sponge, and the plus signs are the icing. Don’t forget the icing!"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization-slides.html#grammar-of-graphics",
+    "href": "slides/02-grammar-of-data-visualization-slides.html#grammar-of-graphics",
+    "title": "Grammar of Data Visualization",
+    "section": "Grammar of graphics",
+    "text": "Grammar of graphics\n\n\nWe built a plot layer-by-layer\n\njust like described in the book The Grammar of Graphics and\nimplemented in the ggplot2 package, the data visualization package of the tidyverse."
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization-slides.html#now-you-try",
+    "href": "slides/02-grammar-of-data-visualization-slides.html#now-you-try",
+    "title": "Grammar of Data Visualization",
+    "section": "Now you try",
+    "text": "Now you try\n\nOn GitHub, your AE repo should now have a new file in it called ae-02-penguin-peekaboo.qmd;\nIn other words, the remote version of your repo in the cloud (GitHub) has updates that your local repo (container) does not yet have;\nSo pull them!"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization.html",
+    "href": "slides/02-grammar-of-data-visualization.html",
+    "title": "Grammar of Data Visualization",
+    "section": "",
+    "text": "Yesterday:\n\nWe introduced you to the course toolkit;\nYou cloned your ae repositories and rendered your first Quarto document;\n\n\n\n. . .\n\n\nToday:\n\nWe will finish yesterday’s AE, and get an introduction to Git, GitHub, and Quarto;\nWe will introduce data visualization;\nTime permitting, we’ll start a new AE to practice."
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization.html#outline",
+    "href": "slides/02-grammar-of-data-visualization.html#outline",
+    "title": "Grammar of Data Visualization",
+    "section": "",
+    "text": "Yesterday:\n\nWe introduced you to the course toolkit;\nYou cloned your ae repositories and rendered your first Quarto document;\n\n\n\n. . .\n\n\nToday:\n\nWe will finish yesterday’s AE, and get an introduction to Git, GitHub, and Quarto;\nWe will introduce data visualization;\nTime permitting, we’ll start a new AE to practice."
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization.html#tour-quarto-and-more-git-github",
+    "href": "slides/02-grammar-of-data-visualization.html#tour-quarto-and-more-git-github",
+    "title": "Grammar of Data Visualization",
+    "section": "Tour: Quarto (and more Git + GitHub)",
+    "text": "Tour: Quarto (and more Git + GitHub)\n\nGo to RStudio and open the document ae-01-meet-the-penguins.qmd.\n\n\n\nTour recap: Quarto\n\n\n\n\n\n\nTour recap: Git + GitHub\nOnce we made changes to our Quarto document, we\n\nwent to the Git pane in RStudio\nstaged our changes by clicking the checkboxes next to the relevant files\ncommitted our changes with an informative commit message\npulled from GitHub to make sure we had the latest version of our repo\npushed our changes to our application exercise repos\nconfirmed on GitHub that we could see our changes pushed from RStudio"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization.html#how-will-we-use-quarto",
+    "href": "slides/02-grammar-of-data-visualization.html#how-will-we-use-quarto",
+    "title": "Grammar of Data Visualization",
+    "section": "How will we use Quarto?",
+    "text": "How will we use Quarto?\n\nEvery application exercise, lab, HW, project, take-home, etc. is a Quarto document;\nYou’ll always have a template Quarto document to start with;\nThe amount of scaffolding in the template will decrease over the semester."
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization.html#what-does-this-picture-communicate",
+    "href": "slides/02-grammar-of-data-visualization.html#what-does-this-picture-communicate",
+    "title": "Grammar of Data Visualization",
+    "section": "What does this picture communicate?",
+    "text": "What does this picture communicate?\nRemember this visualization from the code along video – what was it about?"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization.html#data-science-lessons",
+    "href": "slides/02-grammar-of-data-visualization.html#data-science-lessons",
+    "title": "Grammar of Data Visualization",
+    "section": "Data science lessons",
+    "text": "Data science lessons\n\nAre you asking a question that your data could actually answer?\n\n\nA “Yes” vote is not necessarily an approving vote. It depends how the resolution was worded;\nIf your question is “where do countries stand on these issues, both relative to one another and over time,” the picture doesn’t actually have an answer;\nIt’s only useful for seeing if countries are in agreement with one another or not;\nPrecisely what they are agreeing about is ambiguous."
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization.html#data-science-lessons-continued",
+    "href": "slides/02-grammar-of-data-visualization.html#data-science-lessons-continued",
+    "title": "Grammar of Data Visualization",
+    "section": "Data science lessons (continued)",
+    "text": "Data science lessons (continued)\n\nThis class is about technique bolstered by good taste and aesthetics.\n\n\nThe plot is fairly technically sophisticated (lots of moving parts), and it looks rather attractive;\nWe certainly want you to learn how to create something aesthetic like that;\nBut after you’re done admiring it, your good taste should kick in;\nIs this picture actually communicating what I want it to effectively?"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization.html#data-science-lessons-continued-1",
+    "href": "slides/02-grammar-of-data-visualization.html#data-science-lessons-continued-1",
+    "title": "Grammar of Data Visualization",
+    "section": "Data science lessons (continued)",
+    "text": "Data science lessons (continued)\n\nIf a reader has to squint at your picture for more than 30 seconds (and that’s being generous) in order to understand it, you need to start over.\n\n\nIf you make the reader work too hard, they will take the path of least resistance: skip the picture altogether or default to the most facile interpretation;\nOn the UN pic, many reckless readers might assume Yes = Approve and misread."
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization.html#let-see",
+    "href": "slides/02-grammar-of-data-visualization.html#let-see",
+    "title": "Grammar of Data Visualization",
+    "section": "Let’ see…",
+    "text": "Let’ see…\n\nhow the sausage is made!"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization.html#load-packages",
+    "href": "slides/02-grammar-of-data-visualization.html#load-packages",
+    "title": "Grammar of Data Visualization",
+    "section": "Load packages",
+    "text": "Load packages\n\nlibrary(unvotes)\nlibrary(tidyverse)\nlibrary(ggthemes)"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization.html#take-a-peek-at-the-data",
+    "href": "slides/02-grammar-of-data-visualization.html#take-a-peek-at-the-data",
+    "title": "Grammar of Data Visualization",
+    "section": "Take a peek at the data",
+    "text": "Take a peek at the data\n\nglimpse(un_votes)\n\nRows: 869,937\nColumns: 4\n$ rcid         &lt;dbl&gt; 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3,…\n$ country      &lt;chr&gt; \"United States\", \"Canada\", \"Cuba\", \"Haiti\", \"Do…\n$ country_code &lt;chr&gt; \"US\", \"CA\", \"CU\", \"HT\", \"DO\", \"MX\", \"GT\", \"HN\",…\n$ vote         &lt;fct&gt; yes, no, yes, yes, yes, yes, yes, yes, yes, yes…\n\nglimpse(un_roll_calls)\n\nRows: 6,202\nColumns: 9\n$ rcid          &lt;int&gt; 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 1…\n$ session       &lt;dbl&gt; 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1…\n$ importantvote &lt;int&gt; 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0…\n$ date          &lt;date&gt; 1946-01-01, 1946-01-02, 1946-01-04, 1946-01-0…\n$ unres         &lt;chr&gt; \"R/1/66\", \"R/1/79\", \"R/1/98\", \"R/1/107\", \"R/1/…\n$ amend         &lt;int&gt; 1, 0, 0, 0, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 1…\n$ para          &lt;int&gt; 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 0, 0, 0…\n$ short         &lt;chr&gt; \"AMENDMENTS, RULES OF PROCEDURE\", \"SECURITY CO…\n$ descr         &lt;chr&gt; \"TO ADOPT A CUBAN AMENDMENT TO THE UK PROPOSAL…\n\nglimpse(un_roll_call_issues)\n\nRows: 5,745\nColumns: 3\n$ rcid       &lt;int&gt; 77, 9001, 9002, 9003, 9004, 9005, 9006, 128, 129,…\n$ short_name &lt;chr&gt; \"me\", \"me\", \"me\", \"me\", \"me\", \"me\", \"me\", \"me\", \"…\n$ issue      &lt;fct&gt; Palestinian conflict, Palestinian conflict, Pales…"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization.html#prepare-the-data",
+    "href": "slides/02-grammar-of-data-visualization.html#prepare-the-data",
+    "title": "Grammar of Data Visualization",
+    "section": "Prepare the data",
+    "text": "Prepare the data\n\nus_uk_tr_votes &lt;- un_votes |&gt;\n  inner_join(un_roll_calls, by = \"rcid\") |&gt;\n  inner_join(un_roll_call_issues, by = \"rcid\", relationship = \"many-to-many\") |&gt;\n  filter(country %in% c(\"United Kingdom\", \"United States\", \"Turkey\")) |&gt;\n  mutate(year = year(date)) |&gt;\n  group_by(country, year, issue) |&gt;\n  summarize(percent_yes = mean(vote == \"yes\"), .groups = \"drop\")\n\n\n\n\n\n\n\nNote\n\n\n\nLet’s leave these details aside for a bit, we’ll revisit this code at a later point in the semester. For now, let’s agree that we need to do some “data wrangling” to get the data into the right format for the plot we want to create. Just note that we called the data frame we’ll visualize us_uk_tr_votes."
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization.html#view-the-data",
+    "href": "slides/02-grammar-of-data-visualization.html#view-the-data",
+    "title": "Grammar of Data Visualization",
+    "section": "View the data",
+    "text": "View the data\n\nus_uk_tr_votes\n\n# A tibble: 1,212 × 4\n   country  year issue                        percent_yes\n   &lt;chr&gt;   &lt;dbl&gt; &lt;fct&gt;                              &lt;dbl&gt;\n 1 Turkey   1946 Colonialism                        0.8  \n 2 Turkey   1946 Economic development               0.6  \n 3 Turkey   1946 Human rights                       0    \n 4 Turkey   1947 Colonialism                        0.222\n 5 Turkey   1947 Economic development               0.5  \n 6 Turkey   1947 Palestinian conflict               0.143\n 7 Turkey   1948 Colonialism                        0.417\n 8 Turkey   1948 Arms control and disarmament       0    \n 9 Turkey   1948 Economic development               0.375\n10 Turkey   1948 Human rights                       0.167\n# ℹ 1,202 more rows"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization.html#visualize-the-data",
+    "href": "slides/02-grammar-of-data-visualization.html#visualize-the-data",
+    "title": "Grammar of Data Visualization",
+    "section": "Visualize the data",
+    "text": "Visualize the data\n\n# code to visualize the data"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization.html#the-bottom-line-at-the-top",
+    "href": "slides/02-grammar-of-data-visualization.html#the-bottom-line-at-the-top",
+    "title": "Grammar of Data Visualization",
+    "section": "The bottom line, at the top",
+    "text": "The bottom line, at the top\nEach line of code adds an element to the plot.\n\nggplot(\n  us_uk_tr_votes, \n  aes(x = year, y = percent_yes, color = country)\n  ) +\n  geom_point(alpha = 0.5) +\n  geom_smooth(se = FALSE) +\n  facet_wrap(~issue) +\n  scale_color_colorblind() +\n  labs(\n    x = \"Year\", \n    y = \"% yes\", \n    color = \"Country\"\n  ) +\n  theme_minimal()\n\nLet’s take it one line at a time."
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization.html#step-1.-prepare-a-canvas-for-plotting",
+    "href": "slides/02-grammar-of-data-visualization.html#step-1.-prepare-a-canvas-for-plotting",
+    "title": "Grammar of Data Visualization",
+    "section": "Step 1. Prepare a canvas for plotting",
+    "text": "Step 1. Prepare a canvas for plotting\n\nggplot(data = us_uk_tr_votes)"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization.html#step-2.-map-variables-to-aesthetics",
+    "href": "slides/02-grammar-of-data-visualization.html#step-2.-map-variables-to-aesthetics",
+    "title": "Grammar of Data Visualization",
+    "section": "Step 2. Map variables to aesthetics",
+    "text": "Step 2. Map variables to aesthetics\nMap year to the x aesthetic\n\nggplot(data = us_uk_tr_votes, mapping = aes(x = year))"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization.html#step-3.-map-variables-to-aesthetics",
+    "href": "slides/02-grammar-of-data-visualization.html#step-3.-map-variables-to-aesthetics",
+    "title": "Grammar of Data Visualization",
+    "section": "Step 3. Map variables to aesthetics",
+    "text": "Step 3. Map variables to aesthetics\nMap percent_yes to the y aesthetic\n\nggplot(data = us_uk_tr_votes, mapping = aes(x = year, y = percent_yes))"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization.html#mapping-and-aesthetics",
+    "href": "slides/02-grammar-of-data-visualization.html#mapping-and-aesthetics",
+    "title": "Grammar of Data Visualization",
+    "section": "Mapping and aesthetics",
+    "text": "Mapping and aesthetics\n\nAesthetics are visual properties of a plot\nIn the grammar of graphics, variables from the data frame are mapped to aesthetics"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization.html#argument-names",
+    "href": "slides/02-grammar-of-data-visualization.html#argument-names",
+    "title": "Grammar of Data Visualization",
+    "section": "Argument names",
+    "text": "Argument names\nIt’s common practice in R to omit the names of first two arguments of a function:\n. . .\n\nInstead of:\n\nggplot(data = us_uk_tr_votes, mapping = aes(x = year, y = percent_yes))\n\nWe usually write:\n\nggplot(us_uk_tr_votes, aes(x = year, y = percent_yes))"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization.html#step-4.-represent-data-on-your-canvas",
+    "href": "slides/02-grammar-of-data-visualization.html#step-4.-represent-data-on-your-canvas",
+    "title": "Grammar of Data Visualization",
+    "section": "Step 4. Represent data on your canvas",
+    "text": "Step 4. Represent data on your canvas\nwith a geom\n\nggplot(us_uk_tr_votes, aes(x = year, y = percent_yes)) +\n  geom_point()\n\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nFunctionally, the geom layer(s) tell R what type of plot you want to create. In particular, geom_point() corresponds to a scatterplot."
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization.html#step-5.-map-variables-to-aesthetics",
+    "href": "slides/02-grammar-of-data-visualization.html#step-5.-map-variables-to-aesthetics",
+    "title": "Grammar of Data Visualization",
+    "section": "Step 5. Map variables to aesthetics",
+    "text": "Step 5. Map variables to aesthetics\nMap country to the color aesthetic\n\nggplot(us_uk_tr_votes, aes(x = year, y = percent_yes, color = country)) +\n  geom_point()"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization.html#step-6.-represent-data-on-your-canvas",
+    "href": "slides/02-grammar-of-data-visualization.html#step-6.-represent-data-on-your-canvas",
+    "title": "Grammar of Data Visualization",
+    "section": "Step 6. Represent data on your canvas",
+    "text": "Step 6. Represent data on your canvas\nwith another geom\n\nggplot(us_uk_tr_votes, aes(x = year, y = percent_yes, color = country)) +\n  geom_point() +\n  geom_smooth()\n\n`geom_smooth()` using method = 'loess' and formula = 'y ~ x'"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization.html#warnings-and-messages",
+    "href": "slides/02-grammar-of-data-visualization.html#warnings-and-messages",
+    "title": "Grammar of Data Visualization",
+    "section": "Warnings and messages",
+    "text": "Warnings and messages\n\nAdding geom_smooth() resulted in the following warning:\n\n`geom_smooth()` using method = 'loess' and formula = 'y ~ x'\n. . .\n\nIt tells us the type of smoothing ggplot2 does under the hood when drawing the smooth curves that represent trends for each country.\n\n. . .\n\nGoing forward we’ll suppress this warning to save some space."
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization.html#step-7.-split-plot-into-facets",
+    "href": "slides/02-grammar-of-data-visualization.html#step-7.-split-plot-into-facets",
+    "title": "Grammar of Data Visualization",
+    "section": "Step 7. Split plot into facets",
+    "text": "Step 7. Split plot into facets\n\nggplot(us_uk_tr_votes, aes(x = year, y = percent_yes, color = country)) +\n  geom_point() +\n  geom_smooth() +\n  facet_wrap(~ issue)"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization.html#step-8.-use-a-different-color-scale",
+    "href": "slides/02-grammar-of-data-visualization.html#step-8.-use-a-different-color-scale",
+    "title": "Grammar of Data Visualization",
+    "section": "Step 8. Use a different color scale",
+    "text": "Step 8. Use a different color scale\n\nggplot(us_uk_tr_votes, aes(x = year, y = percent_yes, color = country)) +\n  geom_point() +\n  geom_smooth() +\n  facet_wrap(~ issue) +\n  scale_color_colorblind()"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization.html#step-9.-apply-a-different-theme",
+    "href": "slides/02-grammar-of-data-visualization.html#step-9.-apply-a-different-theme",
+    "title": "Grammar of Data Visualization",
+    "section": "Step 9. Apply a different theme",
+    "text": "Step 9. Apply a different theme\n\nggplot(us_uk_tr_votes, aes(x = year, y = percent_yes, color = country)) +\n  geom_point() +\n  geom_smooth() +\n  facet_wrap(~ issue) +\n  scale_color_colorblind() +\n  theme_minimal()"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization.html#step-10.-add-labels",
+    "href": "slides/02-grammar-of-data-visualization.html#step-10.-add-labels",
+    "title": "Grammar of Data Visualization",
+    "section": "Step 10. Add labels",
+    "text": "Step 10. Add labels\n\nggplot(us_uk_tr_votes, aes(x = year, y = percent_yes, color = country)) +\n  geom_point() +\n  geom_smooth() +\n  facet_wrap(~ issue) +\n  scale_color_colorblind() +\n  theme_minimal() +\n  labs(x = \"Year\", y = \"% yes\", color = \"Country\")"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization.html#step-11.-set-transparency-of-points",
+    "href": "slides/02-grammar-of-data-visualization.html#step-11.-set-transparency-of-points",
+    "title": "Grammar of Data Visualization",
+    "section": "Step 11. Set transparency of points",
+    "text": "Step 11. Set transparency of points\nwith alpha\n\nggplot(us_uk_tr_votes, aes(x = year, y = percent_yes, color = country)) +\n  geom_point(alpha = 0.5) +\n  geom_smooth() +\n  facet_wrap(~ issue) +\n  scale_color_colorblind() +\n  theme_minimal() +\n  labs(x = \"Year\", y = \"% yes\", color = \"Country\")"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization.html#step-12.-hide-standard-errors-of-curves",
+    "href": "slides/02-grammar-of-data-visualization.html#step-12.-hide-standard-errors-of-curves",
+    "title": "Grammar of Data Visualization",
+    "section": "Step 12. Hide standard errors of curves",
+    "text": "Step 12. Hide standard errors of curves\nwith se = FALSE\n\nggplot(us_uk_tr_votes, aes(x = year, y = percent_yes, color = country)) +\n  geom_point(alpha = 0.5) +\n  geom_smooth(se = FALSE) +\n  facet_wrap(~ issue) +\n  scale_color_colorblind() +\n  theme_minimal() +\n  labs(x = \"Year\", y = \"% yes\", color = \"Country\")"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization.html#data-viz-with-ggplot-is-like-building-a-cake",
+    "href": "slides/02-grammar-of-data-visualization.html#data-viz-with-ggplot-is-like-building-a-cake",
+    "title": "Grammar of Data Visualization",
+    "section": "Data viz with ggplot is like building a cake",
+    "text": "Data viz with ggplot is like building a cake\n\n\n\nggplot(\n  us_uk_tr_votes, \n  aes(x = year, y = percent_yes, color = country)\n  ) +\n  geom_point(alpha = 0.5) +\n  geom_smooth(se = FALSE) +\n  facet_wrap(~ issue) +\n  scale_color_colorblind() +\n  labs(\n    x = \"Year\", \n    y = \"% yes\", \n    color = \"Country\"\n  ) +\n  theme_minimal()\n\n\n\n\n\n. . .\nThe commands are the layers of sponge, and the plus signs are the icing. Don’t forget the icing!"
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization.html#grammar-of-graphics",
+    "href": "slides/02-grammar-of-data-visualization.html#grammar-of-graphics",
+    "title": "Grammar of Data Visualization",
+    "section": "Grammar of graphics",
+    "text": "Grammar of graphics\n\n\nWe built a plot layer-by-layer\n\njust like described in the book The Grammar of Graphics and\nimplemented in the ggplot2 package, the data visualization package of the tidyverse."
+  },
+  {
+    "objectID": "slides/02-grammar-of-data-visualization.html#now-you-try",
+    "href": "slides/02-grammar-of-data-visualization.html#now-you-try",
+    "title": "Grammar of Data Visualization",
+    "section": "Now you try",
+    "text": "Now you try\n\nOn GitHub, your AE repo should now have a new file in it called ae-02-penguin-peekaboo.qmd;\nIn other words, the remote version of your repo in the cloud (GitHub) has updates that your local repo (container) does not yet have;\nSo pull them!"
   },
   {
     "objectID": "computing-troubleshooting.html",
@@ -1341,6 +1747,734 @@
     "crumbs": [
       "Application Exercises"
     ]
+  },
+  {
+    "objectID": "slides/00-welcome-199.html",
+    "href": "slides/00-welcome-199.html",
+    "title": "Welcome to STA 199!",
+    "section": "",
+    "text": "InstructorJosh Lim\njosh.lim@duke.edu\n\nTA, Lab InstructorKenna Roberts\nmakenna.roberts@duke.edu\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUCLA! Majored in applied mathematics, statistics and data science\nGraduated 2024\nDid research, blah blah blah blah blah, wanted more school etc.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPhD in statistical science\nResearch in causal inference, missing data, and machine learning\nApplied projects across multiple medical schools\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nName\nYear\nMajor(s) (or, potential major(s) if undecided!)\nHometown\nSomething fun you did or will do this summer\nIf you were to go viral, what would it be for?\n\nFirst half:\n\n\n\n\n\n\nData science\n\n\n\n\nTransforming messy, incomplete, imperfect data into knowledge;\n\nKnowledge often takes the form of pictures and a concise set of numerical summaries.\n\n\n\n. . .\nSecond half:\n\n\n\n\n\n\nStatistical thinking\n\n\n\nQuantifying our uncertainty about that knowledge.\n\n\n\n. . .\nCampaign manager: What is the probability that our candidate wins the election?\n. . .\n(A flurry of analysis takes place.)\n. . .\nData scientist: Our best guess is 54%.\n. . .\nCampaign manager: How reliable is that estimate? How confident are we in that? What’s the margin of error?\n. . .\n\n\nParallel Universe 1\nData scientist: It’s 54% give or take 3%.\n\n\nParallel Universe 2\nData scientist: It’s 54% give or take 20%.\n\n\n\n. . .\n\n\n\n\n\n\nIt’s all about decision-making under uncertainty\n\n\n\nThe manager is going to make wildly different decisions about campaign strategy and spending depending on how uncertain the environment is."
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#meet-your-teaching-team",
+    "href": "slides/00-welcome-199.html#meet-your-teaching-team",
+    "title": "Welcome to STA 199!",
+    "section": "",
+    "text": "InstructorJosh Lim\njosh.lim@duke.edu\n\nTA, Lab InstructorKenna Roberts\nmakenna.roberts@duke.edu"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#ucla",
+    "href": "slides/00-welcome-199.html#ucla",
+    "title": "Welcome to STA 199!",
+    "section": "",
+    "text": "UCLA! Majored in applied mathematics, statistics and data science\nGraduated 2024\nDid research, blah blah blah blah blah, wanted more school etc."
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#duke",
+    "href": "slides/00-welcome-199.html#duke",
+    "title": "Welcome to STA 199!",
+    "section": "",
+    "text": "PhD in statistical science\nResearch in causal inference, missing data, and machine learning\nApplied projects across multiple medical schools"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#meet-each-other",
+    "href": "slides/00-welcome-199.html#meet-each-other",
+    "title": "Welcome to STA 199!",
+    "section": "",
+    "text": "Name\nYear\nMajor(s) (or, potential major(s) if undecided!)\nHometown\nSomething fun you did or will do this summer\nIf you were to go viral, what would it be for?"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#what-are-we-studying",
+    "href": "slides/00-welcome-199.html#what-are-we-studying",
+    "title": "Welcome to STA 199!",
+    "section": "",
+    "text": "First half:\n\n\n\n\n\n\nData science\n\n\n\n\nTransforming messy, incomplete, imperfect data into knowledge;\n\nKnowledge often takes the form of pictures and a concise set of numerical summaries.\n\n\n\n. . .\nSecond half:\n\n\n\n\n\n\nStatistical thinking\n\n\n\nQuantifying our uncertainty about that knowledge."
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#imagine-this-dialog",
+    "href": "slides/00-welcome-199.html#imagine-this-dialog",
+    "title": "Welcome to STA 199!",
+    "section": "",
+    "text": ". . .\nCampaign manager: What is the probability that our candidate wins the election?\n. . .\n(A flurry of analysis takes place.)\n. . .\nData scientist: Our best guess is 54%.\n. . .\nCampaign manager: How reliable is that estimate? How confident are we in that? What’s the margin of error?\n. . .\n\n\nParallel Universe 1\nData scientist: It’s 54% give or take 3%.\n\n\nParallel Universe 2\nData scientist: It’s 54% give or take 20%.\n\n\n\n. . .\n\n\n\n\n\n\nIt’s all about decision-making under uncertainty\n\n\n\nThe manager is going to make wildly different decisions about campaign strategy and spending depending on how uncertain the environment is."
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#excel",
+    "href": "slides/00-welcome-199.html#excel",
+    "title": "Welcome to STA 199!",
+    "section": "Excel… 👎",
+    "text": "Excel… 👎"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#r",
+    "href": "slides/00-welcome-199.html#r",
+    "title": "Welcome to STA 199!",
+    "section": "R",
+    "text": "R"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#homepage",
+    "href": "slides/00-welcome-199.html#homepage",
+    "title": "Welcome to STA 199!",
+    "section": "Homepage",
+    "text": "Homepage\nhttps://sta199-su26-2.github.io\n\nAll course materials\nLinks to Canvas, GitHub, RStudio containers, etc."
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#activities",
+    "href": "slides/00-welcome-199.html#activities",
+    "title": "Welcome to STA 199!",
+    "section": "Activities",
+    "text": "Activities\n\nIntroduce new content and prepare for lectures by watching the videos and completing the readings\nAttend and actively participate in lectures (and ask / answer questions for participation credit) and labs, office hours, team meetings\nPractice applying statistical concepts and computing with application exercises during lecture\nPut together what you’ve learned to analyze real-world data\n\nLab assignments\nExams\nTerm project (completed in teams)"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#application-exercises",
+    "href": "slides/00-welcome-199.html#application-exercises",
+    "title": "Welcome to STA 199!",
+    "section": "Application exercises",
+    "text": "Application exercises\n\nRoughly one per lecture\nGraded for good-faith attempt, not accuracy\nPractice this week; graded thereafter\nAt least one commit to your AE repo by 10:45am of the day of lecture\nComplete 80% for full lecutre attendance credit"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#labs",
+    "href": "slides/00-welcome-199.html#labs",
+    "title": "Welcome to STA 199!",
+    "section": "Labs",
+    "text": "Labs\n\nLab session formally takes place on Mondays and Thursdays following lecture (11:00am - 12:15pm)\nLabs are to be started during the lab session & completed at home by the posted due date\nI encourage you to make the most of lab sessions, as you have access to both your peers and Kenna, the course TA, during this time\n\nDue dates (typically):\n\nMonday Lab: Due Wednesday at 11:59 PM\nThursday Lab: Due Sunday at 11:59 PM\n\n\nDiscussion with classmates = 🤩 ; Copying = ❌\nLowest lab score is dropped"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#exams",
+    "href": "slides/00-welcome-199.html#exams",
+    "title": "Welcome to STA 199!",
+    "section": "Exams",
+    "text": "Exams\n\nTwo exams, each 25%\nMidterm: June 1, during lecture + lab (tentatively) CHANGE\nFinal: June 24, 9am - 12pm CHANGE\nYou will be permitted a “cheat sheet” (both sides of a single 8.5” x 11” piece of paper)\n\n\n\n\n\n\n\nCaution\n\n\n\nIt’s possible the first midterm gets bumped to June 2; this will be communicated by next Wednesday, 5/20. The final exam date is above my pay grade & cannot be changed. If you cannot take the exams on these dates, please have a discussion with me today. CHANGE"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#project",
+    "href": "slides/00-welcome-199.html#project",
+    "title": "Welcome to STA 199!",
+    "section": "Project",
+    "text": "Project\n\nDataset of your choice, method of your choice\nTeamwork\nPresentation and write-up\nPresentations will take place in the last lab (June 22)\nInterim deadlines, peer review on content, peer evaluation for team contribution\nSome lab sessions allocated to project progress\n\n\n\n\n\n\n\nCaution\n\n\n\nFinal presentation date cannot be changed; you must complete the project and participate in project presentations to pass this class."
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#project-teams",
+    "href": "slides/00-welcome-199.html#project-teams",
+    "title": "Welcome to STA 199!",
+    "section": "Project teams",
+    "text": "Project teams\n\nAssigned by me (& influenced by communicated topics / areas of interest)\n3-4 members per team\nPeer evaluation during teamwork and after completion\nExpectations and roles\n\nEveryone is expected to contribute equal effort\n\nEveryone is expected to understand all code turned in\nIndividual contribution evaluated by peer evaluation, commits, etc."
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#grading",
+    "href": "slides/00-welcome-199.html#grading",
+    "title": "Welcome to STA 199!",
+    "section": "Grading",
+    "text": "Grading\n\n\nCategory\nPercentage\n\n\n\nLabs\n20%\n\n\nProject\n20%\n\n\nExam 1\n25%\n\n\nExam 2\n25%\n\n\nApplication Exercises\n5%\n\n\nLab Attendance\n5%\n\n\n\n See course syllabus for how the final letter grade will be determined."
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#support",
+    "href": "slides/00-welcome-199.html#support",
+    "title": "Welcome to STA 199!",
+    "section": "Support",
+    "text": "Support\n\nAttend office hours\nAsk and answer questions on the Ed discussion board\nReserve email for questions on personal matters and / or grades"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#office-hours",
+    "href": "slides/00-welcome-199.html#office-hours",
+    "title": "Welcome to STA 199!",
+    "section": "Office Hours",
+    "text": "Office Hours\nJosh: Old Chem 203 CHANGE\n\nTBD\n\nKenna: Time & Location TBD"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#announcements",
+    "href": "slides/00-welcome-199.html#announcements",
+    "title": "Welcome to STA 199!",
+    "section": "Announcements",
+    "text": "Announcements\n\nPosted on Canvas (Announcements tool) and sent via email, be sure to check both regularly\nAll information is on the course website - please pin to your browser of choice & refer to it often!"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#course-toolkit",
+    "href": "slides/00-welcome-199.html#course-toolkit",
+    "title": "Welcome to STA 199!",
+    "section": "Course toolkit",
+    "text": "Course toolkit\nAll linked from the course website:\n\nGitHub organization: github.com/sta199-su26-2\n\nRStudio containers: cmgr.oit.duke.edu/containers\n\nCommunication: Ed Discussion\nAssignment submission and feedback: Gradescope"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#accessibility",
+    "href": "slides/00-welcome-199.html#accessibility",
+    "title": "Welcome to STA 199!",
+    "section": "Accessibility",
+    "text": "Accessibility\n\nThe Student Disability Access Office (SDAO) is available to ensure that students are able to engage with their courses and related assignments.\nI am committed to making all course materials accessible, and I’m always open to feedback on how to do this better!"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#late-work-waivers-regrades-policy",
+    "href": "slides/00-welcome-199.html#late-work-waivers-regrades-policy",
+    "title": "Welcome to STA 199!",
+    "section": "Late work, waivers, regrades policy",
+    "text": "Late work, waivers, regrades policy\n\nWe have policies!\nRead about them on the course syllabus and refer back to them when you need it\n\n\n\n\n\n\n\nIf you need testing accommodations\n\n\n\nMake sure I get a letter, and make your appointments in the Testing Center now."
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#collaboration",
+    "href": "slides/00-welcome-199.html#collaboration",
+    "title": "Welcome to STA 199!",
+    "section": "Collaboration",
+    "text": "Collaboration\n\nLabs: discussing and helping one another is fine; sharing your solutions via text, email, AirDrop, carrier pigeon, or any other method, and / or copying from others is not permitted;\nExams: collaboration of any kind is completely forbidden\nProjects: collaboration of all kinds is enthusiastically encouraged within your team; between teams, it’s the same as labs; do not directly share your materials or copy from others."
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#use-of-ai-tools",
+    "href": "slides/00-welcome-199.html#use-of-ai-tools",
+    "title": "Welcome to STA 199!",
+    "section": "Use of AI tools",
+    "text": "Use of AI tools\n\n\n AI tools for code:\n\nSure, but be careful/critical! Working code != correct / good code.\nMust explicitly cite with a direct url linking to the conversation you had.\n\n\n AI tools for narrative: Absolutely not!\n AI tools for learning: Sure, but be careful/critical!\n\n\n\n\n\n\n\nCaution\n\n\n\nException: Use of AI tools is completely forbidden during lab session. When you are in lab, you have far better tools / resources available to you - Kenna, our TA, and each other! Blatant disregard for this policy will result in a 0 for the current lab assignment."
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#academic-integrity",
+    "href": "slides/00-welcome-199.html#academic-integrity",
+    "title": "Welcome to STA 199!",
+    "section": "Academic integrity",
+    "text": "Academic integrity\n\nTo uphold the Duke Community Standard:\n\nI will not lie, cheat, or steal in my academic endeavors;\nI will conduct myself honorably in all my endeavors; and\nI will act if the Standard is compromised."
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#april-20th-deadly-day-for-car-crashes",
+    "href": "slides/00-welcome-199.html#april-20th-deadly-day-for-car-crashes",
+    "title": "Welcome to STA 199!",
+    "section": "“April 20th: Deadly Day for Car Crashes?”",
+    "text": "“April 20th: Deadly Day for Car Crashes?”\nThe text below can be found at this link, which is a post on the website of a personal injury law firm. Suppose we want to investigate the validity of their claim… What data might we want? What methods are appropriate? How will we perform our analysis? How can we best communicate our findings?"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#the-data-science-life-cycle",
+    "href": "slides/00-welcome-199.html#the-data-science-life-cycle",
+    "title": "Welcome to STA 199!",
+    "section": "The data science life cycle",
+    "text": "The data science life cycle"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#the-data-science-life-cycle-1",
+    "href": "slides/00-welcome-199.html#the-data-science-life-cycle-1",
+    "title": "Welcome to STA 199!",
+    "section": "The data science life cycle",
+    "text": "The data science life cycle"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#load-the-data-in",
+    "href": "slides/00-welcome-199.html#load-the-data-in",
+    "title": "Welcome to STA 199!",
+    "section": "Load the data in",
+    "text": "Load the data in\nOn 4/22/2025, TidyTuesday posted a tidy version of the raw data analyzed in Harper and Palayew’s (2019) study, “The annual cannabis holiday and fatal traffic crashes,” available here.\nLet’s load this data into R…\n\nlibrary(tidyverse)\n\ndaily_accidents_420 &lt;- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-22/daily_accidents_420.csv')"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#the-data-science-life-cycle-2",
+    "href": "slides/00-welcome-199.html#the-data-science-life-cycle-2",
+    "title": "Welcome to STA 199!",
+    "section": "The data science life cycle",
+    "text": "The data science life cycle"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#if-we-hadnt-had-access-to-our-tidy-data",
+    "href": "slides/00-welcome-199.html#if-we-hadnt-had-access-to-our-tidy-data",
+    "title": "Welcome to STA 199!",
+    "section": "If we hadn’t had access to our tidy data…",
+    "text": "If we hadn’t had access to our tidy data…"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#still-we-can-tidy-some-more",
+    "href": "slides/00-welcome-199.html#still-we-can-tidy-some-more",
+    "title": "Welcome to STA 199!",
+    "section": "Still, we can tidy some more…",
+    "text": "Still, we can tidy some more…\n\ndaily_accidents_420 &lt;- daily_accidents_420 |&gt;\n  filter(!is.na(e420)) |&gt;\n  mutate(e420 = if_else(e420 == TRUE, \"4/20\", \"Not 4/20\"))"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#the-data-science-life-cycle-3",
+    "href": "slides/00-welcome-199.html#the-data-science-life-cycle-3",
+    "title": "Welcome to STA 199!",
+    "section": "The data science life cycle",
+    "text": "The data science life cycle"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#babys-first-graphic",
+    "href": "slides/00-welcome-199.html#babys-first-graphic",
+    "title": "Welcome to STA 199!",
+    "section": "Baby’s first graphic",
+    "text": "Baby’s first graphic\n\nggplot(daily_accidents_420, aes(fatalities_count, fill = e420))"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#babys-first-graphic-1",
+    "href": "slides/00-welcome-199.html#babys-first-graphic-1",
+    "title": "Welcome to STA 199!",
+    "section": "Baby’s first graphic",
+    "text": "Baby’s first graphic\n\nggplot(daily_accidents_420, aes(fatalities_count, fill = e420)) +\n    geom_histogram()"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#babys-first-graphic-2",
+    "href": "slides/00-welcome-199.html#babys-first-graphic-2",
+    "title": "Welcome to STA 199!",
+    "section": "Baby’s first graphic",
+    "text": "Baby’s first graphic\n\nggplot(daily_accidents_420, aes(fatalities_count, fill = e420)) +\n  geom_histogram() +\n  facet_wrap(~ e420, ncol = 1, scales = \"free_y\")"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#babys-first-graphic-3",
+    "href": "slides/00-welcome-199.html#babys-first-graphic-3",
+    "title": "Welcome to STA 199!",
+    "section": "Baby’s first graphic",
+    "text": "Baby’s first graphic\n\nggplot(daily_accidents_420, aes(fatalities_count, fill = e420)) +\n  geom_histogram() +\n  facet_wrap(~ e420, ncol = 1, scales = \"free_y\") +\n  labs(title = \"Histogram of Daily Traffic Accident Fatality Count, 1992-2016\",\n       subtitle = \"On the 'High Holiday' (4/20), vs. Not\",\n       x = \"Daily Traffic Accident Fatality Count (1992 - 2016)\",\n       y = \"Count of Observations\") +\n  theme_minimal() +\n  theme(legend.position = \"none\")"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#the-data-science-life-cycle-4",
+    "href": "slides/00-welcome-199.html#the-data-science-life-cycle-4",
+    "title": "Welcome to STA 199!",
+    "section": "The data science life cycle",
+    "text": "The data science life cycle"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#in-reality",
+    "href": "slides/00-welcome-199.html#in-reality",
+    "title": "Welcome to STA 199!",
+    "section": "In reality…",
+    "text": "In reality…"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#pov-your-mom-dropped-this-banger-in-the-family-gc",
+    "href": "slides/00-welcome-199.html#pov-your-mom-dropped-this-banger-in-the-family-gc",
+    "title": "Welcome to STA 199!",
+    "section": "POV: Your Mom dropped this banger in the family gc",
+    "text": "POV: Your Mom dropped this banger in the family gc"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#what-did-the-study-actually-do",
+    "href": "slides/00-welcome-199.html#what-did-the-study-actually-do",
+    "title": "Welcome to STA 199!",
+    "section": "What did the study actually do?",
+    "text": "What did the study actually do?"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#the-study-design",
+    "href": "slides/00-welcome-199.html#the-study-design",
+    "title": "Welcome to STA 199!",
+    "section": "The study design",
+    "text": "The study design\n60 four-year-olds randomly assigned to 3 conditions (20 each):\n. . .\n\n\nFast-paced TV: 9-minute clip of a popular cartoon about an animated sponge that lives under the sea\n\n\nEducational TV: 9-minute clip of a PBS cartoon about a typical preschool-aged boy\n\nDrawing: crayons, markers, and paper for 9 minutes\n\n. . .\nThen researchers measured executive function (EF) immediately after."
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#how-did-they-measure-brain-impairment",
+    "href": "slides/00-welcome-199.html#how-did-they-measure-brain-impairment",
+    "title": "Welcome to STA 199!",
+    "section": "How did they measure “brain impairment”?",
+    "text": "How did they measure “brain impairment”?\nThree tasks:\n\n\nTower of Hanoi — move disks between pegs following rules; scored 0 or 1\n\nHTKS — “When I say touch your head, touch your toes” (and vice versa); scored 0–2 per item\n\nDelay of gratification — wait for the experimenter to get 10 marshmallows vs. ring a bell for 2\n\n. . .\nZ-scores for the first 3 EF tasks were summed into a composite EF score."
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#so-whats-the-problem",
+    "href": "slides/00-welcome-199.html#so-whats-the-problem",
+    "title": "Welcome to STA 199!",
+    "section": "So what’s the problem?",
+    "text": "So what’s the problem?\n\n\n\n\n\n\nNo baseline!\n\n\n\nExecutive function was only measured after the experiment — we don’t know if the groups were comparable before watching anything.\n\n\n. . .\n\n\n\n\n\n\nWhat metrics?\n\n\n\nTower of Hanoi scored 0 or 1. HTKS is a children’s game. Are these really measuring “brain impairment”?\n\n\n. . ."
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#yet",
+    "href": "slides/00-welcome-199.html#yet",
+    "title": "Welcome to STA 199!",
+    "section": "Yet…",
+    "text": "Yet…"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#course-themes",
+    "href": "slides/00-welcome-199.html#course-themes",
+    "title": "Welcome to STA 199!",
+    "section": "Course themes",
+    "text": "Course themes\n\n\nStatistical literacy matters\n\nHeadlines, social media posts, advertisements, and even “expert” sources can misrepresent scientific findings\nData-driven claims should be evaluated critically, not accepted at face value\n\n\n\nReproducibility is essential\n\nCredible analyses should clearly describe: where the data came from, how the data were processed, and how the analysis was performed\nReproducible work allows others to verify, critique, and build upon scientific findings\n\n\n\nData science is an iterative process\n\nCuriosity keeps the wheel turning!"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#what-is-github",
+    "href": "slides/00-welcome-199.html#what-is-github",
+    "title": "Welcome to STA 199!",
+    "section": "What is GitHub?",
+    "text": "What is GitHub?\n\nMore on this tomorrow - basically, it is the Google Drive of coding!"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#ae-00-make-your-github-account",
+    "href": "slides/00-welcome-199.html#ae-00-make-your-github-account",
+    "title": "Welcome to STA 199!",
+    "section": "AE 00: Make your GitHub account",
+    "text": "AE 00: Make your GitHub account\n Find AE 00 on the course website!"
+  },
+  {
+    "objectID": "slides/00-welcome-199.html#this-weeks-tasks",
+    "href": "slides/00-welcome-199.html#this-weeks-tasks",
+    "title": "Welcome to STA 199!",
+    "section": "This week’s tasks",
+    "text": "This week’s tasks\n\nComplete Lab 0\n\nComputational setup\nGetting to know you survey\n\n\nRead the syllabus\nGet started with data science!"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#meet-your-teaching-team",
+    "href": "slides/00-welcome-199-slides.html#meet-your-teaching-team",
+    "title": "Welcome to STA 199!",
+    "section": "Meet your teaching team",
+    "text": "Meet your teaching team\n\nInstructorJosh Lim\njosh.lim@duke.edu\n\nTA, Lab InstructorKenna Roberts\nmakenna.roberts@duke.edu"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#wheres-this",
+    "href": "slides/00-welcome-199-slides.html#wheres-this",
+    "title": "Welcome to STA 199!",
+    "section": "Where’s this?",
+    "text": "Where’s this?"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#my-family",
+    "href": "slides/00-welcome-199-slides.html#my-family",
+    "title": "Welcome to STA 199!",
+    "section": "My family",
+    "text": "My family"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#ucla",
+    "href": "slides/00-welcome-199-slides.html#ucla",
+    "title": "Welcome to STA 199!",
+    "section": "UCLA",
+    "text": "UCLA\n\n\n\n\n\n\n\n\n\nUCLA! Majored in applied mathematics, statistics and data science\nGraduated 2024\nDid research, blah blah blah blah blah, wanted more school etc."
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#ucla-cont",
+    "href": "slides/00-welcome-199-slides.html#ucla-cont",
+    "title": "Welcome to STA 199!",
+    "section": "UCLA cont",
+    "text": "UCLA cont"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#duke",
+    "href": "slides/00-welcome-199-slides.html#duke",
+    "title": "Welcome to STA 199!",
+    "section": "DUKE",
+    "text": "DUKE\n\n\n\n\n\n\n\n\n\n\n\n\nPhD in statistical science\nResearch in causal inference, missing data, and machine learning\nApplied projects across multiple medical schools"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#duke-cont",
+    "href": "slides/00-welcome-199-slides.html#duke-cont",
+    "title": "Welcome to STA 199!",
+    "section": "Duke cont",
+    "text": "Duke cont"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#meet-each-other",
+    "href": "slides/00-welcome-199-slides.html#meet-each-other",
+    "title": "Welcome to STA 199!",
+    "section": "Meet each other!",
+    "text": "Meet each other!\n\nName\nYear\nMajor(s) (or, potential major(s) if undecided!)\nHometown\nSomething fun you did or will do this summer\nIf you were to go viral, what would it be for?"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#what-are-we-studying",
+    "href": "slides/00-welcome-199-slides.html#what-are-we-studying",
+    "title": "Welcome to STA 199!",
+    "section": "What are we studying?",
+    "text": "What are we studying?\nFirst half:\n\n\n\n\n\n\nData science\n\n\n\nTransforming messy, incomplete, imperfect data into knowledge;\n\nKnowledge often takes the form of pictures and a concise set of numerical summaries.\n\n\n\n\n\nSecond half:\n\n\n\n\n\n\nStatistical thinking\n\n\nQuantifying our uncertainty about that knowledge."
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#imagine-this-dialog",
+    "href": "slides/00-welcome-199-slides.html#imagine-this-dialog",
+    "title": "Welcome to STA 199!",
+    "section": "Imagine this dialog",
+    "text": "Imagine this dialog\n\nCampaign manager: What is the probability that our candidate wins the election?\n\n\n(A flurry of analysis takes place.)\n\n\nData scientist: Our best guess is 54%.\n\n\nCampaign manager: How reliable is that estimate? How confident are we in that? What’s the margin of error?\n\n\n\n\nParallel Universe 1\nData scientist: It’s 54% give or take 3%.\n\n\nParallel Universe 2\nData scientist: It’s 54% give or take 20%.\n\n\n\n\n\n\n\n\n\n\nIt’s all about decision-making under uncertainty\n\n\nThe manager is going to make wildly different decisions about campaign strategy and spending depending on how uncertain the environment is."
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#who-can-explain-this",
+    "href": "slides/00-welcome-199-slides.html#who-can-explain-this",
+    "title": "Welcome to STA 199!",
+    "section": "Who can explain this?",
+    "text": "Who can explain this?"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#excel",
+    "href": "slides/00-welcome-199-slides.html#excel",
+    "title": "Welcome to STA 199!",
+    "section": "Excel… 👎",
+    "text": "Excel… 👎"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#r",
+    "href": "slides/00-welcome-199-slides.html#r",
+    "title": "Welcome to STA 199!",
+    "section": "R",
+    "text": "R"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#homepage",
+    "href": "slides/00-welcome-199-slides.html#homepage",
+    "title": "Welcome to STA 199!",
+    "section": "Homepage",
+    "text": "Homepage\nhttps://sta199-su26-2.github.io\n\nAll course materials\nLinks to Canvas, GitHub, RStudio containers, etc."
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#activities",
+    "href": "slides/00-welcome-199-slides.html#activities",
+    "title": "Welcome to STA 199!",
+    "section": "Activities",
+    "text": "Activities\n\nIntroduce new content and prepare for lectures by watching the videos and completing the readings\nAttend and actively participate in lectures (and ask / answer questions for participation credit) and labs, office hours, team meetings\nPractice applying statistical concepts and computing with application exercises during lecture\nPut together what you’ve learned to analyze real-world data\n\nLab assignments\nExams\nTerm project (completed in teams)"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#application-exercises",
+    "href": "slides/00-welcome-199-slides.html#application-exercises",
+    "title": "Welcome to STA 199!",
+    "section": "Application exercises",
+    "text": "Application exercises\n\nRoughly one per lecture\nGraded for good-faith attempt, not accuracy\nPractice this week; graded thereafter\nAt least one commit to your AE repo by 10:45am of the day of lecture\nComplete 80% for full lecutre attendance credit"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#labs",
+    "href": "slides/00-welcome-199-slides.html#labs",
+    "title": "Welcome to STA 199!",
+    "section": "Labs",
+    "text": "Labs\n\nLab session formally takes place on Mondays and Thursdays following lecture (11:00am - 12:15pm)\nLabs are to be started during the lab session & completed at home by the posted due date\nI encourage you to make the most of lab sessions, as you have access to both your peers and Kenna, the course TA, during this time\n\nDue dates (typically):\n\nMonday Lab: Due Wednesday at 11:59 PM\nThursday Lab: Due Sunday at 11:59 PM\n\n\nDiscussion with classmates = 🤩 ; Copying = ❌\nLowest lab score is dropped"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#exams",
+    "href": "slides/00-welcome-199-slides.html#exams",
+    "title": "Welcome to STA 199!",
+    "section": "Exams",
+    "text": "Exams\n\nTwo exams, each 25%\nMidterm: June 1, during lecture + lab (tentatively) CHANGE\nFinal: June 24, 9am - 12pm CHANGE\nYou will be permitted a “cheat sheet” (both sides of a single 8.5” x 11” piece of paper)\n\n\n\n\n\n\n\nCaution\n\n\nIt’s possible the first midterm gets bumped to June 2; this will be communicated by next Wednesday, 5/20. The final exam date is above my pay grade & cannot be changed. If you cannot take the exams on these dates, please have a discussion with me today. CHANGE"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#project",
+    "href": "slides/00-welcome-199-slides.html#project",
+    "title": "Welcome to STA 199!",
+    "section": "Project",
+    "text": "Project\n\nDataset of your choice, method of your choice\nTeamwork\nPresentation and write-up\nPresentations will take place in the last lab (June 22)\nInterim deadlines, peer review on content, peer evaluation for team contribution\nSome lab sessions allocated to project progress\n\n\n\n\n\n\n\nCaution\n\n\nFinal presentation date cannot be changed; you must complete the project and participate in project presentations to pass this class."
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#project-teams",
+    "href": "slides/00-welcome-199-slides.html#project-teams",
+    "title": "Welcome to STA 199!",
+    "section": "Project teams",
+    "text": "Project teams\n\nAssigned by me (& influenced by communicated topics / areas of interest)\n3-4 members per team\nPeer evaluation during teamwork and after completion\nExpectations and roles\n\nEveryone is expected to contribute equal effort\n\nEveryone is expected to understand all code turned in\nIndividual contribution evaluated by peer evaluation, commits, etc."
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#grading",
+    "href": "slides/00-welcome-199-slides.html#grading",
+    "title": "Welcome to STA 199!",
+    "section": "Grading",
+    "text": "Grading\n\n\nCategory\nPercentage\n\n\n\nLabs\n20%\n\n\nProject\n20%\n\n\nExam 1\n25%\n\n\nExam 2\n25%\n\n\nApplication Exercises\n5%\n\n\nLab Attendance\n5%\n\n\n\n See course syllabus for how the final letter grade will be determined."
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#support",
+    "href": "slides/00-welcome-199-slides.html#support",
+    "title": "Welcome to STA 199!",
+    "section": "Support",
+    "text": "Support\n\nAttend office hours\nAsk and answer questions on the Ed discussion board\nReserve email for questions on personal matters and / or grades"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#office-hours",
+    "href": "slides/00-welcome-199-slides.html#office-hours",
+    "title": "Welcome to STA 199!",
+    "section": "Office Hours",
+    "text": "Office Hours\nJosh: Old Chem 203 CHANGE\n\nTBD\n\nKenna: Time & Location TBD"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#announcements",
+    "href": "slides/00-welcome-199-slides.html#announcements",
+    "title": "Welcome to STA 199!",
+    "section": "Announcements",
+    "text": "Announcements\n\nPosted on Canvas (Announcements tool) and sent via email, be sure to check both regularly\nAll information is on the course website - please pin to your browser of choice & refer to it often!"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#course-toolkit",
+    "href": "slides/00-welcome-199-slides.html#course-toolkit",
+    "title": "Welcome to STA 199!",
+    "section": "Course toolkit",
+    "text": "Course toolkit\nAll linked from the course website:\n\nGitHub organization: github.com/sta199-su26-2\n\nRStudio containers: cmgr.oit.duke.edu/containers\n\nCommunication: Ed Discussion\nAssignment submission and feedback: Gradescope"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#accessibility",
+    "href": "slides/00-welcome-199-slides.html#accessibility",
+    "title": "Welcome to STA 199!",
+    "section": "Accessibility",
+    "text": "Accessibility\n\nThe Student Disability Access Office (SDAO) is available to ensure that students are able to engage with their courses and related assignments.\nI am committed to making all course materials accessible, and I’m always open to feedback on how to do this better!"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#late-work-waivers-regrades-policy",
+    "href": "slides/00-welcome-199-slides.html#late-work-waivers-regrades-policy",
+    "title": "Welcome to STA 199!",
+    "section": "Late work, waivers, regrades policy",
+    "text": "Late work, waivers, regrades policy\n\nWe have policies!\nRead about them on the course syllabus and refer back to them when you need it\n\n\n\n\n\n\n\nIf you need testing accommodations\n\n\nMake sure I get a letter, and make your appointments in the Testing Center now."
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#collaboration",
+    "href": "slides/00-welcome-199-slides.html#collaboration",
+    "title": "Welcome to STA 199!",
+    "section": "Collaboration",
+    "text": "Collaboration\n\nLabs: discussing and helping one another is fine; sharing your solutions via text, email, AirDrop, carrier pigeon, or any other method, and / or copying from others is not permitted;\nExams: collaboration of any kind is completely forbidden\nProjects: collaboration of all kinds is enthusiastically encouraged within your team; between teams, it’s the same as labs; do not directly share your materials or copy from others."
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#use-of-ai-tools",
+    "href": "slides/00-welcome-199-slides.html#use-of-ai-tools",
+    "title": "Welcome to STA 199!",
+    "section": "Use of AI tools",
+    "text": "Use of AI tools\n\n\n AI tools for code:\n\nSure, but be careful/critical! Working code != correct / good code.\nMust explicitly cite with a direct url linking to the conversation you had.\n\n\n AI tools for narrative: Absolutely not!\n AI tools for learning: Sure, but be careful/critical!\n\n\n\n\n\n\n\nCaution\n\n\nException: Use of AI tools is completely forbidden during lab session. When you are in lab, you have far better tools / resources available to you - Kenna, our TA, and each other! Blatant disregard for this policy will result in a 0 for the current lab assignment."
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#academic-integrity",
+    "href": "slides/00-welcome-199-slides.html#academic-integrity",
+    "title": "Welcome to STA 199!",
+    "section": "Academic integrity",
+    "text": "Academic integrity\n\nTo uphold the Duke Community Standard:\n\nI will not lie, cheat, or steal in my academic endeavors;\nI will conduct myself honorably in all my endeavors; and\nI will act if the Standard is compromised."
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#april-20th-deadly-day-for-car-crashes",
+    "href": "slides/00-welcome-199-slides.html#april-20th-deadly-day-for-car-crashes",
+    "title": "Welcome to STA 199!",
+    "section": "“April 20th: Deadly Day for Car Crashes?”",
+    "text": "“April 20th: Deadly Day for Car Crashes?”\nThe text below can be found at this link, which is a post on the website of a personal injury law firm. Suppose we want to investigate the validity of their claim… What data might we want? What methods are appropriate? How will we perform our analysis? How can we best communicate our findings?"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#the-data-science-life-cycle",
+    "href": "slides/00-welcome-199-slides.html#the-data-science-life-cycle",
+    "title": "Welcome to STA 199!",
+    "section": "The data science life cycle",
+    "text": "The data science life cycle"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#the-data-science-life-cycle-1",
+    "href": "slides/00-welcome-199-slides.html#the-data-science-life-cycle-1",
+    "title": "Welcome to STA 199!",
+    "section": "The data science life cycle",
+    "text": "The data science life cycle"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#load-the-data-in",
+    "href": "slides/00-welcome-199-slides.html#load-the-data-in",
+    "title": "Welcome to STA 199!",
+    "section": "Load the data in",
+    "text": "Load the data in\nOn 4/22/2025, TidyTuesday posted a tidy version of the raw data analyzed in Harper and Palayew’s (2019) study, “The annual cannabis holiday and fatal traffic crashes,” available here.\nLet’s load this data into R…\n\nlibrary(tidyverse)\n\ndaily_accidents_420 &lt;- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2025/2025-04-22/daily_accidents_420.csv')"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#the-data-science-life-cycle-2",
+    "href": "slides/00-welcome-199-slides.html#the-data-science-life-cycle-2",
+    "title": "Welcome to STA 199!",
+    "section": "The data science life cycle",
+    "text": "The data science life cycle"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#if-we-hadnt-had-access-to-our-tidy-data",
+    "href": "slides/00-welcome-199-slides.html#if-we-hadnt-had-access-to-our-tidy-data",
+    "title": "Welcome to STA 199!",
+    "section": "If we hadn’t had access to our tidy data…",
+    "text": "If we hadn’t had access to our tidy data…"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#still-we-can-tidy-some-more",
+    "href": "slides/00-welcome-199-slides.html#still-we-can-tidy-some-more",
+    "title": "Welcome to STA 199!",
+    "section": "Still, we can tidy some more…",
+    "text": "Still, we can tidy some more…\n\ndaily_accidents_420 &lt;- daily_accidents_420 |&gt;\n  filter(!is.na(e420)) |&gt;\n  mutate(e420 = if_else(e420 == TRUE, \"4/20\", \"Not 4/20\"))"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#the-data-science-life-cycle-3",
+    "href": "slides/00-welcome-199-slides.html#the-data-science-life-cycle-3",
+    "title": "Welcome to STA 199!",
+    "section": "The data science life cycle",
+    "text": "The data science life cycle"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#babys-first-graphic",
+    "href": "slides/00-welcome-199-slides.html#babys-first-graphic",
+    "title": "Welcome to STA 199!",
+    "section": "Baby’s first graphic",
+    "text": "Baby’s first graphic\n\nggplot(daily_accidents_420, aes(fatalities_count, fill = e420))"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#babys-first-graphic-1",
+    "href": "slides/00-welcome-199-slides.html#babys-first-graphic-1",
+    "title": "Welcome to STA 199!",
+    "section": "Baby’s first graphic",
+    "text": "Baby’s first graphic\n\nggplot(daily_accidents_420, aes(fatalities_count, fill = e420)) +\n    geom_histogram()"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#babys-first-graphic-2",
+    "href": "slides/00-welcome-199-slides.html#babys-first-graphic-2",
+    "title": "Welcome to STA 199!",
+    "section": "Baby’s first graphic",
+    "text": "Baby’s first graphic\n\nggplot(daily_accidents_420, aes(fatalities_count, fill = e420)) +\n  geom_histogram() +\n  facet_wrap(~ e420, ncol = 1, scales = \"free_y\")"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#babys-first-graphic-3",
+    "href": "slides/00-welcome-199-slides.html#babys-first-graphic-3",
+    "title": "Welcome to STA 199!",
+    "section": "Baby’s first graphic",
+    "text": "Baby’s first graphic\n\nggplot(daily_accidents_420, aes(fatalities_count, fill = e420)) +\n  geom_histogram() +\n  facet_wrap(~ e420, ncol = 1, scales = \"free_y\") +\n  labs(title = \"Histogram of Daily Traffic Accident Fatality Count, 1992-2016\",\n       subtitle = \"On the 'High Holiday' (4/20), vs. Not\",\n       x = \"Daily Traffic Accident Fatality Count (1992 - 2016)\",\n       y = \"Count of Observations\") +\n  theme_minimal() +\n  theme(legend.position = \"none\")"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#the-data-science-life-cycle-4",
+    "href": "slides/00-welcome-199-slides.html#the-data-science-life-cycle-4",
+    "title": "Welcome to STA 199!",
+    "section": "The data science life cycle",
+    "text": "The data science life cycle"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#in-reality",
+    "href": "slides/00-welcome-199-slides.html#in-reality",
+    "title": "Welcome to STA 199!",
+    "section": "In reality…",
+    "text": "In reality…"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#pov-your-mom-dropped-this-banger-in-the-family-gc",
+    "href": "slides/00-welcome-199-slides.html#pov-your-mom-dropped-this-banger-in-the-family-gc",
+    "title": "Welcome to STA 199!",
+    "section": "POV: Your Mom dropped this banger in the family gc",
+    "text": "POV: Your Mom dropped this banger in the family gc"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#what-did-the-study-actually-do",
+    "href": "slides/00-welcome-199-slides.html#what-did-the-study-actually-do",
+    "title": "Welcome to STA 199!",
+    "section": "What did the study actually do?",
+    "text": "What did the study actually do?"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#the-study-design",
+    "href": "slides/00-welcome-199-slides.html#the-study-design",
+    "title": "Welcome to STA 199!",
+    "section": "The study design",
+    "text": "The study design\n60 four-year-olds randomly assigned to 3 conditions (20 each):\n\n\n\nFast-paced TV: 9-minute clip of a popular cartoon about an animated sponge that lives under the sea\n\n\nEducational TV: 9-minute clip of a PBS cartoon about a typical preschool-aged boy\n\nDrawing: crayons, markers, and paper for 9 minutes\n\n\n\nThen researchers measured executive function (EF) immediately after."
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#how-did-they-measure-brain-impairment",
+    "href": "slides/00-welcome-199-slides.html#how-did-they-measure-brain-impairment",
+    "title": "Welcome to STA 199!",
+    "section": "How did they measure “brain impairment”?",
+    "text": "How did they measure “brain impairment”?\nThree tasks:\n\n\nTower of Hanoi — move disks between pegs following rules; scored 0 or 1\n\nHTKS — “When I say touch your head, touch your toes” (and vice versa); scored 0–2 per item\n\nDelay of gratification — wait for the experimenter to get 10 marshmallows vs. ring a bell for 2\n\n\nZ-scores for the first 3 EF tasks were summed into a composite EF score."
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#so-whats-the-problem",
+    "href": "slides/00-welcome-199-slides.html#so-whats-the-problem",
+    "title": "Welcome to STA 199!",
+    "section": "So what’s the problem?",
+    "text": "So what’s the problem?\n\n\n\n\n\n\nNo baseline!\n\n\nExecutive function was only measured after the experiment — we don’t know if the groups were comparable before watching anything.\n\n\n\n\n\n\n\n\n\n\nWhat metrics?\n\n\nTower of Hanoi scored 0 or 1. HTKS is a children’s game. Are these really measuring “brain impairment”?"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#yet",
+    "href": "slides/00-welcome-199-slides.html#yet",
+    "title": "Welcome to STA 199!",
+    "section": "Yet…",
+    "text": "Yet…"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#course-themes",
+    "href": "slides/00-welcome-199-slides.html#course-themes",
+    "title": "Welcome to STA 199!",
+    "section": "Course themes",
+    "text": "Course themes\n\n\nStatistical literacy matters\n\nHeadlines, social media posts, advertisements, and even “expert” sources can misrepresent scientific findings\nData-driven claims should be evaluated critically, not accepted at face value\n\n\n\nReproducibility is essential\n\nCredible analyses should clearly describe: where the data came from, how the data were processed, and how the analysis was performed\nReproducible work allows others to verify, critique, and build upon scientific findings\n\n\n\nData science is an iterative process\n\nCuriosity keeps the wheel turning!"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#what-is-github",
+    "href": "slides/00-welcome-199-slides.html#what-is-github",
+    "title": "Welcome to STA 199!",
+    "section": "What is GitHub?",
+    "text": "What is GitHub?\n\nMore on this tomorrow - basically, it is the Google Drive of coding!"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#ae-00-make-your-github-account",
+    "href": "slides/00-welcome-199-slides.html#ae-00-make-your-github-account",
+    "title": "Welcome to STA 199!",
+    "section": "AE 00: Make your GitHub account",
+    "text": "AE 00: Make your GitHub account\n Find AE 00 on the course website!"
+  },
+  {
+    "objectID": "slides/00-welcome-199-slides.html#this-weeks-tasks",
+    "href": "slides/00-welcome-199-slides.html#this-weeks-tasks",
+    "title": "Welcome to STA 199!",
+    "section": "This week’s tasks",
+    "text": "This week’s tasks\n\nComplete Lab 0\n\nComputational setup\nGetting to know you survey\n\n\nRead the syllabus\nGet started with data science!"
   },
   {
     "objectID": "course-overview.html",
