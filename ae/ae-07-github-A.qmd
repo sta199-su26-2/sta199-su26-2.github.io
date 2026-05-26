@@ -1,0 +1,180 @@
+---
+title: "AE 07: Joining"
+subtitle: "Suggested answers"
+format:
+  html:
+    self-contained: true
+---
+
+::: callout-important
+These are suggested answers.
+This document should be used as reference only, it's not designed to be an exhaustive key.
+:::
+
+## Goal
+
+Let's suppose we were interested in examining the total populations of continents.
+However, these are the two data sets we have available:
+
+-   world-pop-22.csv: contains data from The World Bank with countries' populations
+
+-   continents.csv: contains data mapping countries to continents
+
+To do analysis of population by continent, we need to join!
+
+#### Load packages and read in data
+
+```{r}
+library(tidyverse)
+population <- read_csv("data/world-pop-2022.csv")
+continents <- read_csv("data/continents.csv")
+```
+
+#### Take a look at the data:
+
+```{r}
+population
+continents
+```
+
+### Question 1: Join Concept
+
+We want to know what continent *all* of the variables in the `population` data frame are in.
+
+-   What type of join should we use?
+
+Left join with `population` as the "left" or "main" df because we want to keep all info in this df & supplement with info from `continents`
+
+-   Which variable in each data frame should we use?
+
+Country & Entity
+
+### Question 2: Implement the Join
+
+Join the two data frames and name assign the joined data frame to a new data frame `population_continents` .
+
+```{r}
+
+population_continents <- population |>
+  left_join(
+    continents,
+    by = join_by(country == entity)
+  )
+
+population_continents
+```
+
+How does that look?
+Take a look at your new data frame!
+
+### Question 3: What went wrong?
+
+It might not be obvious, but something is a little weird about this.
+Go ahead and `filter` the resulting data frame to see if any of the continent values are `NA`.
+
+```{r}
+
+population_continents |>
+  filter(is.na(continent))
+```
+
+There are!
+This means that there were no rows in the `continents` data frame with those countries.
+That seems a little weird.
+Take a scroll through the continents data frame.
+
+***Do you see what the cause of this is??***
+
+### Question 4: Let's fix this!
+
+So, countries have to be spelled the exact same way in each data set.
+The code below renames the missing countries in the `population` data set to match the spelling in `contintents`; we will discuss `case_when()` and other similar functions in more detail next week!
+Run this code first, and then re-run the join in the subsequent code chunk: we are no longer missing these values!
+
+```{r}
+population_new_spellings <- population |>
+  mutate(country = case_when(
+    country == "Congo, Dem. Rep." ~ "Democratic Republic of Congo",
+    country == "Congo, Rep." ~ "Congo",
+    country == "Hong Kong SAR, China" ~ "Hong Kong",
+    country == "Korea, Dem. People's Rep." ~ "North Korea",
+    country == "Korea, Rep." ~ "South Korea",
+    country == "Kyrgyz Republic" ~ "Kyrgyzstan",
+    .default = country
+    )
+  ) 
+```
+
+```{r}
+population_continent_new = population_new_spellings |>
+  left_join(continents, by = join_by(country == entity))
+```
+
+Are there any NAs left?
+Run the code to see!
+
+```{r}
+population_continent_new |>
+  filter(is.na(continent))
+```
+
+## The Bigger Picture
+
+How does what we just did fit into the bigger picture of the class?
+
+-   You are almost never going to be joining data sets just for fun!
+    Joining data sets is a way to enable investigating more interesting patterns in data.
+
+-   Now, you could use your joined df to create plots or compute summary statistics to investigate the relationship between continent and total population.
+
+-   Keep joining in mind when you are looking for datasets in your project teams...
+    if you find two datasets that share some common information, feel free to join them into a larger dataset for exploration!
+
+***For extra practice,*** try making a bar plot of total population in each country.
+
+```{r}
+#| label: plotting_practice 
+
+population_continent_new <- population_continent_new |>
+  mutate(population = population / 1000)
+
+## subset the data and plot only the top 20 most populous countries 
+
+top_20 <- population_continent_new |>
+  slice_max(population, n = 20)
+
+top_20 |>
+  ggplot(aes(x = population, y = fct_reorder(country, population),
+             fill = continent)) +
+  geom_col() +
+  labs(title = "20 Most Populous Countries",
+       x = "Population (millions)",
+       y = NULL,
+       fill = "Continent") +
+  theme_minimal() 
+
+```
+
+***To see something new,*** try making a 'lollipop chart' of population by country (hint: this will require using `geom_point()` and `geom_segment()`.
+
+```{r}
+
+top_20 |>
+  ggplot(aes(x = population, y = fct_reorder(country, population),
+             color = continent)) +
+  # line segment
+  geom_segment(aes(x = 0, xend = population,
+                   y = country, yend = country),
+               lwd = 1.2, alpha = 0.7) +
+  # point at the end
+  geom_point(size = 4) +
+  labs(
+    title = "20 Most Populous Countries",
+    x = "Population (millions)",
+    y = NULL,
+    color = "Continent"
+  ) +
+  theme_minimal()
+
+```
+
