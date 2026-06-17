@@ -3000,6 +3000,16 @@
       ],
       "Hash": "62b65c52671e6665f803ff02954446e9"
     },
+    "unvotes": {
+      "Package": "unvotes",
+      "Version": "0.3.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R"
+      ],
+      "Hash": "71608579c8b607fb79c7468c1cf090b3"
+    },
     "uuid": {
       "Package": "uuid",
       "Version": "1.2-0",
