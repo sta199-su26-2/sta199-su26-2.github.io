@@ -388,7 +388,7 @@ $ issue      &lt;fct&gt; Palestinian conflict, Palestinian conflict, Pales…</c
 <div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a></a><span class="co"># code to visualize the data</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 
-<img data-src="02-grammar-of-data-visualization_files/figure-html/un-data-viz-1.png" class="quarto-figure quarto-figure-center r-stretch" width="864"></section><section id="the-bottom-line-at-the-top" class="slide level2 smaller"><h2>The bottom line, at the top</h2>
+<img data-src="02-grammar-of-data-visualization_files/figure-revealjs/un-data-viz-1.png" class="quarto-figure quarto-figure-center r-stretch" width="864"></section><section id="the-bottom-line-at-the-top" class="slide level2 smaller"><h2>The bottom line, at the top</h2>
 <p>Each line of code adds an element to the plot.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb12"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a></a><span class="fu">ggplot</span>(</span>
@@ -412,19 +412,19 @@ $ issue      &lt;fct&gt; Palestinian conflict, Palestinian conflict, Pales…</c
 <div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a></a><span class="fu">ggplot</span>(<span class="at">data =</span> us_uk_tr_votes)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="02-grammar-of-data-visualization_files/figure-html/step-1-1.png" width="864" class="r-stretch"></section><section id="step-2.-map-variables-to-aesthetics" class="slide level2 smaller"><h2>Step 2. Map variables to aesthetics</h2>
+<img data-src="02-grammar-of-data-visualization_files/figure-revealjs/step-1-1.png" width="864" class="r-stretch"></section><section id="step-2.-map-variables-to-aesthetics" class="slide level2 smaller"><h2>Step 2. Map variables to aesthetics</h2>
 <p><em>Map</em> <code>year</code> to the <code>x</code> <em>aesthetic</em></p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb14"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a></a><span class="fu">ggplot</span>(<span class="at">data =</span> us_uk_tr_votes, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> year))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="02-grammar-of-data-visualization_files/figure-html/step-2-1.png" width="864" class="r-stretch"></section><section id="step-3.-map-variables-to-aesthetics" class="slide level2 smaller"><h2>Step 3. Map variables to aesthetics</h2>
+<img data-src="02-grammar-of-data-visualization_files/figure-revealjs/step-2-1.png" width="864" class="r-stretch"></section><section id="step-3.-map-variables-to-aesthetics" class="slide level2 smaller"><h2>Step 3. Map variables to aesthetics</h2>
 <p><em>Map</em> <code>percent_yes</code> to the <code>y</code> <em>aesthetic</em></p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a></a><span class="fu">ggplot</span>(<span class="at">data =</span> us_uk_tr_votes, <span class="at">mapping =</span> <span class="fu">aes</span>(<span class="at">x =</span> year, <span class="at">y =</span> percent_yes))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="02-grammar-of-data-visualization_files/figure-html/step-3-1.png" width="864" class="r-stretch"></section><section id="mapping-and-aesthetics" class="slide level2 smaller"><h2>Mapping and aesthetics</h2>
+<img data-src="02-grammar-of-data-visualization_files/figure-revealjs/step-3-1.png" width="864" class="r-stretch"></section><section id="mapping-and-aesthetics" class="slide level2 smaller"><h2>Mapping and aesthetics</h2>
 <ul>
 <li><p><strong>Aesthetics</strong> are visual properties of a plot</p></li>
 <li><p>In the <em>grammar of graphics</em>, variables from the data frame are <strong>map</strong>ped to aesthetics</p></li>
@@ -449,7 +449,7 @@ $ issue      &lt;fct&gt; Palestinian conflict, Palestinian conflict, Pales…</c
 <span id="cb18-2"><a></a>  <span class="fu">geom_point</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="02-grammar-of-data-visualization_files/figure-html/step-4-1.png" width="864" class="r-stretch"><div class="callout callout-note callout-titled callout-style-default">
+<img data-src="02-grammar-of-data-visualization_files/figure-revealjs/step-4-1.png" width="864" class="r-stretch"><div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
@@ -469,7 +469,7 @@ $ issue      &lt;fct&gt; Palestinian conflict, Palestinian conflict, Pales…</c
 <span id="cb19-2"><a></a>  <span class="fu">geom_point</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="02-grammar-of-data-visualization_files/figure-html/step-5-1.png" width="864" class="r-stretch"></section><section id="step-6.-represent-data-on-your-canvas" class="slide level2 smaller"><h2>Step 6. Represent data on your canvas</h2>
+<img data-src="02-grammar-of-data-visualization_files/figure-revealjs/step-5-1.png" width="864" class="r-stretch"></section><section id="step-6.-represent-data-on-your-canvas" class="slide level2 smaller"><h2>Step 6. Represent data on your canvas</h2>
 <p>with another <code>geom</code></p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb20" data-code-line-numbers="|3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a></a><span class="fu">ggplot</span>(us_uk_tr_votes, <span class="fu">aes</span>(<span class="at">x =</span> year, <span class="at">y =</span> percent_yes, <span class="at">color =</span> country)) <span class="sc">+</span></span>
@@ -480,7 +480,7 @@ $ issue      &lt;fct&gt; Palestinian conflict, Palestinian conflict, Pales…</c
 </div>
 
 </div>
-<img data-src="02-grammar-of-data-visualization_files/figure-html/step-6-1.png" width="864" class="r-stretch"></section><section id="warnings-and-messages" class="slide level2"><h2>Warnings and messages</h2>
+<img data-src="02-grammar-of-data-visualization_files/figure-revealjs/step-6-1.png" width="864" class="r-stretch"></section><section id="warnings-and-messages" class="slide level2"><h2>Warnings and messages</h2>
 <ul>
 <li>Adding <code>geom_smooth()</code> resulted in the following warning:</li>
 </ul>
@@ -503,7 +503,7 @@ $ issue      &lt;fct&gt; Palestinian conflict, Palestinian conflict, Pales…</c
 <span id="cb23-4"><a></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> issue)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="02-grammar-of-data-visualization_files/figure-html/step-7-1.png" width="864" class="r-stretch"></section><section id="step-8.-use-a-different-color-scale" class="slide level2"><h2>Step 8. Use a different color scale</h2>
+<img data-src="02-grammar-of-data-visualization_files/figure-revealjs/step-7-1.png" width="864" class="r-stretch"></section><section id="step-8.-use-a-different-color-scale" class="slide level2"><h2>Step 8. Use a different color scale</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb24" data-code-line-numbers="|5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a></a><span class="fu">ggplot</span>(us_uk_tr_votes, <span class="fu">aes</span>(<span class="at">x =</span> year, <span class="at">y =</span> percent_yes, <span class="at">color =</span> country)) <span class="sc">+</span></span>
 <span id="cb24-2"><a></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
@@ -512,7 +512,7 @@ $ issue      &lt;fct&gt; Palestinian conflict, Palestinian conflict, Pales…</c
 <span id="cb24-5"><a></a>  <span class="fu">scale_color_colorblind</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="02-grammar-of-data-visualization_files/figure-html/step-8-1.png" width="864" class="r-stretch"></section><section id="step-9.-apply-a-different-theme" class="slide level2"><h2>Step 9. Apply a different theme</h2>
+<img data-src="02-grammar-of-data-visualization_files/figure-revealjs/step-8-1.png" width="864" class="r-stretch"></section><section id="step-9.-apply-a-different-theme" class="slide level2"><h2>Step 9. Apply a different theme</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb25" data-code-line-numbers="|6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a></a><span class="fu">ggplot</span>(us_uk_tr_votes, <span class="fu">aes</span>(<span class="at">x =</span> year, <span class="at">y =</span> percent_yes, <span class="at">color =</span> country)) <span class="sc">+</span></span>
 <span id="cb25-2"><a></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
@@ -522,7 +522,7 @@ $ issue      &lt;fct&gt; Palestinian conflict, Palestinian conflict, Pales…</c
 <span id="cb25-6"><a></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="02-grammar-of-data-visualization_files/figure-html/step-9-1.png" width="864" class="r-stretch"></section><section id="step-10.-add-labels" class="slide level2"><h2>Step 10. Add labels</h2>
+<img data-src="02-grammar-of-data-visualization_files/figure-revealjs/step-9-1.png" width="864" class="r-stretch"></section><section id="step-10.-add-labels" class="slide level2"><h2>Step 10. Add labels</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb26" data-code-line-numbers="|7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a></a><span class="fu">ggplot</span>(us_uk_tr_votes, <span class="fu">aes</span>(<span class="at">x =</span> year, <span class="at">y =</span> percent_yes, <span class="at">color =</span> country)) <span class="sc">+</span></span>
 <span id="cb26-2"><a></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
@@ -533,7 +533,7 @@ $ issue      &lt;fct&gt; Palestinian conflict, Palestinian conflict, Pales…</c
 <span id="cb26-7"><a></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Year"</span>, <span class="at">y =</span> <span class="st">"% yes"</span>, <span class="at">color =</span> <span class="st">"Country"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="02-grammar-of-data-visualization_files/figure-html/step-10-1.png" width="864" class="r-stretch"></section><section id="step-11.-set-transparency-of-points" class="slide level2"><h2>Step 11. Set transparency of points</h2>
+<img data-src="02-grammar-of-data-visualization_files/figure-revealjs/step-10-1.png" width="864" class="r-stretch"></section><section id="step-11.-set-transparency-of-points" class="slide level2"><h2>Step 11. Set transparency of points</h2>
 <p>with <code>alpha</code></p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb27" data-code-line-numbers="|2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a></a><span class="fu">ggplot</span>(us_uk_tr_votes, <span class="fu">aes</span>(<span class="at">x =</span> year, <span class="at">y =</span> percent_yes, <span class="at">color =</span> country)) <span class="sc">+</span></span>
@@ -545,7 +545,7 @@ $ issue      &lt;fct&gt; Palestinian conflict, Palestinian conflict, Pales…</c
 <span id="cb27-7"><a></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Year"</span>, <span class="at">y =</span> <span class="st">"% yes"</span>, <span class="at">color =</span> <span class="st">"Country"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="02-grammar-of-data-visualization_files/figure-html/step-11-1.png" width="864" class="r-stretch"></section><section id="step-12.-hide-standard-errors-of-curves" class="slide level2"><h2>Step 12. Hide standard errors of curves</h2>
+<img data-src="02-grammar-of-data-visualization_files/figure-revealjs/step-11-1.png" width="864" class="r-stretch"></section><section id="step-12.-hide-standard-errors-of-curves" class="slide level2"><h2>Step 12. Hide standard errors of curves</h2>
 <p>with <code>se = FALSE</code></p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb28" data-code-line-numbers="|3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a></a><span class="fu">ggplot</span>(us_uk_tr_votes, <span class="fu">aes</span>(<span class="at">x =</span> year, <span class="at">y =</span> percent_yes, <span class="at">color =</span> country)) <span class="sc">+</span></span>
@@ -557,7 +557,7 @@ $ issue      &lt;fct&gt; Palestinian conflict, Palestinian conflict, Pales…</c
 <span id="cb28-7"><a></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Year"</span>, <span class="at">y =</span> <span class="st">"% yes"</span>, <span class="at">color =</span> <span class="st">"Country"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 </div>
-<img data-src="02-grammar-of-data-visualization_files/figure-html/step-12-1.png" width="864" class="r-stretch"></section><section id="data-viz-with-ggplot-is-like-building-a-cake" class="slide level2 scrollable"><h2>Data viz with ggplot is like building a cake</h2>
+<img data-src="02-grammar-of-data-visualization_files/figure-revealjs/step-12-1.png" width="864" class="r-stretch"></section><section id="data-viz-with-ggplot-is-like-building-a-cake" class="slide level2 scrollable"><h2>Data viz with ggplot is like building a cake</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="cell">
@@ -803,6 +803,41 @@ $ issue      &lt;fct&gt; Palestinian conflict, Palestinian conflict, Pales…</c
           RevealZoom
         ]
       });
+    </script><script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
     </script><script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
