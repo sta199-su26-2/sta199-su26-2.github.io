@@ -14,9 +14,11 @@ All material changes will be communicated with the students in a timely manner.
 #| echo: false
 #| message: false
 #| warning: false
+library(googlesheets4)
 library(gt)
 library(tidyverse)
-d <- read_csv("schedule.csv", show_col_types = FALSE)
+gs4_deauth()
+d <- read_sheet("https://docs.google.com/spreadsheets/d/1HeY9Rqo2byQeWKnU_OmQe45QR7EKcYW-xKTmp25R2hw/edit?gid=683617128#gid=683617128")
 prepare_cutoff_date <- as.Date("2026-06-29")
 ```
 

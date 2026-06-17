@@ -329,9 +329,8 @@ ggplot(us_uk_tr_votes, aes(x = year, y = percent_yes, color = country)) +
 
 -   Adding `geom_smooth()` resulted in the following warning:
 
-```{=html}
 <!-- -->
-```
+
     `geom_smooth()` using method = 'loess' and formula = 'y ~ x'
 
 . . .
