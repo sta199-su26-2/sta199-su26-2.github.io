@@ -47,7 +47,7 @@ Therefore, as much as possible, you will work on various tasks and activities th
 You are expected to prepare for class by completing assigned readings, attending lectures and lab sessions, and meaningfully contributing to in-class exercises and discussions.
 Additionally, most lectures will feature application exercises that will be graded based on completing what we do in class.
 
-You are expected to bring a laptop (or Chromebook) to each class so that you can participate in the in-class exercises.
+You are expected to bring a laptop to each class so that you can participate in the in-class exercises.
 Please ensure your device is fully charged before you come to class, as the number of outlets in the classroom will not be sufficient to accommodate everyone.
 
 ### Activities & Assessment
@@ -68,7 +68,8 @@ Generally, for Monday labs, this is the following Wednesday; for Thursday labs, 
 #### Exams
 
 This course will have two exams: a midterm and a final.
-The midterm will include an in-class component (with a cheat sheet) and an open-note take-home component. The final will also include only an in-class component (with a cheat sheet) and an open-note take-home component.
+The midterm will include an in-class component (with a cheat sheet) and an open-note take-home component.
+The final will also include only an in-class component (with a cheat sheet) and an open-note take-home component.
 
 You can demonstrate what you've learned in the course thus far through these exams.
 The exams will focus on both conceptual understanding of the content and application through analysis and computational tasks.
@@ -88,7 +89,7 @@ The write-up will be due on the same day.
 
 More information about the project will be provided during the semester.
 
-#### Application exercises (MAYBE REMOVE)
+#### Application exercises
 
 Parts of some lectures will be dedicated to working on Application Exercises (AEs).
 These exercises allow you to apply the statistical concepts and code introduced in the preparation materials.
@@ -105,10 +106,10 @@ The final course grade will be calculated as follows:
 
 | Category              | Percentage |
 |-----------------------|------------|
-| Labs                  | 30%        |
+| Labs                  | 20%        |
 | Project               | 20%        |
-| Midterm               | 20%        |
-| Final                 | 20%        |
+| Midterm               | 25%        |
+| Final                 | 25%        |
 | Application Exercises | 5%         |
 | Lab Attendance        | 5%         |
 
@@ -157,7 +158,8 @@ Students should contact the SDAO to [request or update accommodations](https://a
 
 ### Communication
 
-All lecture notes, assignment instructions, an up-to-date schedule, and other course materials may be found on the course website: [sta199-su25.github.io](https://sta199-f24.github.io/ "STA 199 - Fall 2024 course website"). #CHANGE THIS
+All lecture notes, assignment instructions, an up-to-date schedule, and other course materials may be found on the course website: [sta199-su25.github.io](https://sta199-f24.github.io/ "STA 199 - Fall 2024 course website").
+#CHANGE THIS
 
 Announcements will periodically be emailed through Canvas Announcements.
 Please check your email regularly to ensure you have the latest announcements for the course.
@@ -195,15 +197,18 @@ The course team will help you by providing you with materials answering question
     Don't let the week end with unanswered questions.
     But if you find yourself falling behind and not knowing where to begin asking, come to office hours and work with a member of the teaching team to help you identify a good (re)starting point.
 
-5. Explore the additional resources. Many readings and code alongs are linked throughout, however I do not expect you to do every single one. Rather treat them as a resource to supplement lecture if you need a different angle. 
+5.  Explore the additional resources.
+    Many readings and code alongs are linked throughout, however I do not expect you to do every single one.
+    Rather treat them as a resource to supplement lecture if you need a different angle.
 
 ## Getting help
 
 -   If you have a question during the lecture or lab, feel free to ask it! There are likely other students with the same question, so by asking, you will create a learning opportunity for everyone.
 -   The teaching team is here to help you be successful in the course. You are encouraged to attend office hours to ask questions about the course content and assignments. Many questions are most effectively answered as you discuss them with others, so office hours are a valuable resource. Please use them!
--   Outside of class and office hours, any general questions about course content or assignments should be posted on the class discussion forum, [Ed Discussion](https://edstem.org/us/courses/62468/discussion/).[CHANGE] There is a chance another student has already asked a similar question, so please check the other posts on the forum before adding a new question. If you know the answer to a question, I encourage you to respond!
+-   Outside of class and office hours, any general questions about course content or assignments should be posted on the class discussion forum, [Ed Discussion](https://edstem.org/us/courses/62468/discussion/).\[CHANGE\] There is a chance another student has already asked a similar question, so please check the other posts on the forum before adding a new question. If you know the answer to a question, I encourage you to respond!
 
-Check out the [Support](https://sta199-f24.github.io/course-support.html) tab for more resources. [CHANGE]
+Check out the [Support](https://sta199-f24.github.io/course-support.html) tab for more resources.
+\[CHANGE\]
 
 ## Course policies
 
