@@ -1,7 +1,7 @@
 ---
 title: "Ethics in Data Science"
 subtitle: "Lecture 11"
-date: "2026-05-29"
+date: "2026-07-15"
 format: 
   revealjs:
     output-file: 11-ethics-slides.html

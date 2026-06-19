@@ -1,7 +1,7 @@
 ---
 title: "Multiple Linear Regression 1"
 subtitle: "Lecture 14"
-date: "2026-06-05"
+date: "2026-07-22"
 format: 
   revealjs:
     output-file: 14-mlr-I-slides.html

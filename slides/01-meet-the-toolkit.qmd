@@ -1,7 +1,7 @@
 ---
 title: "Meet the toolkit"
 subtitle: "Lecture 1"
-date: "2026-05-14"
+date: "2026-06-30"
 format: 
   revealjs:
     output-file: 01-meet-the-toolkit-slides.html

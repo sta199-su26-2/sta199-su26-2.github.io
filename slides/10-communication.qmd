@@ -1,7 +1,7 @@
 ---
 title: "Communication via Data Science"
 subtitle: "Lecture 10"
-date: "2026-05-08"
+date: "2026-07-14"
 format: 
   revealjs:
     output-file: 10-communication-slides.html

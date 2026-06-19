@@ -1,7 +1,7 @@
 ---
 title: "Joining Data"
 subtitle: "Lecture 7"
-date: "2026-05-22"
+date: "2026-07-09"
 format: 
   revealjs:
     output-file: 07-joining-data-slides.html
@@ -49,7 +49,7 @@ continent <- read_csv("data/continents.csv")
 
 ## Recap: Pivot Functions {.smaller}
 
-::::: columns
+::: columns
 ::: {.column .fragment width="50%"}
 > Pivot longer...
 
@@ -66,8 +66,7 @@ data_set |>
 :::
 
 ::: {.column .fragment width="50%"}
-> ...
-> or wider
+> ... or wider
 
 ```{r}
 #| eval: false
@@ -79,7 +78,7 @@ data_set |>
   )
 ```
 :::
-:::::
+:::
 
 # Joining Data
 
@@ -89,7 +88,7 @@ What happens if we want to access information from two different data sets at th
 
 ## Joining Data: Sample Scenario {.smaller}
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 ```{r}
 
@@ -102,13 +101,12 @@ population
 -   We want to know about population in different continents.
 
 -   We could use mutate to create a continent variable, but that would be painful... we would have to manually tell R which continent each country in our df belongs to
-
 :::
-:::::
+:::
 
 ## Joining Data: Sample Scenario {.smaller}
 
-::::: columns
+::: columns
 ::: {.column width="44%"}
 ```{r}
 
@@ -124,11 +122,11 @@ continent
 
 ```
 :::
-:::::
+:::
 
 ## Joining: Example Data
 
-:::::: columns
+::: columns
 ::: {.column .fragment width="50%"}
 > x
 
@@ -148,12 +146,11 @@ continent
 | 2   | Y2  |
 | 4   | Y4  |
 :::
-
-::::::
+:::
 
 ## Joining: Left Join
 
-:::::: columns
+::: columns
 ::: {.column .fragment width="25%"}
 > x
 
@@ -183,11 +180,11 @@ continent
 | 2   | X2  | Y2   |
 | 3   | X3  | *NA* |
 :::
-::::::
+:::
 
 ## Joining: Left Join
 
-:::::: columns
+::: columns
 ::: {.column width="25%"}
 > x
 
@@ -217,15 +214,15 @@ continent
 | 2   | X2  | Y2   |
 | 3   | X3  | *NA* |
 :::
-::::::
+:::
 
-<div style="position: absolute; bottom: 80px; right: -90px; width: 280px; pointer-events: none;">
-  <img src="img/07/left-join.gif" style="width: 100%; height: auto;">
-</div>
+::: {style="position: absolute; bottom: 80px; right: -90px; width: 280px; pointer-events: none;"}
+<img src="img/07/left-join.gif" style="width: 100%; height: auto;"/>
+:::
 
 ## Joining: Right Join
 
-:::::: columns
+::: columns
 ::: {.column .fragment width="25%"}
 > x
 
@@ -255,11 +252,11 @@ continent
 | 2   | X2   | Y2  |
 | 4   | *NA* | Y4  |
 :::
-::::::
+:::
 
 ## Joining: Right Join
 
-:::::: columns
+::: columns
 ::: {.column width="25%"}
 > x
 
@@ -289,15 +286,15 @@ continent
 | 2   | X2   | Y2  |
 | 4   | *NA* | Y4  |
 :::
-::::::
+:::
 
-<div style="position: absolute; bottom: 80px; right: -90px; width: 280px; pointer-events: none;">
-  <img src="img/07/right-join.gif" style="width: 100%; height: auto;">
-</div>
+::: {style="position: absolute; bottom: 80px; right: -90px; width: 280px; pointer-events: none;"}
+<img src="img/07/right-join.gif" style="width: 100%; height: auto;"/>
+:::
 
 ## Joining: Full Join
 
-:::::: columns
+::: columns
 ::: {.column .fragment width="25%"}
 > x
 
@@ -328,11 +325,11 @@ continent
 | 3   | X3   | *NA* |
 | 4   | *NA* | Y4   |
 :::
-::::::
+:::
 
 ## Joining: Full Join
 
-:::::: columns
+::: columns
 ::: {.column width="25%"}
 > x
 
@@ -363,15 +360,15 @@ continent
 | 3   | X3   | *NA* |
 | 4   | *NA* | Y4   |
 :::
-::::::
+:::
 
-<div style="position: absolute; bottom: 80px; right: -90px; width: 280px; pointer-events: none;">
-  <img src="img/07/full-join.gif" style="width: 100%; height: auto;">
-</div>
+::: {style="position: absolute; bottom: 80px; right: -90px; width: 280px; pointer-events: none;"}
+<img src="img/07/full-join.gif" style="width: 100%; height: auto;"/>
+:::
 
 ## Joining: Inner Join
 
-:::::: columns
+::: columns
 ::: {.column .fragment width="25%"}
 > x
 
@@ -400,11 +397,11 @@ continent
 | 1   | X1  | Y1  |
 | 2   | X2  | Y2  |
 :::
-::::::
+:::
 
 ## Joining: Inner Join
 
-:::::: columns
+::: columns
 ::: {.column width="25%"}
 > x
 
@@ -433,15 +430,15 @@ continent
 | 1   | X1  | Y1  |
 | 2   | X2  | Y2  |
 :::
-::::::
+:::
 
-<div style="position: absolute; bottom: 80px; right: -90px; width: 280px; pointer-events: none;">
-  <img src="img/07/inner-join.gif" style="width: 100%; height: auto;">
-</div>
+::: {style="position: absolute; bottom: 80px; right: -90px; width: 280px; pointer-events: none;"}
+<img src="img/07/inner-join.gif" style="width: 100%; height: auto;"/>
+:::
 
 ## Joining: Semi Join
 
-:::::: columns
+::: columns
 ::: {.column .fragment width="25%"}
 > x
 
@@ -470,11 +467,11 @@ continent
 | 1   | X1  |
 | 2   | X2  |
 :::
-::::::
+:::
 
 ## Joining: Semi Join
 
-:::::: columns
+::: columns
 ::: {.column width="25%"}
 > x
 
@@ -503,15 +500,15 @@ continent
 | 1   | X1  |
 | 2   | X2  |
 :::
-::::::
+:::
 
-<div style="position: absolute; bottom: 80px; right: -90px; width: 280px; pointer-events: none;">
-  <img src="img/07/semi-join.gif" style="width: 100%; height: auto;">
-</div>
+::: {style="position: absolute; bottom: 80px; right: -90px; width: 280px; pointer-events: none;"}
+<img src="img/07/semi-join.gif" style="width: 100%; height: auto;"/>
+:::
 
 ## Joining: Anti Join
 
-:::::: columns
+::: columns
 ::: {.column .fragment width="25%"}
 > x
 
@@ -539,11 +536,11 @@ continent
 |-----|-----|
 | 3   | X3  |
 :::
-::::::
+:::
 
 ## Joining: Anti Join
 
-:::::: columns
+::: columns
 ::: {.column width="25%"}
 > x
 
@@ -571,11 +568,11 @@ continent
 |-----|-----|
 | 3   | X3  |
 :::
-::::::
+:::
 
-<div style="position: absolute; bottom: 80px; right: -90px; width: 280px; pointer-events: none;">
-  <img src="img/07/anti-join.gif" style="width: 100%; height: auto;">
-</div>
+::: {style="position: absolute; bottom: 80px; right: -90px; width: 280px; pointer-events: none;"}
+<img src="img/07/anti-join.gif" style="width: 100%; height: auto;"/>
+:::
 
 ## Summary of Join Types
 
@@ -593,7 +590,7 @@ continent
 
 How can I specify which column to join by?
 
-:::::: columns
+::: columns
 ::: {.column .fragment width="25%"}
 > x
 
@@ -630,7 +627,7 @@ left_join(x, y,
           by = join_by(id_X == id_Y))
 ```
 :::
-::::::
+:::
 
 ## What about the pipe? {.smaller}
 
@@ -717,6 +714,7 @@ rx_data <- tibble(
 ```
 
 "Toy" prescription data frame
+
 ```{r}
 #| label: rx_data
 
@@ -726,7 +724,8 @@ rx_data
 
 ## Joining a data frame with... itself? {.medium}
 
-Why the `suffix =` argument? What about the warning?
+Why the `suffix =` argument?
+What about the warning?
 
 ```{r}
 #| label: self-join
@@ -760,7 +759,6 @@ rx_permute
   
 ```
 
-
 ## Joining a data frame with... itself? {.scrollable .smaller}
 
 -   Now, I can calculate the time-gap (in days) between each patient's prescriptions
@@ -780,7 +778,6 @@ rx_permute |>
   select(patid, rx_end_ref, rx_start_comp, gap_days)
 
 ```
-
 
 # AE 07
 

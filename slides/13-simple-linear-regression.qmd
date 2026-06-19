@@ -1,7 +1,7 @@
 ---
 title: "Simple Linear Regression"
 subtitle: "Lecture 13"
-date: "2026-06-04"
+date: "2026-07-21"
 format: 
   revealjs:
     output-file: 13-slr-slides.html

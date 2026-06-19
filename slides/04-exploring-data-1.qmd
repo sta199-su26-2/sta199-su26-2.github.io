@@ -1,7 +1,7 @@
 ---
 title: "Exploratory Data Analysis I"
 subtitle: "Lecture 4"
-date: "2026-05-19"
+date: "2026-07-06"
 format: 
   revealjs:
     output-file: 04-exploratory-data-analysis-I-slides.html

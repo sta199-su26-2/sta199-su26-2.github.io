@@ -1,7 +1,7 @@
 ---
 title: "Grammar of Data Visualization"
 subtitle: "Lecture 2"
-date: "2026-05-15"
+date: "2026-07-01"
 format: 
   revealjs: 
     output-file: 02-grammar-of-data-visualization-slides.html

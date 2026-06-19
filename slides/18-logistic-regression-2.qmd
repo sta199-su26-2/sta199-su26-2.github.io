@@ -1,7 +1,7 @@
 ---
 title: "Logistic Regression II"
 subtitle: "Lecture 18"
-date: "2026-06-11"
+date: "2026-07-28"
 format: 
   revealjs:
     output-file: 18-logistic-regression-II-slides.html
