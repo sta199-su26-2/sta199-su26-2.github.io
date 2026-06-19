@@ -1,7 +1,7 @@
 ---
 title: "Welcome to STA 199!"
 subtitle: "Lecture 0"
-date: "2026-05-13"
+date: "2026-06-29"
 format: 
   revealjs:
     output-file: 00-welcome-199-slides.html
@@ -241,16 +241,15 @@ The manager is going to make wildly different decisions about campaign strategy 
 
 -   Two exams, each 25%
 
--   Midterm: June 1, during lecture + lab (tentatively) CHANGE
+-   Midterm: July 16, during lecture + lab
 
--   Final: June 24, 9am - 12pm CHANGE
+-   Final: August 9, 9am–12pm
 
--   You will be permitted a "cheat sheet" (both sides of a single 8.5” x 11” piece of paper)
+-   You will be permitted a “cheat sheet” (both sides of a single 8.5” x 11” piece of paper)
 
 ::: callout-caution
-It's possible the first midterm gets bumped to June 2; this will be communicated by next Wednesday, 5/20.
 The final exam date is above my pay grade & cannot be changed.
-If you cannot take the exams on these dates, please have a discussion with me ***today***. CHANGE
+If you cannot take the exams on these dates, please have a discussion with me ***today***.
 :::
 
 ## Project {.smaller}
@@ -261,7 +260,7 @@ If you cannot take the exams on these dates, please have a discussion with me **
 
 -   Presentation and write-up
 
--   Presentations will take place in the last lab (June 22)
+-   Presentations will take place in the last lab (August 6)
 
 -   Interim deadlines, peer review on content, peer evaluation for team contribution
 
@@ -302,11 +301,9 @@ Final presentation date cannot be changed; you must complete the project and par
 
 ## Office Hours
 
-***Josh: Old Chem 203*** CHANGE
+***Josh:*** TBD
 
--   TBD
-
-***Kenna:*** Time & Location TBD
+***Kenna:*** TBD
 
 ## Announcements
 
