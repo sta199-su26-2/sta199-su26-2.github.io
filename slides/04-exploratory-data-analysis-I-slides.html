@@ -10,7 +10,7 @@
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.6.39">
 <meta name="author" content="Josh Lim">
-<meta name="dcterms.date" content="2026-05-19">
+<meta name="dcterms.date" content="2026-07-06">
 <title>STA 199 – Exploratory Data Analysis I</title>
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -214,7 +214,7 @@ Josh Lim
     </div>
 </div>
 
-  <p class="date">May 19, 2026</p>
+  <p class="date">July 6, 2026</p>
 </section><section class="slide level2"><!-- begin: ae definition --><!-- end: ae definition --></section><section id="while-you-wait" class="slide level2 scrollable medium"><h2>While you wait…</h2>
 <p>Prepare for today’s application exercise: <strong>ae-04-gerrymander-explore-I</strong></p>
 <ul>
@@ -241,7 +241,7 @@ Josh Lim
 <pre><code>── Attaching core tidyverse packages ────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
 ✔ forcats   1.0.0     ✔ stringr   1.5.1
-✔ ggplot2   3.5.1     ✔ tibble    3.2.1
+✔ ggplot2   4.0.3     ✔ tibble    3.2.1
 ✔ lubridate 1.9.3     ✔ tidyr     1.3.1
 ✔ purrr     1.0.2     
 ── Conflicts ──────────────────────────────── tidyverse_conflicts() ──
@@ -1372,7 +1372,7 @@ $ gerry      &lt;fct&gt; mid, high, high, high, high, high, high, high, mi…</c
 <div class="sourceCode cell-code" id="cb35" data-code-line-numbers="2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a></a><span class="fu">ggplot</span>(gerrymander, <span class="fu">aes</span>(<span class="at">x =</span> trump16)) <span class="sc">+</span></span>
 <span id="cb35-2"><a></a>  <span class="fu">geom_histogram</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
-<pre><code>`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.</code></pre>
+<pre><code>`stat_bin()` using `bins = 30`. Pick better value `binwidth`.</code></pre>
 </div>
 <div class="cell-output-display">
 <div>
@@ -1479,7 +1479,7 @@ $ gerry      &lt;fct&gt; mid, high, high, high, high, high, high, high, mi…</c
 <span id="cb45-2"><a></a>  <span class="fu">geom_histogram</span>(<span class="fu">aes</span>(<span class="at">y =</span> <span class="fu">after_stat</span>(density))) <span class="sc">+</span> </span>
 <span id="cb45-3"><a></a>  <span class="fu">geom_density</span>(<span class="at">color =</span> <span class="st">"red"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
-<pre><code>`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.</code></pre>
+<pre><code>`stat_bin()` using `bins = 30`. Pick better value `binwidth`.</code></pre>
 </div>
 <div class="cell-output-display">
 <div>
