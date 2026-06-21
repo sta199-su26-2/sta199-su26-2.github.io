@@ -94,7 +94,7 @@ The main body of the written report (not including the appendix) is no longer th
 
 ## Grading
 
-The write-up is due on Monday, June 22 at 9:30 am.
+The write-up is due on Thursday, August 6 at 9:30 am.
 
 It is worth 35 points, broken down as follows:
 
@@ -133,7 +133,7 @@ Here is a *suggested* outline as you think through the slides; you [**do not**]{
 
 ## Presentation
 
-Presentations will be in person during lecture on Monday June 22. We will kick-off with presentations, so please ensure your slide deck is uploaded into your repo as `presentation.pdf` by 9:30am Monday morning to facilitate a smooth process. 
+Presentations will be in person during lecture on Thursday August 6. We will kick-off with presentations, so please ensure your slide deck is uploaded into your repo as `presentation.pdf` by 9:30am Thursday morning to facilitate a smooth process. 
 **The presentation should be between 5-7 minutes; there will be 2 minutes or so reserved for Q&A following each presentation.**
 
 ## Grading
