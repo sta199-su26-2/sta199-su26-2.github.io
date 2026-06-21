@@ -125,7 +125,7 @@ window.Quarto = {
 </script><link rel="stylesheet" href="../style/sta199.scss">
 <meta property="og:title" content="Logistic Regression II – STA 199">
 <meta property="og:description" content="Lecture 18">
-<meta property="og:image" content="https://sta199-su26-2.github.io/slides/18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-2-1.png">
+<meta property="og:image" content="https://sta199-su26-2.github.io/slides/18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-1-1.png">
 <meta property="og:site_name" content="STA 199">
 <meta property="og:image:height" content="960">
 <meta property="og:image:width" content="1920">
@@ -249,9 +249,52 @@ window.Quarto = {
       </ul>
 </li>
         <li class="sidebar-item sidebar-item-section">
-      <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">Project</span></span>
-  </li>
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Project</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">
+<li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../project/description.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Description</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../project/1-working-collaboratively.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Milestone 1</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../project/2-proposal.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Milestone 2</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../project/3-improvement-progress.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Milestone 3</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../project/4-peer-review.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Milestone 4</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../project/5-writeup-presentation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Milestone 5</span></a>
+  </div>
+</li>
+      </ul>
+</li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../lab.html" class="sidebar-item-text sidebar-link">
@@ -263,6 +306,29 @@ window.Quarto = {
   <a href="../ae.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Application Exercises</span></a>
   </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">Exam Review</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">
+<li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../exam-review/midterm.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Midterm Review</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../exam-review/midterm-key.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Midterm Review Answer Key</span></a>
+  </div>
+</li>
+      </ul>
 </li>
     </ul>
 </div>
@@ -439,7 +505,7 @@ y =
 <div class="cell">
 <div class="cell-output-display">
 <div>
-<figure class="figure"><p><img src="18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="960"></p>
+<figure class="figure"><p><img src="18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -662,8 +728,8 @@ Tip
  4 0             0.920 7.96e- 2 0     0           1         0
  5 0             0.903 9.74e- 2 0     0           1         0
  6 0             0.901 9.87e- 2 0     0           1         0
- 7 0             1.00  7.89e-12 0     1           1         0
- 8 0             1.00  1.24e-12 0     1           1         1
+ 7 0             1.000 7.89e-12 0     1           1         0
+ 8 0             1.000 1.24e-12 0     1           1         1
  9 0             0.862 1.38e- 1 0     0           1         0
 10 0             0.922 7.76e- 2 0     0           1         0
 # ℹ 3,911 more rows
@@ -866,7 +932,7 @@ Tip
 <div class="cell">
 <div class="cell-output-display">
 <div>
-<figure class="figure"><p><img src="18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-18-1.png" class="img-fluid figure-img" width="960"></p>
+<figure class="figure"><p><img src="18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-17-1.png" class="img-fluid figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -876,7 +942,7 @@ Tip
 <div class="cell">
 <div class="cell-output-display">
 <div>
-<figure class="figure"><p><img src="18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-19-1.png" class="img-fluid figure-img" width="960"></p>
+<figure class="figure"><p><img src="18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-18-1.png" class="img-fluid figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -892,7 +958,7 @@ Tip
 <div class="cell">
 <div class="cell-output-display">
 <div>
-<figure class="figure"><p><img src="18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-20-1.png" class="img-fluid figure-img" width="960"></p>
+<figure class="figure"><p><img src="18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-19-1.png" class="img-fluid figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -901,7 +967,7 @@ Tip
 <div class="cell">
 <div class="cell-output-display">
 <div>
-<figure class="figure"><p><img src="18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-21-1.png" class="img-fluid figure-img" width="960"></p>
+<figure class="figure"><p><img src="18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-20-1.png" class="img-fluid figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -1167,7 +1233,7 @@ Warning
 <span>  <span class="fu">geom_bar</span><span class="op">(</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
-<figure class="figure"><p><img src="18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-29-1.png" class="img-fluid figure-img" width="960"></p>
+<figure class="figure"><p><img src="18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-26-1.png" class="img-fluid figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -1195,7 +1261,7 @@ Warning
 <span>  <span class="fu">geom_histogram</span><span class="op">(</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
-<figure class="figure"><p><img src="18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-31-1.png" class="img-fluid figure-img" width="960"></p>
+<figure class="figure"><p><img src="18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-28-1.png" class="img-fluid figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -1213,7 +1279,7 @@ Warning
 <span>  <span class="fu">theme_minimal</span><span class="op">(</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
-<figure class="figure"><p><img src="18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-32-1.png" class="img-fluid figure-img" width="960"></p>
+<figure class="figure"><p><img src="18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-29-1.png" class="img-fluid figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -1231,7 +1297,7 @@ Warning
 <span id="cb49-7"><a href="#cb49-7"></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
-<figure class="figure"><p><img src="18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-33-1.png" class="img-fluid figure-img" width="960"></p>
+<figure class="figure"><p><img src="18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-30-1.png" class="img-fluid figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -1246,7 +1312,7 @@ Warning
 <span>  <span class="fu">theme_minimal</span><span class="op">(</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
-<figure class="figure"><p><img src="18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-34-1.png" class="img-fluid figure-img" width="960"></p>
+<figure class="figure"><p><img src="18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-31-1.png" class="img-fluid figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -1261,7 +1327,7 @@ Warning
 <span>  <span class="fu">theme_minimal</span><span class="op">(</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
-<figure class="figure"><p><img src="18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-35-1.png" class="img-fluid figure-img" width="960"></p>
+<figure class="figure"><p><img src="18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-32-1.png" class="img-fluid figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -1276,7 +1342,7 @@ Warning
 <span>  <span class="fu">theme_minimal</span><span class="op">(</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
-<figure class="figure"><p><img src="18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-36-1.png" class="img-fluid figure-img" width="960"></p>
+<figure class="figure"><p><img src="18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-33-1.png" class="img-fluid figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -1301,7 +1367,8 @@ Warning
 <span>  <span class="fu">fit</span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/numeric.html">as.numeric</a></span><span class="op">(</span><span class="va">forested</span><span class="op">)</span> <span class="op">~</span> <span class="va">precip_annual</span>, data <span class="op">=</span> <span class="va">forested_train</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-error">
 <pre><code>Error in `check_outcome()`:
-! For a classification model, the outcome should be a `factor`, not a `numeric`.</code></pre>
+! For a classification model, the outcome should be a
+  &lt;factor&gt;, not a double vector.</code></pre>
 </div>
 </div>
 </section><section id="fyi-the-base-level-is-treated-as-failure-0" class="level2 medium"><h2 class="medium anchored" data-anchor-id="fyi-the-base-level-is-treated-as-failure-0">FYI: the base level is treated as “failure” (0)</h2>
@@ -1448,7 +1515,7 @@ precip.
 <div class="cell">
 <div class="cell-output-display">
 <div>
-<figure class="figure"><p><img src="18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-42-1.png" class="img-fluid figure-img" width="960"></p>
+<figure class="figure"><p><img src="18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-39-1.png" class="img-fluid figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -1765,7 +1832,7 @@ Warning
 <span>  <span class="fu">theme_minimal</span><span class="op">(</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
-<figure class="figure"><p><img src="18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-51-1.png" class="img-fluid figure-img" width="960"></p>
+<figure class="figure"><p><img src="18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-48-1.png" class="img-fluid figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -1789,7 +1856,7 @@ Warning
 <div class="cell">
 <div class="cell-output-display">
 <div>
-<figure class="figure"><p><img src="18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-52-1.png" class="img-fluid figure-img" width="960"></p>
+<figure class="figure"><p><img src="18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-49-1.png" class="img-fluid figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -1799,7 +1866,7 @@ Warning
 <div class="cell">
 <div class="cell-output-display">
 <div>
-<figure class="figure"><p><img src="18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-53-1.png" class="img-fluid figure-img" width="960"></p>
+<figure class="figure"><p><img src="18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-50-1.png" class="img-fluid figure-img" width="960"></p>
 </figure>
 </div>
 </div>
@@ -1809,7 +1876,7 @@ Warning
 <div class="cell">
 <div class="cell-output-display">
 <div>
-<figure class="figure"><p><img src="18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-54-1.png" class="img-fluid figure-img" width="960"></p>
+<figure class="figure"><p><img src="18-logistic-regression-2_files/figure-revealjs/unnamed-chunk-51-1.png" class="img-fluid figure-img" width="960"></p>
 </figure>
 </div>
 </div>

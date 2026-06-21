@@ -321,7 +321,8 @@ Josh Lim
 <div class="cell">
 <div class="sourceCode cell-code" id="cb17"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a></a><span class="st">"3"</span> <span class="sc">+</span> <span class="dv">3</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-error">
-<pre><code>Error in "3" + 3: non-numeric argument to binary operator</code></pre>
+<pre><code>Error in `"3" + 3`:
+! non-numeric argument to binary operator</code></pre>
 </div>
 </div>
 <div class="cell">
@@ -930,7 +931,7 @@ Levels: low medium high</code></pre>
 <div class="sourceCode cell-code" id="cb136"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb136-1"><a></a>df <span class="sc">|&gt;</span></span>
 <span id="cb136-2"><a></a>  <span class="fu">filter</span>(my var <span class="sc">&gt;</span> <span class="dv">0</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-error">
-<pre><code>Error: &lt;text&gt;:2:13: unexpected symbol
+<pre><code>Error in parse(text = input): &lt;text&gt;:2:13: unexpected symbol
 1: df |&gt;
 2:   filter(my var
                ^</code></pre>
