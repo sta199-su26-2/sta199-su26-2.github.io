@@ -160,7 +160,6 @@ Students should contact the SDAO to [request or update accommodations](https://a
 ### Communication
 
 All lecture notes, assignment instructions, an up-to-date schedule, and other course materials may be found on the course website: [sta199-su26-2.github.io](https://sta199-su26-2.github.io/ "STA 199 - Summer 2026 Session 2 course website").
-#CHANGE THIS
 
 Announcements will periodically be emailed through Canvas Announcements.
 Please check your email regularly to ensure you have the latest announcements for the course.
