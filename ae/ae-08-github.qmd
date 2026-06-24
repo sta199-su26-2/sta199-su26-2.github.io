@@ -1,5 +1,6 @@
 ---
 title: "AE 08: Durham climate + factors"
+draft: true
 ---
 
 ## Getting started

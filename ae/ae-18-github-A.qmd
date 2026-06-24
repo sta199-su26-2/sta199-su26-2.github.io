@@ -1,5 +1,6 @@
 ---
 title: "AE 18: FIFA Inference ⚽"
+draft: true
 subtitle: "Suggested answers"
 format:
   html:

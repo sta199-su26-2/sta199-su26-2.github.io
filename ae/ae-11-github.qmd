@@ -1,5 +1,6 @@
 ---
 title: "AE 11: Midterm 'Live Coding' Exam Practice 🏀⛹🐧️"
+draft: true
 ---
 
 # Part 1 - NBA Draft Combine

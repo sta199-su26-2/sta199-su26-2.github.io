@@ -1,5 +1,6 @@
 ---
 title: "AE 04: Gerrymandering + data exploration I"
+draft: true
 ---
 
 ## Getting started

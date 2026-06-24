@@ -1,5 +1,6 @@
 ---
 title: "AE 05: Gerrymandering + data exploration II"
+draft: true
 subtitle: "Suggested answers"
 format:
   html:

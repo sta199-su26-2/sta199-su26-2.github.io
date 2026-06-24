@@ -1,5 +1,6 @@
 ---
 title: "AE 18: FIFA Inference ⚽"
+draft: true
 ---
 
 Today we’ll explore the relationship between a FIFA member country's share of the world population and it's share of the global World Cup TV audience. 

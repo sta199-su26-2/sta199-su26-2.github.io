@@ -1,5 +1,6 @@
 ---
 title: "AE 19: Minimum wage"
+draft: true
 ---
 
 Card and Krueger (1994 AER) is a famous study on the impact of minimum wage increases on employment.

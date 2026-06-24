@@ -17,7 +17,7 @@ website:
     creator: "@minebocek"
     image: "img/twitter-card-ks.pdf"
 
-  #draft-mode: unlinked
+  draft-mode: unlinked
 
   sidebar:
     background: "#2774AE"
@@ -64,24 +64,37 @@ website:
         contents:
           - href: project/description.qmd
             text: "Description"
-          - href: project/1-working-collaboratively.qmd
-            text: "Milestone 1"
-          - href: project/2-proposal.qmd
-            text: "Milestone 2"
-          - href: project/3-improvement-progress.qmd
-            text: "Milestone 3"
-          - href: project/4-peer-review.qmd
-            text: "Milestone 4"
-          - href: project/5-writeup-presentation.qmd
-            text: "Milestone 5"
-      - lab.qmd
-      - ae.qmd
-      - section: "Exam Review"
+          # - href: project/1-working-collaboratively.qmd
+          #   text: "Milestone 1"
+          # - href: project/2-proposal.qmd
+          #   text: "Milestone 2"
+          # - href: project/3-improvement-progress.qmd
+          #   text: "Milestone 3"
+          # - href: project/4-peer-review.qmd
+          #   text: "Milestone 4"
+          # - href: project/5-writeup-presentation.qmd
+          #   text: "Milestone 5"
+      - section: "Labs"
         contents:
-          - href: exam-review/midterm.qmd
-            text: "Midterm Review"
-          - href: exam-review/midterm-key.qmd
-            text: "Midterm Review Answer Key"
+          - href: lab/lab-0.qmd
+            text: "Lab 0"
+          # - href: lab/lab-1.qmd
+          #   text: "Lab 1"
+          # - href: lab/lab-2.qmd
+          #   text: "Lab 2"
+          # - href: lab/lab-3.qmd
+          #   text: "Lab 3"
+          # - href: lab/lab-4.qmd
+          #   text: "Lab 4"
+          # - href: lab/lab-5.qmd
+          #   text: "Lab 5"
+      - ae.qmd
+      # - section: "Exam Review"
+      #   contents:
+      #     - href: exam-review/midterm.qmd
+      #       text: "Midterm Review"
+      #     - href: exam-review/midterm-key.qmd
+      #       text: "Midterm Review Answer Key"
             
   page-footer:
     right: 'This page is built with [{{< fa heart >}}]{style="color: #FFD100;"} and [Quarto](https://quarto.org/).'

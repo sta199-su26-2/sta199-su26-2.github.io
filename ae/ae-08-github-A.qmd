@@ -1,5 +1,6 @@
 ---
 title: "AE 08: Durham climate + factors"
+draft: true
 subtitle: "Suggested answers"
 format:
   html:

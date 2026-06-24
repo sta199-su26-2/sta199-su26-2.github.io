@@ -1,5 +1,6 @@
 ---
 title: "AE 16: Forest classification 🌳🌲"
+draft: true
 format:
   html:
     self-contained: true

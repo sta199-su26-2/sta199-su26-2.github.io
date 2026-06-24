@@ -1,5 +1,6 @@
 ---
 title: "AE 15: Building a spam filter"
+draft: true
 format:
   html:
     self-contained: true

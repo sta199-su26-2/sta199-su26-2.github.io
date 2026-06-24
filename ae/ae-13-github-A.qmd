@@ -1,5 +1,6 @@
 ---
 title: "AE 13: Modeling penguins"
+draft: true
 subtitle: "Suggested answers"
 format:
   html:

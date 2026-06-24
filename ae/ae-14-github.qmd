@@ -1,5 +1,6 @@
 ---
 title: "AE 14: Modeling Housing Prices 🏠"
+draft: true
 ---
 
 In this application exercise we will be studying housing prices.

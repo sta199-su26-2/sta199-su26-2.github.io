@@ -1,5 +1,6 @@
 ---
 title: "AE 03: NYC flights + data wrangling"
+draft: true
 format:
   html:
     self-contained: true
