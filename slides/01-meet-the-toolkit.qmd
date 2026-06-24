@@ -29,7 +29,7 @@ ggplot2::theme_set(ggplot2::theme_gray(base_size = 16))
 ::: {.column width="50%"}
 **Course operation**
 
--   Materials: [sta199-su26.github.io](https://sta199-su26.github.io/)
+-   Materials: [sta199-su26-2.github.io](https://sta199-su26-2.github.io/)
 -   Submission: Gradescope (in Canvas)
 -   Content Q&A: Ed Discussion (in Canvas)
 -   Grades: Gradebook (in Canvas)
@@ -531,7 +531,7 @@ You'll need to stick to this option if you haven't yet accepted your GitHub invi
 ::: appex
 **Option 2:**
 
-Go to the [course GitHub organization](https://github.com/sta199-su26) and clone `ae-your-github-username` repo to [your container](https://cmgr.oit.duke.edu/containers).
+Go to the [course GitHub organization](https://github.com/sta199-su26-2) and clone `ae-your-github-username` repo to [your container](https://cmgr.oit.duke.edu/containers).
 :::
 :::
 :::

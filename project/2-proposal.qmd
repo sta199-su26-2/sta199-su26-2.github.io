@@ -173,7 +173,7 @@ website:
         href: contract.qmd
     right:
       - icon: github
-        href: "https://github.com/sta199-su26/" 
+        href: "https://github.com/sta199-su26-2/"
 
 format:
   html:

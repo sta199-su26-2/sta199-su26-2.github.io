@@ -3,7 +3,7 @@ title: "Useful links"
 ---
 
 +----------------------------+-----------------------------------------------------------------------------+---+
-| Course GitHub organization | 🔗 on [GitHub](https://github.com/sta199-su25)                              |   |
+| Course GitHub organization | 🔗 on [GitHub](https://github.com/sta199-su26-2)                            |   |
 +----------------------------+-----------------------------------------------------------------------------+---+
 | RStudio containers         | 🔗 on [Duke Container Manager](https://cmgr.oit.duke.edu/containers)        |   |
 +----------------------------+-----------------------------------------------------------------------------+---+

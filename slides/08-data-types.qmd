@@ -401,7 +401,7 @@ df |>
 ## Dates
 
 ```{r}
-today <- as.Date("2026-05-26")
+today <- as.Date("2026-07-10")
 today
 ```
 

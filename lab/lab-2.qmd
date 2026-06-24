@@ -2,7 +2,7 @@
 title: Lab 2
 subtitle: Data Transformation + Tidying
 categories: Lab
-description: "Due to Gradescope by Sun. May 24 11:59 PM"
+description: "Due to Gradescope by Sun. Jul 12 11:59 PM"
 draft: false
 ---
 
@@ -34,7 +34,7 @@ By the end of the lab, you will...
 
 ### Step 2: Clone the repo & start a new RStudio project
 
--   Go to the course organization at [github.com/sta199-su26](https://github.com/sta199-su26) organization on GitHub.
+-   Go to the course organization at [github.com/sta199-su26-2](https://github.com/sta199-su26-2) organization on GitHub.
     Click on the repo with the prefix **lab-2**.
     It contains the starter documents you need to complete the lab.
 

@@ -19,7 +19,7 @@ bechdel <- read_csv("data/bechdel.csv")
 
 -   First "official" lab takes place immediately after this lecture (well, 15 mins after... stretch your legs & touch grass in between)
 
--   Office hours start **tomorrow**; you can find time / location details [here](https://sta199-su26.github.io/course-team.html)
+-   Office hours start **tomorrow**; you can find time / location details [here](https://sta199-su26-2.github.io/course-team.html)
 
 -   Come to office hours and / or post on Ed for help!
 

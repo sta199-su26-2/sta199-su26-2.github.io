@@ -1,7 +1,7 @@
 ---
 title: "Lab 0"
 subtitle: "Hello, World and STA 199!"
-description: "End of lab on May 14"
+description: "End of lab on Jun 29"
 categories: "Lab"
 execute:
   eval: false
@@ -112,8 +112,8 @@ For example, mine would be
 
 ```{r}
 usethis::use_git_config(
-  user.name = "Katie Solarz", 
-  user.email = "katiesolarz@gmail.com"
+  user.name = "Josh Lim",
+  user.email = "jlimlightningblade@gmail.com"
 )
 ```
 
@@ -155,7 +155,7 @@ Repos are the main way we will distribute files to you during the semester.
 When you copy the files in a repo to your local computing environment (your container, in this case), that's called "cloning".
 So, let's clone our first repo:
 
--   Go to the repository for **lab-0** in the course GitHub organization: <https://github.com/sta199-su26/lab-0>.
+-   Go to the repository for **lab-0** in the course GitHub organization: <https://github.com/sta199-su26-2/lab-0>.
 
 -   Click on the green **CODE** button, select **Use SSH** (this might already be selected by default, and if it is, you'll see the text **Clone with SSH**).
     Click on the clipboard icon to copy the repo URL.
@@ -184,6 +184,6 @@ You will need to get used to these steps, because you'll probably clone at least
 
 ## 6. Hello STA 199!
 
-Fill out the course "Getting to know you" [survey](https://canvas.duke.edu/courses/78571/quizzes/47322) on Canvas.
+Fill out the course "Getting to know you" [survey](https://canvas.duke.edu/courses/78820/quizzes/47322) on Canvas.
 
 We will use the information collected in this survey for a variety of goals, including getting to know you as a person and your course goals and concerns, as well as pair you with project teammates with similar interests, be it personal or professional.

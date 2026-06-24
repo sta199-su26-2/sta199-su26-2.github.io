@@ -49,5 +49,5 @@ If you accumulate too many failed login attempts, you will be locked out of your
 
 ## Share the Account with Us
 
-So that we can add you to the course organization, share your username with us via the GitHub [canvas quiz.](https://canvas.duke.edu/courses/56756/quizzes/35369)
+So that we can add you to the course organization, share your username with us via the GitHub [canvas quiz.](https://canvas.duke.edu/courses/78820/quizzes/49069)
 Do this before you leave the room!

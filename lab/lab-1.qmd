@@ -2,7 +2,7 @@
 title: Lab 1
 subtitle: From the Midwest to Lego Sets!
 categories: Lab
-description: "Due to Gradescope by Wed. May 20 11:59 PM"
+description: "Due to Gradescope by Wed. Jul 8 11:59 PM"
 execute:
   eval: false
 ---
@@ -27,7 +27,7 @@ Before we get to that stage, however, you need to build some basic fluency in R.
 Today we begin with the fundamental building blocks of R and RStudio: the interface, reading in data, and basic commands.
 
 ::: callout-warning
-This lab assumes that you have already completed [Lab 0](https://sta199-su26.github.io/lab/lab-0.html).
+This lab assumes that you have already completed [Lab 0](https://sta199-su26-2.github.io/lab/lab-0.html).
 If you have not, please go back and do that first before proceeding.
 :::
 
@@ -50,7 +50,7 @@ By the end of the lab, you will...
 
 ### Clone the repo & start new RStudio project
 
--   Go to the course GitHub organization at <https://github.com/sta199-su26/>.
+-   Go to the course GitHub organization at <https://github.com/sta199-su26-2/>.
     Click on the repo with the prefix **lab-1**.
     It contains the starter documents you need to complete the lab.
 
