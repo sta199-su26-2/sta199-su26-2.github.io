@@ -67,10 +67,7 @@ Generally, for Monday labs, this is the following Wednesday; for Thursday labs, 
 
 #### Exams
 
-This course will have two exams: a midterm and a final.
-The midterm will include an in-class component (with a cheat sheet) and an open-note take-home component.
-The final will also include only an in-class component (with a cheat sheet) and an open-note take-home component.
-
+This course will have two exams: a midterm and a final. 
 You can demonstrate what you've learned in the course thus far through these exams.
 The exams will focus on both conceptual understanding of the content and application through analysis and computational tasks.
 The exam's content will be related to the content presented in lectures, application exercises, and labs.
