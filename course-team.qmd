@@ -36,4 +36,4 @@ You can contact her (at [mary.knox\@duke.edu](mailto:mary.knox@duke.edu)) with a
 
 ![](img/stella.png){style="float:right; width:150px; height:150px; border-radius: 50%; object-fit: cover;" fig-alt="Headshot of Stella Turner"}
 
-Stella Turner is the peer tutor for this course. You can contact her at [stella.turner\@duke.edu](mailto:stella.turner@duke.edu).
+Stella Turner, a rising senior majoring in Biology, is the STA 199 Peer Tutor for the Academic Resource Center. If you want some extra review or a place to have your questions answered by someone who isn't a statistics student but still did well in the course, consider signing up for Peer Education's free tutoring groups! You can contact her at [stella.turner\@duke.edu](mailto:stella.turner@duke.edu).
