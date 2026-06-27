@@ -52,7 +52,7 @@ Please ensure your device is fully charged before you come to class, as the numb
 
 ### Activities & Assessment
 
-You will be assessed based on five components: application exercises, labs, exams, project, and teamwork.
+You will be assessed based on four components: labs, exams, project, and application exercises.
 
 #### Labs
 
@@ -61,9 +61,11 @@ You may discuss lab assignments with other students; however, the lab should be 
 Lab assignments must be typed up using Quarto, all work must be pushed to your GitHub repository for the lab, and the lab's PDF output must be submitted on Gradescope by the deadline.
 
 Labs are due at 11:59pm ET on the indicated due date.
-Generally, for Monday labs, this is the following Wednesday; for Thursday labs, this is the following Sunday.
+Generally, for Monday labs, this is the following Wednesday; for Thursday labs, this is the following Sunday. In the case of holidays, exams, or project deadlines, I may push back the deadlines.
 
 [*The lowest lab grade will be dropped at the end of the semester.*]{.underline}
+
+In addition to the graded “labs”, your attendance in lab sessions also contributes to your course grade (worth 5% in total). There are 6 lab sessions in which a lab assignment will be the focus; attending at least 5 of these sessions will earn full marks for the “lab attendance” component of your final grade. Attending 4 sessions will earn 80%, 3 will earn 60%, and so forth. Attendance will also be assessed in project-focused lab sessions (denoted in the course schedule), but this will funnel into your individual project grade.
 
 #### Exams
 
@@ -202,10 +204,9 @@ The course team will help you by providing you with materials answering question
 
 -   If you have a question during the lecture or lab, feel free to ask it! There are likely other students with the same question, so by asking, you will create a learning opportunity for everyone.
 -   The teaching team is here to help you be successful in the course. You are encouraged to attend office hours to ask questions about the course content and assignments. Many questions are most effectively answered as you discuss them with others, so office hours are a valuable resource. Please use them!
--   Outside of class and office hours, any general questions about course content or assignments should be posted on the class discussion forum, [Ed Discussion](https://edstem.org/us/courses/62468/discussion/).\[CHANGE\] There is a chance another student has already asked a similar question, so please check the other posts on the forum before adding a new question. If you know the answer to a question, I encourage you to respond!
+-   Outside of class and office hours, any general questions about course content or assignments should be posted on the class discussion forum, [Ed Discussion](https://edstem.org/us/courses/100036/discussion/). There is a chance another student has already asked a similar question, so please check the other posts on the forum before adding a new question. If you know the answer to a question, I encourage you to respond!
 
 Check out the [Support](https://sta199-su26-2.github.io/course-support.html) tab for more resources.
-\[CHANGE\]
 
 ## Course policies
 
@@ -272,7 +273,7 @@ Any questions and/or concerns regarding academic integrity can be directed to th
 
 Any violations in academic honesty standards as outlined in the [Duke Community Standard](https://trinity.duke.edu/undergraduate/academic-policies/community-standard-student-conduct) and those specific to this course will
 
--   automatically results in a 0 for the relevant portion or the entire assignment,
+-   automatically result in a 0 for the relevant portion or the entire assignment,
 
 -   can further impact your overall course grade, and
 

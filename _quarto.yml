@@ -45,7 +45,7 @@ website:
           - href: course-team.qmd
             text: Team
           - href: course-support.qmd
-            text: Couse Support
+            text: Course Support
           - href: index.qmd
             text: Schedule
           - href: course-links.qmd
