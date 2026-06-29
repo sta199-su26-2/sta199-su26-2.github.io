@@ -32,6 +32,6 @@ Not open to students who have taken a 100-level Statistical Science course, Stat
 
 ## Office hours
 
-|              |               |     |
-|--------------|---------------|-----|
-| Josh Lim | Old Chem 203A | TBD |
+|          |              |                         |
+|----------|--------------|-------------------------|
+| Josh Lim | Old Chem 203 | Friday 11:00am - 1:00pm |

@@ -118,7 +118,7 @@ Click **render** to see whether your inline code has worked!
 
 ### Oh no!! Errors!!
 
-Unfortunately, functions might not run correctly every time you run them. 
+Unfortunately, functions might not run correctly every time you run them.
 
 What happens if you run `mean()` on the data frame?
 Does this even make sense???
@@ -145,8 +145,7 @@ To do that, we can use `$` as `dataframe$column_name`.
 #add code here
 ```
 
-Hmmm...
-something weird is still happening!
+Hmmm... something weird is still happening!
 What does this NA value mean?
 Do you have any guesses?
 How can we fix this?
