@@ -19,9 +19,9 @@ bechdel <- read_csv("data/bechdel.csv")
 
 -   First "official" lab takes place immediately after this lecture (well, 15 mins after... stretch your legs & touch grass in between)
 
--   Office hours start **tomorrow**; you can find time / location details [here](https://sta199-su26-2.github.io/course-team.html)
+-   No class or OH tomorrow! Enjoy your 4th of July weekend. 
 
--   Come to office hours and / or post on Ed for help!
+-   Ed Stem if you have any questions!
 
 ## Lab Assignments (& Exams): Code Style (Do these things!)
 
@@ -80,7 +80,7 @@ bechdel <- read_csv("data/bechdel.csv")
 
 ## Alison Bechdel
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 ![](img/03/alison.png){fig-align="center" width="80%"}
 :::
@@ -88,16 +88,16 @@ bechdel <- read_csv("data/bechdel.csv")
 ::: {.column width="50%"}
 ![](img/03/fun_home.jpg){fig-align="center" width="76%"}
 :::
-:::::
+:::
 
 ## The Bechdel Test
 
-:::::: columns
+::: columns
 ::: {.column width="68%"}
 ![](img/03/bechdel.png){fig-align="center"} (*Dykes to Watch Out For* - 1985)
 :::
 
-:::: {.column width="25%"}
+::: {.column width="25%"}
 ::: {style="font-size: 35px;"}
 Film passes if it has...
 
@@ -105,8 +105,8 @@ Film passes if it has...
 2.  who talk to each other;
 3.  about something besides a man.
 :::
-::::
-::::::
+:::
+:::
 
 ## Recent releases {.smaller}
 
@@ -127,11 +127,11 @@ Film passes if it has...
 
 Primary package in the **tidyverse** for data wrangling and transformation
 
-:::: columns
+::: columns
 ::: {.column width="50%"}
 [dplyr.tidyverse.org](https://dplyr.tidyverse.org)
 :::
-::::
+:::
 
 ![](img/03/hex-dplyr.png){fig-align="center" width="40%"}
 
