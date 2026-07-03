@@ -61,15 +61,19 @@ You may discuss lab assignments with other students; however, the lab should be 
 Lab assignments must be typed up using Quarto, all work must be pushed to your GitHub repository for the lab, and the lab's PDF output must be submitted on Gradescope by the deadline.
 
 Labs are due at 11:59pm ET on the indicated due date.
-Generally, for Monday labs, this is the following Wednesday; for Thursday labs, this is the following Sunday. In the case of holidays, exams, or project deadlines, I may push back the deadlines.
+Generally, for Monday labs, this is the following Wednesday; for Thursday labs, this is the following Sunday.
+In the case of holidays, exams, or project deadlines, I may push back the deadlines.
 
 [*The lowest lab grade will be dropped at the end of the semester.*]{.underline}
 
-In addition to the graded “labs”, your attendance in lab sessions also contributes to your course grade (worth 5% in total). There are 6 lab sessions in which a lab assignment will be the focus; attending at least 5 of these sessions will earn full marks for the “lab attendance” component of your final grade. Attending 4 sessions will earn 80%, 3 will earn 60%, and so forth. Attendance will also be assessed in project-focused lab sessions (denoted in the course schedule), but this will funnel into your individual project grade.
+In addition to the graded "labs", your attendance in lab sessions also contributes to your course grade (worth 5% in total).
+There are 6 lab sessions in which a lab assignment will be the focus; attending at least 5 of these sessions will earn full marks for the "lab attendance" component of your final grade.
+Attending 4 sessions will earn 80%, 3 will earn 60%, and so forth.
+Attendance will also be assessed in project-focused lab sessions (denoted in the course schedule), but this will funnel into your individual project grade.
 
 #### Exams
 
-This course will have two exams: a midterm and a final. 
+This course will have two exams: a midterm and a final.
 You can demonstrate what you've learned in the course thus far through these exams.
 The exams will focus on both conceptual understanding of the content and application through analysis and computational tasks.
 The exam's content will be related to the content presented in lectures, application exercises, and labs.
@@ -292,7 +296,7 @@ Note that the lowest lab assignment will be dropped to accommodate such circumst
 
 ### Waiver for extenuating circumstances
 
-If circumstances prevent you from completing a lab by the stated due date, you may email the course coordinator, [Dr. Mary Knox](mailto:mary.knox@duke.edu), before the deadline to waive the late penalty.
+If circumstances prevent you from completing a lab by the stated due date, you may email Josh, before the deadline to waive the late penalty.
 In your email, you only need to request the waiver; you do not need to provide an explanation.
 This waiver may only be used **once** a semester, so only use it for a truly extenuating circumstance.
 
