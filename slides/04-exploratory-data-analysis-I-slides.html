@@ -215,14 +215,19 @@ Josh Lim
 </div>
 
   <p class="date">July 6, 2026</p>
-</section><section class="slide level2"><!-- begin: ae definition --><!-- end: ae definition --></section><section id="while-you-wait" class="slide level2 scrollable medium"><h2>While you wait…</h2>
-<p>Prepare for today’s application exercise: <strong>ae-04-gerrymander-explore-I</strong></p>
+</section><section class="slide level2"><!-- begin: ae definition --><!-- end: ae definition --></section><section id="announcements" class="slide level2"><h2>Announcements</h2>
 <ul>
-<li><p>Switch to your <code>ae</code> project in RStudio;</p></li>
-<li><p>Make sure all of your changes up to this point are committed (i.e., there’s nothing left in your Git pane);</p></li>
-<li><p>Click Pull to get today’s application exercise file: <em>ae-04-gerrymander-explore-I.qmd</em>.</p></li>
-<li><p>(To see the new file, you may have to refresh the Files pane by clicking “Home”)</p></li>
-<li><p>Wait till the you’re prompted to work on the application exercise during class before editing the file.</p></li>
+<li>Lab 1 due Wednesday 11:59 pm</li>
+<li>Office hours start this week!</li>
+<li>No lab today (Lab 2 on Thursday)</li>
+<li>AE attendance starts today (make sure you come to class and commit push before 10:45am)</li>
+</ul></section><section id="what-is-exploratory-data-analysis" class="slide level2 smaller"><h2>What is Exploratory Data Analysis?</h2>
+<ul>
+<li>EDA is like a playground</li>
+<li>I call it a free for all where you are playing around with the data</li>
+<li>Goal isn’t to draw conclusions, but rather get a sense of your data and what questions it may be able to answer.</li>
+<li>Iterate between generating questions about your data, searching for answers via visualizing, transforming, and modeling, and refining/updating original questions</li>
+<li>More https://r4ds.hadley.nz/EDA.html</li>
 </ul></section><section id="packages" class="slide level2 smaller"><h2>Packages</h2>
 <ul>
 <li>For the data: <a href="https://openintrostat.github.io/usdata/"><strong>usdata</strong></a>
@@ -1589,14 +1594,15 @@ $ gerry      &lt;fct&gt; mid, high, high, high, high, high, high, high, mi…</c
 <div class="callout-content">
 <p>When answering a question that prompts you to “describe a distribution”, you should ensure that your narrative mentions each of the following:</p>
 <ol type="1">
-<li>Center</li>
 <li>Shape (this includes modality &amp; skew)</li>
+<li>Outliers</li>
+<li>Center</li>
 <li>Spread</li>
-<li>Any likely outliers</li>
 </ol>
 </div>
 </div>
 </div>
+<p>or “remember your SOCS”</p>
 </section><section id="example-the-standard-normal-distribution" class="slide level2 smaller"><h2>Example: The Standard Normal Distribution</h2>
 <div class="cell">
 <div class="cell-output-display">
@@ -1620,10 +1626,10 @@ $ gerry      &lt;fct&gt; mid, high, high, high, high, high, high, high, mi…</c
 </div><div class="column" style="width:45%;">
 <div>
 <ol type="1">
-<li class="fragment">Centered at 0 (mean and median agree)</li>
 <li class="fragment">Symmetric (about it’s center); unimodal (one peak)</li>
-<li class="fragment">Values range between -3 and +3, roughly</li>
 <li class="fragment">No apparent outliers</li>
+<li class="fragment">Centered at 0 (mean and median agree)</li>
+<li class="fragment">Values range between -3 and +3, roughly</li>
 </ol>
 </div>
 </div></div>
@@ -1813,9 +1819,15 @@ $ gerry      &lt;fct&gt; mid, high, high, high, high, high, high, high, mi…</c
 </div>
 <ul>
 <li><p>Shape: <span class="fragment">The distribution of votes for Trump in the 2016 election from Congressional Districts is <strong>unimodal and left-skewed</strong>.</span></p></li>
+<li><p>Unusual observations: <span class="fragment">-</span></p></li>
 <li><p>Center: <span class="fragment">The percent of vote received by Trump in the 2016 Presidential Election from a <strong>typical</strong> Congressional Districts is 48.7%.</span></p></li>
 <li><p>Spread: <span class="fragment">In the <strong>middle 50%</strong> of Congressional Districts, 34.8% to 58.1% of voters voted for Trump in the 2016 Presidential Election.</span></p></li>
-<li><p>Unusual observations: <span class="fragment">-</span></p></li>
+</ul></section><section id="joshs-wordbank-for-socs" class="slide level2"><h2>Josh’s Wordbank for SOCS</h2>
+<ul>
+<li>Shape: Unimodal, biodmoal, multimodal symmetric, leftskewed, rightskewed</li>
+<li>Center: Report mean or median (depending on skew)</li>
+<li>Outliers: Report unusual observations or anything past cutoff</li>
+<li>Spread: How stuff is spread out, can report IQR, range, standard deviation (maybe later)</li>
 </ul></section></section><section><section id="bivariate-analysis" class="title-slide slide level1 center"><h1>Bivariate analysis</h1>
 
 </section><section id="bivariate-analysis-1" class="slide level2"><h2>Bivariate analysis</h2>
@@ -2100,20 +2112,10 @@ $ gerry      &lt;fct&gt; mid, high, high, high, high, high, high, high, mi…</c
 </li>
 </ul>
 </div>
-</section></section><section><section id="application-exercise" class="title-slide slide level1 smaller center"><h1>Application exercise</h1>
-
-</section><section id="ae-04-gerrymander-explore-i" class="slide level2"><h2>ae-04-gerrymander-explore-I</h2>
-<div class="appex">
-<ul>
-<li><p>Go to your ae project in RStudio.</p></li>
-<li><p>If you haven’t yet done so, make sure all of your changes up to this point are committed and pushed, i.e., there’s nothing left in your Git pane.</p></li>
-<li><p>If you haven’t yet done so, click Pull to get today’s application exercise file: <em>ae-04-gerrymander-explore-I.qmd</em>.</p></li>
-<li><p>Work through the AE and RCP your edits by the end of class.</p></li>
-</ul>
-</div>
+</section></section><section id="application-exercise" class="title-slide slide level1 smaller center"><h1>Application exercise</h1>
 
 
-</section></section>
+</section>
 </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="img/pfp.png" class="slide-logo"></p>
