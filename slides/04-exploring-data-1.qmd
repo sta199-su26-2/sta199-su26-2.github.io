@@ -19,19 +19,20 @@ todays_ae <- "ae-04-gerrymander-explore-I"
 
 <!-- end: ae definition -->
 
-## While you wait... {.scrollable .medium}
+## Announcements
 
-Prepare for today's application exercise: **`{r} todays_ae`**
+- Lab 1 due Wednesday 11:59 pm
+- Office hours start this week!
+- No lab today (Lab 2 on Thursday)
+- AE attendance starts today (make sure you come to class and commit push before 10:45am)
 
--   Switch to your `ae` project in RStudio;
+## What is Exploratory Data Analysis? {.smaller}
 
--   Make sure all of your changes up to this point are committed (i.e., there's nothing left in your Git pane);
-
--   Click Pull to get today's application exercise file: *`{r} paste0(todays_ae, ".qmd")`*.
-
--   (To see the new file, you may have to refresh the Files pane by clicking "Home")
-
--   Wait till the you're prompted to work on the application exercise during class before editing the file.
+- EDA is like a playground
+- I call it a free for all where you are playing around with the data
+- Goal isn't to draw conclusions, but rather get a sense of your data and what questions it may be able to answer.
+- Iterate between generating questions about your data, searching for answers via visualizing, transforming, and modeling, and refining/updating original questions
+- More https://r4ds.hadley.nz/EDA.html
 
 ## Packages {.smaller}
 
@@ -114,7 +115,7 @@ glimpse(gerrymander)
 
 ## Variable types: `district`
 
-::::: columns
+::: columns
 ::: {.column .xsmall}
 | Variable     | Type                         |
 |--------------|------------------------------|
@@ -140,11 +141,11 @@ gerrymander |>
   select(district)
 ```
 :::
-:::::
+:::
 
 ## Variable types: `last_name`
 
-::::: columns
+::: columns
 ::: {.column .xsmall}
 | Variable     | Type                         |
 |--------------|------------------------------|
@@ -170,11 +171,11 @@ gerrymander |>
   select(last_name)
 ```
 :::
-:::::
+:::
 
 ## Variable types: `first_name`
 
-::::: columns
+::: columns
 ::: {.column .xsmall}
 | Variable     | Type                         |
 |--------------|------------------------------|
@@ -200,11 +201,11 @@ gerrymander |>
   select(first_name)
 ```
 :::
-:::::
+:::
 
 ## Variable types: `party16`
 
-::::: columns
+::: columns
 ::: {.column .xsmall}
 | Variable     | Type                     |
 |--------------|--------------------------|
@@ -230,11 +231,11 @@ gerrymander |>
   select(party16)
 ```
 :::
-:::::
+:::
 
 ## Variable types: `clinton16`
 
-::::: columns
+::: columns
 ::: {.column .xsmall}
 | Variable     | Type                               |
 |--------------|------------------------------------|
@@ -260,11 +261,11 @@ gerrymander |>
   select(clinton16)
 ```
 :::
-:::::
+:::
 
 ## Variable types: `trump16`
 
-::::: columns
+::: columns
 ::: {.column .xsmall}
 | Variable     | Type                               |
 |--------------|------------------------------------|
@@ -290,11 +291,11 @@ gerrymander |>
   select(trump16)
 ```
 :::
-:::::
+:::
 
 ## Variable types: `dem16`
 
-::::: columns
+::: columns
 ::: {.column .xsmall}
 | Variable     | Type                             |
 |--------------|----------------------------------|
@@ -321,11 +322,11 @@ gerrymander |>
   select(dem16)
 ```
 :::
-:::::
+:::
 
 ## Variable types: `state`
 
-::::: columns
+::: columns
 ::: {.column .xsmall}
 | Variable     | Type                     |
 |--------------|--------------------------|
@@ -351,11 +352,11 @@ gerrymander |>
   select(state)
 ```
 :::
-:::::
+:::
 
 ## Variable types: `party18`
 
-::::: columns
+::: columns
 ::: {.column .xsmall}
 | Variable     | Type                             |
 |--------------|----------------------------------|
@@ -381,11 +382,11 @@ gerrymander |>
   select(party18)
 ```
 :::
-:::::
+:::
 
 ## Variable types: `dem18`
 
-::::: columns
+::: columns
 ::: {.column .xsmall}
 | Variable     | Type                             |
 |--------------|----------------------------------|
@@ -412,26 +413,26 @@ gerrymander |>
   select(dem18)
 ```
 :::
-:::::
+:::
 
 ## Variable types: `flip18`
 
-::::: columns
+::: columns
 ::: {.column .xsmall}
-| Variable     | Type                             |
-|--------------|----------------------------------|
-| `district`   | categorical, ID                  |
-| `last_name`  | categorical, ID                  |
-| `first_name` | categorical, ID                  |
-| `party16`    | categorical                      |
-| `clinton16`  | numerical, continuous            |
-| `trump16`    | numerical, continuous            |
-| `dem16`      | categorical, binary              |
-| `state`      | categorical                      |
-| `party18`    | categorical, binary              |
-| `dem18`      | categorical, binary              |
+| Variable     | Type                     |
+|--------------|--------------------------|
+| `district`   | categorical, ID          |
+| `last_name`  | categorical, ID          |
+| `first_name` | categorical, ID          |
+| `party16`    | categorical              |
+| `clinton16`  | numerical, continuous    |
+| `trump16`    | numerical, continuous    |
+| `dem16`      | categorical, binary      |
+| `state`      | categorical              |
+| `party18`    | categorical, binary      |
+| `dem18`      | categorical, binary      |
 | `flip18`     | [categorical]{.fragment} |
-| `gerry`      |                                  |
+| `gerry`      |                          |
 :::
 
 ::: {.column .small}
@@ -442,11 +443,11 @@ gerrymander |>
   select(flip18)
 ```
 :::
-:::::
+:::
 
 ## Variable types: `gerry`
 
-::::: columns
+::: columns
 ::: {.column .xsmall}
 | Variable     | Type                              |
 |--------------|-----------------------------------|
@@ -460,7 +461,7 @@ gerrymander |>
 | `state`      | categorical                       |
 | `party18`    | categorical, binary               |
 | `dem18`      | categorical, binary               |
-| `flip18`     | categorical              |
+| `flip18`     | categorical                       |
 | `gerry`      | [categorical, ordinal]{.fragment} |
 :::
 
@@ -472,7 +473,7 @@ gerrymander |>
   select(gerry)
 ```
 :::
-:::::
+:::
 
 # Univariate analysis
 
@@ -646,11 +647,13 @@ ggplot(gerrymander, aes(x = trump16)) +
 ::: callout-tip
 When answering a question that prompts you to "describe a distribution", you should ensure that your narrative mentions each of the following:
 
-1)  Center
-2)  Shape (this includes modality & skew)
-3)  Spread
-4)  Any likely outliers
+1)  Shape (this includes modality & skew)
+2)  Outliers
+3)  Center
+4)  Spread
 :::
+
+or "remember your SOCS"
 
 ## Example: The Standard Normal Distribution {.smaller}
 
@@ -714,11 +717,11 @@ ggplot(normal_data, aes(x = x)) +
   ) +
   theme_minimal()
 ```
+
 ## Example: The Standard Normal Distribution {.smaller}
-:::: {.columns}
 
+::: columns
 ::: {.column width="55%"}
-
 ```{r}
 #| echo: false
 #| message: false
@@ -780,23 +783,17 @@ ggplot(normal_data, aes(x = x)) +
   ) +
   theme_minimal()
 ```
-
 :::
 
 ::: {.column width="45%"}
-
 ::: incremental
-
-1.  Centered at 0 (mean and median agree)
-2.  Symmetric (about it's center); unimodal (one peak)
-3.  Values range between -3 and +3, roughly
-4.  No apparent outliers
-
+1.  Symmetric (about it's center); unimodal (one peak)
+2.  No apparent outliers
+3.  Centered at 0 (mean and median agree)
+4.  Values range between -3 and +3, roughly
 :::
-
 :::
-
-::::
+:::
 
 ## Back to Gerry
 
@@ -842,24 +839,17 @@ ggplot(gerrymander, aes(x = trump16)) +
   
 ```
 
-
 ## "Skewed" data
-:::: {.columns}
 
+::: columns
 ::: {.column width="47.5%"}
-
 ![](img/04/left-skew.png){fig-align="center" width="90%"}
-
 :::
 
 ::: {.column width="45%"}
-
 ![](img/04/right-skew.jpg){fig-align="center" width="100%"}
-
 :::
-
-::::
-
+:::
 
 ## Box plot - Step 1 {.smaller .scrollable}
 
@@ -1124,7 +1114,6 @@ ggplot(df_long, aes(x = y)) +
   coord_cartesian(xlim = c(min(df), max(df)))
 ```
 
-
 ## Summary statistics
 
 ```{r}
@@ -1163,11 +1152,18 @@ Describe the distribution of percent of vote received by Trump in 2016 President
 
 -   Shape: [The distribution of votes for Trump in the 2016 election from Congressional Districts is **unimodal and left-skewed**.]{.fragment}
 
+-   Unusual observations: [-]{.fragment}
+
 -   Center: [The percent of vote received by Trump in the 2016 Presidential Election from a **typical** Congressional Districts is 48.7%.]{.fragment}
 
 -   Spread: [In the **middle 50%** of Congressional Districts, 34.8% to 58.1% of voters voted for Trump in the 2016 Presidential Election.]{.fragment}
 
--   Unusual observations: [-]{.fragment}
+## Josh's Wordbank for SOCS
+
+- Shape: Unimodal, biodmoal, multimodal symmetric, leftskewed, rightskewed
+- Center: Report mean or median (depending on skew)
+- Outliers: Report unusual observations or anything past cutoff 
+- Spread: How stuff is spread out, can report IQR, range, standard deviation (maybe later)
 
 # Bivariate analysis
 
