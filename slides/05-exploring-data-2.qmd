@@ -12,43 +12,33 @@ auto-stretch: false
 
 ## Announcements/Reminders {.medium}
 
--   Lab is due TONIGHT at 11:59PM ➞ submit PDF to Gradescope
-
 -   Come to office hours and/or post on Ed for help!
 
--   Kenna's office hours are 11:00am - 1:00pm today on Zoom (find link on Canvas)
+-   Kenna's office hours are 11:30am - 1:30pm today in Old Chem 203
 
 -   Always double check your project (top right-hand corner of screen in your RStudio) & be sure you are in the correct project for the task at hand (AE in lecture, lab in lab / at home when working on assignments)
 
-## Exam Intel {.scrollable .smaller}
+## Outline {.medium}
 
--   Midterm Date: Monday, 6/1 (confirmed)
+-   ***Yesterday:*** More (gg)plotting & describing distributions
 
--   Exam will take place during **both** lecture & lab time slots (i.e., you will have from 9:30am - 12:15pm)
+-   ***Today:***
 
--   I am **NOT** writing an exam I expect to take the full 2hr 45min timeframe; having the exam during both lecture & lab is meant to take some of the time pressure away from the exam & allow buffer time in case of any technical issues
+    -   Review from last time
 
--   You are of course entitled to the full 2hr 45min if you need it!
+    -   More about the pipe
 
--   Format: written portion (mult. choice) & *live* coding / free response (think about this as a short lab assignment) on your laptop
+    -   Transformation + plotting combo
 
--   Once you are finished with the written portion, you will turn it in and clone an exam repo
-
--   Cheatsheet (standard printer paper, both sides, can be hand-written/typed/combo, idc) allowed for both portions of the exam
-
--   The coding portion of the exam is **open-assignment** in that you will be working in your containers, so you have access to all of your AEs & lab assignments by changing projects (of course, switching between projects and looking through these materials eats away at time, so I wouldn't be entirely reliant on this)
-
--   The coding portion of the exam will be **closed-internet** (i.e., you cannot open any other tabs on your browser aside from GitHub & your container); myself, Kenna, and potentially one additional person will be proctoring and actively monitoring adherence to this policy (breaking this policy will result in a score of 0 for this portion of the exam)
-
--   I will provide review materials for both portions ahead of time (likely by next Thursday) -- your labs are the best preparatory materials, so make sure you feel confident with all lab content & review your graded feedback!
-
--   If you need accommodations and I have not received a letter, please get it to me by EOD today; make your appointment in the testing center!
-
-# Questions??
-
-## Lab: Narrative {.smaller}
+## Narrative {.smaller}
 
 -   ***Boxplots, histograms, density plots:***
+
+    -   Shape: Is there skew, or is the distribution symmetric?
+        If the data are skewed, in which direction?
+        Is the distribution unimodal, bimodal, or multimodal?
+        
+    -   Outliers: Are there any unsual data points (whether via visual or mathematical assessment (i.e., "dots" on a boxplot))
 
     -   Center: Give an idea of a 'typical value' (median or mean, most commonly; choose which you think is more appropriate for the data, or mention both!);
 
@@ -56,22 +46,23 @@ auto-stretch: false
         What is the primary range of the data?
         (IQR, outliers)
 
-    -   Shape: Is there skew, or is the distribution symmetric?
-        If the data are skewed, in which direction?
-        Is the distribution unimodal, bimodal, or multimodal?
-
-    -   Outliers: Are there any unsual data points (whether via visual or mathematical assessment (i.e., "dots" on a boxplot))
-
-## Lab: Narrative {.smaller}
+## Narrative {.smaller}
 
 -   ***Scatter Plots***
 
+    - STS: SHAPE TREND STRENGTH
+    
+    -   Is the relationship linear or nonlinear
+    
     -   Is there a relationship between the two variables?
         Is it positive or negative?
 
     -   If there is a relationship, does it seem to be strong or weak?
 
-    -   Is the relationship linear or nonlinear (i.e., quadratic, exponential, logarithmic)?
+
+## Just some practice (more later in the course)
+
+![](img/05/scatterex.png){fig-align="center"}
 
 ## Lab: Advice {.smaller}
 
@@ -88,21 +79,8 @@ auto-stretch: false
 
 -   Make sure you can render to PDF early & often :) This will help you identify / troubleshoot issues with your code that may not be apparent in isolation
 
-## Outline {.medium}
 
--   ***Monday:*** Started learning about data transformation & intro to piping
 
--   ***Yesterday:*** More (gg)plotting & describing distributions
-
--   ***Today:***
-
-    -   Review from last time + finish AE04
-
-    -   More about the pipe
-
-    -   Transformation + plotting combo
-
-# AE-04
 
 ```{r}
 #| label: slice
@@ -121,13 +99,13 @@ After a while this is more art than science, but you can narrow down the options
 
 . . .
 
-| Variable combo | Options |
+| Variable combo        | Options                                                           |
 |------------------------------------|------------------------------------|
-| 1 numerical | histogram, density, box plot |
-| 1 categorical | bar chart, ~~pie chart~~ |
-| 2 numerical | scatterplot |
+| 1 numerical           | histogram, density, box plot                                      |
+| 1 categorical         | bar chart, ~~pie chart~~                                          |
+| 2 numerical           | scatterplot                                                       |
 | numerical/categorical | side-by-side box or violin plots, stacked densities or histograms |
-| 2 categorical | stacked bar plot (today) |
+| 2 categorical         | stacked bar plot (today)                                          |
 
 . . .
 
@@ -135,7 +113,7 @@ For three or more variables, the human mind is limited, and you have to start ge
 
 ## Quick Review: Row operations {.smaller}
 
-::::: columns
+::: columns
 ::: {.column width="70%"}
 -   `slice()`: chooses rows based on location\
 -   `filter()`: chooses rows based on column values\
@@ -152,11 +130,11 @@ For three or more variables, the human mind is limited, and you have to start ge
 |  7  |  b  | yes |
 |  9  |  a  | yes |
 :::
-:::::
+:::
 
 ## Quick Review: Column operations {.smaller}
 
-::::: columns
+::: columns
 ::: {.column width="70%"}
 -   `select()`: changes whether or not a column is included\
 -   `rename()`: changes the name of columns\
@@ -172,11 +150,11 @@ For three or more variables, the human mind is limited, and you have to start ge
 |  7  |  b  | yes |
 |  9  |  a  | yes |
 :::
-:::::
+:::
 
 ## Quick Review: Groups of rows {.smaller}
 
-::::: columns
+::: columns
 ::: {.column width="70%"}
 -   `summarize()`: collapses a group into a single row\
 -   `count()`: count unique values of one or more variables\
@@ -192,7 +170,7 @@ For three or more variables, the human mind is limited, and you have to start ge
 |  7  |  b  | yes |
 |  9  |  a  | yes |
 :::
-:::::
+:::
 
 ```{r}
 #| include: false
@@ -365,7 +343,6 @@ gerrymander |>
 -   You can compute as many summaries as you want, and whichever you want, in a single call to `summarize()`;
 -   To the left of the equal signs are your choice of *column names* in the new data frame you are creating. You can type whatever you want here (within reason);
 -   To the right of the equal signs is `R` code that computes the summaries. You must use the correct command names (case sensitive): `mean`, `median`, `quantile`, `sd`, `var`, etc;
--   If you want to learn what these do, read the documentation (eg `?quantile`).
 
 ## Spot the difference {.smaller}
 
@@ -373,7 +350,7 @@ gerrymander |>
 What's the difference between the following two pipelines?
 :::
 
-::::: columns
+::: columns
 ::: column
 ```{r}
 gerrymander |>
@@ -388,7 +365,7 @@ gerrymander |>
   count(state)
 ```
 :::
-:::::
+:::
 
 ## Spot the difference {.smaller}
 
@@ -396,7 +373,7 @@ gerrymander |>
 
 ## `count()`
 
-::::: columns
+::: columns
 ::: {.column width="40%"}
 ``` r
 ... |>
@@ -410,7 +387,7 @@ gerrymander |>
   count(variable1, variable2)
 ```
 :::
-:::::
+:::
 
 -   Count the number of observations in each level of variable(s); if you supply more than 1 variable, count the number of observations in each **unique combination** of levels across all variables
 
@@ -476,7 +453,7 @@ The following code should produce a visualization that answers the question "Is 
 What's going on?
 :::
 
-::::: columns
+::: columns
 ::: column
 ```{r}
 #| label: fill-warning
@@ -497,7 +474,7 @@ ggplot(
 #| echo: false
 ```
 :::
-:::::
+:::
 
 ## Another glimpse at `gerrymander` {.smaller}
 
@@ -645,7 +622,7 @@ What is exploratory data analysis (EDA)??
 
 -   You **cannot** make any sort of causal claim / statement from EDA alone (i.e., don't say something like, "from this scatterplot, we see that some change in x **causes** some change in y)
 
--   You **can** observe relationships & make hypotheses! 
+-   You **can** observe relationships & make hypotheses!
 
 ## Assignment {.smaller}
 
@@ -661,7 +638,7 @@ df
 
 ## Assignment {.smaller}
 
-::::: columns
+::: columns
 ::: {.column .fragment width="50%"}
 > **Do something and print to screen**
 
@@ -681,11 +658,11 @@ df <- df |>
 df
 ```
 :::
-:::::
+:::
 
 ## Assignment {.smaller}
 
-::::: columns
+::: columns
 ::: {.column .fragment width="50%"}
 > **Do something, save result, overwriting original**
 
@@ -717,11 +694,11 @@ df_new <- df |>
 df_new
 ```
 :::
-:::::
+:::
 
 ## Assignment {.smaller}
 
-::::: columns
+::: columns
 ::: {.column .fragment width="50%"}
 > **Do something, save result, overwriting original *when you shouldn't***
 
@@ -756,11 +733,11 @@ class(df)
 typeof(df)
 ```
 :::
-:::::
+:::
 
 ## Assignment {.smaller}
 
-::::: columns
+::: columns
 ::: {.column .fragment width="50%"}
 > **Do something, save result, overwriting original**\
 > ***data frame***
@@ -794,6 +771,6 @@ df <- df |>
 df
 ```
 :::
-:::::
+:::
 
 # AE-05
