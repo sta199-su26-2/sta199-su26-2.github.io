@@ -100,8 +100,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script><link rel="stylesheet" href="../style/sta199.scss">
 <meta property="og:title" content="Exploratory Data Analysis II – STA 199">
 <meta property="og:description" content="Lecture 5">
-<meta property="og:image" content="https://sta199-su26-2.github.io/slides/img/05/pam_meme.jpg">
+<meta property="og:image" content="https://sta199-su26-2.github.io/slides/img/05/scatterex.png">
 <meta property="og:site_name" content="STA 199">
+<meta property="og:image:height" content="412">
+<meta property="og:image:width" content="411">
 <meta name="twitter:title" content="Exploratory Data Analysis II – STA 199">
 <meta name="twitter:description" content="Lecture 5">
 <meta name="twitter:image" content="https://sta199-su26-2.github.io/slides/img/twitter-card-ks.pdf">
@@ -276,25 +278,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
    
   <ul>
 <li><a href="#announcementsreminders" id="toc-announcementsreminders" class="nav-link active" data-scroll-target="#announcementsreminders">Announcements/Reminders</a></li>
-  <li><a href="#exam-intel" id="toc-exam-intel" class="nav-link" data-scroll-target="#exam-intel">Exam Intel</a></li>
-  <li>
-<a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions">Questions??</a>
-  <ul class="collapse">
-<li><a href="#lab-narrative" id="toc-lab-narrative" class="nav-link" data-scroll-target="#lab-narrative">Lab: Narrative</a></li>
-  <li><a href="#lab-narrative-1" id="toc-lab-narrative-1" class="nav-link" data-scroll-target="#lab-narrative-1">Lab: Narrative</a></li>
-  <li><a href="#lab-advice" id="toc-lab-advice" class="nav-link" data-scroll-target="#lab-advice">Lab: Advice</a></li>
   <li><a href="#outline" id="toc-outline" class="nav-link" data-scroll-target="#outline">Outline</a></li>
-  </ul>
-</li>
-  <li>
-<a href="#ae-04" id="toc-ae-04" class="nav-link" data-scroll-target="#ae-04">AE-04</a>
-  <ul class="collapse">
-<li><a href="#quick-review-data-viz" id="toc-quick-review-data-viz" class="nav-link" data-scroll-target="#quick-review-data-viz">Quick Review: Data Viz</a></li>
+  <li><a href="#narrative" id="toc-narrative" class="nav-link" data-scroll-target="#narrative">Narrative</a></li>
+  <li><a href="#narrative-1" id="toc-narrative-1" class="nav-link" data-scroll-target="#narrative-1">Narrative</a></li>
+  <li><a href="#just-some-practice-more-later-in-the-course" id="toc-just-some-practice-more-later-in-the-course" class="nav-link" data-scroll-target="#just-some-practice-more-later-in-the-course">Just some practice (more later in the course)</a></li>
+  <li><a href="#lab-advice" id="toc-lab-advice" class="nav-link" data-scroll-target="#lab-advice">Lab: Advice</a></li>
+  <li><a href="#quick-review-data-viz" id="toc-quick-review-data-viz" class="nav-link" data-scroll-target="#quick-review-data-viz">Quick Review: Data Viz</a></li>
   <li><a href="#quick-review-row-operations" id="toc-quick-review-row-operations" class="nav-link" data-scroll-target="#quick-review-row-operations">Quick Review: Row operations</a></li>
   <li><a href="#quick-review-column-operations" id="toc-quick-review-column-operations" class="nav-link" data-scroll-target="#quick-review-column-operations">Quick Review: Column operations</a></li>
   <li><a href="#quick-review-groups-of-rows" id="toc-quick-review-groups-of-rows" class="nav-link" data-scroll-target="#quick-review-groups-of-rows">Quick Review: Groups of rows</a></li>
-  </ul>
-</li>
   <li>
 <a href="#drilling-down-group_by-summarize-count" id="toc-drilling-down-group_by-summarize-count" class="nav-link" data-scroll-target="#drilling-down-group_by-summarize-count">Drilling down: <br><code>group_by()</code>, <br><code>summarize()</code>, <br><code>count()</code></a>
   <ul class="collapse">
@@ -385,66 +377,55 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header><section id="announcementsreminders" class="level2 medium"><h2 class="medium anchored" data-anchor-id="announcementsreminders">Announcements/Reminders</h2>
 <ul>
-<li><p>Lab is due TONIGHT at 11:59PM ➞ submit PDF to Gradescope</p></li>
 <li><p>Come to office hours and/or post on Ed for help!</p></li>
-<li><p>Kenna’s office hours are 11:00am - 1:00pm today on Zoom (find link on Canvas)</p></li>
+<li><p>Kenna’s office hours are 11:30am - 1:30pm today in Old Chem 203</p></li>
 <li><p>Always double check your project (top right-hand corner of screen in your RStudio) &amp; be sure you are in the correct project for the task at hand (AE in lecture, lab in lab / at home when working on assignments)</p></li>
-</ul></section><section id="exam-intel" class="level2 scrollable smaller"><h2 class="scrollable smaller anchored" data-anchor-id="exam-intel">Exam Intel</h2>
+</ul></section><section id="outline" class="level2 medium"><h2 class="medium anchored" data-anchor-id="outline">Outline</h2>
 <ul>
-<li><p>Midterm Date: Monday, 6/1 (confirmed)</p></li>
-<li><p>Exam will take place during <strong>both</strong> lecture &amp; lab time slots (i.e., you will have from 9:30am - 12:15pm)</p></li>
-<li><p>I am <strong>NOT</strong> writing an exam I expect to take the full 2hr 45min timeframe; having the exam during both lecture &amp; lab is meant to take some of the time pressure away from the exam &amp; allow buffer time in case of any technical issues</p></li>
-<li><p>You are of course entitled to the full 2hr 45min if you need it!</p></li>
-<li><p>Format: written portion (mult. choice) &amp; <em>live</em> coding / free response (think about this as a short lab assignment) on your laptop</p></li>
-<li><p>Once you are finished with the written portion, you will turn it in and clone an exam repo</p></li>
-<li><p>Cheatsheet (standard printer paper, both sides, can be hand-written/typed/combo, idc) allowed for both portions of the exam</p></li>
-<li><p>The coding portion of the exam is <strong>open-assignment</strong> in that you will be working in your containers, so you have access to all of your AEs &amp; lab assignments by changing projects (of course, switching between projects and looking through these materials eats away at time, so I wouldn’t be entirely reliant on this)</p></li>
-<li><p>The coding portion of the exam will be <strong>closed-internet</strong> (i.e., you cannot open any other tabs on your browser aside from GitHub &amp; your container); myself, Kenna, and potentially one additional person will be proctoring and actively monitoring adherence to this policy (breaking this policy will result in a score of 0 for this portion of the exam)</p></li>
-<li><p>I will provide review materials for both portions ahead of time (likely by next Thursday) – your labs are the best preparatory materials, so make sure you feel confident with all lab content &amp; review your graded feedback!</p></li>
-<li><p>If you need accommodations and I have not received a letter, please get it to me by EOD today; make your appointment in the testing center!</p></li>
-</ul></section><section id="questions" class="level1"><h1>Questions??</h1>
-<section id="lab-narrative" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="lab-narrative">Lab: Narrative</h2>
+<li><p><strong><em>Yesterday:</em></strong> More (gg)plotting &amp; describing distributions</p></li>
+<li>
+<p><strong><em>Today:</em></strong></p>
+<ul>
+<li><p>Review from last time</p></li>
+<li><p>More about the pipe</p></li>
+<li><p>Transformation + plotting combo</p></li>
+</ul>
+</li>
+</ul></section><section id="narrative" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="narrative">Narrative</h2>
 <ul>
 <li>
 <p><strong><em>Boxplots, histograms, density plots:</em></strong></p>
 <ul>
-<li><p>Center: Give an idea of a ‘typical value’ (median or mean, most commonly; choose which you think is more appropriate for the data, or mention both!);</p></li>
-<li><p>Spread: Does the data have a lot of variability (“wide, flat” distribution), or just a little (“narrow” distribution)? What is the primary range of the data? (IQR, outliers)</p></li>
 <li><p>Shape: Is there skew, or is the distribution symmetric? If the data are skewed, in which direction? Is the distribution unimodal, bimodal, or multimodal?</p></li>
 <li><p>Outliers: Are there any unsual data points (whether via visual or mathematical assessment (i.e., “dots” on a boxplot))</p></li>
+<li><p>Center: Give an idea of a ‘typical value’ (median or mean, most commonly; choose which you think is more appropriate for the data, or mention both!);</p></li>
+<li><p>Spread: Does the data have a lot of variability (“wide, flat” distribution), or just a little (“narrow” distribution)? What is the primary range of the data? (IQR, outliers)</p></li>
 </ul>
 </li>
-</ul></section><section id="lab-narrative-1" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="lab-narrative-1">Lab: Narrative</h2>
+</ul></section><section id="narrative-1" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="narrative-1">Narrative</h2>
 <ul>
 <li>
 <p><strong><em>Scatter Plots</em></strong></p>
 <ul>
+<li><p>STS: SHAPE TREND STRENGTH</p></li>
+<li><p>Is the relationship linear or nonlinear</p></li>
 <li><p>Is there a relationship between the two variables? Is it positive or negative?</p></li>
 <li><p>If there is a relationship, does it seem to be strong or weak?</p></li>
-<li><p>Is the relationship linear or nonlinear (i.e., quadratic, exponential, logarithmic)?</p></li>
 </ul>
 </li>
-</ul></section><section id="lab-advice" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="lab-advice">Lab: Advice</h2>
+</ul></section><section id="just-some-practice-more-later-in-the-course" class="level2"><h2 class="anchored" data-anchor-id="just-some-practice-more-later-in-the-course">Just some practice (more later in the course)</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><img src="img/05/scatterex.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+</section><section id="lab-advice" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="lab-advice">Lab: Advice</h2>
 <ul>
 <li><p><strong><em>Be Specific</em></strong> in your narrative. Don’t just say “the spread is small and the center is low” What does that mean??? Give numbers, units (if available), etc.</p></li>
 <li><p><strong><em>Be Specific</em></strong> in your plot labels</p></li>
 <li><p>Answer all parts of the question!! Statements like “Compare…” mean to do so in the written answer!</p></li>
 <li><p>Written answers should be text outside of code chunks, not comments</p></li>
 <li><p>Make sure you can render to PDF early &amp; often :) This will help you identify / troubleshoot issues with your code that may not be apparent in isolation</p></li>
-</ul></section><section id="outline" class="level2 medium"><h2 class="medium anchored" data-anchor-id="outline">Outline</h2>
-<ul>
-<li><p><strong><em>Monday:</em></strong> Started learning about data transformation &amp; intro to piping</p></li>
-<li><p><strong><em>Yesterday:</em></strong> More (gg)plotting &amp; describing distributions</p></li>
-<li>
-<p><strong><em>Today:</em></strong></p>
-<ul>
-<li><p>Review from last time + finish AE04</p></li>
-<li><p>More about the pipe</p></li>
-<li><p>Transformation + plotting combo</p></li>
-</ul>
-</li>
-</ul></section></section><section id="ae-04" class="level1"><h1>AE-04</h1>
-<section id="quick-review-data-viz" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="quick-review-data-viz">Quick Review: Data Viz</h2>
+</ul></section><section id="quick-review-data-viz" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="quick-review-data-viz">Quick Review: Data Viz</h2>
 <p>After a while this is more art than science, but you can narrow down the options based on the <em>number</em> and <em>type</em> of variables:</p>
 <p>. . .</p>
 <table class="caption-top table">
@@ -638,7 +619,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </table>
 </div>
 </div>
-</section></section><section id="drilling-down-group_by-summarize-count" class="level1"><h1>Drilling down: <br><code>group_by()</code>, <br><code>summarize()</code>, <br><code>count()</code>
+</section><section id="drilling-down-group_by-summarize-count" class="level1"><h1>Drilling down: <br><code>group_by()</code>, <br><code>summarize()</code>, <br><code>count()</code>
 </h1>
 <section id="what-does-group_by-do" class="level2 scrollable"><h2 class="scrollable anchored" data-anchor-id="what-does-group_by-do">What does <code>group_by()</code> do?</h2>
 <div class="question">
@@ -900,7 +881,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>You can compute as many summaries as you want, and whichever you want, in a single call to <code><a href="https://dplyr.tidyverse.org/reference/summarise.html">summarize()</a></code>;</li>
 <li>To the left of the equal signs are your choice of <em>column names</em> in the new data frame you are creating. You can type whatever you want here (within reason);</li>
 <li>To the right of the equal signs is <code>R</code> code that computes the summaries. You must use the correct command names (case sensitive): <code>mean</code>, <code>median</code>, <code>quantile</code>, <code>sd</code>, <code>var</code>, etc;</li>
-<li>If you want to learn what these do, read the documentation (eg <code><a href="https://rdrr.io/r/stats/quantile.html">?quantile</a></code>).</li>
 </ul></section><section id="spot-the-difference" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="spot-the-difference">Spot the difference</h2>
 <div class="question">
 <p>What’s the difference between the following two pipelines?</p>

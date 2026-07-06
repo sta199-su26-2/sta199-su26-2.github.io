@@ -15,7 +15,7 @@
     "href": "index.html",
     "title": "STA 199: Introduction to Data Science & Statistical Thinking",
     "section": "",
-    "text": "This page contains an outline of the topics, content, and assignments for the semester! Entries for future dates are tentative; the timeline of topics, assignments, and due dates might be changed throughout the session at the instructor’s discretion. All material changes will be communicated with the students in a timely manner.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWEEK\nDATE\nTOPIC\nMATERIALS\nDUE\nPREPARE\n\n\n\n1\nMon, Jun 29\nWelcome\n🖥️ slides 00  ⌨️ ae 00\n\nGitHub username - End of Lecture\n\n\n\n\nMon, Jun 29\nLab 0\n💻 lab 0\n\nLab 0 - End of Lab\n\n\n\n\nTue, Jun 30\nMeet the Toolkit\n🖥️ slides 01  🗒️ notes 01  ⌨️ ae 01\n\n\n📗 r4ds - intro  📘 ims - chp 1  🎥 Meet the toolkit :: R and RStudio  🎥 Meet the toolkit :: Quarto \n\n\n\n\nWed, Jul 1\nGrammar of Data Visualization\n🖥️ slides 02  🗒️ notes 02  ⌨️ ae 02  ✅ ae 02\n\nDrop/Add Deadline 11:59pm\n📗 r4ds - chp 1  📘 ims - chp 4 \n\n\n\n\nThu, Jul 2\nGrammar of Data Transformation\n🖥️ slides 03  🗒️ notes 03  ⌨️ ae 03  ✅ ae 03\n\n\n📗 r4ds - chp 2  📗 r4ds - chp 3.1-3.5  🎥 Grammar of data transformation  🎥 Code along :: Flights and pipes\n\n\n\n\nThu, Jul 2\nLab 1\n💻 lab 1\n\n\n📗 r4ds - chp 2  📘 ims - chp 5\n\n\n\n\nFri, Jul 3\nNO CLASS - Independence Day\n\n\n\n\n\n2\nMon, Jul 6\nExploratory Data Analysis I\n🖥️ slides 04  🗒️ notes 04  ⌨️ ae 04  ✅ ae 04\n\n\n📗 r4ds - chp 3.6-3.7  🎥 Visualizing and summarizing categorical data  🎥 Visualizing and summarizing numerical data  🎥 Visualizing and summarizing relationships  🎥 Code along :: Star Wars characters\n\n\n\n\nTue, Jul 7\nExploratory Data Analysis II\n\n\n📘 ims - chp 5  📘 ims - chp 6  🎥 Code along :: Diving deeper with Palmer Penguins\n\n\n\n\nWed, Jul 8\nTidying Data\n\nLab 1 - 11:59PM ET\n📗 r4ds - chp 5  📘 ims - chp 6\n\n\n\n\nThu, Jul 9\nJoining Data\n\n\n🎥 Joining data  🎥 Code along :: Continent populations  📗 r4ds - chp 19.1-19.3\n\n\n\n\nThu, Jul 9\nLab 2\n\n\n📗 r4ds - chp 4 🎥 Tidy data 🎥 Tidying data 🎥 Code Along: Population over time\n\n\n\n\nFri, Jul 10\nData Types and Classes\n\n\n🎥 Data types  🎥 Data classes  🎥 Code along :: That’s my type  📗 r4ds - chp 16\n\n\n\n\nSun, Jul 12\n\n\nLab 2 - 11:59PM ET\n\n\n\n3\nMon, Jul 13\nImporting and Recoding Data\n\n\n🎥 Importing data  🎥 Code along :: Halving CO2 emissions  🎥 Code along :: Student survey  📗 r4ds - chp 7  📗 r4ds - chp 17.1 - 17.3\n\n\n\n\nMon, Jul 13\nLab 3\n\n\n\n\n\n\nTue, Jul 14\nMore Practice + Midterm Review\n\n\n\n\n\n\nWed, Jul 15\nData Ethics + Midterm Review\n\n\n📕 mdsr - chp 8  📝 How to make a racist AI in R without really trying  🎥 Alberto Cairo - How charts lie  🎥 Joy Buolamwini - How I’m fighting bias in algorithms\n\n\n\n\nThu, Jul 16\nMidterm (lecture + lab sessions)\n\n\n\n\n\n\nFri, Jul 17\nProject Milestone 1 - Collaboration\n\nProject Milestone 1 - 11:00AM ET\n\n\n\n\nSun, Jul 19\n\n\nLab 3 - 11:59PM ET\n\n\n\n4\nMon, Jul 20\nThe Language of Models\n\n\n🎥 The language of models  📘 ims - chp 7.1  🎥 Fitting and interpreting models  🎥 Modeling nonlinear relationships\n\n\n\n\nMon, Jul 20\nProject Milestone 2 - Proposals\n\n\n\n\n\n\nTue, Jul 21\nSimple Linear Regression\n\n\n🎥 Linear regression with a categorical predictor  🎥 Outliers in linear regression  🎥 Code along :: Modeling fish  📘 ims - chp 7.2\n\n\n\n\nWed, Jul 22\nMultiple Linear Regression I\n\nProject Milestone 2 - 11:59PM ET\n🎥 Linear regression with multiple predictors  🎥 Main and interaction effects  📘 ims - chp 8.1-8.2  📘 ims - chp 8.3-8.5\n\n\n\n\nThu, Jul 23\nMultiple Linear Regression II\n\n\n🎥 Code along :: Modeling interest rates\n\n\n\n\nThu, Jul 23\nLab 4\n\n\n\n\n\n\nFri, Jul 24\nLinear Regression Diagnostics\n\n\n\n\n\n\nSun, Jul 26\n\n\nLab 4 - 11:59PM ET \n\n\n\n\n5\nMon, Jul 27\nLogistic Regression I\n\n\n🎥 Logistic regression  🎥 Code along :: Building a spam filter  📘 ims - chp 9\n\n\n\n\nMon, Jul 27\nLab 5\n\n\n\n\n\n\nTue, Jul 28\nLogistic Regression II / Modeling Wrap-Up\n\n\n🎥 Clasification and decision errors  🎥 Overfitting and spending your data\n\n\n\n\nWed, Jul 29\nInterval Estimation\n\nProject Milestone 3 - 11:59PM ET\n🎥 Quantifying uncertainty  🎥 Bootstrapping  🎥 Code along :: Bootstrapping Duke Forest houses  📘 ims - chp 11  📘 ims - chp 12\n\n\n\n\nThu, Jul 30\nHypothesis Testing\n\n\n🎥 Hypothesis testing  📘 ims - chp 11\n\n\n\n\nThu, Jul 30\nProject Milestone 4 - Peer Review\n\nProject Milestone 4 - 12:30PM ET \n\n\n\n\n\nFri, Jul 31\nMore Inference\n\n\n\n\n\n\nSun, Aug 2\n\n\nLab 5 - 11:59PM ET \n\n\n\n\n6\nMon, Aug 3\nSpecial Topic\n\n\n\n\n\n\nMon, Aug 3\nLab 6\n\n\n\n\n\n\nTue, Aug 4\nProject Workday\n\n\n\n\n\n\nWed, Aug 5\nSpecial Topic\n\nLab 6 - 11:59pm ET\n\n\n\n\nThu, Aug 6\nReview\n\n\n\n\n\n\nThu, Aug 6\nProject Milestone 5 - Presentations\n\nProject - 11:00 AM\n\n\n\n\nFri, Aug 7\nReview\n\n\n\n\n\n\nSun, Aug 9\nFINAL EXAM (9am - 12pm)",
+    "text": "This page contains an outline of the topics, content, and assignments for the semester! Entries for future dates are tentative; the timeline of topics, assignments, and due dates might be changed throughout the session at the instructor’s discretion. All material changes will be communicated with the students in a timely manner.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWEEK\nDATE\nTOPIC\nMATERIALS\nDUE\nPREPARE\n\n\n\n1\nMon, Jun 29\nWelcome\n🖥️ slides 00  ⌨️ ae 00\n\nGitHub username - End of Lecture\n\n\n\n\nMon, Jun 29\nLab 0\n💻 lab 0\n\nLab 0 - End of Lab\n\n\n\n\nTue, Jun 30\nMeet the Toolkit\n🖥️ slides 01  🗒️ notes 01  ⌨️ ae 01\n\n\n📗 r4ds - intro  📘 ims - chp 1  🎥 Meet the toolkit :: R and RStudio  🎥 Meet the toolkit :: Quarto \n\n\n\n\nWed, Jul 1\nGrammar of Data Visualization\n🖥️ slides 02  🗒️ notes 02  ⌨️ ae 02  ✅ ae 02\n\nDrop/Add Deadline 11:59pm\n📗 r4ds - chp 1  📘 ims - chp 4 \n\n\n\n\nThu, Jul 2\nGrammar of Data Transformation\n🖥️ slides 03  🗒️ notes 03  ⌨️ ae 03  ✅ ae 03\n\n\n📗 r4ds - chp 2  📗 r4ds - chp 3.1-3.5  🎥 Grammar of data transformation  🎥 Code along :: Flights and pipes\n\n\n\n\nThu, Jul 2\nLab 1\n💻 lab 1\n\n\n📗 r4ds - chp 2  📘 ims - chp 5\n\n\n\n\nFri, Jul 3\nNO CLASS - Independence Day\n\n\n\n\n\n2\nMon, Jul 6\nExploratory Data Analysis I\n🖥️ slides 04  🗒️ notes 04  ⌨️ ae 04  ✅ ae 04\n\n\n📗 r4ds - chp 3.6-3.7  🎥 Visualizing and summarizing categorical data  🎥 Visualizing and summarizing numerical data  🎥 Visualizing and summarizing relationships  🎥 Code along :: Star Wars characters\n\n\n\n\nTue, Jul 7\nExploratory Data Analysis II\n🖥️ slides 05  🗒️ notes 05  ⌨️ ae 05  ✅ ae 05\n\n\n📘 ims - chp 5  📘 ims - chp 6  🎥 Code along :: Diving deeper with Palmer Penguins\n\n\n\n\nWed, Jul 8\nTidying Data\n\nLab 1 - 11:59PM ET\n📗 r4ds - chp 5  📘 ims - chp 6\n\n\n\n\nThu, Jul 9\nJoining Data\n\n\n🎥 Joining data  🎥 Code along :: Continent populations  📗 r4ds - chp 19.1-19.3\n\n\n\n\nThu, Jul 9\nLab 2\n\n\n📗 r4ds - chp 4 🎥 Tidy data 🎥 Tidying data 🎥 Code Along: Population over time\n\n\n\n\nFri, Jul 10\nData Types and Classes\n\n\n🎥 Data types  🎥 Data classes  🎥 Code along :: That’s my type  📗 r4ds - chp 16\n\n\n\n\nSun, Jul 12\n\n\nLab 2 - 11:59PM ET\n\n\n\n3\nMon, Jul 13\nImporting and Recoding Data\n\n\n🎥 Importing data  🎥 Code along :: Halving CO2 emissions  🎥 Code along :: Student survey  📗 r4ds - chp 7  📗 r4ds - chp 17.1 - 17.3\n\n\n\n\nMon, Jul 13\nLab 3\n\n\n\n\n\n\nTue, Jul 14\nMore Practice + Midterm Review\n\n\n\n\n\n\nWed, Jul 15\nData Ethics + Midterm Review\n\n\n📕 mdsr - chp 8  📝 How to make a racist AI in R without really trying  🎥 Alberto Cairo - How charts lie  🎥 Joy Buolamwini - How I’m fighting bias in algorithms\n\n\n\n\nThu, Jul 16\nMidterm (lecture + lab sessions)\n\n\n\n\n\n\nFri, Jul 17\nProject Milestone 1 - Collaboration\n\nProject Milestone 1 - 11:00AM ET\n\n\n\n\nSun, Jul 19\n\n\nLab 3 - 11:59PM ET\n\n\n\n4\nMon, Jul 20\nThe Language of Models\n\n\n🎥 The language of models  📘 ims - chp 7.1  🎥 Fitting and interpreting models  🎥 Modeling nonlinear relationships\n\n\n\n\nMon, Jul 20\nProject Milestone 2 - Proposals\n\n\n\n\n\n\nTue, Jul 21\nSimple Linear Regression\n\n\n🎥 Linear regression with a categorical predictor  🎥 Outliers in linear regression  🎥 Code along :: Modeling fish  📘 ims - chp 7.2\n\n\n\n\nWed, Jul 22\nMultiple Linear Regression I\n\nProject Milestone 2 - 11:59PM ET\n🎥 Linear regression with multiple predictors  🎥 Main and interaction effects  📘 ims - chp 8.1-8.2  📘 ims - chp 8.3-8.5\n\n\n\n\nThu, Jul 23\nMultiple Linear Regression II\n\n\n🎥 Code along :: Modeling interest rates\n\n\n\n\nThu, Jul 23\nLab 4\n\n\n\n\n\n\nFri, Jul 24\nLinear Regression Diagnostics\n\n\n\n\n\n\nSun, Jul 26\n\n\nLab 4 - 11:59PM ET \n\n\n\n\n5\nMon, Jul 27\nLogistic Regression I\n\n\n🎥 Logistic regression  🎥 Code along :: Building a spam filter  📘 ims - chp 9\n\n\n\n\nMon, Jul 27\nLab 5\n\n\n\n\n\n\nTue, Jul 28\nLogistic Regression II / Modeling Wrap-Up\n\n\n🎥 Clasification and decision errors  🎥 Overfitting and spending your data\n\n\n\n\nWed, Jul 29\nInterval Estimation\n\nProject Milestone 3 - 11:59PM ET\n🎥 Quantifying uncertainty  🎥 Bootstrapping  🎥 Code along :: Bootstrapping Duke Forest houses  📘 ims - chp 11  📘 ims - chp 12\n\n\n\n\nThu, Jul 30\nHypothesis Testing\n\n\n🎥 Hypothesis testing  📘 ims - chp 11\n\n\n\n\nThu, Jul 30\nProject Milestone 4 - Peer Review\n\nProject Milestone 4 - 12:30PM ET \n\n\n\n\n\nFri, Jul 31\nMore Inference\n\n\n\n\n\n\nSun, Aug 2\n\n\nLab 5 - 11:59PM ET \n\n\n\n\n6\nMon, Aug 3\nSpecial Topic\n\n\n\n\n\n\nMon, Aug 3\nLab 6\n\n\n\n\n\n\nTue, Aug 4\nProject Workday\n\n\n\n\n\n\nWed, Aug 5\nSpecial Topic\n\nLab 6 - 11:59pm ET\n\n\n\n\nThu, Aug 6\nReview\n\n\n\n\n\n\nThu, Aug 6\nProject Milestone 5 - Presentations\n\nProject - 11:00 AM\n\n\n\n\nFri, Aug 7\nReview\n\n\n\n\n\n\nSun, Aug 9\nFINAL EXAM (9am - 12pm)",
     "crumbs": [
       "Course Information",
       "Schedule"
@@ -3905,7 +3905,7 @@
     "href": "slides/03-grammar-of-data-transformation-slides.html#sample_n",
     "title": "Grammar of Data Transformation",
     "section": "sample_n()",
-    "text": "sample_n()\n\n\nsample_n(): take a random subset of the rows\n\nDisplay five random rows of bechdel:\n\nbechdel \n\n# A tibble: 1,615 × 7\n   title          year gross_2013 budget_2013    roi binary clean_test\n   &lt;chr&gt;         &lt;dbl&gt;      &lt;dbl&gt;       &lt;dbl&gt;  &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;     \n 1 21 & Over      2013   67878146    13000000  5.22  FAIL   notalk    \n 2 Dredd 3D       2012   55078343    45658735  1.21  PASS   ok        \n 3 12 Years a S…  2013  211714070    20000000 10.6   FAIL   notalk    \n 4 2 Guns         2013  208105475    61000000  3.41  FAIL   notalk    \n 5 42             2013  190040426    40000000  4.75  FAIL   men       \n 6 47 Ronin       2013  184166317   225000000  0.819 FAIL   men       \n 7 A Good Day t…  2013  371598396    92000000  4.04  FAIL   notalk    \n 8 About Time     2013  102648667    12000000  8.55  PASS   ok        \n 9 Admission      2013   36014634    13000000  2.77  PASS   ok        \n10 After Earth    2013  304895295   130000000  2.35  FAIL   notalk    \n# ℹ 1,605 more rows\n\n\n\n\nbechdel |&gt;\n  sample_n(5)\n\n# A tibble: 5 × 7\n  title       year gross_2013 budget_2013   roi binary clean_test\n  &lt;chr&gt;      &lt;dbl&gt;      &lt;dbl&gt;       &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;     \n1 Bug         2006   16196656     4623185  3.50 PASS   ok        \n2 Shark Tale  2004  652651436    92489466  7.06 FAIL   notalk    \n3 Death Race  2008  117785040    70346660  1.67 FAIL   notalk    \n4 Chicago     2002  619581404    38855376 15.9  PASS   ok        \n5 Shortbus    2006    4589186     2311593  1.99 PASS   ok"
+    "text": "sample_n()\n\n\nsample_n(): take a random subset of the rows\n\nDisplay five random rows of bechdel:\n\nbechdel \n\n# A tibble: 1,615 × 7\n   title          year gross_2013 budget_2013    roi binary clean_test\n   &lt;chr&gt;         &lt;dbl&gt;      &lt;dbl&gt;       &lt;dbl&gt;  &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;     \n 1 21 & Over      2013   67878146    13000000  5.22  FAIL   notalk    \n 2 Dredd 3D       2012   55078343    45658735  1.21  PASS   ok        \n 3 12 Years a S…  2013  211714070    20000000 10.6   FAIL   notalk    \n 4 2 Guns         2013  208105475    61000000  3.41  FAIL   notalk    \n 5 42             2013  190040426    40000000  4.75  FAIL   men       \n 6 47 Ronin       2013  184166317   225000000  0.819 FAIL   men       \n 7 A Good Day t…  2013  371598396    92000000  4.04  FAIL   notalk    \n 8 About Time     2013  102648667    12000000  8.55  PASS   ok        \n 9 Admission      2013   36014634    13000000  2.77  PASS   ok        \n10 After Earth    2013  304895295   130000000  2.35  FAIL   notalk    \n# ℹ 1,605 more rows\n\n\n\n\nbechdel |&gt;\n  sample_n(5)\n\n# A tibble: 5 × 7\n  title            year gross_2013 budget_2013   roi binary clean_test\n  &lt;chr&gt;           &lt;dbl&gt;      &lt;dbl&gt;       &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;     \n1 Harry Potter a…  2007 1387518533   168531522  8.23 PASS   ok        \n2 Million Dollar…  2004  410047243    36995786 11.1  PASS   ok        \n3 Carrie           2002  155768974    38855376  4.01 PASS   ok        \n4 Requiem for a …  2000   14916613     6088088  2.45 PASS   ok        \n5 Margin Call      2011   24054739     3521349  6.83 FAIL   notalk"
   },
   {
     "objectID": "slides/03-grammar-of-data-transformation-slides.html#filter",
@@ -4164,7 +4164,7 @@
     "href": "slides/03-grammar-of-data-transformation.html#sample_n",
     "title": "Grammar of Data Transformation",
     "section": "sample_n()",
-    "text": "sample_n()\n\n\nsample_n(): take a random subset of the rows\n\nDisplay five random rows of bechdel:\n\nbechdel \n\n# A tibble: 1,615 × 7\n   title          year gross_2013 budget_2013    roi binary clean_test\n   &lt;chr&gt;         &lt;dbl&gt;      &lt;dbl&gt;       &lt;dbl&gt;  &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;     \n 1 21 & Over      2013   67878146    13000000  5.22  FAIL   notalk    \n 2 Dredd 3D       2012   55078343    45658735  1.21  PASS   ok        \n 3 12 Years a S…  2013  211714070    20000000 10.6   FAIL   notalk    \n 4 2 Guns         2013  208105475    61000000  3.41  FAIL   notalk    \n 5 42             2013  190040426    40000000  4.75  FAIL   men       \n 6 47 Ronin       2013  184166317   225000000  0.819 FAIL   men       \n 7 A Good Day t…  2013  371598396    92000000  4.04  FAIL   notalk    \n 8 About Time     2013  102648667    12000000  8.55  PASS   ok        \n 9 Admission      2013   36014634    13000000  2.77  PASS   ok        \n10 After Earth    2013  304895295   130000000  2.35  FAIL   notalk    \n# ℹ 1,605 more rows\n\n\n\n\nbechdel |&gt;\n  sample_n(5)\n\n# A tibble: 5 × 7\n  title       year gross_2013 budget_2013   roi binary clean_test\n  &lt;chr&gt;      &lt;dbl&gt;      &lt;dbl&gt;       &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;     \n1 Bug         2006   16196656     4623185  3.50 PASS   ok        \n2 Shark Tale  2004  652651436    92489466  7.06 FAIL   notalk    \n3 Death Race  2008  117785040    70346660  1.67 FAIL   notalk    \n4 Chicago     2002  619581404    38855376 15.9  PASS   ok        \n5 Shortbus    2006    4589186     2311593  1.99 PASS   ok"
+    "text": "sample_n()\n\n\nsample_n(): take a random subset of the rows\n\nDisplay five random rows of bechdel:\n\nbechdel \n\n# A tibble: 1,615 × 7\n   title          year gross_2013 budget_2013    roi binary clean_test\n   &lt;chr&gt;         &lt;dbl&gt;      &lt;dbl&gt;       &lt;dbl&gt;  &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;     \n 1 21 & Over      2013   67878146    13000000  5.22  FAIL   notalk    \n 2 Dredd 3D       2012   55078343    45658735  1.21  PASS   ok        \n 3 12 Years a S…  2013  211714070    20000000 10.6   FAIL   notalk    \n 4 2 Guns         2013  208105475    61000000  3.41  FAIL   notalk    \n 5 42             2013  190040426    40000000  4.75  FAIL   men       \n 6 47 Ronin       2013  184166317   225000000  0.819 FAIL   men       \n 7 A Good Day t…  2013  371598396    92000000  4.04  FAIL   notalk    \n 8 About Time     2013  102648667    12000000  8.55  PASS   ok        \n 9 Admission      2013   36014634    13000000  2.77  PASS   ok        \n10 After Earth    2013  304895295   130000000  2.35  FAIL   notalk    \n# ℹ 1,605 more rows\n\n\n\n\nbechdel |&gt;\n  sample_n(5)\n\n# A tibble: 5 × 7\n  title            year gross_2013 budget_2013   roi binary clean_test\n  &lt;chr&gt;           &lt;dbl&gt;      &lt;dbl&gt;       &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;     \n1 Harry Potter a…  2007 1387518533   168531522  8.23 PASS   ok        \n2 Million Dollar…  2004  410047243    36995786 11.1  PASS   ok        \n3 Carrie           2002  155768974    38855376  4.01 PASS   ok        \n4 Requiem for a …  2000   14916613     6088088  2.45 PASS   ok        \n5 Margin Call      2011   24054739     3521349  6.83 FAIL   notalk"
   },
   {
     "objectID": "slides/03-grammar-of-data-transformation.html#filter",
@@ -7895,6 +7895,41 @@
     "text": "For this application exercise, we’ll use the tidyverse and palmerpenguins packages.\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.2.1     ✔ readr     2.2.0\n✔ forcats   1.0.1     ✔ stringr   1.6.0\n✔ ggplot2   4.0.3     ✔ tibble    3.3.1\n✔ lubridate 1.9.5     ✔ tidyr     1.3.2\n✔ purrr     1.2.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(palmerpenguins)\n\nWe will again be working with the penguins dataset for this application exercise. Let’s glimpse() at the dataset to remind ourselves of what data we have at our fingertips.\n\n\nYour turn: Replace # add code here with the code for “glimpse”ing at the data penguins data frame – glimpse(penguins).\n\n\nglimpse(penguins)\n\nRows: 344\nColumns: 8\n$ species           &lt;fct&gt; Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel…\n$ island            &lt;fct&gt; Torgersen, Torgersen, Torgersen, Torgersen, Torgerse…\n$ bill_length_mm    &lt;dbl&gt; 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, …\n$ bill_depth_mm     &lt;dbl&gt; 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, …\n$ flipper_length_mm &lt;int&gt; 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186…\n$ body_mass_g       &lt;int&gt; 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, …\n$ sex               &lt;fct&gt; male, female, female, NA, female, male, female, male…\n$ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007…\n\n\nTask 1\nIn the code chunk below, plot a histogram of the body mass of the penguins. Let’s also facet by island:\n\n\n\n\n\n\nNote\n\n\n\nAll plots created in this course must be properly labeled (i.e., human readable labels)! This means both x- and y-axes (when appropriate) and an informative but concise title! Double check your rendered document to ensure your plot labels are fully visible.\n\n\n\nggplot(penguins, aes(x = body_mass_g)) +\n  geom_histogram() +\n  labs(x = \"Body Mass (g)\", title = \"Body Mass (g) of Penguins Across Different Islands\") +\n  facet_wrap(~island)\n\n`stat_bin()` using `bins = 30`. Pick better value `binwidth`.\n\n\nWarning: Removed 2 rows containing non-finite outside the scale range\n(`stat_bin()`).\n\n\n\n\n\n\n\n\nTask 2\nIn the code chunk below, plot a scatterplot with body mass on the horizontal and flipper length on the vertical, colored by species:\n\nggplot(penguins, aes(x = body_mass_g, y = flipper_length_mm, color = species)) +\n  geom_point() +\n  labs(x = \"Body Mass (g)\", \n       y = \"Flipper Length (mm)\", \n       col = \"Species\", \n       title = \"Flipper Length by Body Mass of Different Species of Penguins\")\n\nWarning: Removed 2 rows containing missing values or values outside the scale range\n(`geom_point()`)."
   },
   {
+    "objectID": "ae/ae-05-github.html",
+    "href": "ae/ae-05-github.html",
+    "title": "AE 05: Gerrymandering + data exploration II",
+    "section": "",
+    "text": "We’ll use the tidyverse package for this analysis.\n\nlibrary(tidyverse)\nlibrary(usdata)\nlibrary(ggbeeswarm)\n\n\nThe data are availale in the usdata package.\n\nglimpse(gerrymander)\n\nRows: 435\nColumns: 12\n$ district   &lt;chr&gt; \"AK-AL\", \"AL-01\", \"AL-02\", \"AL-03\", \"AL-04\", \"AL-05\", \"AL-0…\n$ last_name  &lt;chr&gt; \"Young\", \"Byrne\", \"Roby\", \"Rogers\", \"Aderholt\", \"Brooks\", \"…\n$ first_name &lt;chr&gt; \"Don\", \"Bradley\", \"Martha\", \"Mike D.\", \"Rob\", \"Mo\", \"Gary\",…\n$ party16    &lt;chr&gt; \"R\", \"R\", \"R\", \"R\", \"R\", \"R\", \"R\", \"D\", \"R\", \"R\", \"R\", \"R\",…\n$ clinton16  &lt;dbl&gt; 37.6, 34.1, 33.0, 32.3, 17.4, 31.3, 26.1, 69.8, 30.2, 41.7,…\n$ trump16    &lt;dbl&gt; 52.8, 63.5, 64.9, 65.3, 80.4, 64.7, 70.8, 28.6, 65.0, 52.4,…\n$ dem16      &lt;dbl&gt; 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0,…\n$ state      &lt;chr&gt; \"AK\", \"AL\", \"AL\", \"AL\", \"AL\", \"AL\", \"AL\", \"AL\", \"AR\", \"AR\",…\n$ party18    &lt;chr&gt; \"R\", \"R\", \"R\", \"R\", \"R\", \"R\", \"R\", \"D\", \"R\", \"R\", \"R\", \"R\",…\n$ dem18      &lt;dbl&gt; 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0,…\n$ flip18     &lt;dbl&gt; 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0,…\n$ gerry      &lt;fct&gt; mid, high, high, high, high, high, high, high, mid, mid, mi…"
+  },
+  {
+    "objectID": "ae/ae-05-github.html#getting-started",
+    "href": "ae/ae-05-github.html#getting-started",
+    "title": "AE 05: Gerrymandering + data exploration II",
+    "section": "",
+    "text": "We’ll use the tidyverse package for this analysis.\n\nlibrary(tidyverse)\nlibrary(usdata)\nlibrary(ggbeeswarm)\n\n\nThe data are availale in the usdata package.\n\nglimpse(gerrymander)\n\nRows: 435\nColumns: 12\n$ district   &lt;chr&gt; \"AK-AL\", \"AL-01\", \"AL-02\", \"AL-03\", \"AL-04\", \"AL-05\", \"AL-0…\n$ last_name  &lt;chr&gt; \"Young\", \"Byrne\", \"Roby\", \"Rogers\", \"Aderholt\", \"Brooks\", \"…\n$ first_name &lt;chr&gt; \"Don\", \"Bradley\", \"Martha\", \"Mike D.\", \"Rob\", \"Mo\", \"Gary\",…\n$ party16    &lt;chr&gt; \"R\", \"R\", \"R\", \"R\", \"R\", \"R\", \"R\", \"D\", \"R\", \"R\", \"R\", \"R\",…\n$ clinton16  &lt;dbl&gt; 37.6, 34.1, 33.0, 32.3, 17.4, 31.3, 26.1, 69.8, 30.2, 41.7,…\n$ trump16    &lt;dbl&gt; 52.8, 63.5, 64.9, 65.3, 80.4, 64.7, 70.8, 28.6, 65.0, 52.4,…\n$ dem16      &lt;dbl&gt; 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0,…\n$ state      &lt;chr&gt; \"AK\", \"AL\", \"AL\", \"AL\", \"AL\", \"AL\", \"AL\", \"AL\", \"AR\", \"AR\",…\n$ party18    &lt;chr&gt; \"R\", \"R\", \"R\", \"R\", \"R\", \"R\", \"R\", \"D\", \"R\", \"R\", \"R\", \"R\",…\n$ dem18      &lt;dbl&gt; 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0,…\n$ flip18     &lt;dbl&gt; 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0,…\n$ gerry      &lt;fct&gt; mid, high, high, high, high, high, high, high, mid, mid, mi…"
+  },
+  {
+    "objectID": "ae/ae-05-github.html#congressional-districts-per-state",
+    "href": "ae/ae-05-github.html#congressional-districts-per-state",
+    "title": "AE 05: Gerrymandering + data exploration II",
+    "section": "Congressional districts per state",
+    "text": "Congressional districts per state\nWhich state has the most congressional districts? How many congressional districts are there in this state?\nAdd your response here.\n\n# add code here"
+  },
+  {
+    "objectID": "ae/ae-05-github.html#gerrymandering-and-flipping",
+    "href": "ae/ae-05-github.html#gerrymandering-and-flipping",
+    "title": "AE 05: Gerrymandering + data exploration II",
+    "section": "Gerrymandering and flipping",
+    "text": "Gerrymandering and flipping\nIs a Congressional District more likely to be flipped to a Democratic seat if it has high prevalence of gerrymandering or low prevalence of gerrymandering? Support your answer with a visualization and summary statistics.\nAdd your response here.\n\n# add code here"
+  },
+  {
+    "objectID": "ae/ae-05-github.html#aesthetic-mappings",
+    "href": "ae/ae-05-github.html#aesthetic-mappings",
+    "title": "AE 05: Gerrymandering + data exploration II",
+    "section": "Aesthetic mappings",
+    "text": "Aesthetic mappings\nRecreate the following visualization, and then improve it.\n\n\n# add code here"
+  },
+  {
     "objectID": "ae/ae-02-github.html",
     "href": "ae/ae-02-github.html",
     "title": "AE 02: Penguin peekaboo",
@@ -8040,6 +8075,41 @@
     "title": "AE 04: Gerrymandering + data exploration I",
     "section": "Submit",
     "text": "Submit\nRender, commit, and push:\n\nRender your Quarto document.\nGo to the Git pane and check the box next to each file listed, i.e., stage your changes. Commit your staged changes using a simple and informative message.\nClick on push (the green arrow) to push your changes to your application exercise repo on GitHub.\nGo to your repo on GitHub and confirm that you can see the updated files. Once your updated files are in your repo on GitHub, you’re good to go!"
+  },
+  {
+    "objectID": "ae/ae-05-github-A.html",
+    "href": "ae/ae-05-github-A.html",
+    "title": "AE 05: Gerrymandering + data exploration II",
+    "section": "",
+    "text": "Important\n\n\n\nThese are suggested answers. This document should be used as reference only, it’s not designed to be an exhaustive key."
+  },
+  {
+    "objectID": "ae/ae-05-github-A.html#getting-started",
+    "href": "ae/ae-05-github-A.html#getting-started",
+    "title": "AE 05: Gerrymandering + data exploration II",
+    "section": "Getting started",
+    "text": "Getting started\nPackages\nWe’ll use the tidyverse package for this analysis.\n\nlibrary(tidyverse)\nlibrary(usdata)\nlibrary(ggbeeswarm)\n\ngerrymander &lt;- usdata::gerrymander # force df to appear in environment\n\nData\nThe data are available in the usdata package.\n\nglimpse(gerrymander)\n\nRows: 435\nColumns: 12\n$ district   &lt;chr&gt; \"AK-AL\", \"AL-01\", \"AL-02\", \"AL-03\", \"AL-04\", \"AL-05\", \"AL-0…\n$ last_name  &lt;chr&gt; \"Young\", \"Byrne\", \"Roby\", \"Rogers\", \"Aderholt\", \"Brooks\", \"…\n$ first_name &lt;chr&gt; \"Don\", \"Bradley\", \"Martha\", \"Mike D.\", \"Rob\", \"Mo\", \"Gary\",…\n$ party16    &lt;chr&gt; \"R\", \"R\", \"R\", \"R\", \"R\", \"R\", \"R\", \"D\", \"R\", \"R\", \"R\", \"R\",…\n$ clinton16  &lt;dbl&gt; 37.6, 34.1, 33.0, 32.3, 17.4, 31.3, 26.1, 69.8, 30.2, 41.7,…\n$ trump16    &lt;dbl&gt; 52.8, 63.5, 64.9, 65.3, 80.4, 64.7, 70.8, 28.6, 65.0, 52.4,…\n$ dem16      &lt;dbl&gt; 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0,…\n$ state      &lt;chr&gt; \"AK\", \"AL\", \"AL\", \"AL\", \"AL\", \"AL\", \"AL\", \"AL\", \"AR\", \"AR\",…\n$ party18    &lt;chr&gt; \"R\", \"R\", \"R\", \"R\", \"R\", \"R\", \"R\", \"D\", \"R\", \"R\", \"R\", \"R\",…\n$ dem18      &lt;dbl&gt; 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0,…\n$ flip18     &lt;dbl&gt; 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0,…\n$ gerry      &lt;fct&gt; mid, high, high, high, high, high, high, high, mid, mid, mi…"
+  },
+  {
+    "objectID": "ae/ae-05-github-A.html#congressional-districts-per-state",
+    "href": "ae/ae-05-github-A.html#congressional-districts-per-state",
+    "title": "AE 05: Gerrymandering + data exploration II",
+    "section": "Congressional districts per state",
+    "text": "Congressional districts per state\nWhich state has the most congressional districts? How many congressional districts are there in this state?\nCalifornia, with 53 congressional districts in the state.\n\ngerrymander |&gt;\n  count(state, sort = TRUE) |&gt;\n  slice(1)\n\n# A tibble: 1 × 2\n  state     n\n  &lt;chr&gt; &lt;int&gt;\n1 CA       53"
+  },
+  {
+    "objectID": "ae/ae-05-github-A.html#gerrymandering-and-flipping",
+    "href": "ae/ae-05-github-A.html#gerrymandering-and-flipping",
+    "title": "AE 05: Gerrymandering + data exploration II",
+    "section": "Gerrymandering and flipping",
+    "text": "Gerrymandering and flipping\nIs a Congressional District more likely to be flipped to a Democratic seat if it has high prevalence of gerrymandering or low prevalence of gerrymandering? Support your answer with a visualization and summary statistics.\nBased on the plot below, we actually find that a Congressional District is more likely to be flipped to a Democratic seat if it has low prevalance of gerrymandering.\n\ngerrymander |&gt;\n  mutate(flip18 = as_factor(flip18)) |&gt;\n  ggplot(aes(x = gerry, fill = flip18)) +\n  geom_bar(position = \"fill\") +\n  labs(title = \"Level of gerrymandering by 'flip' status\",\n     x = \"Level of gerrymandering preceding the 2018 House election\",\n     y = \"Proportion of observations\",\n     fill = \"'Flip' status\") +\n  theme_minimal()\n\n\n\n\n\n\ngerrymander |&gt;\n  count(gerry, flip18) |&gt;\n  group_by(gerry) |&gt;\n  mutate(prop = n / sum(n))\n\n# A tibble: 8 × 4\n# Groups:   gerry [3]\n  gerry flip18     n   prop\n  &lt;fct&gt;  &lt;dbl&gt; &lt;int&gt;  &lt;dbl&gt;\n1 low       -1     2 0.0323\n2 low        0    52 0.839 \n3 low        1     8 0.129 \n4 mid       -1     3 0.0111\n5 mid        0   242 0.896 \n6 mid        1    25 0.0926\n7 high       0    98 0.951 \n8 high       1     5 0.0485"
+  },
+  {
+    "objectID": "ae/ae-05-github-A.html#aesthetic-mappings",
+    "href": "ae/ae-05-github-A.html#aesthetic-mappings",
+    "title": "AE 05: Gerrymandering + data exploration II",
+    "section": "Aesthetic mappings",
+    "text": "Aesthetic mappings\nRecreate the following visualization, and then improve it.\n\n\nlibrary(scales)\n\n\nAttaching package: 'scales'\n\n\nThe following object is masked from 'package:purrr':\n\n    discard\n\n\nThe following object is masked from 'package:readr':\n\n    col_factor\n\n##  Recreate \nggplot(gerrymander, aes(x = gerry, y = clinton16)) +\n  geom_beeswarm(alpha = .5, color = \"grey\") +\n  geom_boxplot(aes(color = gerry), alpha = .5) +\n  theme_minimal()\n\n\n\n\n\n\n## Improve\ngerrymander |&gt;\n  ggplot(aes(x = gerry, y = clinton16)) +\n    geom_beeswarm(alpha = .5, color = \"grey\") +\n    geom_boxplot(aes(color = gerry), alpha = .5) +\n    theme_minimal() +\n    scale_y_continuous(labels = label_percent(scale = 1)) +\n    labs(title = \"Distribution of % Vote for Clinton in 2016\",\n         subtitle = \"By Level of Gerrymandering\",\n         x = \"Level of Gerrymandering\",\n         y = \"% Vote for Clinton in 2016\") +\n    theme(legend.position = \"none\")"
   },
   {
     "objectID": "ae/ae-04-github-A.html",
@@ -8995,35 +9065,42 @@
     "href": "slides/05-exploratory-data-analysis-II.html",
     "title": "Exploratory Data Analysis II",
     "section": "",
-    "text": "Lab is due TONIGHT at 11:59PM ➞ submit PDF to Gradescope\nCome to office hours and/or post on Ed for help!\nKenna’s office hours are 11:00am - 1:00pm today on Zoom (find link on Canvas)\nAlways double check your project (top right-hand corner of screen in your RStudio) & be sure you are in the correct project for the task at hand (AE in lecture, lab in lab / at home when working on assignments)"
+    "text": "Come to office hours and/or post on Ed for help!\nKenna’s office hours are 11:30am - 1:30pm today in Old Chem 203\nAlways double check your project (top right-hand corner of screen in your RStudio) & be sure you are in the correct project for the task at hand (AE in lecture, lab in lab / at home when working on assignments)"
   },
   {
     "objectID": "slides/05-exploratory-data-analysis-II.html#announcementsreminders",
     "href": "slides/05-exploratory-data-analysis-II.html#announcementsreminders",
     "title": "Exploratory Data Analysis II",
     "section": "",
-    "text": "Lab is due TONIGHT at 11:59PM ➞ submit PDF to Gradescope\nCome to office hours and/or post on Ed for help!\nKenna’s office hours are 11:00am - 1:00pm today on Zoom (find link on Canvas)\nAlways double check your project (top right-hand corner of screen in your RStudio) & be sure you are in the correct project for the task at hand (AE in lecture, lab in lab / at home when working on assignments)"
+    "text": "Come to office hours and/or post on Ed for help!\nKenna’s office hours are 11:30am - 1:30pm today in Old Chem 203\nAlways double check your project (top right-hand corner of screen in your RStudio) & be sure you are in the correct project for the task at hand (AE in lecture, lab in lab / at home when working on assignments)"
   },
   {
-    "objectID": "slides/05-exploratory-data-analysis-II.html#exam-intel",
-    "href": "slides/05-exploratory-data-analysis-II.html#exam-intel",
+    "objectID": "slides/05-exploratory-data-analysis-II.html#outline",
+    "href": "slides/05-exploratory-data-analysis-II.html#outline",
     "title": "Exploratory Data Analysis II",
-    "section": "Exam Intel",
-    "text": "Exam Intel\n\nMidterm Date: Monday, 6/1 (confirmed)\nExam will take place during both lecture & lab time slots (i.e., you will have from 9:30am - 12:15pm)\nI am NOT writing an exam I expect to take the full 2hr 45min timeframe; having the exam during both lecture & lab is meant to take some of the time pressure away from the exam & allow buffer time in case of any technical issues\nYou are of course entitled to the full 2hr 45min if you need it!\nFormat: written portion (mult. choice) & live coding / free response (think about this as a short lab assignment) on your laptop\nOnce you are finished with the written portion, you will turn it in and clone an exam repo\nCheatsheet (standard printer paper, both sides, can be hand-written/typed/combo, idc) allowed for both portions of the exam\nThe coding portion of the exam is open-assignment in that you will be working in your containers, so you have access to all of your AEs & lab assignments by changing projects (of course, switching between projects and looking through these materials eats away at time, so I wouldn’t be entirely reliant on this)\nThe coding portion of the exam will be closed-internet (i.e., you cannot open any other tabs on your browser aside from GitHub & your container); myself, Kenna, and potentially one additional person will be proctoring and actively monitoring adherence to this policy (breaking this policy will result in a score of 0 for this portion of the exam)\nI will provide review materials for both portions ahead of time (likely by next Thursday) – your labs are the best preparatory materials, so make sure you feel confident with all lab content & review your graded feedback!\nIf you need accommodations and I have not received a letter, please get it to me by EOD today; make your appointment in the testing center!"
+    "section": "Outline",
+    "text": "Outline\n\nYesterday: More (gg)plotting & describing distributions\n\nToday:\n\nReview from last time\nMore about the pipe\nTransformation + plotting combo"
   },
   {
-    "objectID": "slides/05-exploratory-data-analysis-II.html#lab-narrative",
-    "href": "slides/05-exploratory-data-analysis-II.html#lab-narrative",
+    "objectID": "slides/05-exploratory-data-analysis-II.html#narrative",
+    "href": "slides/05-exploratory-data-analysis-II.html#narrative",
     "title": "Exploratory Data Analysis II",
-    "section": "Lab: Narrative",
-    "text": "Lab: Narrative\n\n\nBoxplots, histograms, density plots:\n\nCenter: Give an idea of a ‘typical value’ (median or mean, most commonly; choose which you think is more appropriate for the data, or mention both!);\nSpread: Does the data have a lot of variability (“wide, flat” distribution), or just a little (“narrow” distribution)? What is the primary range of the data? (IQR, outliers)\nShape: Is there skew, or is the distribution symmetric? If the data are skewed, in which direction? Is the distribution unimodal, bimodal, or multimodal?\nOutliers: Are there any unsual data points (whether via visual or mathematical assessment (i.e., “dots” on a boxplot))"
+    "section": "Narrative",
+    "text": "Narrative\n\n\nBoxplots, histograms, density plots:\n\nShape: Is there skew, or is the distribution symmetric? If the data are skewed, in which direction? Is the distribution unimodal, bimodal, or multimodal?\nOutliers: Are there any unsual data points (whether via visual or mathematical assessment (i.e., “dots” on a boxplot))\nCenter: Give an idea of a ‘typical value’ (median or mean, most commonly; choose which you think is more appropriate for the data, or mention both!);\nSpread: Does the data have a lot of variability (“wide, flat” distribution), or just a little (“narrow” distribution)? What is the primary range of the data? (IQR, outliers)"
   },
   {
-    "objectID": "slides/05-exploratory-data-analysis-II.html#lab-narrative-1",
-    "href": "slides/05-exploratory-data-analysis-II.html#lab-narrative-1",
+    "objectID": "slides/05-exploratory-data-analysis-II.html#narrative-1",
+    "href": "slides/05-exploratory-data-analysis-II.html#narrative-1",
     "title": "Exploratory Data Analysis II",
-    "section": "Lab: Narrative",
-    "text": "Lab: Narrative\n\n\nScatter Plots\n\nIs there a relationship between the two variables? Is it positive or negative?\nIf there is a relationship, does it seem to be strong or weak?\nIs the relationship linear or nonlinear (i.e., quadratic, exponential, logarithmic)?"
+    "section": "Narrative",
+    "text": "Narrative\n\n\nScatter Plots\n\nSTS: SHAPE TREND STRENGTH\nIs the relationship linear or nonlinear\nIs there a relationship between the two variables? Is it positive or negative?\nIf there is a relationship, does it seem to be strong or weak?"
+  },
+  {
+    "objectID": "slides/05-exploratory-data-analysis-II.html#just-some-practice-more-later-in-the-course",
+    "href": "slides/05-exploratory-data-analysis-II.html#just-some-practice-more-later-in-the-course",
+    "title": "Exploratory Data Analysis II",
+    "section": "Just some practice (more later in the course)",
+    "text": "Just some practice (more later in the course)"
   },
   {
     "objectID": "slides/05-exploratory-data-analysis-II.html#lab-advice",
@@ -9031,13 +9108,6 @@
     "title": "Exploratory Data Analysis II",
     "section": "Lab: Advice",
     "text": "Lab: Advice\n\nBe Specific in your narrative. Don’t just say “the spread is small and the center is low” What does that mean??? Give numbers, units (if available), etc.\nBe Specific in your plot labels\nAnswer all parts of the question!! Statements like “Compare…” mean to do so in the written answer!\nWritten answers should be text outside of code chunks, not comments\nMake sure you can render to PDF early & often :) This will help you identify / troubleshoot issues with your code that may not be apparent in isolation"
-  },
-  {
-    "objectID": "slides/05-exploratory-data-analysis-II.html#outline",
-    "href": "slides/05-exploratory-data-analysis-II.html#outline",
-    "title": "Exploratory Data Analysis II",
-    "section": "Outline",
-    "text": "Outline\n\nMonday: Started learning about data transformation & intro to piping\nYesterday: More (gg)plotting & describing distributions\n\nToday:\n\nReview from last time + finish AE04\nMore about the pipe\nTransformation + plotting combo"
   },
   {
     "objectID": "slides/05-exploratory-data-analysis-II.html#quick-review-data-viz",
@@ -9149,7 +9219,7 @@
     "href": "slides/05-exploratory-data-analysis-II.html#summarize-3",
     "title": "Exploratory Data Analysis II",
     "section": "summarize()",
-    "text": "summarize()\nGetting to the point…\n\ngerrymander |&gt;\n  summarize(\n    gimme_my_mean = mean(trump16),\n    gimme_my_median = median(trump16)\n  )\n\n\n\nsummarize() creates a new data frame that stores the summaries;\nYou can compute as many summaries as you want, and whichever you want, in a single call to summarize();\nTo the left of the equal signs are your choice of column names in the new data frame you are creating. You can type whatever you want here (within reason);\nTo the right of the equal signs is R code that computes the summaries. You must use the correct command names (case sensitive): mean, median, quantile, sd, var, etc;\nIf you want to learn what these do, read the documentation (eg ?quantile)."
+    "text": "summarize()\nGetting to the point…\n\ngerrymander |&gt;\n  summarize(\n    gimme_my_mean = mean(trump16),\n    gimme_my_median = median(trump16)\n  )\n\n\n\nsummarize() creates a new data frame that stores the summaries;\nYou can compute as many summaries as you want, and whichever you want, in a single call to summarize();\nTo the left of the equal signs are your choice of column names in the new data frame you are creating. You can type whatever you want here (within reason);\nTo the right of the equal signs is R code that computes the summaries. You must use the correct command names (case sensitive): mean, median, quantile, sd, var, etc;"
   },
   {
     "objectID": "slides/05-exploratory-data-analysis-II.html#spot-the-difference",
@@ -9345,28 +9415,35 @@
     "href": "slides/05-exploratory-data-analysis-II-slides.html#announcementsreminders",
     "title": "Exploratory Data Analysis II",
     "section": "Announcements/Reminders",
-    "text": "Announcements/Reminders\n\nLab is due TONIGHT at 11:59PM ➞ submit PDF to Gradescope\nCome to office hours and/or post on Ed for help!\nKenna’s office hours are 11:00am - 1:00pm today on Zoom (find link on Canvas)\nAlways double check your project (top right-hand corner of screen in your RStudio) & be sure you are in the correct project for the task at hand (AE in lecture, lab in lab / at home when working on assignments)"
+    "text": "Announcements/Reminders\n\nCome to office hours and/or post on Ed for help!\nKenna’s office hours are 11:30am - 1:30pm today in Old Chem 203\nAlways double check your project (top right-hand corner of screen in your RStudio) & be sure you are in the correct project for the task at hand (AE in lecture, lab in lab / at home when working on assignments)"
   },
   {
-    "objectID": "slides/05-exploratory-data-analysis-II-slides.html#exam-intel",
-    "href": "slides/05-exploratory-data-analysis-II-slides.html#exam-intel",
+    "objectID": "slides/05-exploratory-data-analysis-II-slides.html#outline",
+    "href": "slides/05-exploratory-data-analysis-II-slides.html#outline",
     "title": "Exploratory Data Analysis II",
-    "section": "Exam Intel",
-    "text": "Exam Intel\n\nMidterm Date: Monday, 6/1 (confirmed)\nExam will take place during both lecture & lab time slots (i.e., you will have from 9:30am - 12:15pm)\nI am NOT writing an exam I expect to take the full 2hr 45min timeframe; having the exam during both lecture & lab is meant to take some of the time pressure away from the exam & allow buffer time in case of any technical issues\nYou are of course entitled to the full 2hr 45min if you need it!\nFormat: written portion (mult. choice) & live coding / free response (think about this as a short lab assignment) on your laptop\nOnce you are finished with the written portion, you will turn it in and clone an exam repo\nCheatsheet (standard printer paper, both sides, can be hand-written/typed/combo, idc) allowed for both portions of the exam\nThe coding portion of the exam is open-assignment in that you will be working in your containers, so you have access to all of your AEs & lab assignments by changing projects (of course, switching between projects and looking through these materials eats away at time, so I wouldn’t be entirely reliant on this)\nThe coding portion of the exam will be closed-internet (i.e., you cannot open any other tabs on your browser aside from GitHub & your container); myself, Kenna, and potentially one additional person will be proctoring and actively monitoring adherence to this policy (breaking this policy will result in a score of 0 for this portion of the exam)\nI will provide review materials for both portions ahead of time (likely by next Thursday) – your labs are the best preparatory materials, so make sure you feel confident with all lab content & review your graded feedback!\nIf you need accommodations and I have not received a letter, please get it to me by EOD today; make your appointment in the testing center!"
+    "section": "Outline",
+    "text": "Outline\n\nYesterday: More (gg)plotting & describing distributions\n\nToday:\n\nReview from last time\nMore about the pipe\nTransformation + plotting combo"
   },
   {
-    "objectID": "slides/05-exploratory-data-analysis-II-slides.html#lab-narrative",
-    "href": "slides/05-exploratory-data-analysis-II-slides.html#lab-narrative",
+    "objectID": "slides/05-exploratory-data-analysis-II-slides.html#narrative",
+    "href": "slides/05-exploratory-data-analysis-II-slides.html#narrative",
     "title": "Exploratory Data Analysis II",
-    "section": "Lab: Narrative",
-    "text": "Lab: Narrative\n\n\nBoxplots, histograms, density plots:\n\nCenter: Give an idea of a ‘typical value’ (median or mean, most commonly; choose which you think is more appropriate for the data, or mention both!);\nSpread: Does the data have a lot of variability (“wide, flat” distribution), or just a little (“narrow” distribution)? What is the primary range of the data? (IQR, outliers)\nShape: Is there skew, or is the distribution symmetric? If the data are skewed, in which direction? Is the distribution unimodal, bimodal, or multimodal?\nOutliers: Are there any unsual data points (whether via visual or mathematical assessment (i.e., “dots” on a boxplot))"
+    "section": "Narrative",
+    "text": "Narrative\n\n\nBoxplots, histograms, density plots:\n\nShape: Is there skew, or is the distribution symmetric? If the data are skewed, in which direction? Is the distribution unimodal, bimodal, or multimodal?\nOutliers: Are there any unsual data points (whether via visual or mathematical assessment (i.e., “dots” on a boxplot))\nCenter: Give an idea of a ‘typical value’ (median or mean, most commonly; choose which you think is more appropriate for the data, or mention both!);\nSpread: Does the data have a lot of variability (“wide, flat” distribution), or just a little (“narrow” distribution)? What is the primary range of the data? (IQR, outliers)"
   },
   {
-    "objectID": "slides/05-exploratory-data-analysis-II-slides.html#lab-narrative-1",
-    "href": "slides/05-exploratory-data-analysis-II-slides.html#lab-narrative-1",
+    "objectID": "slides/05-exploratory-data-analysis-II-slides.html#narrative-1",
+    "href": "slides/05-exploratory-data-analysis-II-slides.html#narrative-1",
     "title": "Exploratory Data Analysis II",
-    "section": "Lab: Narrative",
-    "text": "Lab: Narrative\n\n\nScatter Plots\n\nIs there a relationship between the two variables? Is it positive or negative?\nIf there is a relationship, does it seem to be strong or weak?\nIs the relationship linear or nonlinear (i.e., quadratic, exponential, logarithmic)?"
+    "section": "Narrative",
+    "text": "Narrative\n\n\nScatter Plots\n\nSTS: SHAPE TREND STRENGTH\nIs the relationship linear or nonlinear\nIs there a relationship between the two variables? Is it positive or negative?\nIf there is a relationship, does it seem to be strong or weak?"
+  },
+  {
+    "objectID": "slides/05-exploratory-data-analysis-II-slides.html#just-some-practice-more-later-in-the-course",
+    "href": "slides/05-exploratory-data-analysis-II-slides.html#just-some-practice-more-later-in-the-course",
+    "title": "Exploratory Data Analysis II",
+    "section": "Just some practice (more later in the course)",
+    "text": "Just some practice (more later in the course)"
   },
   {
     "objectID": "slides/05-exploratory-data-analysis-II-slides.html#lab-advice",
@@ -9374,13 +9451,6 @@
     "title": "Exploratory Data Analysis II",
     "section": "Lab: Advice",
     "text": "Lab: Advice\n\nBe Specific in your narrative. Don’t just say “the spread is small and the center is low” What does that mean??? Give numbers, units (if available), etc.\nBe Specific in your plot labels\nAnswer all parts of the question!! Statements like “Compare…” mean to do so in the written answer!\nWritten answers should be text outside of code chunks, not comments\nMake sure you can render to PDF early & often :) This will help you identify / troubleshoot issues with your code that may not be apparent in isolation"
-  },
-  {
-    "objectID": "slides/05-exploratory-data-analysis-II-slides.html#outline",
-    "href": "slides/05-exploratory-data-analysis-II-slides.html#outline",
-    "title": "Exploratory Data Analysis II",
-    "section": "Outline",
-    "text": "Outline\n\nMonday: Started learning about data transformation & intro to piping\nYesterday: More (gg)plotting & describing distributions\n\nToday:\n\nReview from last time + finish AE04\nMore about the pipe\nTransformation + plotting combo"
   },
   {
     "objectID": "slides/05-exploratory-data-analysis-II-slides.html#quick-review-data-viz",
@@ -9492,7 +9562,7 @@
     "href": "slides/05-exploratory-data-analysis-II-slides.html#summarize-3",
     "title": "Exploratory Data Analysis II",
     "section": "summarize()",
-    "text": "summarize()\nGetting to the point…\n\ngerrymander |&gt;\n  summarize(\n    gimme_my_mean = mean(trump16),\n    gimme_my_median = median(trump16)\n  )\n\n\n\nsummarize() creates a new data frame that stores the summaries;\nYou can compute as many summaries as you want, and whichever you want, in a single call to summarize();\nTo the left of the equal signs are your choice of column names in the new data frame you are creating. You can type whatever you want here (within reason);\nTo the right of the equal signs is R code that computes the summaries. You must use the correct command names (case sensitive): mean, median, quantile, sd, var, etc;\nIf you want to learn what these do, read the documentation (eg ?quantile)."
+    "text": "summarize()\nGetting to the point…\n\ngerrymander |&gt;\n  summarize(\n    gimme_my_mean = mean(trump16),\n    gimme_my_median = median(trump16)\n  )\n\n\n\nsummarize() creates a new data frame that stores the summaries;\nYou can compute as many summaries as you want, and whichever you want, in a single call to summarize();\nTo the left of the equal signs are your choice of column names in the new data frame you are creating. You can type whatever you want here (within reason);\nTo the right of the equal signs is R code that computes the summaries. You must use the correct command names (case sensitive): mean, median, quantile, sd, var, etc;"
   },
   {
     "objectID": "slides/05-exploratory-data-analysis-II-slides.html#spot-the-difference",
@@ -15426,7 +15496,7 @@
     "href": "ae.html",
     "title": "Application Exercises",
     "section": "",
-    "text": "All application exercises (AEs) are due by the end of lecture (or, precisely, by 10:45 am) on the day they’re covered in lecture. To submit your AE, make at least one change to your AE, commit and then push your change to your AE repo. AEs are graded for engagement, not accuracy.\nMore AEs to be added as the semester progresses.\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\n\n\n\n\nAE 00: Make a GitHub\n\n\n \n\n\n\n\nAE 01: Meet the penguins\n\n\n \n\n\n\n\nAE 02: Penguin peekaboo\n\n\nSuggested answers\n\n\n\n\nAE 02: Penguin peekaboo\n\n\n \n\n\n\n\nAE 03: NYC flights + data wrangling\n\n\nSuggested answers\n\n\n\n\nAE 03: NYC flights + data wrangling\n\n\n \n\n\n\n\nAE 04: Gerrymandering + data exploration I\n\n\nSuggested answers\n\n\n\n\nAE 04: Gerrymandering + data exploration I\n\n\n \n\n\n\n\n\nNo matching items",
+    "text": "All application exercises (AEs) are due by the end of lecture (or, precisely, by 10:45 am) on the day they’re covered in lecture. To submit your AE, make at least one change to your AE, commit and then push your change to your AE repo. AEs are graded for engagement, not accuracy.\nMore AEs to be added as the semester progresses.\n\n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\n\n\n\n\nAE 00: Make a GitHub\n\n\n \n\n\n\n\nAE 01: Meet the penguins\n\n\n \n\n\n\n\nAE 02: Penguin peekaboo\n\n\nSuggested answers\n\n\n\n\nAE 02: Penguin peekaboo\n\n\n \n\n\n\n\nAE 03: NYC flights + data wrangling\n\n\nSuggested answers\n\n\n\n\nAE 03: NYC flights + data wrangling\n\n\n \n\n\n\n\nAE 04: Gerrymandering + data exploration I\n\n\nSuggested answers\n\n\n\n\nAE 04: Gerrymandering + data exploration I\n\n\n \n\n\n\n\nAE 05: Gerrymandering + data exploration II\n\n\nSuggested answers\n\n\n\n\nAE 05: Gerrymandering + data exploration II\n\n\n \n\n\n\n\n\nNo matching items",
     "crumbs": [
       "Application Exercises"
     ]
