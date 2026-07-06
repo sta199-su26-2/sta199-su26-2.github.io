@@ -1401,14 +1401,4 @@ Analyzing the relationship between multiple variables:
 
 # Application exercise {.smaller}
 
-## `{r} todays_ae`
 
-::: appex
--   Go to your ae project in RStudio.
-
--   If you haven't yet done so, make sure all of your changes up to this point are committed and pushed, i.e., there's nothing left in your Git pane.
-
--   If you haven't yet done so, click Pull to get today's application exercise file: *`{r} paste0(todays_ae, ".qmd")`*.
-
--   Work through the AE and RCP your edits by the end of class.
-:::
