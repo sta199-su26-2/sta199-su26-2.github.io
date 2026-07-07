@@ -1,6 +1,5 @@
 ---
 title: "AE 06: Tidying Stat Sci"
-draft: true
 ---
 
 ## Goal
@@ -44,7 +43,7 @@ statsci
 # add your code here
 ```
 
--   **Your Turn:** Now, repeat your code from above, but this time **save the result** to a **new** dataframe. 
+-   **Your Turn:** Now, repeat your code from above, but this time **save the result** to a **new** dataframe.
 
 ```{r}
 #| label: pivot-with-transform-name

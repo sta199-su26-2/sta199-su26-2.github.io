@@ -1,6 +1,5 @@
 ---
 title: "AE 06: Tidying Stat Sci"
-draft: true
 subtitle: "Suggested answers"
 format:
   html:
@@ -87,9 +86,10 @@ ggplot(statsci_longer, aes(x = year, y = n, color = degree_type)) +
   geom_line()
 ```
 
--   **Question**: Why was the pivot necessary in order to create this plot? 
+-   **Question**: Why was the pivot necessary in order to create this plot?
 
-Our original dataframe had each year as it's own column; we needed year to be one column where each obs. in our df represents a degree type - year combo.
+Our original dataframe had each year as it's own column; we needed year to be one column where each obs.
+in our df represents a degree type - year combo.
 
 -   **Question:** What aspects of the plot need to be updated to go from the draft you created above to the [goal] plot at the beginning of this application exercise?
 
