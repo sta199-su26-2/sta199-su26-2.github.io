@@ -277,14 +277,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">On this page</h2>
    
   <ul>
-<li>
-<a href="#ae-05" id="toc-ae-05" class="nav-link active" data-scroll-target="#ae-05">AE-05</a>
-  <ul class="collapse">
-<li><a href="#last-time" id="toc-last-time" class="nav-link" data-scroll-target="#last-time">Last time</a></li>
+<li><a href="#last-time" id="toc-last-time" class="nav-link active" data-scroll-target="#last-time">Last time</a></li>
   <li><a href="#a-common-mistake" id="toc-a-common-mistake" class="nav-link" data-scroll-target="#a-common-mistake">A common mistake</a></li>
   <li><a href="#the-data-are-lost" id="toc-the-data-are-lost" class="nav-link" data-scroll-target="#the-data-are-lost">The data are lost!</a></li>
-  </ul>
-</li>
   <li>
 <a href="#tidying-data" id="toc-tidying-data" class="nav-link" data-scroll-target="#tidying-data">Tidying data</a>
   <ul class="collapse">
@@ -304,7 +299,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#year" id="toc-year" class="nav-link" data-scroll-target="#year"><code>year</code></a></li>
   <li><a href="#pivot_longer-again" id="toc-pivot_longer-again" class="nav-link" data-scroll-target="#pivot_longer-again"><code>pivot_longer()</code> again</a></li>
   <li><a href="#pivot_longer-again-1" id="toc-pivot_longer-again-1" class="nav-link" data-scroll-target="#pivot_longer-again-1"><code>pivot_longer()</code> again</a></li>
-  <li><a href="#ae-06-majors-tidy" id="toc-ae-06-majors-tidy" class="nav-link" data-scroll-target="#ae-06-majors-tidy">ae-06-majors-tidy</a></li>
   </ul>
 </li>
   <li>
@@ -315,6 +309,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
   <li><a href="#recap-pivot" id="toc-recap-pivot" class="nav-link" data-scroll-target="#recap-pivot">Recap: Pivot</a></li>
   <li><a href="#recap-plotting" id="toc-recap-plotting" class="nav-link" data-scroll-target="#recap-plotting">Recap: Plotting</a></li>
+  <li><a href="#ae-06-majors-tidy" id="toc-ae-06-majors-tidy" class="nav-link" data-scroll-target="#ae-06-majors-tidy">ae-06-majors-tidy</a></li>
   </ul>
 </li>
   </ul><div class="toc-actions"><ul><li><a href="https://github.com/sta199-su26-2/sta199-su26-2.github.io/edit/main/slides/06-tidying-data.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/sta199-su26-2/sta199-su26-2.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="06-tidying-data-slides.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
@@ -355,10 +350,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   
 
 
-</header><section id="ae-05" class="level1"><h1>AE-05</h1>
-<!-- begin: ae definition -->
-<!-- end: ae definition -->
-<section id="last-time" class="level2 small"><h2 class="small anchored" data-anchor-id="last-time">Last time</h2>
+</header><!-- begin: ae definition --><!-- end: ae definition --><section id="last-time" class="level2 small"><h2 class="small anchored" data-anchor-id="last-time">Last time</h2>
 <p>We had to mutate before plotting. Two methods:</p>
 <div class="columns">
 <div class="column fragment" style="width:50%;">
@@ -425,7 +417,7 @@ Lesson
 <p>You can overwrite an object if its identity is preserved; if the rows or columns now mean something totally different, or if it’s an entirely different <em>class</em> of object, then give it a new name.</p>
 </div>
 </div>
-</section></section><section id="tidying-data" class="level1"><h1>Tidying data</h1>
+</section><section id="tidying-data" class="level1"><h1>Tidying data</h1>
 <section id="tidy-data" class="level2"><h2 class="anchored" data-anchor-id="tidy-data">Tidy data</h2>
 <blockquote class="blockquote">
 <p>“Tidy datasets are easy to manipulate, model and visualize, and have a specific structure: each variable is a column, each observation is a row, and each type of observational unit is a table.”</p>
@@ -654,8 +646,8 @@ Lesson
 <div class="sourceCode" id="cb24"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">statsci</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu">pivot_longer</span><span class="op">(</span></span>
 <span>    cols <span class="op">=</span> <span class="op">-</span><span class="va">degree_type</span>,</span>
-<span>    values_to <span class="op">=</span> <span class="st">"n"</span>,</span>
-<span>    names_to <span class="op">=</span> <span class="st">"year"</span></span>
+<span>    names_to <span class="op">=</span> <span class="st">"year"</span>,</span>
+<span>    values_to <span class="op">=</span> <span class="st">"n"</span></span>
 <span>  <span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 60 × 3
@@ -697,11 +689,11 @@ Lesson
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="cell">
-<div class="sourceCode" id="cb26"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">statsci</span> <span class="op">|&gt;</span></span>
+<div class="sourceCode" id="cb26"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">statsci</span> <span class="op">|&gt;</span> </span>
 <span>  <span class="fu">pivot_longer</span><span class="op">(</span></span>
 <span>    cols <span class="op">=</span> <span class="op">-</span><span class="va">degree_type</span>,</span>
-<span>    values_to <span class="op">=</span> <span class="st">"n"</span>,</span>
-<span>    names_to <span class="op">=</span> <span class="st">"year"</span></span>
+<span>    names_to <span class="op">=</span> <span class="st">"year"</span>,</span>
+<span>    values_to <span class="op">=</span> <span class="st">"n"</span></span>
 <span>  <span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div><div class="column" style="width:50%;">
@@ -719,8 +711,8 @@ Lesson
 <div class="sourceCode cell-code" id="cb27"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1"></a>statsci <span class="sc">|&gt;</span></span>
 <span id="cb27-2"><a href="#cb27-2"></a>  <span class="fu">pivot_longer</span>(</span>
 <span id="cb27-3"><a href="#cb27-3"></a>    <span class="at">cols =</span> <span class="sc">-</span>degree_type,</span>
-<span id="cb27-4"><a href="#cb27-4"></a>    <span class="at">values_to =</span> <span class="st">"n"</span>,</span>
-<span id="cb27-5"><a href="#cb27-5"></a>    <span class="at">names_to =</span> <span class="st">"year"</span>,</span>
+<span id="cb27-4"><a href="#cb27-4"></a>    <span class="at">names_to =</span> <span class="st">"year"</span>,</span>
+<span id="cb27-5"><a href="#cb27-5"></a>    <span class="at">values_to =</span> <span class="st">"n"</span>,</span>
 <span id="cb27-6"><a href="#cb27-6"></a>    <span class="at">names_transform =</span> as.numeric</span>
 <span id="cb27-7"><a href="#cb27-7"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -745,15 +737,6 @@ Lesson
 </div>
 </div>
 </div>
-</div>
-</section><section id="ae-06-majors-tidy" class="level2"><h2 class="anchored" data-anchor-id="ae-06-majors-tidy">ae-06-majors-tidy</h2>
-<div class="appex">
-<ul>
-<li><p>Go to your ae project in RStudio.</p></li>
-<li><p>If you haven’t yet done so, make sure all of your changes up to this point are committed and pushed, i.e., there’s nothing left in your Git pane.</p></li>
-<li><p>If you haven’t yet done so, click Pull to get today’s application exercise file: <em>ae-06-majors-tidy.qmd</em>.</p></li>
-<li><p>Work through the application exercise in class, and render, commit, and push your edits by the end of class.</p></li>
-</ul>
 </div>
 </section></section><section id="pivot-wider" class="level1"><h1>Pivot wider</h1>
 <section id="we-pivotted-longer-what-about-wider" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="we-pivotted-longer-what-about-wider">We pivotted longer… what about wider?</h2>
@@ -880,6 +863,15 @@ Lesson
 <ul class="incremental">
 <li><p>You can tweak a plot forever, but at some point the tweaks are likely not very productive.</p></li>
 <li><p>However, you should always be critical of defaultsand see if you can improve the plot to better portray your data / results / what you want to communicate.</p></li>
+</ul>
+</div>
+</section><section id="ae-06-majors-tidy" class="level2"><h2 class="anchored" data-anchor-id="ae-06-majors-tidy">ae-06-majors-tidy</h2>
+<div class="appex">
+<ul>
+<li><p>Go to your ae project in RStudio.</p></li>
+<li><p>If you haven’t yet done so, make sure all of your changes up to this point are committed and pushed, i.e., there’s nothing left in your Git pane.</p></li>
+<li><p>If you haven’t yet done so, click Pull to get today’s application exercise file: <em>ae-06-majors-tidy.qmd</em>.</p></li>
+<li><p>Work through the application exercise in class, and render, commit, and push your edits by the end of class.</p></li>
 </ul>
 </div>
 

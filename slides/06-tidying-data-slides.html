@@ -215,10 +215,7 @@ Josh Lim
 </div>
 
   <p class="date">July 8, 2026</p>
-</section><section><section id="ae-05" class="title-slide slide level1 center"><h1>AE-05</h1>
-<!-- begin: ae definition -->
-<!-- end: ae definition -->
-</section><section id="last-time" class="slide level2 small"><h2>Last time</h2>
+</section><section class="slide level2"><!-- begin: ae definition --><!-- end: ae definition --></section><section id="last-time" class="slide level2 small"><h2>Last time</h2>
 <p>We had to mutate before plotting. Two methods:</p>
 <div class="columns">
 <div class="column fragment" style="width:50%;">
@@ -284,7 +281,7 @@ Josh Lim
 </div>
 </div>
 </div>
-</section></section><section><section id="tidying-data" class="title-slide slide level1 center"><h1>Tidying data</h1>
+</section><section><section id="tidying-data" class="title-slide slide level1 center"><h1>Tidying data</h1>
 
 </section><section id="tidy-data" class="slide level2"><h2>Tidy data</h2>
 <blockquote>
@@ -513,8 +510,8 @@ Josh Lim
 <div class="sourceCode cell-code" id="cb24"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a></a>statsci <span class="sc">|&gt;</span> </span>
 <span id="cb24-2"><a></a>  <span class="fu">pivot_longer</span>(</span>
 <span id="cb24-3"><a></a>    <span class="at">cols =</span> <span class="sc">-</span>degree_type,</span>
-<span id="cb24-4"><a></a>    <span class="at">values_to =</span> <span class="st">"n"</span>,</span>
-<span id="cb24-5"><a></a>    <span class="at">names_to =</span> <span class="st">"year"</span></span>
+<span id="cb24-4"><a></a>    <span class="at">names_to =</span> <span class="st">"year"</span>,</span>
+<span id="cb24-5"><a></a>    <span class="at">values_to =</span> <span class="st">"n"</span></span>
 <span id="cb24-6"><a></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 60 × 3
@@ -555,11 +552,11 @@ Josh Lim
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="cell">
-<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a></a>statsci <span class="sc">|&gt;</span></span>
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a></a>statsci <span class="sc">|&gt;</span> </span>
 <span id="cb26-2"><a></a>  <span class="fu">pivot_longer</span>(</span>
 <span id="cb26-3"><a></a>    <span class="at">cols =</span> <span class="sc">-</span>degree_type,</span>
-<span id="cb26-4"><a></a>    <span class="at">values_to =</span> <span class="st">"n"</span>,</span>
-<span id="cb26-5"><a></a>    <span class="at">names_to =</span> <span class="st">"year"</span></span>
+<span id="cb26-4"><a></a>    <span class="at">names_to =</span> <span class="st">"year"</span>,</span>
+<span id="cb26-5"><a></a>    <span class="at">values_to =</span> <span class="st">"n"</span></span>
 <span id="cb26-6"><a></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </div><div class="column" style="width:50%;">
@@ -576,8 +573,8 @@ Josh Lim
 <div class="sourceCode cell-code" id="cb27" data-code-line-numbers="|6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a></a>statsci <span class="sc">|&gt;</span></span>
 <span id="cb27-2"><a></a>  <span class="fu">pivot_longer</span>(</span>
 <span id="cb27-3"><a></a>    <span class="at">cols =</span> <span class="sc">-</span>degree_type,</span>
-<span id="cb27-4"><a></a>    <span class="at">values_to =</span> <span class="st">"n"</span>,</span>
-<span id="cb27-5"><a></a>    <span class="at">names_to =</span> <span class="st">"year"</span>,</span>
+<span id="cb27-4"><a></a>    <span class="at">names_to =</span> <span class="st">"year"</span>,</span>
+<span id="cb27-5"><a></a>    <span class="at">values_to =</span> <span class="st">"n"</span>,</span>
 <span id="cb27-6"><a></a>    <span class="at">names_transform =</span> as.numeric</span>
 <span id="cb27-7"><a></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -601,15 +598,6 @@ Josh Lim
 </div>
 </div>
 </div></div>
-</section><section id="ae-06-majors-tidy" class="slide level2"><h2>ae-06-majors-tidy</h2>
-<div class="appex">
-<ul>
-<li><p>Go to your ae project in RStudio.</p></li>
-<li><p>If you haven’t yet done so, make sure all of your changes up to this point are committed and pushed, i.e., there’s nothing left in your Git pane.</p></li>
-<li><p>If you haven’t yet done so, click Pull to get today’s application exercise file: <em>ae-06-majors-tidy.qmd</em>.</p></li>
-<li><p>Work through the application exercise in class, and render, commit, and push your edits by the end of class.</p></li>
-</ul>
-</div>
 </section></section><section><section id="pivot-wider" class="title-slide slide level1 center"><h1>Pivot wider</h1>
 
 </section><section id="we-pivotted-longer-what-about-wider" class="slide level2 smaller"><h2>We pivotted longer… what about wider?</h2>
@@ -734,6 +722,15 @@ Josh Lim
 <ul>
 <li class="fragment"><p>You can tweak a plot forever, but at some point the tweaks are likely not very productive.</p></li>
 <li class="fragment"><p>However, you should always be critical of defaultsand see if you can improve the plot to better portray your data / results / what you want to communicate.</p></li>
+</ul>
+</div>
+</section><section id="ae-06-majors-tidy" class="slide level2"><h2>ae-06-majors-tidy</h2>
+<div class="appex">
+<ul>
+<li><p>Go to your ae project in RStudio.</p></li>
+<li><p>If you haven’t yet done so, make sure all of your changes up to this point are committed and pushed, i.e., there’s nothing left in your Git pane.</p></li>
+<li><p>If you haven’t yet done so, click Pull to get today’s application exercise file: <em>ae-06-majors-tidy.qmd</em>.</p></li>
+<li><p>Work through the application exercise in class, and render, commit, and push your edits by the end of class.</p></li>
 </ul>
 </div>
 
