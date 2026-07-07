@@ -22,6 +22,11 @@ todays_ae <- "ae-06-majors-tidy"
 
 <!-- end: ae definition -->
 
+## Announcements
+
+- Lab 1 Due Tonight 11:59pm
+- Lab 2 Tomorrow
+
 ## Last time {.small}
 
 We had to mutate before plotting.
