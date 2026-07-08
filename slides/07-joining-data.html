@@ -259,6 +259,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text">Lab 1</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lab/lab-2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lab 2</span></a>
+  </div>
+</li>
       </ul>
 </li>
         <li class="sidebar-item">
@@ -266,6 +272,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <a href="../ae.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Application Exercises</span></a>
   </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">Exam Review</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">
+<li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../exam-review/midterm.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Midterm Review</span></a>
+  </div>
+</li>
+      </ul>
 </li>
     </ul>
 </div>
@@ -277,13 +300,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul>
 <li><a href="#announcements-reminders" id="toc-announcements-reminders" class="nav-link active" data-scroll-target="#announcements-reminders">Announcements / Reminders</a></li>
   <li><a href="#outline" id="toc-outline" class="nav-link" data-scroll-target="#outline">Outline</a></li>
-  <li>
-<a href="#ae-06" id="toc-ae-06" class="nav-link" data-scroll-target="#ae-06">AE-06</a>
-  <ul class="collapse">
-<li><a href="#recap-pivoting" id="toc-recap-pivoting" class="nav-link" data-scroll-target="#recap-pivoting">Recap: Pivoting</a></li>
+  <li><a href="#recap-pivoting" id="toc-recap-pivoting" class="nav-link" data-scroll-target="#recap-pivoting">Recap: Pivoting</a></li>
   <li><a href="#recap-pivot-functions" id="toc-recap-pivot-functions" class="nav-link" data-scroll-target="#recap-pivot-functions">Recap: Pivot Functions</a></li>
-  </ul>
-</li>
   <li>
 <a href="#joining-data" id="toc-joining-data" class="nav-link" data-scroll-target="#joining-data">Joining Data</a>
   <ul class="collapse">
@@ -356,21 +374,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header><section id="announcements-reminders" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="announcements-reminders">Announcements / Reminders</h2>
 <ul>
-<li><p>Office hours are today from <strong>1:00-3:00</strong> on <strong>Zoom</strong>; I will share a link via a Canvas announcement</p></li>
-<li><p>Lab 2 is now due <em>Monday</em>, 5/25 at 11:59pm to Gradescope</p></li>
-<li><p>Questions about / feedback on lab yesterday?</p></li>
+<li><p>Lab 2 assigned today due Sunday 7/12 at 11:59pm to Gradescope</p></li>
+<li><p>My office hours are tomorrow from <strong>11:00-1pm</strong> in Old Chem 203</p></li>
+<li><p>EdStem!</p></li>
 </ul></section><section id="outline" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="outline">Outline</h2>
 <ul>
 <li><p><strong><em>Last Time:</em></strong> Started learning about data transformation via pivoting!</p></li>
 <li>
 <p><strong><em>Today:</em></strong></p>
 <ul>
-<li><p>Review from last time</p></li>
-<li><p>Joining data (working with multiple data frames)</p></li>
+<li>Joining data (working with multiple data frames)</li>
 </ul>
 </li>
-</ul></section><section id="ae-06" class="level1"><h1>AE-06</h1>
-<section id="recap-pivoting" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="recap-pivoting">Recap: Pivoting</h2>
+</ul></section><section id="recap-pivoting" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="recap-pivoting">Recap: Pivoting</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure"><p><img src="img/07/tidyr-pivoting.gif" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
 </figure>
@@ -403,7 +419,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-</section></section><section id="joining-data" class="level1"><h1>Joining Data</h1>
+</section><section id="joining-data" class="level1"><h1>Joining Data</h1>
 <section id="joining-data-1" class="level2"><h2 class="anchored" data-anchor-id="joining-data-1">Joining Data</h2>
 <p>What happens if we want to access information from two different data sets at the same time (e.g., for EDA / plotting purposes)?</p>
 </section><section id="joining-data-sample-scenario" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="joining-data-sample-scenario">Joining Data: Sample Scenario</h2>
