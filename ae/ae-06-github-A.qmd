@@ -15,7 +15,7 @@ This document should be used as reference only, it's not designed to be an exhau
 
 Our ultimate goal in this application exercise is to make the following data visualization.
 
-![](images/statsci-majors-2025.png){fig-align="center"}
+![](img/statsci-majors-2025.png){fig-align="center"}
 
 ## Data
 
