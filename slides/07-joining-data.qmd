@@ -12,11 +12,11 @@ auto-stretch: false
 
 ## Announcements / Reminders {.smaller}
 
--   Office hours are today from **1:00-3:00** on **Zoom**; I will share a link via a Canvas announcement
+- Lab 2 assigned today due Sunday 7/12 at 11:59pm to Gradescope  
 
--   Lab 2 is now due *Monday*, 5/25 at 11:59pm to Gradescope
+- My office hours are tomorrow from **11:00-1pm** in Old Chem 203
 
--   Questions about / feedback on lab yesterday?
+- EdStem!
 
 ## Outline {.smaller}
 
@@ -24,7 +24,6 @@ auto-stretch: false
 
 -   ***Today:***
 
-    -   Review from last time
 
     -   Joining data (working with multiple data frames)
 
@@ -40,8 +39,6 @@ statsci <- read_csv("data/statsci_clean.csv")
 population <- read_csv("data/world-pop-2022.csv")
 continent <- read_csv("data/continents.csv")
 ```
-
-# AE-06
 
 ## Recap: Pivoting {.smaller}
 

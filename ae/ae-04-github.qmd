@@ -1,6 +1,5 @@
 ---
 title: "AE 04: Gerrymandering + data exploration I"
-draft: true
 ---
 
 ## Getting started
@@ -25,7 +24,8 @@ The data are availale in the **usdata** package.
 glimpse(gerrymander)
 ```
 
-Since this dataset is shipped with a package, it has documentation that you can access via `?gerrymander`. The `flip18` variable is categorical with three levels:
+Since this dataset is shipped with a package, it has documentation that you can access via `?gerrymander`.
+The `flip18` variable is categorical with three levels:
 
 -   -1: control of the district flipped from Democrats to Republicans between 2016 and 2018;
 -   0: the district did not flip. If Democrats controlled it in 2016, they kept it in 2018. If Republicans controlled it in 2016, they kept it in 2018;

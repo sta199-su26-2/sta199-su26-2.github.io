@@ -17,7 +17,7 @@ website:
     creator: "@minebocek"
     image: "img/twitter-card-ks.pdf"
 
-  draft-mode: unlinked
+  #draft-mode: unlinked
 
   sidebar:
     background: "#2774AE"
@@ -78,10 +78,10 @@ website:
         contents:
           - href: lab/lab-0.qmd
             text: "Lab 0"
-          # - href: lab/lab-1.qmd
-          #   text: "Lab 1"
-          # - href: lab/lab-2.qmd
-          #   text: "Lab 2"
+          - href: lab/lab-1.qmd
+            text: "Lab 1"
+          - href: lab/lab-2.qmd
+            text: "Lab 2"
           # - href: lab/lab-3.qmd
           #   text: "Lab 3"
           # - href: lab/lab-4.qmd
@@ -89,10 +89,10 @@ website:
           # - href: lab/lab-5.qmd
           #   text: "Lab 5"
       - ae.qmd
-      # - section: "Exam Review"
-      #   contents:
-      #     - href: exam-review/midterm.qmd
-      #       text: "Midterm Review"
+      - section: "Exam Review"
+        contents:
+          - href: exam-review/midterm.qmd
+            text: "Midterm Review"
       #     - href: exam-review/midterm-key.qmd
       #       text: "Midterm Review Answer Key"
             
