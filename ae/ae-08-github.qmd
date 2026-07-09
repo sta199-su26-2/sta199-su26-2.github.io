@@ -1,6 +1,5 @@
 ---
 title: "AE 08: Durham climate + factors"
-draft: true
 ---
 
 ## Getting started
@@ -105,7 +104,7 @@ Additionally:
 ## Pivot
 
 Overlay lines for both high and low temperatures on the same plot.
-Additionally, use different colors for the two lines – a darker color for high and a lighter color for low temperatures.
+Additionally, use different colors for the two lines -- a darker color for high and a lighter color for low temperatures.
 
 ```{r}
 #| label: avg-seasons
