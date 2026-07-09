@@ -27,7 +27,7 @@ An object's *type* indicates how it is stored in memory
 
 ## Common data types
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 You'll commonly encounter:
 
@@ -45,15 +45,15 @@ You'll less commonly encounter:
 -   `complex`
 -   `raw`
 :::
-:::::
+:::
 
 ## Logical and Character {.smaller}
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 **Logical:** Boolean `TRUE` / `FALSE` values
 
--   `<dbl>`
+-   `<lgl>`
 
 ```{r}
 typeof(TRUE)
@@ -86,13 +86,12 @@ typeof("Hello!")
 ```{r}
 typeof("TRUE")
 ```
-
 :::
-:::::
+:::
 
 ## Numeric: Double and integer {.smaller}
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 **Double**: floating point numerical values (default numerical type)
 
@@ -118,13 +117,12 @@ typeof(3)
 typeof(3L)
 ```
 :::
-:::::
+:::
 
 ## Type Compatibility {.smaller}
 
 Can you use different types of data together?
-Sometimes...
-but be careful!
+Sometimes... but be careful!
 
 ```{r}
 #| error: true
@@ -146,11 +144,12 @@ TRUE + 3L
 typeof(TRUE + 3L)
 ```
 
+
 ## Concatenation {.smaller}
 
 **Vectors** are constructed using the `c` function
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 -   **Double** vector:
 
@@ -182,7 +181,17 @@ typeof(TRUE + 3L)
     typeof(x)
     ```
 :::
-:::::
+:::
+
+Specifically, these are called "atomic" vectors in R. Atomic vectors are vectors have elements all of the same type. 
+
+## Hierarchy
+
+- Does it make sense for the character `"Josh's Sushi"` to be a logical `TRUE/FALSE`? 
+- Does it make sense for the integer `5L` to be a character `"5"`?
+- Hierarchy: it makes sense to represent a variable higher up as a lower down "rank"
+- Logical, integer, double, character
+- Governs converting and coercion 
 
 ## Converting between types {.smaller}
 
@@ -227,7 +236,7 @@ c(2L, "two")
 with intention...
 :::
 
-::::: columns
+::: columns
 ::: {.column width="49%"}
 ```{r}
 x <- 1:3
@@ -243,7 +252,7 @@ y
 typeof(y)
 ```
 :::
-:::::
+:::
 
 ## Converting between types
 
@@ -251,7 +260,7 @@ typeof(y)
 with intention...
 :::
 
-::::: columns
+::: columns
 ::: {.column width="49%"}
 ```{r}
 x <- c(TRUE, FALSE)
@@ -267,11 +276,11 @@ y
 typeof(y)
 ```
 :::
-:::::
+:::
 
 ## Explicit vs. implicit coercion {.smaller}
 
-::::: columns
+::: columns
 ::: {.column width="49%"}
 **Explicit coercion:**
 
@@ -293,7 +302,7 @@ When you call a function like:
 
 Happens when you use a vector in a specific context that expects a certain type of vector.
 :::
-:::::
+:::
 
 ## You've seen explicit coercion before
 
@@ -308,6 +317,15 @@ statsci |>
     names_transform = as.numeric
   )
 ```
+
+## Back to hierachy
+
+```{r}
+as.character(5L)
+as.character(TRUE)
+as.logical("Josh's Sushi")
+```
+
 
 # Data classes
 
@@ -324,7 +342,7 @@ statsci |>
 
 We can think of data frames like like vectors of equal length glued together
 
-::::: columns
+::: columns
 ::: column
 ```{r}
 df <- data.frame(x = 1:2, y = 3:4)
@@ -366,7 +384,7 @@ typeof(df)
 class(df)
 ```
 :::
-:::::
+:::
 
 ## Data frames {.smaller}
 
@@ -377,7 +395,7 @@ df <- data.frame(x = 1:2, y = 3:4)
 df
 ```
 
-::::: columns
+::: columns
 ::: column
 ```{r}
 typeof(df)
@@ -389,9 +407,9 @@ typeof(df)
 class(df)
 ```
 :::
-:::::
+:::
 
--   When we use the `pull()` function, we extract a vector from the data frame; this is functionally the same as accessing a column with  `df$col_name`
+-   When we use the `pull()` function, we extract a vector from the data frame; this is functionally the same as accessing a column with `df$col_name`
 
 ```{r}
 df |>
@@ -436,6 +454,7 @@ The `lubridate` package allows you to work with / access elements of dates seaml
 ```{r}
 library(lubridate)
 ```
+
 ```{r}
 year(today)
 ```
@@ -447,7 +466,6 @@ month(today)
 ```{r}
 day(today)
 ```
-
 
 ## Factors {.scrollable .smaller}
 
@@ -463,7 +481,7 @@ summer_factor
 levels(summer_factor) ## print levels
 ```
 
-::::: columns
+::: columns
 ::: {.column .fragment}
 ```{r}
 typeof(summer_factor)
@@ -475,7 +493,7 @@ typeof(summer_factor)
 class(summer_factor)
 ```
 :::
-:::::
+:::
 
 ## More on factors
 
@@ -548,6 +566,7 @@ Referencing a column in a pipeline:
 df |>
   filter("x" > 0)
 ```
+
 `"x"` means the literal character string.
 :::
 
@@ -556,18 +575,18 @@ df |>
 df |>
   filter(x > 0)
 ```
+
 `x` means the column name in `df`.
 :::
-
 
 ::: {.column .fragment width="33%"}
 ```{r}
 df |>
   filter(`x` > 0)
 ```
-``` `x` ``` also means the column name in `df`.
-:::
 
+`` `x` `` also means the column name in `df`.
+:::
 :::
 
 ## Quotes VS no quotes VS backticks {.small .scrollable}
@@ -588,6 +607,7 @@ Referencing a column in a pipeline:
 df |>
   filter("2011" > 0)
 ```
+
 `"2011"` means the literal character string.
 :::
 
@@ -596,6 +616,7 @@ df |>
 df |>
   filter(2011 > 0)
 ```
+
 `2011` means the literal number.
 :::
 
@@ -604,9 +625,9 @@ df |>
 df |>
   filter(`2011` > 0)
 ```
-``` `2011` ``` means the column name in `df`.
-:::
 
+`` `2011` `` means the column name in `df`.
+:::
 :::
 
 ## Quotes VS no quotes VS backticks {.small .scrollable}
@@ -627,6 +648,7 @@ Referencing a column in a pipeline:
 df |>
   filter("my var" > 0)
 ```
+
 `"my var"` means the literal character string.
 :::
 
@@ -636,6 +658,7 @@ df |>
 df |>
   filter(my var > 0)
 ```
+
 `my var` means nothing.
 :::
 
@@ -644,9 +667,9 @@ df |>
 df |>
   filter(`my var` > 0)
 ```
-``` `my var` ``` means the column name in `df`.
-:::
 
+`` `my var` `` means the column name in `df`.
+:::
 :::
 
 # AE 08: Working with Factors
