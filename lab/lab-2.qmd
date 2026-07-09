@@ -19,36 +19,36 @@ If you haven't done those yet, you should review them before starting with this 
 
 By the end of the lab, you will...
 
--   Be able to create transform data using `dplyr`
--   Build on your mastery of data visualizations using `ggplot2`
--   Get more experience with data science workflow using R, RStudio, Git, and GitHub
--   Further your reproducible authoring skills with Quarto
--   Improve your familiarity with version control using Git and GitHub
+- Be able to create transform data using `dplyr`
+- Build on your mastery of data visualizations using `ggplot2`
+- Get more experience with data science workflow using R, RStudio, Git, and GitHub
+- Further your reproducible authoring skills with Quarto
+- Improve your familiarity with version control using Git and GitHub
 
 ## Getting started
 
 ### Step 1: Log in to RStudio
 
--   Go to <https://cmgr.oit.duke.edu/containers> and log in with your Duke NetID and Password.
--   Click `STA199` under My reservations to log into your container. You should now see the RStudio environment.
+- Go to <https://cmgr.oit.duke.edu/containers> and log in with your Duke NetID and Password.
+- Click `STA199` under My reservations to log into your container. You should now see the RStudio environment.
 
 ### Step 2: Clone the repo & start a new RStudio project
 
--   Go to the course organization at [github.com/sta199-su26-2](https://github.com/sta199-su26-2) organization on GitHub.
-    Click on the repo with the prefix **lab-2**.
-    It contains the starter documents you need to complete the lab.
+- Go to the course organization at [github.com/sta199-su26-2](https://github.com/sta199-su26-2) organization on GitHub.
+  Click on the repo with the prefix **lab-2**.
+  It contains the starter documents you need to complete the lab.
 
--   Click on the green **CODE** button and select **Use SSH** (this might already be selected by default; if it is, you'll see the text **Clone with SSH**).
-    Click on the clipboard icon to copy the repo URL.
+- Click on the green **CODE** button and select **Use SSH** (this might already be selected by default; if it is, you'll see the text **Clone with SSH**).
+  Click on the clipboard icon to copy the repo URL.
 
--   In RStudio, go to *File* ➛ *New Project* ➛*Version Control* ➛ *Git*.
+- In RStudio, go to *File* ➛ *New Project* ➛*Version Control* ➛ *Git*.
 
--   Copy and paste the URL of your assignment repo into the dialog box *Repository URL*. Again, please make sure to have *SSH* highlighted under *Clone* when you copy the address.
+- Copy and paste the URL of your assignment repo into the dialog box *Repository URL*. Again, please make sure to have *SSH* highlighted under *Clone* when you copy the address.
 
--   Click *Create Project*, and the files from your GitHub repo will be displayed in the *Files* pane in RStudio.
+- Click *Create Project*, and the files from your GitHub repo will be displayed in the *Files* pane in RStudio.
 
--   Click *lab-2.qmd* to open the template Quarto file.
-    This is where you will write up your code and narrative for the lab.
+- Click *lab-2.qmd* to open the template Quarto file.
+  This is where you will write up your code and narrative for the lab.
 
 ### Step 3: Update the YAML
 
@@ -70,8 +70,8 @@ In this lab, we will work with the **tidyverse** package, a collection of packag
 library(tidyverse)
 ```
 
--   **Run** the code cell by clicking on the green triangle (play) button for the code cell labeled `load-packages`. This loads the package so that its features (the functions and datasets in it) are accessible from your *Console*.
--   Then, **render** the document that loads this package to make its features (the functions and datasets in it) available for other code cells in your Quarto document.
+- **Run** the code cell by clicking on the green triangle (play) button for the code cell labeled `load-packages`. This loads the package so that its features (the functions and datasets in it) are accessible from your *Console*.
+- Then, **render** the document that loads this package to make its features (the functions and datasets in it) available for other code cells in your Quarto document.
 
 ## Guidelines
 
@@ -80,13 +80,13 @@ As we've discussed in the lecture, your plots should include an informative titl
 Additionally, code should follow the [tidyverse style](https://style.tidyverse.org/).
 In particular,
 
--   there should be spaces before and line breaks after each `+` when building a `ggplot`,
+- there should be spaces before and line breaks after each `+` when building a `ggplot`,
 
--   there should also be spaces before and line breaks after each `|>` in a data transformation pipeline,
+- there should also be spaces before and line breaks after each `|>` in a data transformation pipeline,
 
--   code should be properly indented,
+- code should be properly indented,
 
--   there should be spaces around `=` signs and spaces after commas.
+- there should be spaces around `=` signs and spaces after commas.
 
 Furthermore, all code should be visible in the PDF output, i.e., should not run off the page on the PDF.
 Long lines that run off the page should be split across multiple lines with line breaks.[^1]
@@ -184,12 +184,11 @@ Grouping by two variables.
 a\.
 How many levels does `var_2` have?
 How many levels does `var_3`have?
-How many possible combinations are there of the levels of `var_2` and `var_3`? You should use code to support your answers to each component of this question. 
+How many possible combinations are there of the levels of `var_2` and `var_3`?
+You should use code to support your answers to each component of this question.
 
 ::: callout-tip
-
-Hint: The functions `unique()` and `count()` may be helpful here. 
-
+Hint: The functions `distinct()` and `count()` may be helpful here.
 :::
 
 b\.
@@ -217,7 +216,11 @@ df |>
 ```
 
 d\.
-In the following code cell, we add one more step to the data pipelines from the previous two parts. The new step uses slice_head(n = 1), which is designed to give the first row of the output. Run the code cell and analyze the result for each pipeline. You will notice the results are different. Why?
+In the following code cell, we add one more step to the data pipelines from the previous two parts.
+The new step uses slice_head(n = 1), which is designed to give the first row of the output.
+Run the code cell and analyze the result for each pipeline.
+You will notice the results are different.
+Why?
 
 ```{r}
 #| eval: false
@@ -238,11 +241,13 @@ e\.
 Run the following code cell and analyze the result.
 How many rows does the output have?
 How many columns does the output have?
-Is the output grouped? If so, how many groups does it have, and how many variables is it grouped on?
+Is the output grouped?
+If so, how many groups does it have, and how many variables is it grouped on?
 Articulate the difference(s) between summarize() and mutate().
 
 ::: callout-tip
-Another hint: There are 2 key differences between `summarize()` and `mutate()` that your narrative should mention. Review the help files for each if you are stuck.
+Another hint: There are 2 key differences between `summarize()` and `mutate()` that your narrative should mention.
+Review the help files for each if you are stuck.
 :::
 
 ```{r}
@@ -286,9 +291,7 @@ In words, identify which value corresponds to which blank.
 > The middle 50% of the counties have population densities between \_\_\_ to \_\_\_ people per unit area.
 
 ::: callout-tip
-
 The `quantile()` function will be useful here!
-
 :::
 
 ## Question 5
@@ -368,12 +371,13 @@ Column names that are numbers are not considered "proper" in R; therefore, to wo
 
 Requirements:
 
--   Your code must use one of [`pivot_longer()`](https://tidyr.tidyverse.org/reference/pivot_longer.html) or [`pivot_wider()`](https://tidyr.tidyverse.org/reference/pivot_wider.html).
-    There are other ways you can do this reshaping move in R, but this question requires solving this problem by pivoting.
+- Your code must use one of [`pivot_longer()`](https://tidyr.tidyverse.org/reference/pivot_longer.html) or [`pivot_wider()`](https://tidyr.tidyverse.org/reference/pivot_wider.html).
+  There are other ways you can do this reshaping move in R, but this question requires solving this problem by pivoting.
 
--   In your `pivot_*()` function, you must use `names_transform = as.numeric` as an argument to force the new `year` column to be numeric.
+- In your `pivot_*()` function, you must use `names_transform = as.numeric` as an argument to force the new `year` column to be numeric.
 
--   The resulting data frame must be saved as something other than `life_expect` so you (1) can refer to this data frame later in your analysis and (2) do not overwrite `life_expect`. Use a short but informative name.
+- The resulting data frame must be saved as something other than `life_expect` so you (1) can refer to this data frame later in your analysis and (2) do not overwrite `life_expect`.
+  Use a short but informative name.
 
 ## Question 9
 
@@ -404,19 +408,21 @@ Go back and correct your work.
 ## Question 10
 
 Using your data frame from the previous question, **create a plot of life expectancy (y) vs. year (x) for these countries**.
-In a few sentences, describe the patterns you observe in the plot, particularly focusing on anything you find surprising or not surprising, based on your knowledge (or lack thereof) of these countries. Then, briefly explain why the pivot performed in question 9 was necessary for creating the this plot.
+In a few sentences, describe the patterns you observe in the plot, particularly focusing on anything you find surprising or not surprising, based on your knowledge (or lack thereof) of these countries.
+Then, briefly explain why the pivot performed in question 9 was necessary for creating the this plot.
 
 Requirements for the plot:
 
--   Data should be represented with **points** as well as **lines connecting the points** for each country (Note: lines should be directly connecting points, not a smooth trendline through them).
+- Data should be represented with **points** as well as **lines connecting the points** for each country (Note: lines should be directly connecting points, not a smooth trendline through them).
 
--   Each **country** should be represented by a **different color line** and **different color and shape points**.
+- Each **country** should be represented by a **different color line** and **different color and shape points**.
 
--   **Axes and legend** should be properly **labeled**.
+- **Axes and legend** should be properly **labeled**.
 
--   The plot should have an **appropriate title** (and optionally a subtitle).
+- The plot should have an **appropriate title** (and optionally a subtitle).
 
--   Plot should be **customized in at least one additional way** -- you could use a different than default color scale, or different than default theme (but NOT `theme_minimal()` or `theme_bw()` -- choose something more creative!), or some other customization.
+- Plot should be **customized in at least one additional way** -- you could use a different than default color scale, or different than default theme (but NOT `theme_minimal()` or `theme_bw()` -- choose something more creative!)
+  , or some other customization.
 
 ## Question 11 - Workflow
 
