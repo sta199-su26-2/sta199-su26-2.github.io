@@ -24,13 +24,13 @@ By now you should be familiar with how to get started on a lab assignment by clo
 
 <summary>Click to expand if you need a refresher on how to get started with a lab assignment.</summary>
 
--   Go to <https://cmgr.oit.duke.edu/containers> and login with your Duke NetID and Password.
--   Click `STA199` under My reservations to log into your container. You should now see the RStudio environment.
--   Go to the course organization at [github.com/sta199-su26-2](https://github.com/sta199-su26-2) organization on GitHub. Click on the repo with the prefix **lab-3**. It contains the starter documents you need to complete the homework.
--   Click on the green **CODE** button, select **Use SSH**. Click on the clipboard icon to copy the repo URL.
--   In RStudio, go to *File* ➛ *New Project* ➛*Version Control* ➛ *Git*.
--   Copy and paste the URL of your assignment repo into the dialog box *Repository URL*. Again, please make sure to have *SSH* highlighted under *Clone* when you copy the address.
--   Click *Create Project*, and the files from your GitHub repo will be displayed in the *Files* pane in RStudio.
+- Go to <https://cmgr.oit.duke.edu/containers> and login with your Duke NetID and Password.
+- Click `STA199` under My reservations to log into your container. You should now see the RStudio environment.
+- Go to the course organization at [github.com/sta199-su26-2](https://github.com/sta199-su26-2) organization on GitHub. Click on the repo with the prefix **lab-3**. It contains the starter documents you need to complete the homework.
+- Click on the green **CODE** button, select **Use SSH**. Click on the clipboard icon to copy the repo URL.
+- In RStudio, go to *File* ➛ *New Project* ➛*Version Control* ➛ *Git*.
+- Copy and paste the URL of your assignment repo into the dialog box *Repository URL*. Again, please make sure to have *SSH* highlighted under *Clone* when you copy the address.
+- Click *Create Project*, and the files from your GitHub repo will be displayed in the *Files* pane in RStudio.
 
 </details>
 
@@ -50,13 +50,13 @@ As we've discussed in the lecture, your plots should include an informative titl
 Additionally, code should follow the [tidyverse style](https://style.tidyverse.org/).
 In particular,
 
--   there should be spaces before and line breaks after each `+` when building a `ggplot`,
+- there should be spaces before and line breaks after each `+` when building a `ggplot`,
 
--   there should also be spaces before and line breaks after each `|>` in a data transformation pipeline,
+- there should also be spaces before and line breaks after each `|>` in a data transformation pipeline,
 
--   code should be properly indented,
+- code should be properly indented,
 
--   there should be spaces around `=` signs and spaces after commas.
+- there should be spaces around `=` signs and spaces after commas.
 
 Furthermore, all code should be visible in the PDF output, i.e., should not run off the page on the PDF.
 Long lines that run off the page should be split across multiple lines with line breaks.
@@ -97,7 +97,7 @@ The following question was asked to these 1,500 adults:
 Responses were broken down into the following categories:
 
 | Variable | Levels |
-|:-------------------|:---------------------------------------------------|
+|:--------------------|:--------------------------------------------------|
 | Age | 18-44; 45+ |
 | Opinion | Very positive; Somewhat positive; Neutral; Somewhat negative; Very negative; Unsure |
 
@@ -105,19 +105,19 @@ Of the 1,500 responses, 699 were between the ages of 18-44.
 
 Of the individuals that are between 18-44,
 
--   78 individuals said they thought the changes were Very positive,
--   176 individuals said they thought the changes were Somewhat positive,
--   162 individuals said they thought the changes were Neutral,
--   50 individuals said they thought the changes were Somewhat negative,
--   36 individuals said they thought the changes were Very negative.
+- 78 individuals said they thought the changes were Very positive,
+- 176 individuals said they thought the changes were Somewhat positive,
+- 162 individuals said they thought the changes were Neutral,
+- 50 individuals said they thought the changes were Somewhat negative,
+- 36 individuals said they thought the changes were Very negative.
 
 Of the individuals that are 45+,
 
--   41 individuals said they thought the changes were Very positive,
--   121 individuals said they thought the changes were Somewhat positive,
--   186 individuals said they thought the changes were Neutral,
--   146 individuals said they thought the changes were Somewhat negative,
--   97 individuals said they thought the changes were Very negative.
+- 41 individuals said they thought the changes were Very positive,
+- 121 individuals said they thought the changes were Somewhat positive,
+- 186 individuals said they thought the changes were Neutral,
+- 146 individuals said they thought the changes were Somewhat negative,
+- 97 individuals said they thought the changes were Very negative.
 
 ## Question 1
 
@@ -161,8 +161,8 @@ c.  Marginal proportions of opinion: Calculate the proportions of individuals wh
 
 d.  Conditional proportions of opinion based on age: Calculate the proportions of individuals who are Very positive, Somewhat positive, Neutral, Somewhat negative, Very negative, and Unsure
 
-    -   among those who are 18-44 years old and
-    -   among those who are 45+ years old.
+    - among those who are 18-44 years old and
+    - among those who are 45+ years old.
 
 ## Question 2
 
@@ -216,9 +216,9 @@ We are interested in learning more about life expectancy in countries, and we’
 
 a.  Create two visualizations:
 
--   Scatter plot of `life_exp` vs. `gdp_percap`
+- Scatter plot of `gdp_percap` (y-axis) vs. `life_exp` (x-axis)
 
--   Scatter plot of `life_exp_log` vs. `gdp_percap`, where `life_exp_log` is a new variable you add to the data set by taking the natural log of `life_exp`.
+- Scatter plot of `gdp_percap_log` (y-axis) vs `life_exp` (x-axis), where `gdp_percap_log` is a new variable you add to the data set by taking the natural log of `gdp_percap`.
 
 b.  First describe the relationship between each pair of the variables. Then, comment on which relationship would be better modeled using a linear model, and explain your reasoning. We will discuss linear models in more detail in the second half of this course; for now, you can think about this question as asking which plot it makes more sense to add a linear trendline to based on the overall shape of the plotted data.
 
@@ -252,8 +252,8 @@ b.  Read the documentation for the `clean_names()` function from the **janitor**
 
 c.  Create a new variable in both of the datasets called `name` that:
 
-    -   `paste()`s together the `first_name` and `last_name` variables with a space in between and
-    -   is the first variable in the resulting data frame.
+    - `paste()`s together the `first_name` and `last_name` variables with a space in between and
+    - is the first variable in the resulting data frame.
 
 d.  Using the appropriate `*_join()` function, determine how many athletes participated in both Olympic Games.
 
@@ -287,14 +287,14 @@ We will be checking these to make sure you have been practicing how to commit an
 
 Reminders:
 
--   Questions will be graded for accuracy and completeness
+- Questions will be graded for accuracy and completeness
 
--   Partial credit will be given where appropriate
+- Partial credit will be given where appropriate
 
--   There are also workflow points for:
+- There are also workflow points for:
 
-    -   committing at least three times as you work through your homework
+  - committing at least three times as you work through your homework
 
-    -   having your final version of `.qmd` and `.pdf` files in your GitHub repository
+  - having your final version of `.qmd` and `.pdf` files in your GitHub repository
 
-    -   selecting pages corresponding to each question in Gradescope
+  - selecting pages corresponding to each question in Gradescope
