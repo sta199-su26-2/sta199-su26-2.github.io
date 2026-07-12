@@ -21,9 +21,9 @@ library(tidyverse)
 
     -   Practice + some review tomorrow in class
 
-    -   Practice questions for both the multiple choice & live coding portions of the exam will be posted tomorrow!
-
-    -   I will post solutions to the practice questions by Saturday morning
+    -   Practice questions and solutions for both the multiple choice & free response of the exam posted
+    
+    - Ways to study? Questions above, make your cheat sheet independently, lab 3. 
 
 -   Lab 3 today
 
@@ -41,6 +41,12 @@ library(tidyverse)
     -   As a reminder, projects are completed in groups **BUT** grades are individual; your final project grade may ultimately differ from your teammates' if there is unequal participation
 
     -   Participation is measured by 1) lab attendance on project work days; 2) commit history in project repos on GitHub; 3) peer review forms
+
+## AE Credit
+
+-   Remember in order to get credit for a day's AE, you must be both present AND commit push at least once.
+
+- 80% of AEs starting from second week to get full credit.
 
 # Let's zoom out for a second
 
