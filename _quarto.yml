@@ -82,8 +82,8 @@ website:
             text: "Lab 1"
           - href: lab/lab-2.qmd
             text: "Lab 2"
-          # - href: lab/lab-3.qmd
-          #   text: "Lab 3"
+          - href: lab/lab-3.qmd
+            text: "Lab 3"
           # - href: lab/lab-4.qmd
           #   text: "Lab 4"
           # - href: lab/lab-5.qmd
@@ -93,8 +93,8 @@ website:
         contents:
           - href: exam-review/midterm.qmd
             text: "Midterm Review"
-      #     - href: exam-review/midterm-key.qmd
-      #       text: "Midterm Review Answer Key"
+          - href: exam-review/midterm-key.qmd
+            text: "Midterm Review Answer Key"
             
   page-footer:
     right: 'This page is built with [{{< fa heart >}}]{style="color: #FFD100;"} and [Quarto](https://quarto.org/).'
