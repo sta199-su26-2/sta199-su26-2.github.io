@@ -1,6 +1,5 @@
 ---
 title: "AE 10: Trends in instructional staff employees in universities"
-draft: true
 ---
 
 The American Association of University Professors (AAUP) is a nonprofit membership association of faculty and other academic professionals.
@@ -37,14 +36,58 @@ staff
 
 ```{r}
 #| label: reshape-data
-# add code here
+staff_long <- staff |>
+  pivot_WHATGOESHERE(
+
+    #WHAT GOES HERE?
+    
+  ) |>
+  ## Input line breaks as done in the reference plot
+  mutate(faculty_type = str_wrap(faculty_type, 20),
+         faculty_type = fct_relevel(faculty_type, 
+                                    c("Full-Time Tenured\nFaculty",
+                                      "Full-Time\nTenure-Track Faculty",
+                                      "Full-Time\nNon-Tenure-Track\nFaculty",
+                                      "Part-Time Faculty",
+                                      "Graduate Student\nEmployees")))
 ```
 
 ```{r}
 #| label: recreate-plot
 #| fig-asp: 0.5
 #| fig-width: 12.0
-# add code here
+# 
+ggplot(
+  ________,
+  aes(x = _______,
+      y = _______,
+      fill = ____
+      )
+  ) +
+  geom_col(position = _____) +
+  scale_y_continuous(breaks = seq(5, 45, 5), limits = c(0, 45)) +
+  labs(
+    x = NULL,
+    y = "Percent of Total Instructional Staff",
+    fill = NULL,
+    title = "Trends in Instructional Staff Employment Status, 1975-2011",
+    subtitle = "All Institutions, National Totals",
+    caption = "Source: US Department of Education, IPEDS Fall Staff Survey"
+  ) +
+  ## to replicate (more or less) exactly...
+  theme(
+    legend.position = c(0.4, 0.93),
+    legend.direction = "horizontal",
+    legend.key.size = unit(0.2, "cm"),
+    legend.key.height = unit(0.1, "cm"),
+    legend.text.align = 0,
+    legend.background = element_rect(color = "black", linewidth = 0.2),
+    legend.text = element_text(size = 7),
+    panel.grid.minor = element_blank(),
+    panel.grid.major.x = element_blank(),
+    plot.caption = element_text(size = 8, hjust = 0)
+  ) +
+  guides(fill = guide_legend(nrow = 1))
 ```
 
 ## Represent percentages as parts of a whole
@@ -55,7 +98,32 @@ staff
 #| label: percentages
 #| fig-asp: 0.5
 #| fig-width: 12.0
-# add code here
+
+ggplot(
+  staff_long,
+  aes(x = faculty_type,
+      y = percentage,
+      fill = _________
+      )
+  ) +
+  geom_col(position = _______, color = "white", linewidth = 0.2) +
+  scale_y_continuous(labels = label_percent()) +
+  labs(
+    x = NULL,
+    y = "Percent of Total Instructional Staff",
+    fill = NULL,
+    title = "Trends in Instructional Staff Employment Status, 1975-2011",
+    subtitle = "All Institutions, National Totals",
+    caption = "Source: US Department of Education, IPEDS Fall Staff Survey"
+  ) +
+  theme(
+    legend.text.align = 0,
+    legend.background = element_rect(color = "black", size = 0.2),
+    legend.text = element_text(size = 7),
+    panel.grid.minor = element_blank(),
+    panel.grid.major.x = element_blank(),
+    plot.caption = element_text(size = 8, hjust = 0)
+  )
 ```
 
 ## Place time on x-axis
@@ -66,7 +134,29 @@ staff
 #| label: time-on-x
 #| fig-asp: 0.5
 #| fig-with: 12.0
-# add code here
+
+ggplot(
+  staff_long,
+  aes(x = _____,
+      y = _______,
+      color = _______,
+      group = _________
+      )
+  ) +
+  geom_?(_________) +
+  labs(
+    x = NULL,
+    y = "Percent of Total Instructional Staff",
+    color = NULL,
+    title = "Trends in Instructional Staff Employment Status, 1975-2011",
+    subtitle = "All Institutions, National Totals",
+    caption = "Source: US Department of Education, IPEDS Fall Staff Survey"
+  ) +
+  scale_y_continuous(labels = label_percent(accuracy = 1, scale = 1)) +
+  theme(
+    legend.key.height = unit(1.5, "cm"),
+    plot.caption = element_text(size = 8, hjust = 0)
+  )
 ```
 
 ## Pay attention to variable types
@@ -109,7 +199,36 @@ staff
 #| label: direct-labelling
 #| fig-asp: 0.5
 #| fig-width: 12.0
-# add code here
+
+ggplot(
+  staff_long,
+  aes(x = year,
+      y = percentage,
+      color = faculty_type,
+      group = faculty_type
+      )
+  ) +
+  geom_line(linewidth = 1, show.legend = FALSE) +
+  geom_text(
+    data = staff_long |> filter(year == max(year)),
+    aes(x = year + 1, y = percentage, label = faculty_type),
+    hjust = "left", show.legend = FALSE, size = 4
+  ) +
+  labs(
+    x = NULL,
+    y = "Percent of Total Instructional Staff",
+    color = NULL,
+    title = "Trends in Instructional Staff Employment Status, 1975-2011",
+    subtitle = "All Institutions, National Totals",
+    caption = "Source: US Department of Education, IPEDS Fall Staff Survey"
+  ) +
+  scale_y_continuous(labels = label_percent(accuracy = 1, scale = 1)) +
+  theme(
+    plot.caption = element_text(size = 8, hjust = 0),
+    plot.margin = margin(0.1, 2.5, 0.1, 0.1, unit = "in")
+  ) +
+  coord_cartesian(clip = "off") +
+  scale_color_colorblind()
 ```
 
 ## Use color to draw attention
@@ -118,7 +237,8 @@ staff
 
 ```{r}
 # label: recode
-# add code here
+staff_long <- staff_long |>
+  mutate(faculty_type_color = if_else(faculty_type == "Part-Time Faculty", "firebrick3", "gray40"))
 ```
 
 ```{r}
@@ -126,7 +246,36 @@ staff
 #| fig-asp: 0.5
 #| fig-width: 12.0
 
-# add code here
+ggplot(
+  staff_long,
+  aes(
+    x = year,
+    y = percentage,
+    color = faculty_type_color, group = faculty_type
+    )
+  ) +
+  geom_line(linewidth = 1, show.legend = FALSE) +
+  geom_text(
+    data = staff_long |> filter(year == max(year)),
+    aes(x = year + 1, y = percentage, label = faculty_type),
+    hjust = "left", show.legend = FALSE, size = 4
+  ) +
+  labs(
+    x = NULL,
+    y = "Percent of Total Instructional Staff",
+    color = NULL,
+    title = "Trends in Instructional Staff Employment Status, 1975-2011",
+    subtitle = "All Institutions, National Totals",
+    caption = "Source: US Department of Education, IPEDS Fall Staff Survey"
+  ) +
+  scale_y_continuous(labels = label_percent(accuracy = 1, scale = 1)) +
+  scale_color_identity() +
+  theme(
+    plot.caption = element_text(size = 8, hjust = 0),
+    plot.margin = margin(0.1, 2.5, 0.1, 0.1, unit = "in")
+  ) +
+  coord_cartesian(clip = "off")
+
 ```
 
 ## We could keep going...

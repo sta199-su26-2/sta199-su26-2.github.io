@@ -1,6 +1,5 @@
 ---
 title: "AE 10: Trends in instructional staff employees in universities"
-draft: true
 subtitle: "Suggested answers"
 format:
   html:

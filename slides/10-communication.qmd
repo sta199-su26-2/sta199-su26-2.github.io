@@ -10,8 +10,6 @@ format:
 auto-stretch: false
 ---
 
-# Wrap-Up AE-09
-
 ```{r}
 #| label: load-packages
 #| message: false
@@ -108,7 +106,7 @@ d
 
 ## Keep it simple
 
-::::: columns
+::: columns
 ::: {.column width="40%"}
 ![](img/10/pie.jpg)
 :::
@@ -125,7 +123,7 @@ ggplot(d, aes(y = fct_reorder(category, value), x = value)) +
   labs(x = NULL, y = NULL)
 ```
 :::
-:::::
+:::
 
 ## Judging relative area {.smaller}
 
@@ -143,7 +141,7 @@ From Data to Viz caveat collection - [The issue with the pie chart](https://www.
 
 <br/> <br/>
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 ```{r}
 #| echo: false
@@ -173,7 +171,7 @@ p <- ggplot(d, aes(y = fct_reorder(category, value), x = value, fill = category)
 p
 ```
 :::
-:::::
+:::
 
 ## Play with themes for a non-standard look {.smaller}
 
@@ -207,7 +205,7 @@ p + theme_tufte() + labs(title = "theme_tufte()")
 
 ## Tell a story
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 ![](img/10/duke-hires-1.png){fig-align="center"}
 :::
@@ -215,7 +213,7 @@ p + theme_tufte() + labs(title = "theme_tufte()")
 ::: {.column width="50%"}
 ![](img/10/duke-hires-2.png){fig-align="center"}
 :::
-:::::
+:::
 
 ::: aside
 *Credit*: Angela Zoss and Eric Monson, Duke DVS
@@ -223,7 +221,7 @@ p + theme_tufte() + labs(title = "theme_tufte()")
 
 ## Leave out non-story details
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 ![](img/10/too-many-details.png){fig-align="center"}
 :::
@@ -231,11 +229,11 @@ p + theme_tufte() + labs(title = "theme_tufte()")
 ::: {.column width="50%"}
 ![](img/10/fewer-details.png){fig-align="center"}
 :::
-:::::
+:::
 
 ## Order matters
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 ![](img/10/unordered.png){fig-align="center"}
 :::
@@ -243,7 +241,7 @@ p + theme_tufte() + labs(title = "theme_tufte()")
 ::: {.column width="50%"}
 ![](img/10/ordered.png){fig-align="center"}
 :::
-:::::
+:::
 
 ## Clearly indicate missing data
 
@@ -259,7 +257,7 @@ http://www.storytellingwithdata.com/2012/09/some-finer-points-of-data-visualizat
 
 ## Use descriptive titles
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 ![](img/10/title-non-descriptive.png){fig-align="center"}
 :::
@@ -267,7 +265,7 @@ http://www.storytellingwithdata.com/2012/09/some-finer-points-of-data-visualizat
 ::: {.column width="50%"}
 ![](img/10/title-descriptive.png){fig-align="center"}
 :::
-:::::
+:::
 
 ## Annotate figures
 
@@ -320,7 +318,7 @@ p_hist
 
 ## `fig-width` affects text size
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 ```{r}
 #| echo: false
@@ -343,7 +341,7 @@ p_text +
   labs(title = "fig.width = 10")
 ```
 :::
-:::::
+:::
 
 ## Multiple plots on a slide
 
@@ -393,16 +391,14 @@ ggplot(penguins, aes(x = flipper_length_mm, y = body_mass_g)) +
 
 ## Input
 
-````         
-As seen in @fig-penguins, there is a positive and relatively strong relationship between body mass and flipper length of penguins.
+    As seen in @fig-penguins, there is a positive and relatively strong relationship between body mass and flipper length of penguins.
 
-```{{r}}
-#| label: fig-penguins
+    ```{{r}}
+    #| label: fig-penguins
 
-ggplot(penguins, aes(x = flipper_length_mm, y = body_mass_g)) +
-  geom_point()
-```
-````
+    ggplot(penguins, aes(x = flipper_length_mm, y = body_mass_g)) +
+      geom_point()
+    ```
 :::
 
 ## Cross referencing tables {.smaller}
@@ -428,23 +424,21 @@ penguins |>
 
 ## Input
 
-````         
-@tbl-penguins displays summaries of flipper length by species.
+    @tbl-penguins displays summaries of flipper length by species.
 
-```{{r}}
-#| label: tbl-penguins
-#| tbl-cap: Flipper length summaries by species
+    ```{{r}}
+    #| label: tbl-penguins
+    #| tbl-cap: Flipper length summaries by species
 
-penguins |>
-  group_by(species) |>
-  summarize(
-    Mean = mean(flipper_length_mm, na.rm = TRUE),
-    Median = median(flipper_length_mm, na.rm = TRUE),
-    SD = sd(flipper_length_mm, na.rm = TRUE)
-  ) |>
-  knitr::kable(digits = 3)
-```
-````
+    penguins |>
+      group_by(species) |>
+      summarize(
+        Mean = mean(flipper_length_mm, na.rm = TRUE),
+        Median = median(flipper_length_mm, na.rm = TRUE),
+        SD = sd(flipper_length_mm, na.rm = TRUE)
+      ) |>
+      knitr::kable(digits = 3)
+    ```
 :::
 
 # Take A Sad Plot & Make It Better
