@@ -4001,7 +4001,7 @@
     "href": "slides/03-grammar-of-data-transformation-slides.html#sample_n",
     "title": "Grammar of Data Transformation",
     "section": "sample_n()",
-    "text": "sample_n()\n\n\nsample_n(): take a random subset of the rows\n\nDisplay five random rows of bechdel:\n\nbechdel \n\n# A tibble: 1,615 × 7\n   title          year gross_2013 budget_2013    roi binary clean_test\n   &lt;chr&gt;         &lt;dbl&gt;      &lt;dbl&gt;       &lt;dbl&gt;  &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;     \n 1 21 & Over      2013   67878146    13000000  5.22  FAIL   notalk    \n 2 Dredd 3D       2012   55078343    45658735  1.21  PASS   ok        \n 3 12 Years a S…  2013  211714070    20000000 10.6   FAIL   notalk    \n 4 2 Guns         2013  208105475    61000000  3.41  FAIL   notalk    \n 5 42             2013  190040426    40000000  4.75  FAIL   men       \n 6 47 Ronin       2013  184166317   225000000  0.819 FAIL   men       \n 7 A Good Day t…  2013  371598396    92000000  4.04  FAIL   notalk    \n 8 About Time     2013  102648667    12000000  8.55  PASS   ok        \n 9 Admission      2013   36014634    13000000  2.77  PASS   ok        \n10 After Earth    2013  304895295   130000000  2.35  FAIL   notalk    \n# ℹ 1,605 more rows\n\n\n\n\nbechdel |&gt;\n  sample_n(5)\n\n# A tibble: 5 × 7\n  title            year gross_2013 budget_2013   roi binary clean_test\n  &lt;chr&gt;           &lt;dbl&gt;      &lt;dbl&gt;       &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;     \n1 Ghost            1990 1310899333    39225459 33.4  FAIL   men       \n2 Another Earth    2011    3213114      181246 17.7  PASS   ok        \n3 Hope Floats      1998  202421319    42873969  4.72 PASS   ok        \n4 A Good Day to …  2013  371598396    92000000  4.04 FAIL   notalk    \n5 Go!              1999   63292593     9090003  6.96 PASS   ok"
+    "text": "sample_n()\n\n\nsample_n(): take a random subset of the rows\n\nDisplay five random rows of bechdel:\n\nbechdel \n\n# A tibble: 1,615 × 7\n   title          year gross_2013 budget_2013    roi binary clean_test\n   &lt;chr&gt;         &lt;dbl&gt;      &lt;dbl&gt;       &lt;dbl&gt;  &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;     \n 1 21 & Over      2013   67878146    13000000  5.22  FAIL   notalk    \n 2 Dredd 3D       2012   55078343    45658735  1.21  PASS   ok        \n 3 12 Years a S…  2013  211714070    20000000 10.6   FAIL   notalk    \n 4 2 Guns         2013  208105475    61000000  3.41  FAIL   notalk    \n 5 42             2013  190040426    40000000  4.75  FAIL   men       \n 6 47 Ronin       2013  184166317   225000000  0.819 FAIL   men       \n 7 A Good Day t…  2013  371598396    92000000  4.04  FAIL   notalk    \n 8 About Time     2013  102648667    12000000  8.55  PASS   ok        \n 9 Admission      2013   36014634    13000000  2.77  PASS   ok        \n10 After Earth    2013  304895295   130000000  2.35  FAIL   notalk    \n# ℹ 1,605 more rows\n\n\n\n\nbechdel |&gt;\n  sample_n(5)\n\n# A tibble: 5 × 7\n  title           year gross_2013 budget_2013    roi binary clean_test\n  &lt;chr&gt;          &lt;dbl&gt;      &lt;dbl&gt;       &lt;dbl&gt;  &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;     \n1 The Fountain    2006   29594915    40452872 0.732  FAIL   dubious   \n2 Blade           1998  287798042    64310954 4.48   FAIL   notalk    \n3 D.E.B.S.        2004     238728     4316175 0.0553 PASS   ok        \n4 Sex and the C…  2008  614607424    62229738 9.88   PASS   ok        \n5 Charlie's Ang…  2000  520926055   121761754 4.28   PASS   ok"
   },
   {
     "objectID": "slides/03-grammar-of-data-transformation-slides.html#filter",
@@ -4260,7 +4260,7 @@
     "href": "slides/03-grammar-of-data-transformation.html#sample_n",
     "title": "Grammar of Data Transformation",
     "section": "sample_n()",
-    "text": "sample_n()\n\n\nsample_n(): take a random subset of the rows\n\nDisplay five random rows of bechdel:\n\nbechdel \n\n# A tibble: 1,615 × 7\n   title          year gross_2013 budget_2013    roi binary clean_test\n   &lt;chr&gt;         &lt;dbl&gt;      &lt;dbl&gt;       &lt;dbl&gt;  &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;     \n 1 21 & Over      2013   67878146    13000000  5.22  FAIL   notalk    \n 2 Dredd 3D       2012   55078343    45658735  1.21  PASS   ok        \n 3 12 Years a S…  2013  211714070    20000000 10.6   FAIL   notalk    \n 4 2 Guns         2013  208105475    61000000  3.41  FAIL   notalk    \n 5 42             2013  190040426    40000000  4.75  FAIL   men       \n 6 47 Ronin       2013  184166317   225000000  0.819 FAIL   men       \n 7 A Good Day t…  2013  371598396    92000000  4.04  FAIL   notalk    \n 8 About Time     2013  102648667    12000000  8.55  PASS   ok        \n 9 Admission      2013   36014634    13000000  2.77  PASS   ok        \n10 After Earth    2013  304895295   130000000  2.35  FAIL   notalk    \n# ℹ 1,605 more rows\n\n\n\n\nbechdel |&gt;\n  sample_n(5)\n\n# A tibble: 5 × 7\n  title            year gross_2013 budget_2013   roi binary clean_test\n  &lt;chr&gt;           &lt;dbl&gt;      &lt;dbl&gt;       &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;     \n1 Ghost            1990 1310899333    39225459 33.4  FAIL   men       \n2 Another Earth    2011    3213114      181246 17.7  PASS   ok        \n3 Hope Floats      1998  202421319    42873969  4.72 PASS   ok        \n4 A Good Day to …  2013  371598396    92000000  4.04 FAIL   notalk    \n5 Go!              1999   63292593     9090003  6.96 PASS   ok"
+    "text": "sample_n()\n\n\nsample_n(): take a random subset of the rows\n\nDisplay five random rows of bechdel:\n\nbechdel \n\n# A tibble: 1,615 × 7\n   title          year gross_2013 budget_2013    roi binary clean_test\n   &lt;chr&gt;         &lt;dbl&gt;      &lt;dbl&gt;       &lt;dbl&gt;  &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;     \n 1 21 & Over      2013   67878146    13000000  5.22  FAIL   notalk    \n 2 Dredd 3D       2012   55078343    45658735  1.21  PASS   ok        \n 3 12 Years a S…  2013  211714070    20000000 10.6   FAIL   notalk    \n 4 2 Guns         2013  208105475    61000000  3.41  FAIL   notalk    \n 5 42             2013  190040426    40000000  4.75  FAIL   men       \n 6 47 Ronin       2013  184166317   225000000  0.819 FAIL   men       \n 7 A Good Day t…  2013  371598396    92000000  4.04  FAIL   notalk    \n 8 About Time     2013  102648667    12000000  8.55  PASS   ok        \n 9 Admission      2013   36014634    13000000  2.77  PASS   ok        \n10 After Earth    2013  304895295   130000000  2.35  FAIL   notalk    \n# ℹ 1,605 more rows\n\n\n\n\nbechdel |&gt;\n  sample_n(5)\n\n# A tibble: 5 × 7\n  title           year gross_2013 budget_2013    roi binary clean_test\n  &lt;chr&gt;          &lt;dbl&gt;      &lt;dbl&gt;       &lt;dbl&gt;  &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;     \n1 The Fountain    2006   29594915    40452872 0.732  FAIL   dubious   \n2 Blade           1998  287798042    64310954 4.48   FAIL   notalk    \n3 D.E.B.S.        2004     238728     4316175 0.0553 PASS   ok        \n4 Sex and the C…  2008  614607424    62229738 9.88   PASS   ok        \n5 Charlie's Ang…  2000  520926055   121761754 4.28   PASS   ok"
   },
   {
     "objectID": "slides/03-grammar-of-data-transformation.html#filter",
@@ -6521,7 +6521,7 @@
     "href": "slides/09-data-import-slides.html#administrative-details",
     "title": "Data Importation",
     "section": "Administrative Details",
-    "text": "Administrative Details\n\n\nMidterm this Thursday!\n\nPractice + some review tomorrow in class\nPractice questions for both the multiple choice & live coding portions of the exam will be posted tomorrow!\nI will post solutions to the practice questions by Saturday morning\n\n\n\nLab 3 today\n\nThis will be a shorter than usual lab & is meant to serve as a recap of all we’ve learned so far (aka, helpful exam prep!)"
+    "text": "Administrative Details\n\n\nMidterm this Thursday!\n\nPractice + some review tomorrow in class\nPractice questions and solutions for both the multiple choice & free response of the exam posted\nWays to study? Questions above, make your cheat sheet independently, lab 3.\n\n\n\nLab 3 today\n\nThis will be a shorter than usual lab & is meant to serve as a recap of all we’ve learned so far (aka, helpful exam prep!)"
   },
   {
     "objectID": "slides/09-data-import-slides.html#administrative-details-1",
@@ -6529,6 +6529,13 @@
     "title": "Data Importation",
     "section": "Administrative Details",
     "text": "Administrative Details\n\n\nProject work begins this week!\n\nFriday’s lecture will function as a lab meeting.\nYou will receive your team assignments (2 groups of 3, 2 groups of 4) this Friday\nAs a reminder, projects are completed in groups BUT grades are individual; your final project grade may ultimately differ from your teammates’ if there is unequal participation\nParticipation is measured by 1) lab attendance on project work days; 2) commit history in project repos on GitHub; 3) peer review forms"
+  },
+  {
+    "objectID": "slides/09-data-import-slides.html#ae-credit",
+    "href": "slides/09-data-import-slides.html#ae-credit",
+    "title": "Data Importation",
+    "section": "AE Credit",
+    "text": "AE Credit\n\nRemember in order to get credit for a day’s AE, you must be both present AND commit push at least once.\n80% of AEs starting from second week to get full credit."
   },
   {
     "objectID": "slides/09-data-import-slides.html#data-science-and-statistical-thinking",
@@ -6703,14 +6710,14 @@
     "href": "slides/09-data-import.html",
     "title": "Data Importation",
     "section": "",
-    "text": "Midterm this Thursday!\n\nPractice + some review tomorrow in class\nPractice questions for both the multiple choice & live coding portions of the exam will be posted tomorrow!\nI will post solutions to the practice questions by Saturday morning\n\n\n\nLab 3 today\n\nThis will be a shorter than usual lab & is meant to serve as a recap of all we’ve learned so far (aka, helpful exam prep!)"
+    "text": "Midterm this Thursday!\n\nPractice + some review tomorrow in class\nPractice questions and solutions for both the multiple choice & free response of the exam posted\nWays to study? Questions above, make your cheat sheet independently, lab 3.\n\n\n\nLab 3 today\n\nThis will be a shorter than usual lab & is meant to serve as a recap of all we’ve learned so far (aka, helpful exam prep!)"
   },
   {
     "objectID": "slides/09-data-import.html#administrative-details",
     "href": "slides/09-data-import.html#administrative-details",
     "title": "Data Importation",
     "section": "",
-    "text": "Midterm this Thursday!\n\nPractice + some review tomorrow in class\nPractice questions for both the multiple choice & live coding portions of the exam will be posted tomorrow!\nI will post solutions to the practice questions by Saturday morning\n\n\n\nLab 3 today\n\nThis will be a shorter than usual lab & is meant to serve as a recap of all we’ve learned so far (aka, helpful exam prep!)"
+    "text": "Midterm this Thursday!\n\nPractice + some review tomorrow in class\nPractice questions and solutions for both the multiple choice & free response of the exam posted\nWays to study? Questions above, make your cheat sheet independently, lab 3.\n\n\n\nLab 3 today\n\nThis will be a shorter than usual lab & is meant to serve as a recap of all we’ve learned so far (aka, helpful exam prep!)"
   },
   {
     "objectID": "slides/09-data-import.html#administrative-details-1",
@@ -6718,6 +6725,13 @@
     "title": "Data Importation",
     "section": "Administrative Details",
     "text": "Administrative Details\n\n\nProject work begins this week!\n\nFriday’s lecture will function as a lab meeting.\nYou will receive your team assignments (2 groups of 3, 2 groups of 4) this Friday\nAs a reminder, projects are completed in groups BUT grades are individual; your final project grade may ultimately differ from your teammates’ if there is unequal participation\nParticipation is measured by 1) lab attendance on project work days; 2) commit history in project repos on GitHub; 3) peer review forms"
+  },
+  {
+    "objectID": "slides/09-data-import.html#ae-credit",
+    "href": "slides/09-data-import.html#ae-credit",
+    "title": "Data Importation",
+    "section": "AE Credit",
+    "text": "AE Credit\n\nRemember in order to get credit for a day’s AE, you must be both present AND commit push at least once.\n80% of AEs starting from second week to get full credit."
   },
   {
     "objectID": "slides/09-data-import.html#data-science-and-statistical-thinking",
