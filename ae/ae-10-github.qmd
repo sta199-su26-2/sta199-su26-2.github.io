@@ -203,7 +203,7 @@ ggplot(
 #| fig-asp: 0.5
 #| fig-width: 12.0
 #| eval: FALSE
-#| 
+
 ggplot(
   staff_long,
   aes(x = year,
@@ -240,7 +240,7 @@ ggplot(
 -   **Demo:** Redo the line plot where Part-time Faculty is red and the rest are gray.
 
 ```{r}
-# label: recode
+#| label: recode
 #| eval: FALSE
 staff_long <- staff_long |>
   mutate(faculty_type_color = if_else(faculty_type == "Part-Time Faculty", "firebrick3", "gray40"))
