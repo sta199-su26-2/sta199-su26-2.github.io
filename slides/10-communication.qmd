@@ -32,7 +32,7 @@ todays_ae <- "ae-10-effective-dataviz"
 **Cohesive, thoughtful** analysis of a dataset of your team's choosing (subject to instructor / TA approval) drawing on & expanding upon the techniques / methods learned in this course
 
 ::: incremental
--   Goal: Create a **reproducible** written report that introduces your research question, explains the methodology, showcases results, and discusses the implications of your work; present your work / findings to your peers and teaching team with engagig, concise slides
+-   Goal: Create a **reproducible** written report that introduces your research question, explains the methodology, showcases results, and discusses the implications of your work; present your work / findings to your peers and teaching team with engaging, concise slides
 -   Put differently... write an in-depth article that might appear in the popular press (NYT, Chronicle, etc)...
 -   For an audience that is intelligent, but non-technical and unfamiliar with the domain
 -   Emphasize clear communication, attractive and informative graphics, and carefully chosen numerical summaries and / or statistical methods
