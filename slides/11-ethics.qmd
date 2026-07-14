@@ -1,5 +1,5 @@
 ---
-title: "Ethics in Data Science"
+title: "Ethics in Data Science and a Brief History of Stats"
 subtitle: "Lecture 11"
 date: "2026-07-15"
 format: 
@@ -45,32 +45,23 @@ Some common ways people do this, either intentionally or unintentionally, includ
 
 ## Recall from day 1...
 
-:::::: columns
-:::: {.column width="50%"}
-
+::: columns
+::: {.column width="50%"}
 ![](img/00/personal_inj.png){fig-align="center"}
 
-<div style="font-size: 0.6em; margin-top: 0.5em;">
-<a href="https://martinmontilino.com/april-20th-deadly-day-for-car-crashes/">
-Personal Injury Law Firm Blog Post
-</a>
-</div>
+::: {style="font-size: 0.6em; margin-top: 0.5em;"}
+<a href="https://martinmontilino.com/april-20th-deadly-day-for-car-crashes/"> Personal Injury Law Firm Blog Post </a>
+:::
+:::
 
-::::
-
-:::: {.column width="50%"}
-
+::: {.column width="50%"}
 ![](img/00/communicate.png){fig-align="center"}
 
-<div style="font-size: 0.6em; margin-top: 0.5em;">
-Harper and Palayew’s (2019) study,
-<em>"The annual cannabis holiday and fatal traffic crashes"</em>,
-available
-<a href="https://osf.io/qnrg6/">here</a>.
-</div>
-
-::::
-::::::
+::: {style="font-size: 0.6em; margin-top: 0.5em;"}
+Harper and Palayew's (2019) study, <em>"The annual cannabis holiday and fatal traffic crashes"</em>, available <a href="https://osf.io/qnrg6/">here</a>.
+:::
+:::
+:::
 
 ## Causality - TIME coverage
 
@@ -98,6 +89,7 @@ What does "research shows" mean?
 ::: aside
 Melissa Healy.
 [Exercising drives down risk for 13 cancers, research shows](https://www.latimes.com/science/sciencenow/la-sci-sn-exercising-cancer-20160516-story.html).\
+
 Los Angeles Times.
 16 May 2016.
 :::
@@ -114,7 +106,9 @@ Moore, Steven C., et al. [**"Association of leisure-time physical activity with 
 ::: notes
 Carl Bergstrom and Jevin West.
 [Calling Bullshit: The art of skepticism in a data-driven world](https://www.callingbullshit.org/).\
+
 Random House, 2020.\
+
 Sharon Begley.
 ["Does exercise prevent cancer?"](https://www.statnews.com/2016/05/16/exercise-prevent-cancer/).
 StatNews.
@@ -132,7 +126,7 @@ Which presents a better way to represent these data?
 
 ::: aside
 Christopher Ingraham.
-["You’ve been reading charts wrong. Here’s how a pro does it."](https://www.washingtonpost.com/business/2019/10/14/youve-been-reading-charts-wrong-heres-how-pro-does-it/).
+["You've been reading charts wrong. Here's how a pro does it."](https://www.washingtonpost.com/business/2019/10/14/youve-been-reading-charts-wrong-heres-how-pro-does-it/).
 The Washington Post.
 14 October 2019.
 :::
@@ -203,18 +197,18 @@ Live Free or Dichotomize.
 
 ## Axes and scales - Planned Parenthood services {.smaller}
 
-:::::: columns
-:::: {.column width="40%"}
+::: columns
+::: {.column width="40%"}
 ::: question
 What is wrong with this picture?
 How would you correct it?
 :::
-::::
+:::
 
 ::: {.column width="60%" style="vertical-align: top;"}
 ![](img/11/pp-misleading.png){fig-align="center" width="80%"}
 :::
-::::::
+:::
 
 ::: aside
 Timothy B. Lee.
@@ -269,56 +263,7 @@ ggplot(pp, aes(x = year, y = n, color = service)) +
   theme(legend.position = "none")
 ```
 
-## Maps and areas - Voting map
-
-::: question
-Do you recognize this map?
-What does it show?
-:::
-
-![](img/11/election-2016-county.png){fig-align="center"}
-
-::: aside
-Lazaro Gamio.
-["Election maps are telling you big lies about small things"](https://www.washingtonpost.com/graphics/politics/2016-election/how-election-maps-lie/).
-The Washington Post.
-1 Nov 2016.
-:::
-
-## Maps and areas - Two alternate tales
-
-::::: columns
-::: column
-![](img/11/citizens-for-trump.png){fig-align="center" width="320"}
-:::
-
-::: column
-![](img/11/counties-for-trump.png){fig-align="center" width="320"}
-:::
-:::::
-
-::: aside
-Alberto Cairo.
-[Visual Trumpery talk](https://visualtrumperytour.wordpress.com/).
-:::
-
-## Maps and areas - Voting percentages
-
-![](img/11/cairo-vote-percentages.png){fig-align="center" width="750"}
-
-::: aside
-Alberto Cairo.
-[Visual Trumpery talk](https://visualtrumperytour.wordpress.com/).
-:::
-
-## Maps and areas - Voting percentages
-
-![](img/11/cairo-what-matters.png){fig-align="center"}
-
-::: aside
-Alberto Cairo.
-[Visual Trumpery talk](https://visualtrumperytour.wordpress.com/).
-:::
+## 
 
 ## Uncertainty - Catalan independence {.smaller}
 
@@ -421,7 +366,7 @@ Popular referendum on 2018's Senate Bill 10:
 
 ## What might "risk assessment" look like? {.smaller}
 
-Something we will study after spring break:
+Something we will study in two weeks:
 
 ```{r}
 #| message: false
@@ -472,7 +417,7 @@ Is this progress?
 
 2016 ProPublica article on algorithm used for rating a defendant's risk of future crime:
 
-::::: columns
+::: columns
 ::: {.column width="70%"}
 > In forecasting who would re-offend, the algorithm made mistakes with black and white defendants at roughly the same rate but in very different ways.
 >
@@ -484,7 +429,7 @@ Is this progress?
 ::: {.column width="30%"}
 ![](img/11/machine-bias.png){fig-align="center" width="800"}
 :::
-:::::
+:::
 
 ::: aside
 Source: [ProPublica](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)
@@ -492,12 +437,12 @@ Source: [ProPublica](https://www.propublica.org/article/machine-bias-risk-assess
 
 ## Notice anything?
 
-:::::::: columns
-:::: {.column width="35%"}
+::: columns
+::: {.column width="35%"}
 ::: question
 What is common among the defendants who were assigned a high/low risk score for reoffending?
 :::
-::::
+:::
 
 ::: {.column width="5%"}
 :::
@@ -509,16 +454,16 @@ What is common among the defendants who were assigned a high/low risk score for 
 ::: {.column width="30%"}
 ![](img/11/machine-bias-drug-posession-1.png){fig-align="center" width="300" height="250"} ![](img/11/machine-bias-drug-posession-2.png){fig-align="center" width="300" height="180"}
 :::
-::::::::
+:::
 
 ## "But race wasn't in my model"
 
-::::::: columns
-:::: {.column width="35%"}
+::: columns
+::: {.column width="35%"}
 ::: question
 How can an algorithm that doesn't use race as input data be racist?
 :::
-::::
+:::
 
 ::: {.column width="5%"}
 :::
@@ -526,7 +471,7 @@ How can an algorithm that doesn't use race as input data be racist?
 ::: {.column width="60%"}
 ![](img/11/machine-bias-risk-scores.png){fig-align="center" width="480"}
 :::
-:::::::
+:::
 
 ## Predicting ethnicity {.small .scrollable}
 
@@ -535,7 +480,7 @@ How can an algorithm that doesn't use race as input data be racist?
 > In both political behavior research and voting rights litigation, turnout and vote choice for different racial groups are often inferred using aggregate election results and racial composition.
 > Over the past several decades, many statistical methods have been proposed to address this ecological inference problem.
 > We propose an alternative method to reduce aggregation bias by predicting individual-level ethnicity from voter registration records.
-> Building on the existing methodological literature, we use Bayes’s rule to combine the Census Bureau’s Surname List with various information from geocoded voter registration records.
+> Building on the existing methodological literature, we use Bayes's rule to combine the Census Bureau's Surname List with various information from geocoded voter registration records.
 > We evaluate the performance of the proposed methodology using approximately nine million voter registration records from Florida, where self-reported ethnicity is available.
 > We find that it is possible to reduce the false positive rate among Black and Latino voters to 6% and 3%, respectively, while maintaining the true positive rate above 80%.
 > Moreover, we use our predictions to estimate turnout by race and find that our estimates yields substantially less amounts of bias and root mean squared error than standard ecological inference estimates.
@@ -544,7 +489,7 @@ How can an algorithm that doesn't use race as input data be racist?
 
 ## **wru** package
 
-The said “source software” is the wru package: <https://github.com/kosukeimai/wru>.
+The said "source software" is the wru package: <https://github.com/kosukeimai/wru>.
 
 ::: question
 Do you have any ethical concerns about installing this package?
@@ -562,6 +507,7 @@ Does your answer change depending on the intended use?
 ```{r}
 #| cache: true
 #| message: false
+#| eval : false
 library(wru)
 predict_race(voter.file = voters, surname.only = TRUE) |>
   select(surname, pred.whi, pred.bla, pred.his, pred.asi, pred.oth)
@@ -573,8 +519,8 @@ predict_race(voter.file = voters, surname.only = TRUE) |>
 #| cache: true
 #| message: false
 #| warning: false
-
-me <- tibble(surname = "Solarz")
+#| eval : false
+me <- tibble(surname = "Lim")
 
 predict_race(voter.file = me, surname.only = TRUE)
 ```
@@ -613,143 +559,6 @@ A perfect microcosm of the themes of our course, and maybe one of the real trium
 
 . . .
 
-...but what if you learned they were selling your data?
-
-# Data privacy
-
-(aka the reason Tony Soprano ripped the GPS out of this Escalade)
-
-## According to my family members, this would be...very bad for me {.scrollable}
-
-![](img/11/nyt_data_privacy.png)
-
-::: aside
-Kashmir Hill [Automakers Are Sharing Consumers’ Driving Behavior With Insurance Companies](https://www.nytimes.com/2024/03/11/technology/carmakers-driver-tracking-insurance.html).\
-New York Times.
-March 11, 2024.
-:::
-
-## Yikes... {.scrollable}
-
-![](img/11/nih-woops.png){fig-align="center" width="60%"}
-
-::: aside
-Mike McIntire [Genetic Data From Over 20,000 U.S. Children Misused for 'Race Science'](https://www.nytimes.com/2026/01/24/us/children-genetics-race-science.html).\
-New York Times.
-Jan. 24, 2026.
-:::
-
-## "Your" data
-
--   Every time we use apps, websites, and devices, our data is being collected and used or sold to others.
-
--   More importantly, decisions are made by law enforcement, financial institutions, and governments based on data that directly affect the lives of people.
-
-## Privacy of your data
-
-::: question
-What pieces of data have you left on the internet today?
-Think through everything you've logged into, clicked on, checked in, either actively or automatically, that might be tracking you.
-Do you know where that data is stored?
-Who it can be accessed by?
-Whether it's shared with others?
-:::
-
-## Sharing your data {.smaller}
-
-::: question
-What are you OK with sharing?
-:::
-
-::::::: columns
-:::: {.column width="50%"}
-::: incremental
--   Name
--   Age
--   Email
--   Phone Number
--   List of every video you watch
--   List of every video you comment on
-:::
-::::
-
-:::: {.column width="50%"}
-::: incremental
--   How you type: speed, accuracy
--   How long you spend on different content
--   List of all your private messages (date, time, person sent to)
--   Info about your photos: how it was taken, where it was taken (GPS), when it was taken
-:::
-::::
-:::::::
-
-## What does Google think/know about you?
-
-::: question
-Have you ever thought about why you're seeing an ad on Google?
-Google it!
-Try to figure out if you have ad personalization on and how your ads are personalized.
-:::
-
-## Your browsing history
-
-::: question
-Which of the following are you OK with your browsing history to be used towards?
-:::
-
-::: incremental
--   For serving you targeted ads
--   To score you as a candidate for a job
--   To predict your race/ethnicity for voting purposes
-:::
-
-## Who else gets to use your data?
-
-::: question
-Suppose you create a profile on a social media site and share your personal information on your profile.
-Who else gets to use that data?
-:::
-
-::: incremental
--   Companies the social media company has a connection to?
--   Companies the social media company sells your data to?
--   Researchers?
-:::
-
-## AOL search data leak {.smaller}
-
-![](img/11/thelma.png){fig-align="center" width="500"}
-
-::: aside
-Michael Barbaro and Tom Zeller Jr.
-[A Face Is Exposed for AOL Searcher No. 4417749](https://www.nytimes.com/2006/08/09/technology/09aol.html).\
-New York Times.
-9 August 2006.
-:::
-
-## OK Cupid data breach
-
--   In 2016, researchers published data of 70,000 OkCupid users—including usernames, political leanings, drug usage, and intimate sexual details
-
--   Researchers didn't release the real names and pictures of OKCupid users, but their identities could easily be uncovered from the details provided, e.g. usernames
-
-## OK Cupid data breach
-
-![](img/11/okcupid-tweet.png)
-
-## OK Cupid data breach
-
-> Some may object to the ethics of gathering and releasing this data.
-> However, all the data found in the dataset are or were already publicly available, so releasing this dataset merely presents it in a more useful form.
->
-> Researchers Emil Kirkegaard and Julius Daugbjerg Bjerrekær
-
-## Data privacy
-
-::: question
-In analysis of data that individuals willingly shared publicly on a given platform (e.g. social media), how do you make sure you don't violate reasonable expectations of privacy?
-:::
-
 # Some good news?
 
 ## Faster, more accurate cancer screening?
@@ -770,7 +579,7 @@ Augmenting doctors' diagnostic capacity so that they make fewer mistakes, treat 
 
 ## How Charts Lie
 
-::::: columns
+::: columns
 ::: column
 ![](img/11/cairo-how-charts-lie.jpg){width="400"}
 :::
@@ -782,11 +591,11 @@ Getting Smarter about Visual Information
 
 by Alberto Cairo
 :::
-:::::
+:::
 
 ## Calling Bullshit
 
-::::: columns
+::: columns
 ::: column
 ![](img/11/calling-bullshit.png){width="400"}
 :::
@@ -798,11 +607,11 @@ Data-Driven World
 
 by Carl Bergstrom and Jevin West
 :::
-:::::
+:::
 
 ## Machine Bias
 
-::::: columns
+::: columns
 ::: column
 ![](img/11/propublica-machine-bias.png){width="400"}
 :::
@@ -812,11 +621,11 @@ by Carl Bergstrom and Jevin West
 
 by Julia Angwin, Jeff Larson, Surya Mattu, and Lauren Kirchner
 :::
-:::::
+:::
 
 ## Ethics and Data Science
 
-::::: columns
+::: columns
 ::: column
 ![](img/11/ethics-data-science.jpg){width="400"}
 :::
@@ -827,11 +636,11 @@ by Julia Angwin, Jeff Larson, Surya Mattu, and Lauren Kirchner
 by Mike Loukides, Hilary Mason, DJ Patil\
 (Free Kindle download)
 :::
-:::::
+:::
 
 ## Weapons of Math Destruction
 
-::::: columns
+::: columns
 ::: column
 ![](img/11/weapons-of-math-destruction.jpg){width="400"}
 :::
@@ -842,11 +651,11 @@ How Big Data Increases Inequality and Threatens Democracy\
 
 by Cathy O'Neil
 :::
-:::::
+:::
 
 ## Algorithms of Oppression
 
-::::: columns
+::: columns
 ::: column
 ![](img/11/algorithms-of-oppression.jpg){width="400"}
 :::
@@ -857,7 +666,7 @@ How Search Engines Reinforce Racism\
 
 by Safiya Umoja Noble
 :::
-:::::
+:::
 
 ## And more recently...
 
@@ -875,3 +684,74 @@ by Julia Busiek
 ::: question
 How do you train yourself to make the right decisions (or reduce the likelihood of accidentally making the wrong decisions) at those points?
 :::
+
+# A Brief History of Statistics (Buckle Up)
+
+## Origins
+
+- Compared to other sciences, statistics is relatively young: most major contributions happened in the 1900s
+-Three main waves
+- Franics Galton and Karl Pearson evolving the field from math
+- Sir Ronald Fisher and The Design of Experiments
+- Jerzy Neyman and Egon Pearson
+
+## Galton and Pearson {.smaller}
+
+::: columns
+::: column
+- Galton introduced standard deviation, correlation, regression
+- Together with Karl Pearson founded mathematical statistics
+- Other contributions: hypothesis testing, p-values
+- First statistics department in University College London
+:::
+
+::: column
+![](img/11/pearsongalton.jpg){width="400"}
+:::
+:::
+
+## Fisher and The Design of Experiments
+
+::: columns
+::: column
+- Many contributions fundamental to experimental design
+- Analysis of variance or ANOVA
+- Agriculture! A very popular data source for statistics
+:::
+
+::: column
+![](img/11/fisherthefascist.jpeg){width="400"}
+:::
+:::
+
+# Besides statistics, what did these founding father of statistics have in common?
+
+## RACISM!
+
+![](img/11/galtoneugenics.png){width="800"}
+
+![](img/11/galtongeugenics0.png){width="500"}
+![](img/11/fishereugenics.png){width="500"}
+
+## Why I bring this up? {.smaller}
+
+- Statistics was used to advance eugenics "research"
+- Acknowledging that statistics is not merely numbers but rather a powerful tool that caused real harm is a starting point toward ethical and thoughtful usage
+- The midterm tomorrow features the popular (and seemingly innocuous) dataset "Iris": a very famous dataset on flowers
+- Unfortunately, one of the original uses of that dataset was by Fisher in the Annals of Eugenics
+- We will use it tomorrow with the understanding that while these people involved in eugenics created many of the methods today, we hold the power to use them ethically and responsibly   
+
+## Mathematics Genealogy Project
+
+<https://www.genealogy.math.ndsu.nodak.edu/>
+
+## Wrapping Everything Up
+
+- Data science and statistics contains more power than you think
+- You have the tools to lead or mislead the public: use your knowledge for good
+- Be critical about the methods you learn
+
+
+
+
+
