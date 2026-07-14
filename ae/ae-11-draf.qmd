@@ -1,6 +1,0 @@
----
-title: "AE 11: Midterm Pokémon Practice"
-format: pdf
-editor: visual
----
-
