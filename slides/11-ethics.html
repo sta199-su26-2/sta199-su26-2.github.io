@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 <meta name="author" content="Josh Lim">
 <meta name="dcterms.date" content="2026-07-15">
-<title>Ethics in Data Science – STA 199</title>
+<title>Ethics in Data Science and a Brief History of Stats – STA 199</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -123,13 +123,13 @@ window.Quarto = {
   typesetMath
 };
 </script><link rel="stylesheet" href="../style/sta199.scss">
-<meta property="og:title" content="Ethics in Data Science – STA 199">
+<meta property="og:title" content="Ethics in Data Science and a Brief History of Stats – STA 199">
 <meta property="og:description" content="Lecture 11">
 <meta property="og:image" content="https://sta199-su26-2.github.io/slides/img/00/personal_inj.png">
 <meta property="og:site_name" content="STA 199">
 <meta property="og:image:height" content="1006">
 <meta property="og:image:width" content="1724">
-<meta name="twitter:title" content="Ethics in Data Science – STA 199">
+<meta name="twitter:title" content="Ethics in Data Science and a Brief History of Stats – STA 199">
 <meta name="twitter:description" content="Lecture 11">
 <meta name="twitter:image" content="https://sta199-su26-2.github.io/slides/img/twitter-card-ks.pdf">
 <meta name="twitter:creator" content="@minebocek">
@@ -142,7 +142,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Ethics in Data Science</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Ethics in Data Science and a Brief History of Stats</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -353,10 +353,7 @@ window.Quarto = {
   <li><a href="#axes-and-scales---covid-in-ga-1" id="toc-axes-and-scales---covid-in-ga-1" class="nav-link" data-scroll-target="#axes-and-scales---covid-in-ga-1">Axes and scales - COVID in GA</a></li>
   <li><a href="#axes-and-scales---planned-parenthood-services" id="toc-axes-and-scales---planned-parenthood-services" class="nav-link" data-scroll-target="#axes-and-scales---planned-parenthood-services">Axes and scales - Planned Parenthood services</a></li>
   <li><a href="#axes-and-scales---planned-parenthood-services-1" id="toc-axes-and-scales---planned-parenthood-services-1" class="nav-link" data-scroll-target="#axes-and-scales---planned-parenthood-services-1">Axes and scales - Planned Parenthood services</a></li>
-  <li><a href="#maps-and-areas---voting-map" id="toc-maps-and-areas---voting-map" class="nav-link" data-scroll-target="#maps-and-areas---voting-map">Maps and areas - Voting map</a></li>
-  <li><a href="#maps-and-areas---two-alternate-tales" id="toc-maps-and-areas---two-alternate-tales" class="nav-link" data-scroll-target="#maps-and-areas---two-alternate-tales">Maps and areas - Two alternate tales</a></li>
-  <li><a href="#maps-and-areas---voting-percentages" id="toc-maps-and-areas---voting-percentages" class="nav-link" data-scroll-target="#maps-and-areas---voting-percentages">Maps and areas - Voting percentages</a></li>
-  <li><a href="#maps-and-areas---voting-percentages-1" id="toc-maps-and-areas---voting-percentages-1" class="nav-link" data-scroll-target="#maps-and-areas---voting-percentages-1">Maps and areas - Voting percentages</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
   <li><a href="#uncertainty---catalan-independence" id="toc-uncertainty---catalan-independence" class="nav-link" data-scroll-target="#uncertainty---catalan-independence">Uncertainty - Catalan independence</a></li>
   <li><a href="#uncertainty---catalan-independence-1" id="toc-uncertainty---catalan-independence-1" class="nav-link" data-scroll-target="#uncertainty---catalan-independence-1">Uncertainty - Catalan independence</a></li>
   </ul>
@@ -379,24 +376,6 @@ window.Quarto = {
   </ul>
 </li>
   <li>
-<a href="#data-privacy" id="toc-data-privacy" class="nav-link" data-scroll-target="#data-privacy">Data privacy</a>
-  <ul class="collapse">
-<li><a href="#according-to-my-family-members-this-would-bevery-bad-for-me" id="toc-according-to-my-family-members-this-would-bevery-bad-for-me" class="nav-link" data-scroll-target="#according-to-my-family-members-this-would-bevery-bad-for-me">According to my family members, this would be…very bad for me</a></li>
-  <li><a href="#yikes" id="toc-yikes" class="nav-link" data-scroll-target="#yikes">Yikes…</a></li>
-  <li><a href="#your-data" id="toc-your-data" class="nav-link" data-scroll-target="#your-data">“Your” data</a></li>
-  <li><a href="#privacy-of-your-data" id="toc-privacy-of-your-data" class="nav-link" data-scroll-target="#privacy-of-your-data">Privacy of your data</a></li>
-  <li><a href="#sharing-your-data" id="toc-sharing-your-data" class="nav-link" data-scroll-target="#sharing-your-data">Sharing your data</a></li>
-  <li><a href="#what-does-google-thinkknow-about-you" id="toc-what-does-google-thinkknow-about-you" class="nav-link" data-scroll-target="#what-does-google-thinkknow-about-you">What does Google think/know about you?</a></li>
-  <li><a href="#your-browsing-history" id="toc-your-browsing-history" class="nav-link" data-scroll-target="#your-browsing-history">Your browsing history</a></li>
-  <li><a href="#who-else-gets-to-use-your-data" id="toc-who-else-gets-to-use-your-data" class="nav-link" data-scroll-target="#who-else-gets-to-use-your-data">Who else gets to use your data?</a></li>
-  <li><a href="#aol-search-data-leak" id="toc-aol-search-data-leak" class="nav-link" data-scroll-target="#aol-search-data-leak">AOL search data leak</a></li>
-  <li><a href="#ok-cupid-data-breach" id="toc-ok-cupid-data-breach" class="nav-link" data-scroll-target="#ok-cupid-data-breach">OK Cupid data breach</a></li>
-  <li><a href="#ok-cupid-data-breach-1" id="toc-ok-cupid-data-breach-1" class="nav-link" data-scroll-target="#ok-cupid-data-breach-1">OK Cupid data breach</a></li>
-  <li><a href="#ok-cupid-data-breach-2" id="toc-ok-cupid-data-breach-2" class="nav-link" data-scroll-target="#ok-cupid-data-breach-2">OK Cupid data breach</a></li>
-  <li><a href="#data-privacy-1" id="toc-data-privacy-1" class="nav-link" data-scroll-target="#data-privacy-1">Data privacy</a></li>
-  </ul>
-</li>
-  <li>
 <a href="#some-good-news" id="toc-some-good-news" class="nav-link" data-scroll-target="#some-good-news">Some good news?</a>
   <ul class="collapse">
 <li><a href="#faster-more-accurate-cancer-screening" id="toc-faster-more-accurate-cancer-screening" class="nav-link" data-scroll-target="#faster-more-accurate-cancer-screening">Faster, more accurate cancer screening?</a></li>
@@ -416,11 +395,28 @@ window.Quarto = {
   <li><a href="#parting-thoughts" id="toc-parting-thoughts" class="nav-link" data-scroll-target="#parting-thoughts">Parting thoughts</a></li>
   </ul>
 </li>
+  <li>
+<a href="#a-brief-history-of-statistics-buckle-up" id="toc-a-brief-history-of-statistics-buckle-up" class="nav-link" data-scroll-target="#a-brief-history-of-statistics-buckle-up">A Brief History of Statistics (Buckle Up)</a>
+  <ul class="collapse">
+<li><a href="#origins" id="toc-origins" class="nav-link" data-scroll-target="#origins">Origins</a></li>
+  <li><a href="#galton-and-pearson" id="toc-galton-and-pearson" class="nav-link" data-scroll-target="#galton-and-pearson">Galton and Pearson</a></li>
+  <li><a href="#fisher-and-the-design-of-experiments" id="toc-fisher-and-the-design-of-experiments" class="nav-link" data-scroll-target="#fisher-and-the-design-of-experiments">Fisher and The Design of Experiments</a></li>
+  </ul>
+</li>
+  <li>
+<a href="#besides-statistics-what-did-these-founding-father-of-statistics-have-in-common" id="toc-besides-statistics-what-did-these-founding-father-of-statistics-have-in-common" class="nav-link" data-scroll-target="#besides-statistics-what-did-these-founding-father-of-statistics-have-in-common">Besides statistics, what did these founding father of statistics have in common?</a>
+  <ul class="collapse">
+<li><a href="#racism" id="toc-racism" class="nav-link" data-scroll-target="#racism">RACISM!</a></li>
+  <li><a href="#why-i-bring-this-up" id="toc-why-i-bring-this-up" class="nav-link" data-scroll-target="#why-i-bring-this-up">Why I bring this up?</a></li>
+  <li><a href="#mathematics-genealogy-project" id="toc-mathematics-genealogy-project" class="nav-link" data-scroll-target="#mathematics-genealogy-project">Mathematics Genealogy Project</a></li>
+  <li><a href="#wrapping-everything-up" id="toc-wrapping-everything-up" class="nav-link" data-scroll-target="#wrapping-everything-up">Wrapping Everything Up</a></li>
+  </ul>
+</li>
   </ul><div class="toc-actions"><ul><li><a href="https://github.com/sta199-su26-2/sta199-su26-2.github.io/edit/main/slides/11-ethics.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/sta199-su26-2/sta199-su26-2.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="11-ethics-slides.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content page-columns page-full" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
-<h1 class="title">Ethics in Data Science</h1>
+<h1 class="title">Ethics in Data Science and a Brief History of Stats</h1>
 <p class="subtitle lead">Lecture 11</p>
 </div>
 
@@ -505,8 +501,8 @@ window.Quarto = {
 <p><img src="img/11/exercise-cancer-latimes.png" class="img-fluid"></p>
 
 <div class="no-row-height column-margin column-container"><div class="margin-aside">
-<p>Melissa Healy. <a href="https://www.latimes.com/science/sciencenow/la-sci-sn-exercising-cancer-20160516-story.html">Exercising drives down risk for 13 cancers, research shows</a>.<br>
-Los Angeles Times. 16 May 2016.</p>
+<p>Melissa Healy. <a href="https://www.latimes.com/science/sciencenow/la-sci-sn-exercising-cancer-20160516-story.html">Exercising drives down risk for 13 cancers, research shows</a>.<br></p>
+<p>Los Angeles Times. 16 May 2016.</p>
 </div></div></section><section id="causality---original-study" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="causality---original-study">Causality - Original study</h2>
 <p>Moore, Steven C., et al.&nbsp;<a href="https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2521826"><strong>“Association of leisure-time physical activity with risk of 26 types of cancer in 1.44 million adults.”</strong></a> JAMA internal medicine 176.6 (2016): 816-825.</p>
 <ul>
@@ -517,9 +513,9 @@ Los Angeles Times. 16 May 2016.</p>
 <li>Researchers found no association between exercising and 13 other cancers (e.g.&nbsp;pancreatic, ovarian, and brain).</li>
 </ul>
 <div class="notes">
-<p>Carl Bergstrom and Jevin West. <a href="https://www.callingbullshit.org/">Calling Bullshit: The art of skepticism in a data-driven world</a>.<br>
-Random House, 2020.<br>
-Sharon Begley. <a href="https://www.statnews.com/2016/05/16/exercise-prevent-cancer/">“Does exercise prevent cancer?”</a>. StatNews. 16 May 2016.</p>
+<p>Carl Bergstrom and Jevin West. <a href="https://www.callingbullshit.org/">Calling Bullshit: The art of skepticism in a data-driven world</a>.<br></p>
+<p>Random House, 2020.<br></p>
+<p>Sharon Begley. <a href="https://www.statnews.com/2016/05/16/exercise-prevent-cancer/">“Does exercise prevent cancer?”</a>. StatNews. 16 May 2016.</p>
 </div>
 </section><section id="axes-and-scales---tax-cuts" class="level2 smaller page-columns page-full"><h2 class="smaller anchored" data-anchor-id="axes-and-scales---tax-cuts">Axes and scales - Tax cuts</h2>
 <div class="question">
@@ -652,51 +648,8 @@ Sharon Begley. <a href="https://www.statnews.com/2016/05/16/exercise-prevent-can
 </div>
 </div>
 </div>
-</section><section id="maps-and-areas---voting-map" class="level2 page-columns page-full"><h2 class="anchored" data-anchor-id="maps-and-areas---voting-map">Maps and areas - Voting map</h2>
-<div class="question">
-<p>Do you recognize this map? What does it show?</p>
-</div>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="img/11/election-2016-county.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-
-<div class="no-row-height column-margin column-container"><div class="margin-aside">
-<p>Lazaro Gamio. <a href="https://www.washingtonpost.com/graphics/politics/2016-election/how-election-maps-lie/">“Election maps are telling you big lies about small things”</a>. The Washington Post. 1 Nov 2016.</p>
-</div></div></section><section id="maps-and-areas---two-alternate-tales" class="level2 page-columns page-full"><h2 class="anchored" data-anchor-id="maps-and-areas---two-alternate-tales">Maps and areas - Two alternate tales</h2>
-<div class="columns">
-<div class="column">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="img/11/citizens-for-trump.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="320"></p>
-</figure>
-</div>
-</div><div class="column">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="img/11/counties-for-trump.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="320"></p>
-</figure>
-</div>
-</div>
-</div>
-
-<div class="no-row-height column-margin column-container"><div class="margin-aside">
-<p>Alberto Cairo. <a href="https://visualtrumperytour.wordpress.com/">Visual Trumpery talk</a>.</p>
-</div></div></section><section id="maps-and-areas---voting-percentages" class="level2 page-columns page-full"><h2 class="anchored" data-anchor-id="maps-and-areas---voting-percentages">Maps and areas - Voting percentages</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="img/11/cairo-vote-percentages.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="750"></p>
-</figure>
-</div>
-
-<div class="no-row-height column-margin column-container"><div class="margin-aside">
-<p>Alberto Cairo. <a href="https://visualtrumperytour.wordpress.com/">Visual Trumpery talk</a>.</p>
-</div></div></section><section id="maps-and-areas---voting-percentages-1" class="level2 page-columns page-full"><h2 class="anchored" data-anchor-id="maps-and-areas---voting-percentages-1">Maps and areas - Voting percentages</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="img/11/cairo-what-matters.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
-</figure>
-</div>
-
-<div class="no-row-height column-margin column-container"><div class="margin-aside">
-<p>Alberto Cairo. <a href="https://visualtrumperytour.wordpress.com/">Visual Trumpery talk</a>.</p>
-</div></div></section><section id="uncertainty---catalan-independence" class="level2 smaller page-columns page-full"><h2 class="smaller anchored" data-anchor-id="uncertainty---catalan-independence">Uncertainty - Catalan independence</h2>
+</section><section id="section" class="level2"><h2 class="anchored" data-anchor-id="section"></h2>
+</section><section id="uncertainty---catalan-independence" class="level2 smaller page-columns page-full"><h2 class="smaller anchored" data-anchor-id="uncertainty---catalan-independence">Uncertainty - Catalan independence</h2>
 <p>On December 19, 2014, the front page of Spanish national newspaper El País read <em>“Catalan public opinion swings toward ‘no’ for independence, says survey”</em>.</p>
 <div class="cell">
 <div class="cell-output-display">
@@ -743,7 +696,7 @@ Sharon Begley. <a href="https://www.statnews.com/2016/05/16/exercise-prevent-can
 </ul>
 </div>
 </section><section id="what-might-risk-assessment-look-like" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="what-might-risk-assessment-look-like">What might “risk assessment” look like?</h2>
-<p>Something we will study after spring break:</p>
+<p>Something we will study in two weeks:</p>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -823,41 +776,13 @@ Sharon Begley. <a href="https://www.statnews.com/2016/05/16/exercise-prevent-can
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/kosukeimai/wru">wru</a></span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/pkg/wru/man/predict_race.html">predict_race</a></span><span class="op">(</span>voter.file <span class="op">=</span> <span class="va">voters</span>, surname.only <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span> <span class="op">|&gt;</span></span>
 <span>  <span class="fu">select</span><span class="op">(</span><span class="va">surname</span>, <span class="va">pred.whi</span>, <span class="va">pred.bla</span>, <span class="va">pred.his</span>, <span class="va">pred.asi</span>, <span class="va">pred.oth</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>      surname    pred.whi    pred.bla     pred.his    pred.asi
-1      Khanna 0.045110474 0.003067623 0.0068522723 0.860411906
-2        Imai 0.052645440 0.001334812 0.0558160072 0.719376581
-3      Rivera 0.043285692 0.008204605 0.9136195794 0.024316883
-4     Fifield 0.895405704 0.001911388 0.0337464844 0.011079323
-5        Zhou 0.006572555 0.001298962 0.0005388581 0.982365594
-6    Ratkovic 0.861236727 0.008212824 0.0095395642 0.011334635
-7     Johnson 0.543815322 0.344128607 0.0272403940 0.007405765
-8       Lopez 0.038939877 0.004920643 0.9318797791 0.012154125
-10 Wantchekon 0.330697188 0.194700665 0.4042849478 0.021379541
-9       Morse 0.866360147 0.044429853 0.0246568086 0.010219712
-      pred.oth
-1  0.084557725
-2  0.170827160
-3  0.010573240
-4  0.057857101
-5  0.009224032
-6  0.109676251
-7  0.077409913
-8  0.012105576
-10 0.048937658
-9  0.054333479</code></pre>
-</div>
 </div>
 </section><section id="wru-package-2" class="level2"><h2 class="anchored" data-anchor-id="wru-package-2">
 <strong>wru</strong> package</h2>
 <div class="cell">
-<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">me</span> <span class="op">&lt;-</span> <span class="fu">tibble</span><span class="op">(</span>surname <span class="op">=</span> <span class="st">"Solarz"</span><span class="op">)</span></span>
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">me</span> <span class="op">&lt;-</span> <span class="fu">tibble</span><span class="op">(</span>surname <span class="op">=</span> <span class="st">"Lim"</span><span class="op">)</span></span>
 <span></span>
 <span><span class="fu"><a href="https://rdrr.io/pkg/wru/man/predict_race.html">predict_race</a></span><span class="op">(</span>voter.file <span class="op">=</span> <span class="va">me</span>, surname.only <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>  surname  pred.whi pred.bla    pred.his    pred.asi   pred.oth
-1  Solarz 0.9410478        0 0.003365333 0.003998592 0.05158826</code></pre>
-</div>
 </div>
 </section><section id="california-prop-25-did-not-pass" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="california-prop-25-did-not-pass">California Prop 25 did not pass</h2>
 <p>The cash bail system was retained:</p>
@@ -896,109 +821,6 @@ Sharon Begley. <a href="https://www.statnews.com/2016/05/16/exercise-prevent-can
 <p>. . .</p>
 <p>A perfect microcosm of the themes of our course, and maybe one of the real triumphs of data and modeling improving modern life.</p>
 <p>. . .</p>
-<p>…but what if you learned they were selling your data?</p>
-</section></section><section id="data-privacy" class="level1 page-columns page-full"><h1>Data privacy</h1>
-<p>(aka the reason Tony Soprano ripped the GPS out of this Escalade)</p>
-<section id="according-to-my-family-members-this-would-bevery-bad-for-me" class="level2 scrollable page-columns page-full"><h2 class="scrollable anchored" data-anchor-id="according-to-my-family-members-this-would-bevery-bad-for-me">According to my family members, this would be…very bad for me</h2>
-<p><img src="img/11/nyt_data_privacy.png" class="img-fluid"></p>
-
-<div class="no-row-height column-margin column-container"><div class="margin-aside">
-<p>Kashmir Hill <a href="https://www.nytimes.com/2024/03/11/technology/carmakers-driver-tracking-insurance.html">Automakers Are Sharing Consumers’ Driving Behavior With Insurance Companies</a>.<br>
-New York Times. March 11, 2024.</p>
-</div></div></section><section id="yikes" class="level2 scrollable page-columns page-full"><h2 class="scrollable anchored" data-anchor-id="yikes">Yikes…</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="img/11/nih-woops.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%"></p>
-</figure>
-</div>
-
-<div class="no-row-height column-margin column-container"><div class="margin-aside">
-<p>Mike McIntire <a href="https://www.nytimes.com/2026/01/24/us/children-genetics-race-science.html">Genetic Data From Over 20,000 U.S. Children Misused for ‘Race Science’</a>.<br>
-New York Times. Jan.&nbsp;24, 2026.</p>
-</div></div></section><section id="your-data" class="level2"><h2 class="anchored" data-anchor-id="your-data">“Your” data</h2>
-<ul>
-<li><p>Every time we use apps, websites, and devices, our data is being collected and used or sold to others.</p></li>
-<li><p>More importantly, decisions are made by law enforcement, financial institutions, and governments based on data that directly affect the lives of people.</p></li>
-</ul></section><section id="privacy-of-your-data" class="level2"><h2 class="anchored" data-anchor-id="privacy-of-your-data">Privacy of your data</h2>
-<div class="question">
-<p>What pieces of data have you left on the internet today? Think through everything you’ve logged into, clicked on, checked in, either actively or automatically, that might be tracking you. Do you know where that data is stored? Who it can be accessed by? Whether it’s shared with others?</p>
-</div>
-</section><section id="sharing-your-data" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="sharing-your-data">Sharing your data</h2>
-<div class="question">
-<p>What are you OK with sharing?</p>
-</div>
-<div class="columns">
-<div class="column" style="width:50%;">
-<div class="incremental">
-<ul class="incremental">
-<li>Name</li>
-<li>Age</li>
-<li>Email</li>
-<li>Phone Number</li>
-<li>List of every video you watch</li>
-<li>List of every video you comment on</li>
-</ul>
-</div>
-</div><div class="column" style="width:50%;">
-<div class="incremental">
-<ul class="incremental">
-<li>How you type: speed, accuracy</li>
-<li>How long you spend on different content</li>
-<li>List of all your private messages (date, time, person sent to)</li>
-<li>Info about your photos: how it was taken, where it was taken (GPS), when it was taken</li>
-</ul>
-</div>
-</div>
-</div>
-</section><section id="what-does-google-thinkknow-about-you" class="level2"><h2 class="anchored" data-anchor-id="what-does-google-thinkknow-about-you">What does Google think/know about you?</h2>
-<div class="question">
-<p>Have you ever thought about why you’re seeing an ad on Google? Google it! Try to figure out if you have ad personalization on and how your ads are personalized.</p>
-</div>
-</section><section id="your-browsing-history" class="level2"><h2 class="anchored" data-anchor-id="your-browsing-history">Your browsing history</h2>
-<div class="question">
-<p>Which of the following are you OK with your browsing history to be used towards?</p>
-</div>
-<div class="incremental">
-<ul class="incremental">
-<li>For serving you targeted ads</li>
-<li>To score you as a candidate for a job</li>
-<li>To predict your race/ethnicity for voting purposes</li>
-</ul>
-</div>
-</section><section id="who-else-gets-to-use-your-data" class="level2"><h2 class="anchored" data-anchor-id="who-else-gets-to-use-your-data">Who else gets to use your data?</h2>
-<div class="question">
-<p>Suppose you create a profile on a social media site and share your personal information on your profile. Who else gets to use that data?</p>
-</div>
-<div class="incremental">
-<ul class="incremental">
-<li>Companies the social media company has a connection to?</li>
-<li>Companies the social media company sells your data to?</li>
-<li>Researchers?</li>
-</ul>
-</div>
-</section><section id="aol-search-data-leak" class="level2 smaller page-columns page-full"><h2 class="smaller anchored" data-anchor-id="aol-search-data-leak">AOL search data leak</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="img/11/thelma.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="500"></p>
-</figure>
-</div>
-
-<div class="no-row-height column-margin column-container"><div class="margin-aside">
-<p>Michael Barbaro and Tom Zeller Jr. <a href="https://www.nytimes.com/2006/08/09/technology/09aol.html">A Face Is Exposed for AOL Searcher No.&nbsp;4417749</a>.<br>
-New York Times. 9 August 2006.</p>
-</div></div></section><section id="ok-cupid-data-breach" class="level2"><h2 class="anchored" data-anchor-id="ok-cupid-data-breach">OK Cupid data breach</h2>
-<ul>
-<li><p>In 2016, researchers published data of 70,000 OkCupid users—including usernames, political leanings, drug usage, and intimate sexual details</p></li>
-<li><p>Researchers didn’t release the real names and pictures of OKCupid users, but their identities could easily be uncovered from the details provided, e.g.&nbsp;usernames</p></li>
-</ul></section><section id="ok-cupid-data-breach-1" class="level2"><h2 class="anchored" data-anchor-id="ok-cupid-data-breach-1">OK Cupid data breach</h2>
-<p><img src="img/11/okcupid-tweet.png" class="img-fluid"></p>
-</section><section id="ok-cupid-data-breach-2" class="level2"><h2 class="anchored" data-anchor-id="ok-cupid-data-breach-2">OK Cupid data breach</h2>
-<blockquote class="blockquote">
-<p>Some may object to the ethics of gathering and releasing this data. However, all the data found in the dataset are or were already publicly available, so releasing this dataset merely presents it in a more useful form.</p>
-<p>Researchers Emil Kirkegaard and Julius Daugbjerg Bjerrekær</p>
-</blockquote>
-</section><section id="data-privacy-1" class="level2"><h2 class="anchored" data-anchor-id="data-privacy-1">Data privacy</h2>
-<div class="question">
-<p>In analysis of data that individuals willingly shared publicly on a given platform (e.g.&nbsp;social media), how do you make sure you don’t violate reasonable expectations of privacy?</p>
-</div>
 </section></section><section id="some-good-news" class="level1"><h1>Some good news?</h1>
 <section id="faster-more-accurate-cancer-screening" class="level2"><h2 class="anchored" data-anchor-id="faster-more-accurate-cancer-screening">Faster, more accurate cancer screening?</h2>
 <p>Augmenting doctors’ diagnostic capacity so that they make fewer mistakes, treat more people, and focus on other aspects of care:</p>
@@ -1087,6 +909,57 @@ A conversation with UCLA internet studies scholar Safiya Noble<br></p>
 <div class="question">
 <p>How do you train yourself to make the right decisions (or reduce the likelihood of accidentally making the wrong decisions) at those points?</p>
 </div>
+</section></section><section id="a-brief-history-of-statistics-buckle-up" class="level1"><h1>A Brief History of Statistics (Buckle Up)</h1>
+<section id="origins" class="level2"><h2 class="anchored" data-anchor-id="origins">Origins</h2>
+<ul>
+<li>Compared to other sciences, statistics is relatively young: most major contributions happened in the 1900s -Three main waves</li>
+<li>Franics Galton and Karl Pearson evolving the field from math</li>
+<li>Sir Ronald Fisher and The Design of Experiments</li>
+<li>Jerzy Neyman and Egon Pearson</li>
+</ul></section><section id="galton-and-pearson" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="galton-and-pearson">Galton and Pearson</h2>
+<div class="columns">
+<div class="column">
+<ul>
+<li>Galton introduced standard deviation, correlation, regression</li>
+<li>Together with Karl Pearson founded mathematical statistics</li>
+<li>Other contributions: hypothesis testing, p-values</li>
+<li>First statistics department in University College London</li>
+</ul>
+</div><div class="column">
+<p><img src="img/11/pearsongalton.jpg" class="img-fluid" width="400"></p>
+</div>
+</div>
+</section><section id="fisher-and-the-design-of-experiments" class="level2"><h2 class="anchored" data-anchor-id="fisher-and-the-design-of-experiments">Fisher and The Design of Experiments</h2>
+<div class="columns">
+<div class="column">
+<ul>
+<li>Many contributions fundamental to experimental design</li>
+<li>Analysis of variance or ANOVA</li>
+<li>Agriculture! A very popular data source for statistics</li>
+</ul>
+</div><div class="column">
+<p><img src="img/11/fisherthefascist.jpeg" class="img-fluid" width="400"></p>
+</div>
+</div>
+</section></section><section id="besides-statistics-what-did-these-founding-father-of-statistics-have-in-common" class="level1"><h1>Besides statistics, what did these founding father of statistics have in common?</h1>
+<section id="racism" class="level2"><h2 class="anchored" data-anchor-id="racism">RACISM!</h2>
+<p><img src="img/11/galtoneugenics.png" class="img-fluid" width="800"></p>
+<p><img src="img/11/galtongeugenics0.png" class="img-fluid" width="500"><img src="img/11/fishereugenics.png" class="img-fluid" width="500"></p>
+</section><section id="why-i-bring-this-up" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="why-i-bring-this-up">Why I bring this up?</h2>
+<ul>
+<li>Statistics was used to advance eugenics “research”</li>
+<li>Acknowledging that statistics is not merely numbers but rather a powerful tool that caused real harm is a starting point toward ethical and thoughtful usage</li>
+<li>The midterm tomorrow features the popular (and seemingly innocuous) dataset “Iris”: a very famous dataset on flowers</li>
+<li>Unfortunately, one of the original uses of that dataset was by Fisher in the Annals of Eugenics</li>
+<li>We will use it tomorrow with the understanding that while these people involved in eugenics created many of the methods today, we hold the power to use them ethically and responsibly</li>
+</ul></section><section id="mathematics-genealogy-project" class="level2"><h2 class="anchored" data-anchor-id="mathematics-genealogy-project">Mathematics Genealogy Project</h2>
+<p><a href="https://www.genealogy.math.ndsu.nodak.edu/" class="uri">https://www.genealogy.math.ndsu.nodak.edu/</a></p>
+</section><section id="wrapping-everything-up" class="level2"><h2 class="anchored" data-anchor-id="wrapping-everything-up">Wrapping Everything Up</h2>
+<ul>
+<li>Data science and statistics contains more power than you think</li>
+<li>You have the tools to lead or mislead the public: use your knowledge for good</li>
+<li>Be critical about the methods you learn</li>
+</ul>
 
 
 </section></section></main><!-- /main --><script>
