@@ -1,5 +1,9 @@
 ---
 title: "AE 11: Midterm Pokémon Practice"
+subtitle: "Suggested answers"
+format:
+  html:
+    self-contained: true
 ---
 
 In this AE, you'll work through some variety of tasks to prepare for the midterm while learning about the Pokémon universe! 
