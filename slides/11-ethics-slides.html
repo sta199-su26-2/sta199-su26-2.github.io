@@ -546,13 +546,41 @@ Josh Lim
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a><span class="fu">library</span>(wru)</span>
 <span id="cb3-2"><a></a><span class="fu">predict_race</span>(<span class="at">voter.file =</span> voters, <span class="at">surname.only =</span> <span class="cn">TRUE</span>) <span class="sc">|&gt;</span></span>
 <span id="cb3-3"><a></a>  <span class="fu">select</span>(surname, pred.whi, pred.bla, pred.his, pred.asi, pred.oth)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>      surname    pred.whi    pred.bla     pred.his    pred.asi
+1      Khanna 0.045110474 0.003067623 0.0068522723 0.860411906
+2        Imai 0.052645440 0.001334812 0.0558160072 0.719376581
+3      Rivera 0.043285692 0.008204605 0.9136195794 0.024316883
+4     Fifield 0.895405704 0.001911388 0.0337464844 0.011079323
+5        Zhou 0.006572555 0.001298962 0.0005388581 0.982365594
+6    Ratkovic 0.861236727 0.008212824 0.0095395642 0.011334635
+7     Johnson 0.543815322 0.344128607 0.0272403940 0.007405765
+8       Lopez 0.038939877 0.004920643 0.9318797791 0.012154125
+10 Wantchekon 0.330697188 0.194700665 0.4042849478 0.021379541
+9       Morse 0.866360147 0.044429853 0.0246568086 0.010219712
+      pred.oth
+1  0.084557725
+2  0.170827160
+3  0.010573240
+4  0.057857101
+5  0.009224032
+6  0.109676251
+7  0.077409913
+8  0.012105576
+10 0.048937658
+9  0.054333479</code></pre>
+</div>
 </div>
 </section><section id="wru-package-2" class="slide level2"><h2>
 <strong>wru</strong> package</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a></a>me <span class="ot">&lt;-</span> <span class="fu">tibble</span>(<span class="at">surname =</span> <span class="st">"Lim"</span>)</span>
-<span id="cb4-2"><a></a></span>
-<span id="cb4-3"><a></a><span class="fu">predict_race</span>(<span class="at">voter.file =</span> me, <span class="at">surname.only =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a></a>me <span class="ot">&lt;-</span> <span class="fu">tibble</span>(<span class="at">surname =</span> <span class="st">"Lim"</span>)</span>
+<span id="cb5-2"><a></a></span>
+<span id="cb5-3"><a></a><span class="fu">predict_race</span>(<span class="at">voter.file =</span> me, <span class="at">surname.only =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  surname   pred.whi    pred.bla   pred.his  pred.asi   pred.oth
+1     Lim 0.01909695 0.001653277 0.01328434 0.9166572 0.04930821</code></pre>
+</div>
 </div>
 </section><section id="california-prop-25-did-not-pass" class="slide level2 smaller"><h2>California Prop 25 did not pass</h2>
 <p>The cash bail system was retained:</p>

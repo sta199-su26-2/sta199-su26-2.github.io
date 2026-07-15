@@ -69,7 +69,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-3e476e15ae565c222d94875412ae43a1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-6f16ae144b740bd602cc83eeb4a8a554.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-c5571098d5e4521d45851d71734943eb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
@@ -776,13 +776,41 @@ window.Quarto = {
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/kosukeimai/wru">wru</a></span><span class="op">)</span></span>
 <span><span class="fu"><a href="https://rdrr.io/pkg/wru/man/predict_race.html">predict_race</a></span><span class="op">(</span>voter.file <span class="op">=</span> <span class="va">voters</span>, surname.only <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span> <span class="op">|&gt;</span></span>
 <span>  <span class="fu">select</span><span class="op">(</span><span class="va">surname</span>, <span class="va">pred.whi</span>, <span class="va">pred.bla</span>, <span class="va">pred.his</span>, <span class="va">pred.asi</span>, <span class="va">pred.oth</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>      surname    pred.whi    pred.bla     pred.his    pred.asi
+1      Khanna 0.045110474 0.003067623 0.0068522723 0.860411906
+2        Imai 0.052645440 0.001334812 0.0558160072 0.719376581
+3      Rivera 0.043285692 0.008204605 0.9136195794 0.024316883
+4     Fifield 0.895405704 0.001911388 0.0337464844 0.011079323
+5        Zhou 0.006572555 0.001298962 0.0005388581 0.982365594
+6    Ratkovic 0.861236727 0.008212824 0.0095395642 0.011334635
+7     Johnson 0.543815322 0.344128607 0.0272403940 0.007405765
+8       Lopez 0.038939877 0.004920643 0.9318797791 0.012154125
+10 Wantchekon 0.330697188 0.194700665 0.4042849478 0.021379541
+9       Morse 0.866360147 0.044429853 0.0246568086 0.010219712
+      pred.oth
+1  0.084557725
+2  0.170827160
+3  0.010573240
+4  0.057857101
+5  0.009224032
+6  0.109676251
+7  0.077409913
+8  0.012105576
+10 0.048937658
+9  0.054333479</code></pre>
+</div>
 </div>
 </section><section id="wru-package-2" class="level2"><h2 class="anchored" data-anchor-id="wru-package-2">
 <strong>wru</strong> package</h2>
 <div class="cell">
-<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">me</span> <span class="op">&lt;-</span> <span class="fu">tibble</span><span class="op">(</span>surname <span class="op">=</span> <span class="st">"Lim"</span><span class="op">)</span></span>
+<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">me</span> <span class="op">&lt;-</span> <span class="fu">tibble</span><span class="op">(</span>surname <span class="op">=</span> <span class="st">"Lim"</span><span class="op">)</span></span>
 <span></span>
 <span><span class="fu"><a href="https://rdrr.io/pkg/wru/man/predict_race.html">predict_race</a></span><span class="op">(</span>voter.file <span class="op">=</span> <span class="va">me</span>, surname.only <span class="op">=</span> <span class="cn">TRUE</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  surname   pred.whi    pred.bla   pred.his  pred.asi   pred.oth
+1     Lim 0.01909695 0.001653277 0.01328434 0.9166572 0.04930821</code></pre>
+</div>
 </div>
 </section><section id="california-prop-25-did-not-pass" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="california-prop-25-did-not-pass">California Prop 25 did not pass</h2>
 <p>The cash bail system was retained:</p>
