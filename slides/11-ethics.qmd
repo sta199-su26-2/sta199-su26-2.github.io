@@ -507,7 +507,6 @@ Does your answer change depending on the intended use?
 ```{r}
 #| cache: true
 #| message: false
-#| eval : false
 library(wru)
 predict_race(voter.file = voters, surname.only = TRUE) |>
   select(surname, pred.whi, pred.bla, pred.his, pred.asi, pred.oth)
@@ -519,7 +518,6 @@ predict_race(voter.file = voters, surname.only = TRUE) |>
 #| cache: true
 #| message: false
 #| warning: false
-#| eval : false
 me <- tibble(surname = "Lim")
 
 predict_race(voter.file = me, surname.only = TRUE)
@@ -689,20 +687,19 @@ How do you train yourself to make the right decisions (or reduce the likelihood 
 
 ## Origins
 
-- Compared to other sciences, statistics is relatively young: most major contributions happened in the 1900s
--Three main waves
-- Franics Galton and Karl Pearson evolving the field from math
-- Sir Ronald Fisher and The Design of Experiments
-- Jerzy Neyman and Egon Pearson
+-   Compared to other sciences, statistics is relatively young: most major contributions happened in the 1900s -Three main waves
+-   Franics Galton and Karl Pearson evolving the field from math
+-   Sir Ronald Fisher and The Design of Experiments
+-   Jerzy Neyman and Egon Pearson
 
 ## Galton and Pearson {.smaller}
 
 ::: columns
 ::: column
-- Galton introduced standard deviation, correlation, regression
-- Together with Karl Pearson founded mathematical statistics
-- Other contributions: hypothesis testing, p-values
-- First statistics department in University College London
+-   Galton introduced standard deviation, correlation, regression
+-   Together with Karl Pearson founded mathematical statistics
+-   Other contributions: hypothesis testing, p-values
+-   First statistics department in University College London
 :::
 
 ::: column
@@ -714,9 +711,9 @@ How do you train yourself to make the right decisions (or reduce the likelihood 
 
 ::: columns
 ::: column
-- Many contributions fundamental to experimental design
-- Analysis of variance or ANOVA
-- Agriculture! A very popular data source for statistics
+-   Many contributions fundamental to experimental design
+-   Analysis of variance or ANOVA
+-   Agriculture! A very popular data source for statistics
 :::
 
 ::: column
@@ -730,16 +727,15 @@ How do you train yourself to make the right decisions (or reduce the likelihood 
 
 ![](img/11/galtoneugenics.png){width="800"}
 
-![](img/11/galtongeugenics0.png){width="500"}
-![](img/11/fishereugenics.png){width="500"}
+![](img/11/galtongeugenics0.png){width="500"} ![](img/11/fishereugenics.png){width="500"}
 
 ## Why I bring this up? {.smaller}
 
-- Statistics was used to advance eugenics "research"
-- Acknowledging that statistics is not merely numbers but rather a powerful tool that caused real harm is a starting point toward ethical and thoughtful usage
-- The midterm tomorrow features the popular (and seemingly innocuous) dataset "Iris": a very famous dataset on flowers
-- Unfortunately, one of the original uses of that dataset was by Fisher in the Annals of Eugenics
-- We will use it tomorrow with the understanding that while these people involved in eugenics created many of the methods today, we hold the power to use them ethically and responsibly   
+-   Statistics was used to advance eugenics "research"
+-   Acknowledging that statistics is not merely numbers but rather a powerful tool that caused real harm is a starting point toward ethical and thoughtful usage
+-   The midterm tomorrow features the popular (and seemingly innocuous) dataset "Iris": a very famous dataset on flowers
+-   Unfortunately, one of the original uses of that dataset was by Fisher in the Annals of Eugenics
+-   We will use it tomorrow with the understanding that while these people involved in eugenics created many of the methods today, we hold the power to use them ethically and responsibly
 
 ## Mathematics Genealogy Project
 
@@ -747,11 +743,6 @@ How do you train yourself to make the right decisions (or reduce the likelihood 
 
 ## Wrapping Everything Up
 
-- Data science and statistics contains more power than you think
-- You have the tools to lead or mislead the public: use your knowledge for good
-- Be critical about the methods you learn
-
-
-
-
-
+-   Data science and statistics contains more power than you think
+-   You have the tools to lead or mislead the public: use your knowledge for good
+-   Be critical about the methods you learn
