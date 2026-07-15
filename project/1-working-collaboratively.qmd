@@ -37,13 +37,13 @@ The goals of this milestone are as follows:
 
 Pick a team name.
 It can be straightforward, or it can be cheeky, but it must be [SFW](https://www.merriam-webster.com/dictionary/SFW).
-Let your TA know your team name asap.
-Once everyone's team names are in, your project repos will be created (give your TA a couple of minutes), and then you can continue with the rest of your task.
+Let Josh know your team name asap.
+Once everyone's team names are in, your project repos will be created (give Josh a couple of minutes), and then you can continue with the rest of your task.
 
 # Activity
 
 This activity is about resolving *merge conflicts*, which can arise when multiple people are using Git and GitHub to collaborate on the same repository.
-The TA will demonstrate before you begin the activity, but you can also read more [here](1-working-collaboratively-preread.qmd).
+Josh will demonstrate before you begin the activity, but you can also read more [here](1-working-collaboratively-preread.qmd).
 
 ## Setup
 
@@ -123,11 +123,13 @@ Then, Role 2 renders the project.
 
 -   **Click the Stage checkbox** for all files in your Git tab. Make sure they all have check marks, not filled-in boxes.
 
-::: {#fig-role-2-4}
+<div>
+
 ![](images/role-2-commit-after-resolve-merge-conflict.png){width="400px"}
 
 Role 2 stages all changed files and commits them with a message indicating that they resolved the merge conflict.
-:::
+
+</div>
 
 -   Commit and push.
 
