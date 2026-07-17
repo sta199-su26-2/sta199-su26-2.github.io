@@ -103,7 +103,7 @@ ggplot(movie_scores, aes(x = critics, y = audience)) +
   )
 ```
 
-::::: columns
+::: columns
 ::: {.column width="70%"}
 ```{r}
 #| echo: false
@@ -115,7 +115,7 @@ tidy(lm(audience ~ critics, data = movie_scores))
 
 ::: {.column width="40%"}
 :::
-:::::
+:::
 
 ## Data visualization: linear model {.scrollable .small}
 
@@ -133,7 +133,7 @@ ggplot(movie_scores, aes(x = critics, y = audience)) +
   #stat_ellipse(geom = "polygon", color = "#FE5D26", fill = "#FE5D2630", type = "norm")
 ```
 
-::::: columns
+::: columns
 ::: {.column width="70%"}
 ```{r}
 #| echo: false
@@ -153,11 +153,11 @@ movie_scores |>
 
 ```
 :::
-:::::
+:::
 
 ## Prediction {.small}
 
-::::: columns
+::: columns
 ::: {.column width="60%"}
 ```{r}
 #| echo: false
@@ -233,7 +233,7 @@ augment(audience_critic_fit,
         new_data = new_movies)
 ```
 :::
-:::::
+:::
 
 # Simple Linear Regression: How R Did It
 
@@ -251,7 +251,7 @@ $\mu_{Y \mid X}$ is the *expected value* of $Y$, *given* (or, *conditional on*) 
 
 ## Regression model
 
-::::: columns
+::: columns
 ::: {.column width="30%"}
 $$
 \begin{aligned} Y &= \color{#6495ED}{\textbf{Model}} + \text{Error} \\[8pt]
@@ -280,13 +280,13 @@ ggplot(data = movie_scores,
     )
 ```
 :::
-:::::
+:::
 
 ## Simple linear regression {.smaller}
 
 -   Use **simple linear regression** to model the relationship between a quantitative outcome ($Y$) and a **single** quantitative predictor ($X$)
 
--   The “idealized” linear regression model, revealed only with **infinite** data:
+-   The "idealized" linear regression model, revealed only with **infinite** data:
 
 $$\Large{Y = \beta_0 + \beta_1 X + \epsilon}$$
 
@@ -380,12 +380,12 @@ $$e^2_1 + e^2_2 + \dots + e^2_n$$
 
 ## Perhaps more clearly... {.scrollable .smaller}
 
-| **data** |   | **residuals** |
-|:----------------------:|:----------------------:|:----------------------:|
+|    **data**     |               |                       **residuals**                        |
+|:---------------:|:-------------:|:----------------------------------------------------------:|
 | $x_1 \quad y_1$ | $\rightarrow$ | $e_1 = y_1 - \widehat{y_1} = y_1 - (b_0 + b_1 \times x_1)$ |
 | $x_2 \quad y_2$ | $\rightarrow$ | $e_2 = y_2 - \widehat{y_2} = y_2 - (b_0 + b_1 \times x_2)$ |
 | $x_3 \quad y_3$ | $\rightarrow$ | $e_3 = y_3 - \widehat{y_3} = y_3 - (b_0 + b_1 \times x_3)$ |
-| ... | $\rightarrow$ | ... |
+|       ...       | $\rightarrow$ |                            ...                             |
 | $x_n \quad y_n$ | $\rightarrow$ | $e_n = y_n - \widehat{y_n} = y_n - (b_0 + b_1 \times x_n)$ |
 
 $$
@@ -607,7 +607,7 @@ The variable name that appears to the *left* of the tilde (`~`) is treated as th
 
 A new movie with a critics' score of $x = 20$ is released, and our model predicts that the audience score will be $\widehat{y}\approx 42.69$, on average:
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 ```{r}
 #| echo: false
@@ -652,7 +652,7 @@ predict(movies_fit,
         new_data = new_movie)
 ```
 :::
-:::::
+:::
 
 # Interpreting the slope and intercept
 
@@ -706,7 +706,8 @@ For example...
 ::: incremental
 -   The regression line goes through the center of mass point (the coordinates corresponding to average $X$ and average $Y$ i.e., ($\bar{x}, \bar{y}$))
 
-    -   Why? Under LSR (least-squares regression), $b_0 = \bar{y} - b_1~\bar{x}$; plugging in $x =\bar{x}$ to the fitted eq., $\widehat{y} = b_0 + b_1~\bar{x} = (\bar{y} - b_1~\bar{x}) + b_1~\bar{x} = \bar{y}$
+    -   Why?
+        Under LSR (least-squares regression), $b_0 = \bar{y} - b_1~\bar{x}$; plugging in $x =\bar{x}$ to the fitted eq., $\widehat{y} = b_0 + b_1~\bar{x} = (\bar{y} - b_1~\bar{x}) + b_1~\bar{x} = \bar{y}$
 
     -   $\Rightarrow \widehat{y} = \bar{y} \text{ when } x = \bar{x}$
 
@@ -730,7 +731,7 @@ For example...
 
 ## Correlation and $R^2$
 
-::::: columns
+::: columns
 ::: {.column width="60%"}
 ```{r}
 #| echo: false
@@ -768,11 +769,11 @@ linear_reg() |>
   select(r.squared)
 ```
 :::
-:::::
+:::
 
 ## Correlation and $R^2$
 
-::::: columns
+::: columns
 ::: {.column width="60%"}
 ```{r}
 #| echo: false
@@ -810,11 +811,11 @@ linear_reg() |>
   select(r.squared)
 ```
 :::
-:::::
+:::
 
 ## Correlation and $R^2$
 
-::::: columns
+::: columns
 ::: {.column width="60%"}
 ```{r}
 #| echo: false
@@ -852,11 +853,11 @@ linear_reg() |>
   select(r.squared)
 ```
 :::
-:::::
+:::
 
 ## Correlation and $R^2$
 
-::::: columns
+::: columns
 ::: {.column width="60%"}
 ```{r}
 #| echo: false
@@ -894,11 +895,11 @@ linear_reg() |>
   select(r.squared)
 ```
 :::
-:::::
+:::
 
 ## Correlation and $R^2$
 
-::::: columns
+::: columns
 ::: {.column width="60%"}
 ```{r}
 #| echo: false
@@ -936,11 +937,11 @@ linear_reg() |>
   select(r.squared)
 ```
 :::
-:::::
+:::
 
 ## Correlation and $R^2$
 
-::::: columns
+::: columns
 ::: {.column width="60%"}
 ```{r}
 #| echo: false
@@ -978,11 +979,11 @@ linear_reg() |>
   select(r.squared)
 ```
 :::
-:::::
+:::
 
 ## Correlation and $R^2$
 
-::::: columns
+::: columns
 ::: {.column width="60%"}
 ```{r}
 #| echo: false
@@ -1020,11 +1021,11 @@ linear_reg() |>
   select(r.squared)
 ```
 :::
-:::::
+:::
 
 ## Correlation and $R^2$
 
-::::: columns
+::: columns
 ::: {.column width="60%"}
 ```{r}
 #| echo: false
@@ -1062,11 +1063,11 @@ linear_reg() |>
   select(r.squared)
 ```
 :::
-:::::
+:::
 
 ## Correlation and $R^2$
 
-::::: columns
+::: columns
 ::: {.column width="60%"}
 ```{r}
 #| echo: false
@@ -1104,7 +1105,7 @@ linear_reg() |>
   select(r.squared)
 ```
 :::
-:::::
+:::
 
 # AE-13
 

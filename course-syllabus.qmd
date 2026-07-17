@@ -76,9 +76,7 @@ Attendance will also be assessed in project-focused lab sessions (denoted in the
 This course will have two exams: a midterm and a final.
 You can demonstrate what you've learned in the course thus far through these exams.
 The exams will focus on both conceptual understanding of the content and application through analysis and computational tasks.
-The exam's content will be related to the content presented in lectures, application exercises, and labs.
-
-More details about the exams will be given during the semester.
+The exam's content will be related to the content presented in lectures, application exercises, and labs. Both will be entirely in class, and you will be be allowed a cheatsheet on the front and back of a letter-sized paper. 
 
 *You cannot pass this course if you have not completed the final.*
 

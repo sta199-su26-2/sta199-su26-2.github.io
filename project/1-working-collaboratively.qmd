@@ -186,3 +186,7 @@ Once done, click *Render* in the build tab, commit, and push.
 
 We will evaluate the first milestone of your project based on your participation in this activity.
 Each team member who participates in the activity in person during the lab session will earn 5 points towards their project.
+
+# Survey
+
+Also fill out this [survey](https://canvas.duke.edu/courses/78820/quizzes/49520)

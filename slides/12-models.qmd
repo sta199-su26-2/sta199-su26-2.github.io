@@ -26,18 +26,6 @@ library(patchwork)
 todays_ae <- "ae-12-modeling-fish"
 ```
 
-## While you wait... {.smaller}
-
-::: appex
--   Go to your `ae` project in RStudio.
-
--   Make sure all of your changes up to this point are committed and pushed, i.e., there's nothing left in your Git pane.
-
--   Click Pull to get today's application exercise file: *`{r} paste0(todays_ae, ".qmd")`*.
-
--   Wait till the you're prompted to work on the application exercise during class before editing the file.
-:::
-
 # Midterm is done!
 
 This course is officially halfway over 💔🍾
@@ -72,7 +60,6 @@ This course is officially halfway over 💔🍾
 ## Semi or garage? {.smaller}
 
 > i love how Tesla thinks the wall in my garage is a semi.
-> 😅
 
 ![](img/12/tesla-get-wrong-1.png){fig-align="center" width="300"}
 
@@ -149,7 +136,7 @@ This association was age dependent.
 
 **Conclusions**: [Higher commuting and leisure-time but not occupational MVPA were significantly associated with lower BP and lower hypertension risk at all ages, but these associations were stronger in older adults.]{style="background-color: #fcefb3"}
 
-# Let's go
+# Smaller example to start
 
 ## Modeling cars {.smaller}
 
@@ -283,7 +270,7 @@ base <- ggplot(mtcars, aes(x = wt, y = mpg)) +
   )
 ```
 
-:::::: columns
+::: columns
 ::: {.column width="25%"}
 ```{r}
 #| echo: false
@@ -318,11 +305,11 @@ base +
   )
 ```
 :::
-::::::
+:::
 
 ## Outcome (response variable)
 
-:::::: columns
+::: columns
 ::: {.column width="25%"}
 ```{r}
 #| echo: false
@@ -357,7 +344,7 @@ base +
   )
 ```
 :::
-::::::
+:::
 
 ## Regression line
 
@@ -479,7 +466,7 @@ ggplot(df, aes(x = x, y = y, color = r)) +
 
 ## New command: `cor`
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 ```{r}
 df
@@ -494,7 +481,7 @@ df |>
   )
 ```
 :::
-:::::
+:::
 
 ## Practice! {.small}
 
@@ -606,7 +593,7 @@ anscombe_tidy <- anscombe |>
     spread(variable, value)
 ```
 
-::::::: columns
+::: columns
 ::: {.column width="25%"}
 Dataset I
 
@@ -650,7 +637,7 @@ anscombe_tidy |>
   select(x, y)
 ```
 :::
-:::::::
+:::
 
 ## Very different
 
@@ -684,18 +671,6 @@ anscombe_tidy |>
 ```
 
 # AE-12
-
-## `{r} todays_ae`
-
-::: appex
--   Go to your ae project in RStudio.
-
--   If you haven't yet done so, make sure all of your changes up to this point are committed and pushed, i.e., there's nothing left in your Git pane.
-
--   If you haven't yet done so, click Pull to get today's application exercise file: *`{r} paste0(todays_ae, ".qmd")`*.
-
--   Work through the application exercise in class, and render, commit, and push your edits.
-:::
 
 ## New commands introduced today
 
