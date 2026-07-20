@@ -1,6 +1,5 @@
 ---
 title: "AE 13: Modeling penguins"
-draft: true
 ---
 
 In this application exercise we will be studying penguins.

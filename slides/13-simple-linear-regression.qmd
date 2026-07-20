@@ -381,7 +381,7 @@ $$e^2_1 + e^2_2 + \dots + e^2_n$$
 ## Perhaps more clearly... {.scrollable .smaller}
 
 |    **data**     |               |                       **residuals**                        |
-|:---------------:|:-------------:|:----------------------------------------------------------:|
+|:-------------:|:-------------:|:----------------------------------------:|
 | $x_1 \quad y_1$ | $\rightarrow$ | $e_1 = y_1 - \widehat{y_1} = y_1 - (b_0 + b_1 \times x_1)$ |
 | $x_2 \quad y_2$ | $\rightarrow$ | $e_2 = y_2 - \widehat{y_2} = y_2 - (b_0 + b_1 \times x_2)$ |
 | $x_3 \quad y_3$ | $\rightarrow$ | $e_3 = y_3 - \widehat{y_3} = y_3 - (b_0 + b_1 \times x_3)$ |
@@ -663,7 +663,8 @@ $$\widehat{\text{audience}} = 32.3 + 0.519 \times \text{critics}$$
 -   Slope: for every one point increase in the critics' score, **we expect** the audience score to be higher by 0.519 points, **on average**;
 -   Intercept: for movies with a critics' score of 0 points, **we expect** the audience score to be 32.3 points, **on average**.
 
-The "we expect" and "on average" are a bit redundant, but let's go belt and suspenders in this class.
+The "we expect" and "on average" are a bit redundant, but this language precisely captures what's going on behind the scenes mathematically.
+(So you should use it)
 
 ## Things to watch out for {.smaller}
 
@@ -680,7 +681,7 @@ In general, our models give imperfect predictions about average behavior.
 The predictions are not guarantees, and the relationship may or may not be causal.
 Establishing that is an entire class in and of itself (causal inference).
 
-## Is the intercept meaningful? {.scrollable .medium}
+## Is the intercept meaningful? {.scrollable .small}
 
 ✅ The intercept is meaningful in context of the data if
 
@@ -701,7 +702,7 @@ For example...
 -   It *does* make sense to predict audience score if the critics gave the movie a 0%.
 :::
 
-## Properties of least squares regression {.scrollable}
+## Properties of least squares regression {.scrollable .smaller}
 
 ::: incremental
 -   The regression line goes through the center of mass point (the coordinates corresponding to average $X$ and average $Y$ i.e., ($\bar{x}, \bar{y}$))
@@ -718,7 +719,7 @@ For example...
 -   Residuals and $X$ values are uncorrelated
 :::
 
-## Goodness-of-fit {.scrollable}
+## Goodness-of-fit {.scrollable .smaller}
 
 ::: incremental
 -   Correlation is a number between -1 and 1 measuring the strength *and direction* of the linear association between two numerical variables ($X$ and $Y$);
@@ -1108,15 +1109,3 @@ linear_reg() |>
 :::
 
 # AE-13
-
-## `{r} todays_ae` {.smaller}
-
-::: appex
--   Go to your ae project in RStudio.
-
--   If you haven't yet done so, make sure all of your changes up to this point are committed and pushed, i.e., there's nothing left in your Git pane.
-
--   If you haven't yet done so, click Pull to get today's application exercise file: *`{r} paste0(todays_ae, ".qmd")`*.
-
--   Work through the application exercise in class, and render, commit, and push your edits.
-:::
