@@ -416,12 +416,7 @@ window.Quarto = {
   <li><a href="#correlation-and-r2-8" id="toc-correlation-and-r2-8" class="nav-link" data-scroll-target="#correlation-and-r2-8">Correlation and <span class="math inline">\(R^2\)</span></a></li>
   </ul>
 </li>
-  <li>
-<a href="#ae-13" id="toc-ae-13" class="nav-link" data-scroll-target="#ae-13">AE-13</a>
-  <ul class="collapse">
-<li><a href="#ae-13-modeling-penguins" id="toc-ae-13-modeling-penguins" class="nav-link" data-scroll-target="#ae-13-modeling-penguins">ae-13-modeling-penguins</a></li>
-  </ul>
-</li>
+  <li><a href="#ae-13" id="toc-ae-13" class="nav-link" data-scroll-target="#ae-13">AE-13</a></li>
   </ul><div class="toc-actions"><ul><li><a href="https://github.com/sta199-su26-2/sta199-su26-2.github.io/edit/main/slides/13-simple-linear-regression.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/sta199-su26-2/sta199-su26-2.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="13-slr-slides.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
     </div>
 <!-- main -->
@@ -735,9 +730,9 @@ window.Quarto = {
 </ul></section><section id="perhaps-more-clearly" class="level2 scrollable smaller"><h2 class="scrollable smaller anchored" data-anchor-id="perhaps-more-clearly">Perhaps more clearly…</h2>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 18%">
-<col style="width: 16%">
-<col style="width: 65%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 58%">
 </colgroup>
 <thead><tr class="header">
 <th style="text-align: center;"><strong>data</strong></th>
@@ -937,7 +932,7 @@ e^2
 <li>Slope: for every one point increase in the critics’ score, <strong>we expect</strong> the audience score to be higher by 0.519 points, <strong>on average</strong>;</li>
 <li>Intercept: for movies with a critics’ score of 0 points, <strong>we expect</strong> the audience score to be 32.3 points, <strong>on average</strong>.</li>
 </ul>
-<p>The “we expect” and “on average” are a bit redundant, but let’s go belt and suspenders in this class.</p>
+<p>The “we expect” and “on average” are a bit redundant, but this language precisely captures what’s going on behind the scenes mathematically. (So you should use it)</p>
 </section><section id="things-to-watch-out-for" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="things-to-watch-out-for">Things to watch out for</h2>
 <p>When interpreting coefficient estimates in a regression:</p>
 <ul>
@@ -961,7 +956,7 @@ e^2
 </li>
 </ul>
 <p>In general, our models give imperfect predictions about average behavior. The predictions are not guarantees, and the relationship may or may not be causal. Establishing that is an entire class in and of itself (causal inference).</p>
-</section><section id="is-the-intercept-meaningful" class="level2 scrollable medium"><h2 class="scrollable medium anchored" data-anchor-id="is-the-intercept-meaningful">Is the intercept meaningful?</h2>
+</section><section id="is-the-intercept-meaningful" class="level2 scrollable small"><h2 class="scrollable small anchored" data-anchor-id="is-the-intercept-meaningful">Is the intercept meaningful?</h2>
 <p>✅ The intercept is meaningful in context of the data if</p>
 <ul>
 <li>the predictor can feasibly take values equal to / near zero, or</li>
@@ -978,7 +973,7 @@ e^2
 <li>It <em>does</em> make sense to predict audience score if the critics gave the movie a 0%.</li>
 </ul>
 </div>
-</section><section id="properties-of-least-squares-regression" class="level2 scrollable"><h2 class="scrollable anchored" data-anchor-id="properties-of-least-squares-regression">Properties of least squares regression</h2>
+</section><section id="properties-of-least-squares-regression" class="level2 scrollable smaller"><h2 class="scrollable smaller anchored" data-anchor-id="properties-of-least-squares-regression">Properties of least squares regression</h2>
 <div class="incremental">
 <ul class="incremental">
 <li>
@@ -993,7 +988,7 @@ e^2
 <li><p>Residuals and <span class="math inline">\(X\)</span> values are uncorrelated</p></li>
 </ul>
 </div>
-</section><section id="goodness-of-fit" class="level2 scrollable"><h2 class="scrollable anchored" data-anchor-id="goodness-of-fit">Goodness-of-fit</h2>
+</section><section id="goodness-of-fit" class="level2 scrollable smaller"><h2 class="scrollable smaller anchored" data-anchor-id="goodness-of-fit">Goodness-of-fit</h2>
 <div class="incremental">
 <ul class="incremental">
 <li>Correlation is a number between -1 and 1 measuring the strength <em>and direction</em> of the linear association between two numerical variables (<span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span>);</li>
@@ -1370,18 +1365,9 @@ e^2
 </div>
 </div>
 </section></section><section id="ae-13" class="level1"><h1>AE-13</h1>
-<section id="ae-13-modeling-penguins" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="ae-13-modeling-penguins">ae-13-modeling-penguins</h2>
-<div class="appex">
-<ul>
-<li><p>Go to your ae project in RStudio.</p></li>
-<li><p>If you haven’t yet done so, make sure all of your changes up to this point are committed and pushed, i.e., there’s nothing left in your Git pane.</p></li>
-<li><p>If you haven’t yet done so, click Pull to get today’s application exercise file: <em>ae-13-modeling-penguins.qmd</em>.</p></li>
-<li><p>Work through the application exercise in class, and render, commit, and push your edits.</p></li>
-</ul>
-</div>
 
 
-</section></section></main><!-- /main --><script>
+</section></main><!-- /main --><script>
   // htmlwidgets need to know to resize themselves when slides are shown/hidden.
   // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
   // slide changes (different for each slide format).
