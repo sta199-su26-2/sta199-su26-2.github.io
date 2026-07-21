@@ -95,7 +95,7 @@ $$
 The fraction of the variation in the response explained by the model.
 A number between 0 (bad) and 1 (good) that measures goodness-of-fit:
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 ```{r}
 bm_fl_fit |>
@@ -113,7 +113,7 @@ penguins |>
   )
 ```
 :::
-:::::
+:::
 
 ## Interpretation
 
@@ -797,7 +797,7 @@ ggplot(penguins, aes(x = flipper_length_mm, y = body_mass_g, color = island)) +
   )
 ```
 
-## Prediction on Torgersen island 
+## Prediction on Torgersen island
 
 ```{r}
 new_penguin <- tibble(
