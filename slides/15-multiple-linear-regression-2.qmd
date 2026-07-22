@@ -77,7 +77,7 @@ $$
 
 ## Example: one numerical predictor
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 ```{r}
 #| echo: false
@@ -114,7 +114,7 @@ predict(bm_fl_fit,
         new_penguin)
 ```
 :::
-:::::
+:::
 
 ## Example: "one categorical predictor"
 
@@ -158,7 +158,7 @@ $$
 
 It's just a concise way of summarizing the within-group means of the response variable:
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 ```{r}
 penguins |>
@@ -179,7 +179,7 @@ predict(bm_island_fit,
         new_penguins)
 ```
 :::
-:::::
+:::
 
 ## Example: numerical and categorical predictors
 
@@ -258,7 +258,7 @@ $$
 
 Same code with each of an additive and interaction model fit:
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 ```{r}
 new_penguin <- tibble(
@@ -282,7 +282,7 @@ predict(bm_fl_island_int_fit,
         new_data = new_penguin)
 ```
 :::
-:::::
+:::
 
 ## Example: many numerical predictors
 
@@ -404,7 +404,7 @@ The slopes and the intercepts are the same as the interaction model, but the unc
 
 # A second look at $R^2$
 
-## Recap: our first look {.scrollable .medium}
+## Recap: our first look {.scrollable .smaller}
 
 $R^2$ measures "goodness-of-fit:"
 
@@ -543,7 +543,7 @@ augment(bm_fl_fit, penguins) |>
   )
 ```
 
-## The main idea {.scrollable}
+## The main idea {.scrollable .smaller}
 
 The model is trying to "explain" the variation in the response:
 
@@ -561,7 +561,7 @@ That's what $R^2$ actually is: the proportion of the variance in the response ex
 ## $R^2\approx 0$ {.smaller}
 
 Horrifically awful fit.
-The model didn’t explain (clean up) anything:
+The model didn't explain (clean up) anything:
 
 ```{r}
 #| echo: false
@@ -810,7 +810,7 @@ augment(myfit, df) |>
   )
 ```
 
-## The nitty gritty
+## The nitty gritty {.smaller}
 
 $$
 \begin{aligned}
@@ -890,7 +890,7 @@ What does that even mean?
 **Variable selection**: all of our models were linear, and they differed only by which predictor variables are included.
 By ranking models by a quality score and picking the "best" one, we can determine which predictors are the "most important" to include.
 
-## So... what "quality score" to choose? {.scrollable .medium}
+## So... what "quality score" to choose? {.scrollable .smaller}
 
 This is a big area of statistical research.
 There are loads of "quality scores" you could consider, and they prioritize different things: predictive accuracy, goodness-of-fit, simplicity, fairness, etc.
@@ -911,7 +911,7 @@ bm_fl_fit |>
   select(r.squared, adj.r.squared, AIC, BIC)
 ```
 
-## $R^2$'s dirty little secret
+## $R^2$ isn't the end all be all
 
 $R^2$ gives participation trophies.
 It *always* goes up when you add any new variable to the model, even if that variable is worthless.
@@ -966,7 +966,7 @@ The formula is in the textbook if you're dying to know, but here's the tea:
 
 ## For the penguins
 
-::::: columns
+::: columns
 ::: {.column width="50%"}
 ```{r}
 bm_fl_fit |> glance() |>
@@ -995,7 +995,7 @@ bm_fl_bl_fit |> glance() |>
   pull(adj.r.squared)
 ```
 :::
-:::::
+:::
 
 ## Balancing fit and complexity
 
@@ -1015,3 +1015,5 @@ bm_fl_bl_fit |> glance() |>
     -   Good news: We have techniques to detect and prevent overfitting.
     -   Bad news: This is a topic for another day.
 :::
+
+# AE

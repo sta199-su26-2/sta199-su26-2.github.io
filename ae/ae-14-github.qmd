@@ -1,6 +1,5 @@
 ---
 title: "AE 14: Modeling Housing Prices 🏠"
-draft: true
 ---
 
 In this application exercise we will be studying housing prices.
@@ -143,11 +142,9 @@ $$
 
 $$
 add~equation~here
-$$
-$$
+$$ $$
 add~equation~here
-$$
-$$
+$$ $$
 add~equation~here
 $$
 
@@ -169,7 +166,8 @@ Which is the worst?
 # One more model?
 
 **Task:** Try adding one more variable present in the data frame to the "best" model chosen above.
-Does it make a difference in *adjusted* $R^2$? What about plain old $R^2$?
+Does it make a difference in *adjusted* $R^2$?
+What about plain old $R^2$?
 
 ```{r}
 #| label: new-model
