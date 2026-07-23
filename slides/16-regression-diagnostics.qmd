@@ -18,36 +18,24 @@ library(ggthemes)
 library(patchwork)
 ```
 
-# Commentary on Projects
 
-Milestone 3 primer
-
-## Today’s Topics
-
--   Finish AE-14
-
--   Model assumptions
-
--   Model diagnostics
-
-# AE-14
 
 ## Quick Notes {.small}
 
 ::: incremental
--   When interpreting intercepts **and** slopes in the context of any *linear* regression modeling, your interpretation should include both of the following phrases: “we expect” (or functionally similar) **AND** “on average”
+-   When interpreting intercepts **and** slopes in the context of any *linear* regression modeling, your interpretation should include both of the following phrases: "we expect" (or functionally similar) **AND** "on average"
 
--   When you’ve fit a multiple linear regression model (i.e., \> 1 predictor), your [slope]{.underline} interpretations **must also** include the following: “all else equal” (or functionally similar)
+-   When you've fit a multiple linear regression model (i.e., \> 1 predictor), your [slope]{.underline} interpretations **must also** include the following: "all else equal" (or functionally similar)
 
--   I know it’s prescriptive and somewhat repetitive, but for your own sanity (& mine \<3), please please include these statements in **every** interpretation you provide
+-   I know it's prescriptive and somewhat repetitive, but for your own sanity (& mine \<3), please please include these statements in **every** interpretation you provide
 :::
 
 # Model Assumptions
 
 ## But first, a quick game {.smaller}
 
-::::::::: columns
-:::: {.column width="33%"}
+::: columns
+::: {.column width="33%"}
 ::: fragment
 ![](img/16/tswift.jpg){width="100%"}
 
@@ -62,9 +50,9 @@ at \$550K - \$1M</li>
 
 </ul>
 :::
-::::
+:::
 
-:::: {.column width="33%"}
+::: {.column width="33%"}
 ::: fragment
 ![](img/16/zendaya.png){width="100%"}
 
@@ -76,9 +64,9 @@ at \$550K - \$1M</li>
 
 </ul>
 :::
-::::
+:::
 
-:::: {.column width="33%"}
+::: {.column width="33%"}
 ::: fragment
 ![](img/16/grod.png){width="100%"}
 
@@ -94,18 +82,18 @@ value upwards of \$3M</li>
 
 </ul>
 :::
-::::
-:::::::::
+:::
+:::
 
 ## The 4 Cs
 
 When evaluating a diamond, jewelers typically focus on four key characteristics known as the **4 Cs**:
 
 ::: incremental
--   **Carat** — How big is it?
--   **Cut** — How much does it sparkle?
--   **Clarity** — How flawless is it?
--   **Color** — How colorless is it?
+-   **Carat** --- How big is it?
+-   **Cut** --- How much does it sparkle?
+-   **Clarity** --- How flawless is it?
+-   **Color** --- How colorless is it?
 :::
 
 ::: fragment
@@ -195,7 +183,7 @@ What about the slope?
 
 ## The 4 Assumptions (of linear regression modeling) {.small .scrollable}
 
-Just as a diamond’s value depends on its 4 Cs, the reliability of a linear regression model depends on its 4 core assumptions
+Just as a diamond's value depends on its 4 Cs, the reliability of a linear regression model depends on its 4 core assumptions
 
 $$
 Y|X_1, \ldots, X_p \sim N(\beta_0 + \beta_1X_1 + \dots + \beta_pX_p, \sigma_\epsilon^2)
@@ -228,7 +216,7 @@ How might the independence assumption be violated?
 
 ## Remember this crap? {.smaller .incremental .scrollable}
 
-*The Treatment of Lead-Exposed Children (TLC) Trial was a placebo-controlled, randomized clinical trial designed to evaluate whether treatment with succimer, an oral chelating agent used to remove lead from the body, could reduce blood lead levels in young children with moderate lead exposure. The study enrolled children aged 12–33 months with blood lead levels between 20 and 44 micrograms per deciliter (µg/dL) and randomly assigned them to receive either succimer or a placebo. Blood lead levels were measured repeatedly over time to assess the effectiveness of the treatment.*
+*The Treatment of Lead-Exposed Children (TLC) Trial was a placebo-controlled, randomized clinical trial designed to evaluate whether treatment with succimer, an oral chelating agent used to remove lead from the body, could reduce blood lead levels in young children with moderate lead exposure. The study enrolled children aged 12--33 months with blood lead levels between 20 and 44 micrograms per deciliter (µg/dL) and randomly assigned them to receive either succimer or a placebo. Blood lead levels were measured repeatedly over time to assess the effectiveness of the treatment.*
 
 ```{r}
 #| label: tlc-stuff
@@ -253,8 +241,7 @@ What might be problematic here if I fit a model predicting `lead_lvl` from both 
 
 ## 2. Linearity {.small .incremental .scrollable}
 
-Back to our population model...
-$$
+Back to our population model... $$
 y = \beta_0 + \beta_1 x_{1} + \beta_2 x_{2} + ...+ \beta_p x_{p} +\epsilon
 $$
 
@@ -270,8 +257,7 @@ $$
 :::
 
 ::: fragment
-...
-but this is not.
+... but this is not.
 
 $$
 y = \beta_0 + \frac{\beta_1x_1}{\beta_2 + \beta_3(x_1+1)} +...+ \beta_p x_{p} +\epsilon
@@ -569,6 +555,25 @@ ggplot(diamonds_aug, aes(x = .pred, y = .resid)) +
 -   Alternatively, we can use a quantile-quantile plot (Q-Q plot) to get a more accurate picture
 
     -   The Q-Q plot compares the quantiles of some sample to the theoretical quantiles from a pre-specified distribution (such as the normal distribution)
+
+## A good qqplot:
+
+```{r}
+#| label: a good qq
+set.seed(24601)
+
+tibble(x = rnorm(100)) |> 
+  ggplot(aes(sample = x)) +
+  stat_qq(size = 1.5) +
+  stat_qq_line(color = "red") +
+  labs(
+    title = "Q-Q Plot of Literal Normal Stuff",
+    x = "Theoretical Quantiles",
+    y = "Sample Quantiles"
+  ) +
+  theme_minimal()
+```
+
 
 ## Histogram of residuals {.scrollable}
 
