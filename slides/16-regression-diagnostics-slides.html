@@ -215,15 +215,6 @@ Josh Lim
 </div>
 
   <p class="date">July 24, 2026</p>
-</section><section><section id="commentary-on-projects" class="title-slide slide level1 center"><h1>Commentary on Projects</h1>
-<p>Milestone 3 primer</p>
-</section><section id="todays-topics" class="slide level2"><h2>Today’s Topics</h2>
-<ul>
-<li><p>Finish AE-14</p></li>
-<li><p>Model assumptions</p></li>
-<li><p>Model diagnostics</p></li>
-</ul></section></section><section><section id="ae-14" class="title-slide slide level1 center"><h1>AE-14</h1>
-
 </section><section id="quick-notes" class="slide level2 small"><h2>Quick Notes</h2>
 <div>
 <ul>
@@ -232,7 +223,7 @@ Josh Lim
 <li class="fragment"><p>I know it’s prescriptive and somewhat repetitive, but for your own sanity (&amp; mine &lt;3), please please include these statements in <strong>every</strong> interpretation you provide</p></li>
 </ul>
 </div>
-</section></section><section><section id="model-assumptions" class="title-slide slide level1 center"><h1>Model Assumptions</h1>
+</section><section><section id="model-assumptions" class="title-slide slide level1 center"><h1>Model Assumptions</h1>
 
 </section><section id="but-first-a-quick-game" class="slide level2 smaller"><h2>But first, a quick game</h2>
 <div class="columns">
@@ -539,7 +530,28 @@ $ width_mm  &lt;dbl&gt; 6.18, 8.03, 4.69, 5.69, 4.35, 6.89, 5.56, 6.40, 5.…</c
 <li>The Q-Q plot compares the quantiles of some sample to the theoretical quantiles from a pre-specified distribution (such as the normal distribution)</li>
 </ul>
 </li>
-</ul></section><section id="histogram-of-residuals" class="slide level2 scrollable"><h2>Histogram of residuals</h2>
+</ul></section><section id="a-good-qqplot" class="slide level2"><h2>A good qqplot:</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a></a><span class="fu">set.seed</span>(<span class="dv">24601</span>)</span>
+<span id="cb10-2"><a></a></span>
+<span id="cb10-3"><a></a><span class="fu">tibble</span>(<span class="at">x =</span> <span class="fu">rnorm</span>(<span class="dv">100</span>)) <span class="sc">|&gt;</span> </span>
+<span id="cb10-4"><a></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">sample =</span> x)) <span class="sc">+</span></span>
+<span id="cb10-5"><a></a>  <span class="fu">stat_qq</span>(<span class="at">size =</span> <span class="fl">1.5</span>) <span class="sc">+</span></span>
+<span id="cb10-6"><a></a>  <span class="fu">stat_qq_line</span>(<span class="at">color =</span> <span class="st">"red"</span>) <span class="sc">+</span></span>
+<span id="cb10-7"><a></a>  <span class="fu">labs</span>(</span>
+<span id="cb10-8"><a></a>    <span class="at">title =</span> <span class="st">"Q-Q Plot of Literal Normal Stuff"</span>,</span>
+<span id="cb10-9"><a></a>    <span class="at">x =</span> <span class="st">"Theoretical Quantiles"</span>,</span>
+<span id="cb10-10"><a></a>    <span class="at">y =</span> <span class="st">"Sample Quantiles"</span></span>
+<span id="cb10-11"><a></a>  ) <span class="sc">+</span></span>
+<span id="cb10-12"><a></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure><p><img data-src="16-regression-diagnostics_files/figure-revealjs/a good qq-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</section><section id="histogram-of-residuals" class="slide level2 scrollable"><h2>Histogram of residuals</h2>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -551,15 +563,15 @@ $ width_mm  &lt;dbl&gt; 6.18, 8.03, 4.69, 5.69, 4.35, 6.89, 5.56, 6.40, 5.…</c
 </section><section id="q-q-plot-of-residuals" class="slide level2 scrollable"><h2>Q-Q plot of residuals</h2>
 <p>New <code>geom_*()</code> unlocked!</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a></a><span class="fu">ggplot</span>(diamonds_aug, <span class="fu">aes</span>(<span class="at">sample =</span> .resid)) <span class="sc">+</span></span>
-<span id="cb10-2"><a></a>  <span class="fu">stat_qq</span>(<span class="at">size =</span> <span class="fl">1.5</span>) <span class="sc">+</span></span>
-<span id="cb10-3"><a></a>  <span class="fu">stat_qq_line</span>(<span class="at">color =</span> <span class="st">"red"</span>) <span class="sc">+</span></span>
-<span id="cb10-4"><a></a>  <span class="fu">labs</span>(</span>
-<span id="cb10-5"><a></a>    <span class="at">title =</span> <span class="st">"Q-Q Plot of Residuals"</span>,</span>
-<span id="cb10-6"><a></a>    <span class="at">x =</span> <span class="st">"Theoretical Quantiles"</span>,</span>
-<span id="cb10-7"><a></a>    <span class="at">y =</span> <span class="st">"Sample Quantiles"</span></span>
-<span id="cb10-8"><a></a>  ) <span class="sc">+</span></span>
-<span id="cb10-9"><a></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a></a><span class="fu">ggplot</span>(diamonds_aug, <span class="fu">aes</span>(<span class="at">sample =</span> .resid)) <span class="sc">+</span></span>
+<span id="cb11-2"><a></a>  <span class="fu">stat_qq</span>(<span class="at">size =</span> <span class="fl">1.5</span>) <span class="sc">+</span></span>
+<span id="cb11-3"><a></a>  <span class="fu">stat_qq_line</span>(<span class="at">color =</span> <span class="st">"red"</span>) <span class="sc">+</span></span>
+<span id="cb11-4"><a></a>  <span class="fu">labs</span>(</span>
+<span id="cb11-5"><a></a>    <span class="at">title =</span> <span class="st">"Q-Q Plot of Residuals"</span>,</span>
+<span id="cb11-6"><a></a>    <span class="at">x =</span> <span class="st">"Theoretical Quantiles"</span>,</span>
+<span id="cb11-7"><a></a>    <span class="at">y =</span> <span class="st">"Sample Quantiles"</span></span>
+<span id="cb11-8"><a></a>  ) <span class="sc">+</span></span>
+<span id="cb11-9"><a></a>  <span class="fu">theme_minimal</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div>
 <figure><p><img data-src="16-regression-diagnostics_files/figure-revealjs/qq-1.png" width="960"></p>

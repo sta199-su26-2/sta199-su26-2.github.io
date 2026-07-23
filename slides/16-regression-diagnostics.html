@@ -69,7 +69,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-3e476e15ae565c222d94875412ae43a1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-cf3346264bcee837592f03f1b4461e5f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-c5571098d5e4521d45851d71734943eb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
@@ -365,18 +365,7 @@ window.Quarto = {
         <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">On this page</h2>
    
   <ul>
-<li>
-<a href="#commentary-on-projects" id="toc-commentary-on-projects" class="nav-link active" data-scroll-target="#commentary-on-projects">Commentary on Projects</a>
-  <ul class="collapse">
-<li><a href="#todays-topics" id="toc-todays-topics" class="nav-link" data-scroll-target="#todays-topics">Today’s Topics</a></li>
-  </ul>
-</li>
-  <li>
-<a href="#ae-14" id="toc-ae-14" class="nav-link" data-scroll-target="#ae-14">AE-14</a>
-  <ul class="collapse">
-<li><a href="#quick-notes" id="toc-quick-notes" class="nav-link" data-scroll-target="#quick-notes">Quick Notes</a></li>
-  </ul>
-</li>
+<li><a href="#quick-notes" id="toc-quick-notes" class="nav-link active" data-scroll-target="#quick-notes">Quick Notes</a></li>
   <li>
 <a href="#model-assumptions" id="toc-model-assumptions" class="nav-link" data-scroll-target="#model-assumptions">Model Assumptions</a>
   <ul class="collapse">
@@ -403,6 +392,7 @@ window.Quarto = {
   <li><a href="#what-are-we-looking-for-1" id="toc-what-are-we-looking-for-1" class="nav-link" data-scroll-target="#what-are-we-looking-for-1">What are we looking for?</a></li>
   <li><a href="#back-to-the-diamonds" id="toc-back-to-the-diamonds" class="nav-link" data-scroll-target="#back-to-the-diamonds">Back to the diamonds!</a></li>
   <li><a href="#distribution-of-residuals" id="toc-distribution-of-residuals" class="nav-link" data-scroll-target="#distribution-of-residuals">Distribution of residuals</a></li>
+  <li><a href="#a-good-qqplot" id="toc-a-good-qqplot" class="nav-link" data-scroll-target="#a-good-qqplot">A good qqplot:</a></li>
   <li><a href="#histogram-of-residuals" id="toc-histogram-of-residuals" class="nav-link" data-scroll-target="#histogram-of-residuals">Histogram of residuals</a></li>
   <li><a href="#q-q-plot-of-residuals" id="toc-q-q-plot-of-residuals" class="nav-link" data-scroll-target="#q-q-plot-of-residuals">Q-Q plot of residuals</a></li>
   <li><a href="#again-what-are-we-looking-for" id="toc-again-what-are-we-looking-for" class="nav-link" data-scroll-target="#again-what-are-we-looking-for">Again, what are we looking for?</a></li>
@@ -449,15 +439,7 @@ window.Quarto = {
   
 
 
-</header><section id="commentary-on-projects" class="level1"><h1>Commentary on Projects</h1>
-<p>Milestone 3 primer</p>
-<section id="todays-topics" class="level2"><h2 class="anchored" data-anchor-id="todays-topics">Today’s Topics</h2>
-<ul>
-<li><p>Finish AE-14</p></li>
-<li><p>Model assumptions</p></li>
-<li><p>Model diagnostics</p></li>
-</ul></section></section><section id="ae-14" class="level1"><h1>AE-14</h1>
-<section id="quick-notes" class="level2 small"><h2 class="small anchored" data-anchor-id="quick-notes">Quick Notes</h2>
+</header><section id="quick-notes" class="level2 small"><h2 class="small anchored" data-anchor-id="quick-notes">Quick Notes</h2>
 <div class="incremental">
 <ul class="incremental">
 <li><p>When interpreting intercepts <strong>and</strong> slopes in the context of any <em>linear</em> regression modeling, your interpretation should include both of the following phrases: “we expect” (or functionally similar) <strong>AND</strong> “on average”</p></li>
@@ -465,7 +447,7 @@ window.Quarto = {
 <li><p>I know it’s prescriptive and somewhat repetitive, but for your own sanity (&amp; mine &lt;3), please please include these statements in <strong>every</strong> interpretation you provide</p></li>
 </ul>
 </div>
-</section></section><section id="model-assumptions" class="level1"><h1>Model Assumptions</h1>
+</section><section id="model-assumptions" class="level1"><h1>Model Assumptions</h1>
 <section id="but-first-a-quick-game" class="level2 smaller"><h2 class="smaller anchored" data-anchor-id="but-first-a-quick-game">But first, a quick game</h2>
 <div class="columns">
 <div class="column" style="width:33%;">
@@ -772,7 +754,28 @@ $ width_mm  &lt;dbl&gt; 6.18, 8.03, 4.69, 5.69, 4.35, 6.89, 5.56, 6.40, 5.…</c
 <li>The Q-Q plot compares the quantiles of some sample to the theoretical quantiles from a pre-specified distribution (such as the normal distribution)</li>
 </ul>
 </li>
-</ul></section><section id="histogram-of-residuals" class="level2 scrollable"><h2 class="scrollable anchored" data-anchor-id="histogram-of-residuals">Histogram of residuals</h2>
+</ul></section><section id="a-good-qqplot" class="level2"><h2 class="anchored" data-anchor-id="a-good-qqplot">A good qqplot:</h2>
+<div class="cell">
+<div class="sourceCode" id="cb10"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/base/Random.html">set.seed</a></span><span class="op">(</span><span class="fl">24601</span><span class="op">)</span></span>
+<span></span>
+<span><span class="fu">tibble</span><span class="op">(</span>x <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/stats/Normal.html">rnorm</a></span><span class="op">(</span><span class="fl">100</span><span class="op">)</span><span class="op">)</span> <span class="op">|&gt;</span> </span>
+<span>  <span class="fu">ggplot</span><span class="op">(</span><span class="fu">aes</span><span class="op">(</span>sample <span class="op">=</span> <span class="va">x</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu">stat_qq</span><span class="op">(</span>size <span class="op">=</span> <span class="fl">1.5</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu">stat_qq_line</span><span class="op">(</span>color <span class="op">=</span> <span class="st">"red"</span><span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu">labs</span><span class="op">(</span></span>
+<span>    title <span class="op">=</span> <span class="st">"Q-Q Plot of Literal Normal Stuff"</span>,</span>
+<span>    x <span class="op">=</span> <span class="st">"Theoretical Quantiles"</span>,</span>
+<span>    y <span class="op">=</span> <span class="st">"Sample Quantiles"</span></span>
+<span>  <span class="op">)</span> <span class="op">+</span></span>
+<span>  <span class="fu">theme_minimal</span><span class="op">(</span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure"><p><img src="16-regression-diagnostics_files/figure-revealjs/a good qq-1.png" class="img-fluid figure-img" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</section><section id="histogram-of-residuals" class="level2 scrollable"><h2 class="scrollable anchored" data-anchor-id="histogram-of-residuals">Histogram of residuals</h2>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -784,7 +787,7 @@ $ width_mm  &lt;dbl&gt; 6.18, 8.03, 4.69, 5.69, 4.35, 6.89, 5.56, 6.40, 5.…</c
 </section><section id="q-q-plot-of-residuals" class="level2 scrollable"><h2 class="scrollable anchored" data-anchor-id="q-q-plot-of-residuals">Q-Q plot of residuals</h2>
 <p>New <code>geom_*()</code> unlocked!</p>
 <div class="cell">
-<div class="sourceCode" id="cb10"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu">ggplot</span><span class="op">(</span><span class="va">diamonds_aug</span>, <span class="fu">aes</span><span class="op">(</span>sample <span class="op">=</span> <span class="va">.resid</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
+<div class="sourceCode" id="cb11"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu">ggplot</span><span class="op">(</span><span class="va">diamonds_aug</span>, <span class="fu">aes</span><span class="op">(</span>sample <span class="op">=</span> <span class="va">.resid</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
 <span>  <span class="fu">stat_qq</span><span class="op">(</span>size <span class="op">=</span> <span class="fl">1.5</span><span class="op">)</span> <span class="op">+</span></span>
 <span>  <span class="fu">stat_qq_line</span><span class="op">(</span>color <span class="op">=</span> <span class="st">"red"</span><span class="op">)</span> <span class="op">+</span></span>
 <span>  <span class="fu">labs</span><span class="op">(</span></span>
