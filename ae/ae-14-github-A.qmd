@@ -103,7 +103,7 @@ ggplot(housing, aes(x = sqft, y = price)) +
 -   **Your turn:** Write the fitted equation of the model in mathematical notation. Then, interpret the intercept and slope.
 
 $$
-\widehat{price} = 11430.1960    +113.7605   \times sqft
+\widehat{\text{price}} = 11430.1960    +113.7605   \times \text{sqft}
 $$ For a home with 0 sq.
 ft., we predict the price to be \$11430.20, on average.
 For each additional sq.
@@ -122,7 +122,7 @@ tidy(price_type_fit)
 -   **Your turn:** Write the fitted equation of the model in mathematical notation. Then, interpret the intercept and each coefficient in context.
 
 $$
-\widehat{price} = 185469.48 - 45660.54 \times Duplex - 49535.42 \times Townhouse
+\widehat{\text{price}} = 185469.48 - 45660.54 \times \text{Duplex} - 49535.42 \times \text{Townhouse}
 $$ We predict the price of a house to be \$185,469.48, on average.
 We predict that the price of a duplex will be \$45,660.54 lower than the price of a house, on average.
 We predict that the price of a townhouse will be \$49,535.42 lower than the price of a house, on average.
@@ -147,7 +147,7 @@ tidy(price_main_fit)
 -   **Your turn:** Write the fitted equation of the model in mathematical notation. Then, interpret the intercept and each slope coefficient.
 
 $$
-\widehat{price} = 13394.8010 + 114.5305 \times sqft - 63251.4927 \times Duplex - 20306.3316 \times Townhouse
+\widehat{\text{price}} = 13394.8010 + 114.5305 \times \text{sqft} - 63251.4927 \times \text{Duplex} - 20306.3316 \times \text{Townhouse}
 $$ We predict the price of a house with 0 sq.
 ft. to be \$13,394.80, on average.
 All else equal, for each additional sq.
@@ -172,9 +172,9 @@ tidy(model_int)
 
 $$
 \begin{aligned}
-\widehat{price} = 9087.38517 + 117.39744 \times sqft + \\
-57547.32571 \times Duplex + 13970.23460 \times Townhouse \\
-- 73.21084 \times (sqft *Duplex) -26.89557 (sqft * Townhouse)
+\widehat{\text{price}} = 9087.38517 + 117.39744 \times \text{sqft} + \\
+57547.32571 \times \text{Duplex} + 13970.23460 \times \text{Townhouse} \\
+- 73.21084 \times (\text{sqft} \times \text{Duplex}) - 26.89557 \times (\text{sqft} \times \text{Townhouse})
 \end{aligned}
 $$
 
@@ -183,13 +183,13 @@ $$
 Duplex
 
 $$
-\widehat{price} = (9087.38517 + 57547.32571) + (117.39744 - 73.21084) \times sqft
+\widehat{\text{price}} = (9087.38517 + 57547.32571) + (117.39744 - 73.21084) \times \text{sqft}
 $$ House
 
 $$
-\widehat{price} = 9087.38517 + 117.39744 \times sqft
+\widehat{\text{price}} = 9087.38517 + 117.39744 \times \text{sqft}
 $$ Townhouse $$
-\widehat{price} = (9087.38517 + 13970.23460) + (117.39744 -26.89557) \times sqft
+\widehat{\text{price}} = (9087.38517 + 13970.23460) + (117.39744 -26.89557) \times \text{sqft}
 $$
 
 # Model Comparison
