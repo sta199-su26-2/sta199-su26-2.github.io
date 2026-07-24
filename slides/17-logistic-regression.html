@@ -69,7 +69,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-3e476e15ae565c222d94875412ae43a1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-c5571098d5e4521d45851d71734943eb.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-cf3346264bcee837592f03f1b4461e5f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet"><script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
@@ -322,6 +322,12 @@ window.Quarto = {
  <span class="menu-text">Lab 4</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lab/lab-5.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lab 5</span></a>
+  </div>
+</li>
       </ul>
 </li>
         <li class="sidebar-item">
@@ -411,7 +417,7 @@ window.Quarto = {
   <li><a href="#note-the-classifier-isnt-perfect" id="toc-note-the-classifier-isnt-perfect" class="nav-link" data-scroll-target="#note-the-classifier-isnt-perfect">Note: the classifier isn’t perfect</a></li>
   <li><a href="#how-do-you-pick-the-threshold" id="toc-how-do-you-pick-the-threshold" class="nav-link" data-scroll-target="#how-do-you-pick-the-threshold">How do you pick the threshold?</a></li>
   <li><a href="#silly-examples" id="toc-silly-examples" class="nav-link" data-scroll-target="#silly-examples">Silly examples</a></li>
-  <li><a href="#ae-15-spam-filter" id="toc-ae-15-spam-filter" class="nav-link" data-scroll-target="#ae-15-spam-filter">ae-15-spam-filter</a></li>
+  <li><a href="#ae" id="toc-ae" class="nav-link" data-scroll-target="#ae">AE</a></li>
   </ul>
 </li>
   </ul><div class="toc-actions"><ul><li><a href="https://github.com/sta199-su26-2/sta199-su26-2.github.io/edit/main/slides/17-logistic-regression-1.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/sta199-su26-2/sta199-su26-2.github.io/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="17-logistic-regression-slides.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
@@ -688,7 +694,7 @@ y
 <li><p>The fitted model is</p></li>
 </ul>
 <p><span class="math display">\[
-\log\left(\frac{\widehat{p}}{1-\widehat{p}}\right)
+\log\left(\frac{\\hat{p}}{1-\\hat{p}}\right)
 =
 b_0+b_1x.
 \]</span></p>
@@ -733,20 +739,20 @@ $ exclaim_mess &lt;dbl&gt; 0, 1, 6, 48, 1, 1, 1, 18, 1, 0, 2, 1, 0, 10, 4,…</c
 </section><section id="interpreting-the-intercept" class="level2"><h2 class="anchored" data-anchor-id="interpreting-the-intercept">Interpreting the intercept</h2>
 <p>If <code>exclaim_mess = 0</code>, then</p>
 <p><span class="math display">\[
-\widehat{p}=\widehat{P(y=1)}=\frac{e^{-2.27}}{1+e^{-2.27}}\approx 0.09.
+\\hat{p}=\widehat{P(y=1)}=\frac{e^{-2.27}}{1+e^{-2.27}}\approx 0.09.
 \]</span></p>
 <p>So, our model predicts that an email with no exclamation marks has a 9% probability of being spam.</p>
 </section><section id="interpreting-the-slope-is-tricky" class="level2 scrollable"><h2 class="scrollable anchored" data-anchor-id="interpreting-the-slope-is-tricky">Interpreting the slope is tricky</h2>
 <p>Recall:</p>
 <p><span class="math display">\[
-\log\left(\frac{\widehat{p}}{1-\widehat{p}}\right)
+\log\left(\frac{\\hat{p}}{1-\\hat{p}}\right)
 =
 b_0+b_1x.
 \]</span></p>
 <p>. . .</p>
 <p>Alternatively:</p>
 <p><span class="math display">\[
-\frac{\widehat{p}}{1-\widehat{p}}
+\frac{\\hat{p}}{1-\\hat{p}}
 =
 e^{b_0+b_1x}
 =
@@ -756,7 +762,7 @@ e^{b_0+b_1x}
 <p>. . .</p>
 <p>If we increase <span class="math inline">\(x\)</span> by one unit, we have:</p>
 <p><span class="math display">\[
-\frac{\widehat{p}}{1-\widehat{p}}
+\frac{\\hat{p}}{1-\\hat{p}}
 =
 e^{b_0}e^{b_1(x+1)}
 =
@@ -952,15 +958,7 @@ e^{b_0}e^{b_1x+b_1}
 </li>
 </ul>
 <p>You pick a threshold in between to strike a balance. The exact number depends on context.</p>
-</section><section id="ae-15-spam-filter" class="level2"><h2 class="anchored" data-anchor-id="ae-15-spam-filter">ae-15-spam-filter</h2>
-<div class="appex">
-<ul>
-<li><p>Go to your ae project in RStudio.</p></li>
-<li><p>If you haven’t yet done so, make sure all of your changes up to this point are committed and pushed, i.e., there’s nothing left in your Git pane.</p></li>
-<li><p>If you haven’t yet done so, click Pull to get today’s application exercise file: <em>ae-15-spam-filter.qmd</em>.</p></li>
-<li><p>Work through the application exercise in class, and render, commit, and push your edits.</p></li>
-</ul>
-</div>
+</section><section id="ae" class="level2"><h2 class="anchored" data-anchor-id="ae">AE</h2>
 
 
 </section></section></main><!-- /main --><script>
