@@ -556,7 +556,7 @@ ggplot(diamonds_aug, aes(x = .pred, y = .resid)) +
 
     -   The Q-Q plot compares the quantiles of some sample to the theoretical quantiles from a pre-specified distribution (such as the normal distribution)
 
-## A good qqplot:
+## A good qqplot: {.scrollable}
 
 ```{r}
 #| label: a good qq
