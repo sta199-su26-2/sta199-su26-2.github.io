@@ -384,7 +384,7 @@ $$
 -   The fitted model is
 
 $$
-\log\left(\frac{\widehat{p}}{1-\widehat{p}}\right)
+\log\left(\frac{\\hat{p}}{1-\\hat{p}}\right)
 =
 b_0+b_1x.
 $$
@@ -421,7 +421,7 @@ $$
 If `exclaim_mess = 0`, then
 
 $$
-\widehat{p}=\widehat{P(y=1)}=\frac{e^{-2.27}}{1+e^{-2.27}}\approx 0.09.
+\\hat{p}=\widehat{P(y=1)}=\frac{e^{-2.27}}{1+e^{-2.27}}\approx 0.09.
 $$
 
 So, our model predicts that an email with no exclamation marks has a 9% probability of being spam.
@@ -431,7 +431,7 @@ So, our model predicts that an email with no exclamation marks has a 9% probabil
 Recall:
 
 $$
-\log\left(\frac{\widehat{p}}{1-\widehat{p}}\right)
+\log\left(\frac{\\hat{p}}{1-\\hat{p}}\right)
 =
 b_0+b_1x.
 $$
@@ -441,7 +441,7 @@ $$
 Alternatively:
 
 $$
-\frac{\widehat{p}}{1-\widehat{p}}
+\frac{\\hat{p}}{1-\\hat{p}}
 =
 e^{b_0+b_1x}
 =
@@ -454,7 +454,7 @@ $$
 If we increase $x$ by one unit, we have:
 
 $$
-\frac{\widehat{p}}{1-\widehat{p}}
+\frac{\\hat{p}}{1-\\hat{p}}
 =
 e^{b_0}e^{b_1(x+1)}
 =
@@ -910,14 +910,4 @@ To balance out the two kinds of errors:
 You pick a threshold in between to strike a balance.
 The exact number depends on context.
 
-## `{r} todays_ae`
-
-::: appex
--   Go to your ae project in RStudio.
-
--   If you haven't yet done so, make sure all of your changes up to this point are committed and pushed, i.e., there's nothing left in your Git pane.
-
--   If you haven't yet done so, click Pull to get today's application exercise file: *`{r} paste0(todays_ae, ".qmd")`*.
-
--   Work through the application exercise in class, and render, commit, and push your edits.
-:::
+## AE
